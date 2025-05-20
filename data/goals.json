@@ -1,0 +1,38 @@
+{
+  "Amazon SDE": [
+    "Java",
+    "Python",
+    "C++",
+    "Data Structures",
+    "Algorithms",
+    "System Design",
+    "SQL",
+    "REST APIs",
+    "Cloud Computing",
+    "AWS",
+    "Distributed Systems",
+    "Object-Oriented Programming",
+    "Git",
+    "Linux",
+    "Problem Solving",
+    "Agile Methodologies"
+  ],
+  "ML Internship": [
+    "Python",
+    "Numpy",
+    "Pandas",
+    "Scikit-learn",
+    "TensorFlow",
+    "PyTorch",
+    "Linear Algebra",
+    "Statistics",
+    "Machine Learning",
+    "Deep Learning",
+    "Data Preprocessing",
+    "Data Visualization",
+    "Jupyter Notebook",
+    "Git",
+    "SQL",
+    "Problem Solving"
+  ]
+}
