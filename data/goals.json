@@ -1,6 +1,5 @@
 {
-  "Amazon SDE": [
-    "Java",
+    "Amazon SDE": ["Java",
     "Python",
     "C++",
     "Data Structures",
@@ -15,10 +14,8 @@
     "Git",
     "Linux",
     "Problem Solving",
-    "Agile Methodologies"
-  ],
-  "ML Internship": [
-    "Python",
+    "Agile Methodologies"],
+    "ML Internship": ["Python",
     "Numpy",
     "Pandas",
     "Scikit-learn",
@@ -33,6 +30,8 @@
     "Jupyter Notebook",
     "Git",
     "SQL",
-    "Problem Solving"
-  ]
+    "Problem Solving"],
+    "GATE ECE": ["Digital Electronics", "Analog Circuits", "Signals and Systems", "Control Systems", "Communications", "Electromagnetics", "Network Theory", "Electronic Devices"]
 }
+  
+
