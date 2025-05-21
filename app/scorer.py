@@ -227,7 +227,7 @@ class ResumeScorer:
         Args:
             score: The resume match score
             
-        Returns:
-            Boolean indicating if the score passes the threshold
+passes the thresholdpip         Returns:
+            Boolean indicating if the score install joblib
         """
         return score >= self.config["minimum_score_to_pass"]
