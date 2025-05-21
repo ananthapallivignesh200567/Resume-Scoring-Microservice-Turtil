@@ -1,0 +1,21 @@
+{
+    "input": {
+      "type": "object",
+      "properties": {
+        "student_id": {"type": "string"},
+        "goal": {"type": "string"},
+        "resume_text": {"type": "string"}
+      },
+      "required": ["student_id", "goal", "resume_text"]
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "score": {"type": "number"},
+        "matched_skills": {"type": "array", "items": {"type": "string"}},
+        "missing_skills": {"type": "array", "items": {"type": "string"}},
+        "suggested_learning_path": {"type": "array", "items": {"type": "string"}}
+      },
+      "required": ["score", "matched_skills", "missing_skills", "suggested_learning_path"]
+    }
+  }
