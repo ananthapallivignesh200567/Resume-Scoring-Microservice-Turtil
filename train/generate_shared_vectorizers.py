@@ -55,7 +55,7 @@ def generate_shared_vectorizer(data_dir="data", model_dir="app/model"):
         max_features=5000,
         stop_words='english',
         ngram_range=(1, 2),
-        min_df=2,
+        min_df=1,
         max_df=0.8,
         lowercase=True,
         token_pattern=r'\b[a-zA-Z][a-zA-Z0-9]*\b',
