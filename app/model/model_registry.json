@@ -1,0 +1,231 @@
+{
+  "vectorizer": "tfidf_vectorizer.pkl",
+  "models": {
+    "adobe_sde": "adobe_sde_model.pkl",
+    "aiml_research_intern": "aiml_research_intern_model.pkl",
+    "ai_researcher": "ai_researcher_model.pkl",
+    "amazon_sde": "amazon_sde_model.pkl",
+    "apple_sde": "apple_sde_model.pkl",
+    "applied_scientist": "applied_scientist_model.pkl",
+    "backend_engineer": "backend_engineer_model.pkl",
+    "data_engineer": "data_engineer_model.pkl",
+    "flipkart_sde": "flipkart_sde_model.pkl",
+    "frontend_engineer": "frontend_engineer_model.pkl",
+    "game_developer": "game_developer_model.pkl",
+    "google_sde": "google_sde_model.pkl",
+    "linkedin_sde": "linkedin_sde_model.pkl",
+    "machineleraning_engineer": "machineleraning_engineer_model.pkl",
+    "meta_sde": "meta_sde_model.pkl",
+    "microsoft_sde": "microsoft_sde_model.pkl",
+    "ml_internship": "ml_internship_model.pkl",
+    "netflix_sde": "netflix_sde_model.pkl",
+    "platform_engineer": "platform_engineer_model.pkl",
+    "product_manager": "product_manager_model.pkl",
+    "salesforce_sde": "salesforce_sde_model.pkl",
+    "software_engineer": "software_engineer_model.pkl",
+    "ste_reliability_engineer": "ste_reliability_engineer_model.pkl",
+    "tesla_sde": "tesla_sde_model.pkl",
+    "twitter_sde": "twitter_sde_model.pkl",
+    "uber_sde": "uber_sde_model.pkl",
+    "uiux_designer": "uiux_designer_model.pkl",
+    "zomato_sde": "zomato_sde_model.pkl"
+  },
+  "metrics": {
+    "adobe_sde": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "aiml_research_intern": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "ai_researcher": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "amazon_sde": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "apple_sde": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "applied_scientist": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "backend_engineer": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "data_engineer": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "flipkart_sde": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "frontend_engineer": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "game_developer": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "google_sde": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "linkedin_sde": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "machineleraning_engineer": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "meta_sde": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "microsoft_sde": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "ml_internship": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "netflix_sde": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "platform_engineer": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "product_manager": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "salesforce_sde": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "software_engineer": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "ste_reliability_engineer": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "tesla_sde": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "twitter_sde": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "uber_sde": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "uiux_designer": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    },
+    "zomato_sde": {
+      "accuracy": 1.0,
+      "samples": 2000,
+      "positive_samples": 1075,
+      "negative_samples": 925,
+      "feature_count": 5000
+    }
+  }
+}
