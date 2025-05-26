@@ -110,10 +110,30 @@ async def health_check():
 @app.get("/version")
 async def version():
     """Return version and model metadata."""
+    config = app.state.config
+    scorer = app.state.scorer
+
+    # Log metadata
+    logger.info("📦 /version endpoint called")
+    logger.info(f"🔢 Version: {config['version']}")
+    logger.info(f"🎯 Supported goals: {len(config['model_goals_supported'])} goals")
+    logger.info(f"🧰 Default goal: {config['default_goal_model']}")
+    logger.info(f"✅ Loaded models: {list(scorer.models.keys())}")
+    logger.info(f"📊 Logging enabled: {config['log_score_details']}")
+    logger.info(f"📈 Analytics enabled: {config['analytics']['collect_usage_metrics']}")
+    logger.info(f"🚨 Alert on low scores: {config['notification']['alert_on_error']} if < {config['notification']['alert_threshold_score']}")
     return {
-        "version": app.state.config["version"],
-        "goals_supported": app.state.config["model_goals_supported"],
-        "default_goal": app.state.config["default_goal_model"]
+        "version": config["version"],
+        "minimum_score_to_pass": config["minimum_score_to_pass"],
+        "default_goal_model": config["default_goal_model"],
+        "model_goals_supported": config["model_goals_supported"],
+        "loaded_models": list(scorer.models.keys()),
+        "skill_matching": config["skill_matching"],
+        "performance": config["performance"],
+        "logging": config["logging"],
+        "api": config["api"],
+        "analytics": config["analytics"],
+        "notification": config["notification"]
     }
 
 # Main scoring endpoint

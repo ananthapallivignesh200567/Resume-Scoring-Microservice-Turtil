@@ -32,7 +32,7 @@ class ResumeScorer:
         self.config = config
         self.goals = goals
         self.models = {}
-        self.vectorizers = {}
+        self.shared_vectorizer = None
         
         # Load models and vectorizers for each supported goal
         self._load_models()
@@ -40,26 +40,28 @@ class ResumeScorer:
         logger.info(f"ResumeScorer initialized with {len(self.models)} models")
     
     def _load_models(self) -> None:
-        """Load TF-IDF vectorizers and Logistic Regression models for each supported goal."""
+        """Load shared TF-IDF vectorizer and goal-specific models."""
         model_dir = os.path.join(os.path.dirname(__file__), "model")
-        
+
+        # Load shared vectorizer
+        try:
+            vectorizer_path = os.path.join(model_dir, "tfidf_vectorizer.pkl")
+            self.shared_vectorizer = joblib.load(vectorizer_path)
+            logger.info(f"✅ Shared TF-IDF vectorizer loaded with {len(self.shared_vectorizer.vocabulary_)} features")
+        except Exception as e:
+            logger.error(f"❌ Failed to load shared TF-IDF vectorizer: {str(e)}")
+            self.shared_vectorizer = None
+
+        # Load goal-specific models
         for goal in self.config["model_goals_supported"]:
             try:
-                # Normalize the goal name for filename purposes
                 goal_filename = goal.lower().replace(" ", "_")
-                
-                # Load the model and vectorizer
                 model_path = os.path.join(model_dir, f"{goal_filename}_model.pkl")
-                vectorizer_path = os.path.join(model_dir, f"{goal_filename}_vectorizer.pkl")
-                
                 self.models[goal] = joblib.load(model_path)
-                self.vectorizers[goal] = joblib.load(vectorizer_path)
-                
-                logger.info(f"Loaded model for goal: {goal}")
-            except (FileNotFoundError, Exception) as e:
-                logger.error(f"Failed to load model for goal {goal}: {str(e)}")
-                # Continue loading other models even if one fails
-                continue
+                logger.info(f"✅ Loaded model for goal: {goal}")
+            except Exception as e:
+                logger.error(f"❌ Failed to load model for goal {goal}: {str(e)}")
+
     
     def _extract_skills_from_resume(self, resume_text: str) -> List[str]:
         """
@@ -195,9 +197,9 @@ class ResumeScorer:
         matched_skills, missing_skills = self._get_matched_missing_skills(found_skills, goal)
         
         # Generate ML model score if model exists for this goal
-        if goal in self.models and goal in self.vectorizers:
-            # Vectorize the resume text
-            X = self.vectorizers[goal].transform([resume_text])
+        if goal in self.models and self.shared_vectorizer:
+            X = self.shared_vectorizer.transform([resume_text])
+
             
             # Get probability score from the model (positive class probability)
             score = float(self.models[goal].predict_proba(X)[0, 1])
