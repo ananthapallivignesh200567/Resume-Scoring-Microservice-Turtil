@@ -16,12 +16,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger("resume-scorer")
 
-# Initialize FastAPI app
-app = FastAPI(
-    title="Resume Scoring Microservice",
-    description="Evaluates resumes against job goals and provides skill-based insights",
-    version="1.0.0"
-)
+
 
 # Define request & response models
 class ScoreRequest(BaseModel):
@@ -110,24 +105,32 @@ async def _check_app_state() -> Dict[str, Any]:
 
 
 
-# Startup event
-@app.on_event("startup")
-async def startup_event():
+#@asynccontextmanager
+async def lifespan(app: FastAPI):
     try:
-        # Load config and goals
         config = load_config()
         goals = load_goals()
-        
-        # Initialize the resume scorer and attach to app state
+
+        # Attach scorer and config to app state
         app.state.scorer = ResumeScorer(config, goals)
         app.state.config = config
-        
-        logger.info(f"Resume Scorer initialized with {len(goals)} goals and {len(config['model_goals_supported'])} supported models")
+
+        logger.info(
+            f"Resume Scorer initialized with {len(goals)} goals and {len(config['model_goals_supported'])} supported models"
+        )
     except Exception as e:
         logger.critical(f"Failed to initialize application: {str(e)}")
-        # Exit the application if initialization fails
-        os._exit(1)
+        os._exit(1)  # Exit app if init fails
 
+    yield  # App runs here
+
+# Create FastAPI app using the lifespan context
+app = FastAPI(
+    title="Resume Scoring Microservice",
+    description="Evaluates resumes against job goals and provides skill-based insights",
+    version="1.0.0",
+    lifespan=lifespan  # ← this replaces on_event("startup")
+)
 # Error handler for internal exceptions
 @app.exception_handler(Exception)
 async def generic_exception_handler(request: Request, exc: Exception):
