@@ -6,7 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 
-def train_goal_models(data_dir="data", model_dir="app/model"):
+def train_goal_models(data_dir="../data", model_dir="../app/model"):
     """
     Train separate logistic regression models for each goal using the shared TF-IDF vectorizer.
     """
@@ -187,7 +187,9 @@ def test_trained_models(model_dir="app/model"):
     print("="*50)
     
     # Load registry
-    registry_path = os.path.join(model_dir, "model_registry.json")
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    model_dir = os.path.join(base_dir, "..", "app", "model")
+    registry_path = os.path.join(base_dir, "..", "app", "model", "model_registry.json")
     if not os.path.exists(registry_path):
         print("❌ Model registry not found. Train models first.")
         return

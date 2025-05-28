@@ -3,7 +3,7 @@ import json
 import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-def generate_shared_vectorizer(data_dir="data", model_dir="app/model"):
+def generate_shared_vectorizer(data_dir="../data", model_dir="../app/model"):
     """
     Generate a single shared TF-IDF vectorizer trained on all resume texts
     from all goal training files in the data directory.

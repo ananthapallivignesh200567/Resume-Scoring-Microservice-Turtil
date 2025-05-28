@@ -644,8 +644,7 @@
     "High Availability",
     "Resilience Engineering",
     "Git"
-  ],
-  "Site Reliability Engineer (SRE)": [
+  ],"Site Reliability Engineer (SRE)": [
     "Linux",
     "Python",
     "Go",
@@ -669,5 +668,6 @@
     "Chaos Engineering",
     "Git",
     "On-call Practices"
+  
   ]
 }
