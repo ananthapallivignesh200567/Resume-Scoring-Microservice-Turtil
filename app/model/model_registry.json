@@ -7,6 +7,7 @@
     "amazon_sde": "amazon_sde_model.pkl",
     "apple_sde": "apple_sde_model.pkl",
     "applied_scientist": "applied_scientist_model.pkl",
+    "backend_engineer": "backend_engineer_model.pkl",
     "data_engineer": "data_engineer_model.pkl",
     "flipkart_sde": "flipkart_sde_model.pkl",
     "frontend_engineer": "frontend_engineer_model.pkl",
@@ -38,7 +39,7 @@
       "feature_count": 5000
     },
     "aiml_research_intern": {
-      "accuracy": 0.99,
+      "accuracy": 0.9925,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
@@ -52,28 +53,35 @@
       "feature_count": 5000
     },
     "amazon_sde": {
-      "accuracy": 1.0,
+      "accuracy": 0.995,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
       "feature_count": 5000
     },
     "apple_sde": {
-      "accuracy": 1.0,
+      "accuracy": 0.9975,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
       "feature_count": 5000
     },
     "applied_scientist": {
-      "accuracy": 1.0,
+      "accuracy": 0.995,
+      "samples": 1000,
+      "positive_samples": 550,
+      "negative_samples": 450,
+      "feature_count": 5000
+    },
+    "backend_engineer": {
+      "accuracy": 0.9825,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
       "feature_count": 5000
     },
     "data_engineer": {
-      "accuracy": 1.0,
+      "accuracy": 0.9975,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
@@ -87,7 +95,7 @@
       "feature_count": 5000
     },
     "frontend_engineer": {
-      "accuracy": 0.995,
+      "accuracy": 0.9975,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
@@ -101,21 +109,21 @@
       "feature_count": 5000
     },
     "google_sde": {
-      "accuracy": 0.995,
+      "accuracy": 0.9925,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
       "feature_count": 5000
     },
     "linkedin_sde": {
-      "accuracy": 1.0,
+      "accuracy": 0.995,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
       "feature_count": 5000
     },
     "machineleraning_engineer": {
-      "accuracy": 1.0,
+      "accuracy": 0.9875,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
@@ -129,21 +137,21 @@
       "feature_count": 5000
     },
     "microsoft_sde": {
-      "accuracy": 0.995,
+      "accuracy": 0.9975,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
       "feature_count": 5000
     },
     "ml_internship": {
-      "accuracy": 0.995,
+      "accuracy": 0.9975,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
       "feature_count": 5000
     },
     "netflix_sde": {
-      "accuracy": 0.99,
+      "accuracy": 0.9925,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
@@ -157,14 +165,14 @@
       "feature_count": 5000
     },
     "product_manager": {
-      "accuracy": 0.925,
+      "accuracy": 0.9125,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
       "feature_count": 5000
     },
     "salesforce_sde": {
-      "accuracy": 0.99,
+      "accuracy": 0.9925,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
@@ -185,7 +193,7 @@
       "feature_count": 5000
     },
     "tesla_sde": {
-      "accuracy": 0.99,
+      "accuracy": 0.9925,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
@@ -206,7 +214,7 @@
       "feature_count": 5000
     },
     "uiux_designer": {
-      "accuracy": 0.92,
+      "accuracy": 0.935,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,

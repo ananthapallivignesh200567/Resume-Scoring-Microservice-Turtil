@@ -10,6 +10,9 @@ def train_goal_models(data_dir="../data", model_dir="../app/model"):
     """
     Train separate logistic regression models for each goal using the shared TF-IDF vectorizer.
     """
+    # Ensure model directory exists
+    os.makedirs(model_dir, exist_ok=True)
+    
     # Load the shared TF-IDF vectorizer
     vectorizer_path = os.path.join(model_dir, "tfidf_vectorizer.pkl")
     
@@ -86,7 +89,7 @@ def train_goal_models(data_dir="../data", model_dir="../app/model"):
             # Split into train/test
             if len(texts) > 20:
                 X_train, X_test, y_train, y_test = train_test_split(
-                    X, y, test_size=0.2, random_state=42, stratify=y
+                    X, y, test_size=0.4, random_state=42, stratify=y
                 )
                 print(f"  📊 Train/test split: {X_train.shape[0]}/{X_test.shape[0]} samples")
             else:
@@ -128,13 +131,14 @@ def train_goal_models(data_dir="../data", model_dir="../app/model"):
                 cm = confusion_matrix(y_test, y_pred)
                 print(f"  🎯 Confusion Matrix: [[{cm[0,0]}, {cm[0,1]}], [{cm[1,0]}, {cm[1,1]}]]")
             
-            # Save the model
-            model_filename = os.path.join(model_dir, f"{goal_name.lower().replace(' ', '_')}_model.pkl")
-            joblib.dump(model, model_filename)
-            print(f"  💾 Model saved to: {model_filename}")
+            # Save the model with proper path handling
+            model_filename = f"{goal_name.lower().replace(' ', '_')}_model.pkl"
+            model_path = os.path.join(model_dir, model_filename)
+            joblib.dump(model, model_path)
+            print(f"  💾 Model saved to: {model_path}")
             
             # Store model info
-            trained_models[goal_name] = model_filename
+            trained_models[goal_name] = model_path
             model_metrics[goal_name] = {
                 'accuracy': accuracy,
                 'samples': len(texts),
@@ -179,17 +183,16 @@ def train_goal_models(data_dir="../data", model_dir="../app/model"):
         print("❌ No models were successfully trained!")
         print("Please check your training data format and try again.")
 
-def test_trained_models(model_dir="app/model"):
+def test_trained_models(model_dir="../app/model"):
     """
     Test the trained models with sample inputs.
     """
     print("\n🧪 TESTING TRAINED MODELS")
     print("="*50)
     
-    # Load registry
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    model_dir = os.path.join(base_dir, "..", "app", "model")
-    registry_path = os.path.join(base_dir, "..", "app", "model", "model_registry.json")
+    # Use consistent path handling
+    registry_path = os.path.join(model_dir, "model_registry.json")
+    
     if not os.path.exists(registry_path):
         print("❌ Model registry not found. Train models first.")
         return
@@ -215,7 +218,7 @@ def test_trained_models(model_dir="app/model"):
         print(f"\n📄 Goal: {goal}")
         print("-" * 30)
         
-        # Load model
+        # Load model with consistent path handling
         model_path = os.path.join(model_dir, model_file)
         model = joblib.load(model_path)
         
