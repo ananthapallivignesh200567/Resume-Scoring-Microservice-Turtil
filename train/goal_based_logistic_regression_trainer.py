@@ -36,7 +36,7 @@ def train_goal_models(data_dir="../data", model_dir="../app/model"):
         print("Expected files with pattern: training_*.json")
         return
     
-    print(f"\n🎯 Found {len(training_files)} training files:")
+    print(f"\n🎯 Found {(training_files)} training files:")
     for f in training_files:
         print(f"  📄 {f}")
     
