@@ -61,7 +61,8 @@ def generate_shared_vectorizer(data_dir="../data", model_dir="../app/model"):
         token_pattern=r'\b[a-zA-Z][a-zA-Z0-9]*\b',
         sublinear_tf=True
     )
-    
+    all_texts = list(set(all_texts))  # de-duplicate
+
     vectorizer.fit(all_texts)
     
     # Save the shared vectorizer

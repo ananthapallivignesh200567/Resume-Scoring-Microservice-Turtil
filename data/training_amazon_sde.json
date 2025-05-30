@@ -1,5002 +1,542 @@
 [
   {
     "goal": "Amazon SDE",
-    "resume_text": "Sketch, Visual Design, Responsive Design, Web Design, Figma, Adobe XD, Usability Testing, Heuristic Evaluation",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Heuristic Evaluation, Interaction Design, Usability Testing, Adobe Photoshop, UX Writing, Adobe Illustrator, Wireframing, User Research",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Web Design, Adobe XD, Accessibility Standards, Responsive Design, Figma, UX Writing, Visual Design, Sketch",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Testing, Distributed Systems, C++, Concurrency, Git, Python, Microservices, Linux, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Problem Solving, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Git, Neural Networks, Data Preprocessing, Feature Engineering, Jupyter Notebooks, PyTorch, Open Source Contribution",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, NoSQL, Data Structures, Linux, Problem Solving, AWS, Scalability, System Design, CI/CD, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Java, NoSQL, Scalability, Microservices, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, CI/CD, SQL, Scalability, Algorithms, Testing, Distributed Systems, Problem Solving, Docker, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Mobile Game Development, Game Design, Animation Systems, Visual Scripting, OpenGL, Gameplay Programming, 3D Modeling, Unreal Engine",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Accessibility Standards, UX Writing, Mobile Design, Design Systems, Adobe Illustrator, InVision, User Research, Wireframing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "InVision, Heuristic Evaluation, Web Design, Adobe Illustrator, Interaction Design, Prototyping, Sketch, Responsive Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, Performance Optimization, UI/UX Principles, JavaScript, React, Cross-Browser Compatibility, Debugging, Agile Development",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, AWS, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Analysis, Confluence, Customer Interviews, Agile Methodologies, KPI Definition, Stakeholder Management, Figma, User Stories",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Data Structures, API Development, JavaScript, Hack, Debugging, GraphQL, React",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Java, CI/CD, Scalability, Linux, Data Structures, REST APIs, Testing, Docker, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Adobe Illustrator, Web Design, Responsive Design, Interaction Design, Accessibility Standards, Sketch, Design Systems, Adobe Photoshop",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Microservices, Object-Oriented Programming, AWS, Scalability, Concurrency",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Distributed Systems, Algorithms, Python, CI/CD, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, REST APIs, Scalability, Algorithms, Performance Optimization, CI/CD, Docker, System Design, Java, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scrum, Agile Methodologies, Go-to-Market Strategy, Figma, Confluence, Data Analysis, Stakeholder Management, Wireframing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, REST APIs, Performance Optimization, AWS, Python, Git, SQL, Concurrency, Distributed Systems, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, Testing, CRM Systems, Visualforce, Lightning Web Components, Apex, Agile Development, Integration Patterns",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Go-to-Market Strategy, User Stories, Scrum, Figma, SQL, KPI Definition, Market Research, Roadmapping",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Jupyter Notebooks, Research Paper Writing, Reinforcement Learning, Distributed Training, Hugging Face Transformers, Mathematical Optimization, GANs",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Docker, Monitoring, Terraform, Grafana, Cloud Platforms, Incident Response, Go",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, System Design, Java, Data Structures, Scalability, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Stakeholder Management, Agile Methodologies, Product Strategy, Scrum, Data Analysis, Roadmapping, A/B Testing, SQL",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, REST APIs, AWS, Networking, Distributed Systems, Problem Solving, Object-Oriented Programming, Docker, System Design, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Git, C++, Networking, Distributed Systems, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, REST APIs, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, CI/CD, Concurrency, Algorithms, Docker, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, Testing, Cross-Browser Compatibility, SASS, TypeScript, GraphQL, Figma, Responsive Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Figma, Customer Interviews, Data Analysis, Market Research, SQL, Competitive Analysis, JIRA, Confluence",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Scalability, Git, C++, Problem Solving, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Design Systems, Adobe Photoshop, Wireframing, Adobe XD, Web Design, InVision, Adobe Illustrator, Heuristic Evaluation",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Figma, Responsive Design, Accessibility Standards, Prototyping, Adobe Illustrator, Design Systems, InVision, Mobile Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Game Physics, Multiplayer Networking, Shader Programming, Animation Systems, Audio Integration, AI for Games, C++, Level Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Problem Solving, Linux, C++, Concurrency, System Design, Object-Oriented Programming, SQL, Git, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "A/B Testing, User Stories, SQL, Market Research, Figma, JIRA, Competitive Analysis, Stakeholder Management",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Git, Networking, Testing, Problem Solving, NoSQL, SQL, Performance Optimization, C++, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Performance Optimization, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, System Design, AWS, Testing, Problem Solving, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, CI/CD, Problem Solving, Docker, Distributed Systems, Concurrency, Git, AWS, Linux, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Microservices, Java, CI/CD, Problem Solving, Object-Oriented Programming, Linux, Algorithms, Testing, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "KPI Definition, Market Research, Competitive Analysis, A/B Testing, SQL, Wireframing, Product Strategy, User Stories",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Web Design, Figma, Adobe XD, Accessibility Standards, Adobe Photoshop, Usability Testing, Mobile Design, Wireframing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Usability Testing, Adobe Photoshop, Heuristic Evaluation, Mobile Design, Web Design, InVision, Sketch, Adobe Illustrator",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Web Design, InVision, Design Systems, Accessibility Standards, Interaction Design, Sketch, Mobile Design, User Research",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Analysis, Roadmapping, Product Lifecycle Management, KPI Definition, Scrum, Market Research, Customer Interviews, Figma",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, REST APIs, C++, AWS, Git, NoSQL, SQL, Linux, Object-Oriented Programming, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Testing, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Git, Performance Optimization, Scalability, Linux, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, NoSQL, Data Modeling, Kubernetes, Scala, Machine Learning Basics, Kafka, Hadoop",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Unity, Audio Integration, VR/AR, AI for Games, Unreal Engine, OpenGL, Game Design, 3D Modeling",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Distributed Systems, Microservices, Git, CI/CD, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Analysis, Wireframing, User Stories, JIRA, Product Strategy, Product Lifecycle Management, Stakeholder Management, Competitive Analysis",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, REST APIs, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, REST APIs, C++, Distributed Systems, AWS, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, System Design, NoSQL, SQL, Problem Solving, Testing, Performance Optimization, Concurrency, Distributed Systems, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Agile Methodologies, A/B Testing, Roadmapping, User Stories, Customer Interviews, JIRA, Confluence, Product Strategy",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, SQL, Distributed Systems, Object-Oriented Programming, Networking, System Design, Scalability, Concurrency, Performance Optimization, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, Microservices, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Machine Learning, Reinforcement Learning, NLP, CNNs, OpenAI Gym, Mathematical Optimization, GPT, LaTeX",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Networking, Java, AWS, Algorithms, Testing, Problem Solving, System Design, Performance Optimization, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Stakeholder Management, Product Lifecycle Management, Agile Methodologies, Market Research, Confluence, Go-to-Market Strategy, KPI Definition, A/B Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, Data Structures, Networking, REST APIs, Concurrency, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Distributed Systems, Python, Problem Solving, C++, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Networking, CI/CD, Docker, NoSQL, AWS, REST APIs, Testing, Problem Solving, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Stakeholder Management, Scrum, Confluence, JIRA, Wireframing, Figma, A/B Testing, Roadmapping",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, System Design, Docker, Scalability, Linux, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, System Design, Microservices, Object-Oriented Programming, Java, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Analysis, Product Lifecycle Management, Wireframing, A/B Testing, Customer Interviews, JIRA, Roadmapping, Product Strategy",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, C++, Data Structures, Algorithms, Microservices, Problem Solving, NoSQL, System Design, REST APIs, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Docker, Git, Java, Performance Optimization, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, AWS, Matplotlib, PyTorch, Pandas, NLP, TensorFlow, A/B Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Design Systems, Visual Design, Prototyping, Adobe Photoshop, Interaction Design, Responsive Design, Heuristic Evaluation, Web Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "InVision, Responsive Design, Mobile Design, Heuristic Evaluation, Adobe XD, Prototyping, Web Design, Accessibility Standards",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Distributed Systems, Networking, Concurrency, Object-Oriented Programming, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Algorithms, Software Engineering Principles, Operating Systems, Cloud Computing, Big-O Analysis, Coding Interviews, Go",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Java, Networking, System Design, Concurrency, CI/CD, Performance Optimization, Git, NoSQL, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, C++, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Python, AWS, Performance Optimization, Object-Oriented Programming, REST APIs, Linux, Microservices, Concurrency, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, Scalability, Performance Optimization, Problem Solving, Networking, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, Microservices, Linux, Data Structures, SQL, Performance Optimization, Object-Oriented Programming, Scalability, AWS, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CNNs, Bayesian Methods, Machine Learning, GPT, Python, Hugging Face Transformers, GANs, Deep Learning",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Performance Optimization, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Linux, Testing, Networking, Scalability, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, SQL, AWS, Git, NoSQL, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Microservices, NoSQL, Distributed Systems, Git, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Problem Solving, REST APIs, Microservices, AWS, Data Structures, Networking, Python, Testing, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, REST APIs, Git, Distributed Systems, CI/CD, Object-Oriented Programming, Java, Scalability, Python, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, AWS, Git, REST APIs, Algorithms, NoSQL, C++, Python, Distributed Systems, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, TensorFlow, Jupyter Notebooks, Deep Learning, Machine Learning, GANs, CNNs, Mathematical Optimization",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, NoSQL, Linux, Git, Microservices, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, NoSQL, SQL, Problem Solving, CI/CD, Concurrency, Scalability, Object-Oriented Programming, Java, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Docker, Scalability, SQL, AWS, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Microservices, Monitoring, Kubernetes, Big Data Processing, Scala, MySQL, Finagle",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Object-Oriented Programming, Scalability, Git, Linux, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Adobe Photoshop, Design Systems, Mobile Design, Figma, Adobe XD, Adobe Illustrator, Interaction Design, UX Writing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Git, REST APIs, Linux, Object-Oriented Programming, Testing, NoSQL, Docker, Microservices, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Docker, Git, Concurrency, NoSQL, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Distributed Systems, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "GANs, Hugging Face Transformers, TensorFlow, PyTorch, GPT, Research Paper Writing, Mathematical Optimization, Jupyter Notebooks",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Product Strategy, Scrum, Confluence, Figma, SQL, A/B Testing, Stakeholder Management, Market Research",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Distributed Systems, Algorithms, Git, Java, NoSQL, CI/CD, Scalability, Object-Oriented Programming, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, CI/CD, Terraform, Resilience Engineering, Go, Monitoring, Kubernetes, Prometheus",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Git, Data Structures, Problem Solving, Performance Optimization, Linux, System Design, Microservices, AWS, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "BERT, Jupyter Notebooks, Deep Learning, Reinforcement Learning, Bayesian Methods, LaTeX, OpenAI Gym, RNNs",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Prototyping, Interaction Design, User Research, Accessibility Standards, Adobe XD, Web Design, UX Writing, Design Systems",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Python, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Algorithms, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "A/B Testing, SQL, User Stories, Figma, Stakeholder Management, Confluence, Customer Interviews, KPI Definition",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, Scalability, Git, Microservices, Algorithms, CI/CD, Docker, Performance Optimization, System Design, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Java, Testing, C++, SQL, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Problem Solving, Concurrency",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, User Stories, A/B Testing, Product Lifecycle Management, Go-to-Market Strategy, Figma, Roadmapping, Product Strategy",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, System Design, Docker, Python, Distributed Systems, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Docker, Data Structures, AWS, Problem Solving, SQL, Python, NoSQL, System Design, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, System Design, Linux, Concurrency, REST APIs, Data Structures, Object-Oriented Programming, SQL, C++, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Heuristic Evaluation, Web Design, Adobe Photoshop, Wireframing, Prototyping, Accessibility Standards, Visual Design, Interaction Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Performance Optimization, Python, SQL, Microservices, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Product Lifecycle Management, Confluence, Product Strategy, Scrum, Agile Methodologies, SQL, Data Analysis, User Stories",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Adobe XD, Interaction Design, Sketch, Mobile Design, Design Systems, Figma, Prototyping, Accessibility Standards",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, CI/CD, AWS, SQL, Linux, Performance Optimization, Testing, Object-Oriented Programming, REST APIs, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, REST APIs, Authentication, Redis, PostgreSQL, Kubernetes, JWT, Authorization",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Testing, Scalability, CI/CD, Object-Oriented Programming, Performance Optimization, AWS, Data Structures, SQL, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Concurrency, Docker, Java, Networking, Scalability, REST APIs, CI/CD, System Design, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, CI/CD, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Data Structures, Microservices, NoSQL, Concurrency, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Agile Methodologies, KPI Definition, Data Analysis, Customer Interviews, Competitive Analysis, Figma, User Stories, Go-to-Market Strategy",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Performance Optimization, SQL, Microservices, Docker, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Docker, AWS, Microservices, NoSQL, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Algorithms, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, Scalability, Java, Distributed Systems, Python, CI/CD, Linux, Algorithms, Docker, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Git, Concurrency, Performance Optimization, Docker, Data Structures, Scalability, C++, CI/CD, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, CI/CD, Kafka, Monitoring, Observability, Kubernetes, Finagle, Scala",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Microservices, Agile Development, Node.js, Express.js, Kubernetes, MongoDB, Data Analytics",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Performance Optimization, Java, Docker, Testing, AWS, Python, Distributed Systems, Microservices, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Docker, S3, Spark, Snowflake, Azure, GCP, ETL Pipelines",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, REST APIs, Microservices, NoSQL, SQL, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Testing, Data Structures, CI/CD, Git, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Git, Colab, Optimization, NLP, Scikit-learn, Feature Engineering, Experiment Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, CI/CD, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "User Research, Responsive Design, Mobile Design, Figma, Web Design, Wireframing, UX Writing, Adobe Illustrator",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, CI/CD, Testing, Java, Performance Optimization, Scalability, Networking, Object-Oriented Programming, Git, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, AWS, Microservices, NoSQL, Java, Algorithms, Testing, Data Structures, CI/CD, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Competitive Analysis, Figma, Confluence, JIRA, Product Lifecycle Management, Roadmapping, Go-to-Market Strategy, Scrum",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Concurrency, Git, Docker, REST APIs, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Algorithms, Java, Data Structures, SQL, Problem Solving, Object-Oriented Programming, Docker, C++, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "UX Writing, User Research, Design Systems, Web Design, Visual Design, Usability Testing, Accessibility Standards, Adobe XD",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Concurrency, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Data Structures, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, NoSQL, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Performance Optimization, AWS, Scalability, REST APIs, Problem Solving, Microservices, Java, NoSQL, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, AWS, Microservices, Algorithms, Python, Performance Optimization, System Design, Linux, Docker, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Object-Oriented Programming, Testing, Java, Data Structures, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Linux, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Distributed Systems, SQL, REST APIs, Microservices, Concurrency, Performance Optimization, Scalability, Java, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, AWS, Git, Linux, C++, REST APIs, Docker, Concurrency, Networking, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Concurrency, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, AWS, CI/CD, Networking, Testing, Concurrency",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Scalability, Performance Optimization, Concurrency, Algorithms, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Game Physics, Shader Programming, AI for Games, Unity, Audio Integration, Level Design, Visual Scripting, Unreal Engine",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Microservices, Linux, System Design, Data Structures, Scalability, Python, Performance Optimization, Git, Concurrency",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Performance Optimization, Object-Oriented Programming, SQL, Scalability, Distributed Systems, Concurrency, System Design, Problem Solving, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, C++, REST APIs, Networking, Object-Oriented Programming, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Wireframing, Competitive Analysis, Stakeholder Management, Roadmapping, Go-to-Market Strategy, Data Analysis, Market Research, Agile Methodologies",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, REST APIs, AWS, Distributed Systems, Problem Solving, Networking, Object-Oriented Programming, Scalability, Data Structures, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Performance Optimization, Big Data Tools, Cross-Team Collaboration, Hack, GraphQL, React, API Development",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Wireframing, Adobe Photoshop, Heuristic Evaluation, InVision, Usability Testing, Interaction Design, Figma, UX Writing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, Testing, JavaScript, Redux, Angular, Tailwind CSS, Figma, GraphQL",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, Microservices, Data Structures, System Design, Python, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Object-Oriented Programming, Networking, Scalability, Algorithms, System Design, Git, Python, Performance Optimization, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, AWS, Scikit-learn, TensorFlow, Causal Inference, Matplotlib, Experimentation, Deep Learning",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "A/B Testing, User Stories, Competitive Analysis, KPI Definition, Stakeholder Management, Scrum, Agile Methodologies, SQL",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Concurrency, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Distributed Systems, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Problem Solving, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, REST APIs, C++, Distributed Systems, Networking, Data Structures, Microservices, Problem Solving, Scalability, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Adobe XD, Prototyping, Accessibility Standards, Visual Design, Interaction Design, UX Writing, Figma, Adobe Illustrator",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Algorithms, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Object-Oriented Programming, Data Structures, Linux, Scalability, Microservices, CI/CD, Algorithms, Python, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Accessibility Standards, Adobe XD, Figma, Prototyping, Responsive Design, Heuristic Evaluation, Design Systems, InVision",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Problem Solving, Object-Oriented Programming, Scalability, SQL, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, System Design, iOS Development, Core Data, UI/UX Design, Multithreading, Objective-C, macOS",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, Performance Optimization, Testing, Concurrency, Algorithms, Networking, Linux, Data Structures, Object-Oriented Programming, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Algorithms, Microcontrollers, CAN Protocol, Robotics, Sensor Fusion, Embedded Systems, Machine Learning Basics",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, Concurrency, Problem Solving, Object-Oriented Programming, Algorithms, Distributed Systems, AWS, Data Structures, REST APIs, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Data Structures, Docker, Performance Optimization, Testing, Concurrency",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Multiplayer Networking, Game Design, Gameplay Programming, AI for Games, Unreal Engine, DirectX, Visual Scripting, VR/AR",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, C++, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Level Design, AI for Games, Animation Systems, Audio Integration, DirectX, Multiplayer Networking, VR/AR, Game Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Reinforcement Learning, GPT, Research Paper Writing, Bayesian Methods, Jupyter Notebooks, LaTeX, Machine Learning, OpenAI Gym",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Algorithms, .NET, Cloud Computing, C#, Multithreading, Debugging Tools, Unit Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Usability Testing, User Research, Mobile Design, Prototyping, Responsive Design, Web Design, Sketch, Accessibility Standards",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Git, CI/CD, C++, System Design, Python, Scalability, Performance Optimization, NoSQL, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Machine Learning, RNNs, Python, Jupyter Notebooks, OpenAI Gym, NLP, LaTeX, Reinforcement Learning",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Heuristic Evaluation, Wireframing, User Research, Adobe Illustrator, Design Systems, Mobile Design, Figma, Interaction Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, SQL, Scalability, C++, Performance Optimization, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Git, Algorithms, Microservices, Python, Docker, Object-Oriented Programming, Scalability, AWS, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Design Systems, Adobe XD, Accessibility Standards, Responsive Design, Adobe Illustrator, Heuristic Evaluation, Figma, User Research",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, SQL, Glue, Parquet, Airflow, BigQuery, Kafka, Azure",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, NoSQL, C++, AWS, Testing, Distributed Systems, Docker, Scalability, Networking, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "KPI Definition, Wireframing, Scrum, SQL, Go-to-Market Strategy, Stakeholder Management, User Stories, JIRA",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Object-Oriented Programming, System Design, AWS, Performance Optimization, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, SQL, NoSQL, Distributed Systems, CI/CD, Algorithms, Docker, Problem Solving, C++, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, Distributed Systems, Java, Linux, Git, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Algorithms, REST APIs, System Design, Networking, Testing, Java, Microservices, Problem Solving, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Distributed Systems, Java, Docker, Networking, C++, Python, Git, SQL, Concurrency",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Data Structures, Kubernetes, MySQL, Thrift, Big Data Processing, Observability, Monitoring",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, System Design, Express.js, MongoDB, Spring Boot, Authorization, Django, Node.js",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Market Research, Customer Interviews, Agile Methodologies, KPI Definition, SQL, Data Analysis, User Stories, Figma",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Distributed Systems, Kubernetes, Scala, Observability, Cloud-Native Development, Resilience Engineering, Video Streaming Architecture",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, AWS, Testing, C++, Object-Oriented Programming, Scalability, REST APIs, SQL, Docker, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, System Design, Git, Data Structures, NoSQL, AWS, Concurrency, Docker, CI/CD, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Scalability, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, AWS, Concurrency, Algorithms, Java, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, C++, Cloud Computing, Big-O Analysis, Software Engineering Principles, Go, Design Patterns, Machine Learning Basics",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Microservices, Reliability, Kafka, Monitoring, MySQL, Observability, Kubernetes",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Agile Methodologies, Product Lifecycle Management, Customer Interviews, Go-to-Market Strategy, Figma, Roadmapping, User Stories, Competitive Analysis",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Distributed Systems, Finagle, Kubernetes, Scala, MySQL, Thrift, Kafka",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, NoSQL, Scalability, Linux, Docker, SQL, Microservices, Python, CI/CD, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Docker, Big Data Processing, Finagle, Thrift, Kafka, MySQL, Monitoring",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Gameplay Programming, Unreal Engine, Mobile Game Development, C++, Game Design, AI for Games, Game Physics, Shader Programming",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, Scalability, CI/CD, Object-Oriented Programming, Java, Testing, REST APIs, Distributed Systems, Microservices, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Wireframing, Mobile Design, Web Design, Figma, Prototyping, Design Systems, UX Writing, Sketch",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Game Design, Unity, VR/AR, Game Optimization, AI for Games, C#, OpenGL, Shader Programming",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, System Design, Performance Optimization, Concurrency, Scalability, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, REST APIs, Distributed Systems, Problem Solving, SQL, Concurrency, CI/CD, C++, Testing, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Docker, C++, Linux, Microservices, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Scalability, Docker, Linux, Algorithms, Python, CI/CD, Testing, Concurrency, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Python, Feature Engineering, Scikit-learn, Statistical Analysis, Jupyter Notebooks, Computer Vision, NumPy",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, CI/CD, Version Control, Reinforcement Learning, Keras, Natural Language Processing, Model Deployment, Experiment Tracking",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Responsive Design, Mobile Design, Usability Testing, UX Writing, Adobe Illustrator, Adobe XD, Accessibility Standards, Sketch",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Gameplay Programming, C#, Audio Integration, OpenGL, Level Design, Shader Programming, Mobile Game Development, Game Optimization",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Game Physics, Gameplay Programming, Mobile Game Development, Unity, Shader Programming, Visual Scripting, Level Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Problem Solving, Python, REST APIs, Testing, Distributed Systems, Algorithms, System Design, Object-Oriented Programming, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Product Lifecycle Management, Roadmapping, Product Strategy, User Stories, Wireframing, Market Research, Stakeholder Management",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, SQL, Docker, REST APIs, CI/CD, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Docker, AWS, Concurrency, Microservices, System Design, NoSQL, Python, Object-Oriented Programming, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, NoSQL, Linux, SQL, System Design, Performance Optimization, Algorithms, REST APIs, Networking, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Concurrency, C++, Problem Solving, Java, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, SQL, Design Patterns, Multithreading, Unit Testing, Agile Methodologies, .NET, Azure",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Object-Oriented Programming, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, Linux, Git, Object-Oriented Programming, Distributed Systems, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, C++, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C#, VR/AR, 3D Modeling, Visual Scripting, AI for Games, DirectX, Game Physics, OpenGL",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, NoSQL, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Object-Oriented Programming, Linux, NoSQL, Distributed Systems, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, AWS, REST APIs, Algorithms, Concurrency, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Wireframing, JIRA, Customer Interviews, Data Analysis, Scrum, Product Strategy, Go-to-Market Strategy, Agile Methodologies",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, RNNs, Bayesian Methods, Experiment Design, Computer Vision, NLP, Jupyter Notebooks, GANs",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Product Strategy, Data Analysis, Competitive Analysis, Go-to-Market Strategy, A/B Testing, Agile Methodologies, Scrum, Figma",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Distributed Systems, Microservices, NoSQL, Docker, Testing, Performance Optimization, SQL, Linux, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Networking, Docker, Java, Python, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Java, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Design Systems, Interaction Design, UX Writing, Accessibility Standards, Usability Testing, Figma, Responsive Design, Mobile Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, System Design, Terraform, Go, Grafana, Monitoring, Chaos Engineering, Kubernetes",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Data Structures, Concurrency",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, OpenGL, Game Design, Mobile Game Development, Game Optimization, Animation Systems, Level Design, Visual Scripting",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Adobe XD, Prototyping, Figma, Visual Design, Adobe Photoshop, Design Systems, Mobile Design, Wireframing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Linux, Data Structures, CI/CD, Python, Git, Microservices, Docker, Distributed Systems, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Visual Design, Design Systems, Mobile Design, User Research, Usability Testing, Responsive Design, Adobe Illustrator, Sketch",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Java, Windows OS, Unit Testing, Design Patterns, Multithreading, Azure, Debugging Tools",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Linux, Docker, Java, C++, Networking, Scalability, Git, Distributed Systems, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, REST APIs, CI/CD, Git, Java, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "KPI Definition, Data Analysis, Wireframing, Go-to-Market Strategy, Roadmapping, JIRA, SQL, A/B Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, Data Structures, Testing, Python, CI/CD, Object-Oriented Programming, Java, NoSQL, Scalability, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, SQL, CI/CD, Performance Optimization, Concurrency, Networking, NoSQL, Object-Oriented Programming, Scalability, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Git, Python, Distributed Systems, Algorithms, Networking, SQL, Docker, Problem Solving, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Python, Data Structures, Java, Microservices, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Testing, AWS, Networking, Problem Solving, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, SQL, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, CI/CD, Microservices, Networking, Git, Performance Optimization, Scalability, NoSQL, Problem Solving, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Adobe Illustrator, Heuristic Evaluation, Adobe XD, Design Systems, Usability Testing, User Research, Mobile Design, Accessibility Standards",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Networking, SQL, Microservices, System Design, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Interaction Design, Mobile Design, Design Systems, Accessibility Standards, Figma, Responsive Design, Wireframing, UX Writing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "KPI Definition, Stakeholder Management, JIRA, A/B Testing, Wireframing, Product Lifecycle Management, Confluence, Market Research",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Web Design, Mobile Design, Responsive Design, Sketch, Figma, User Research, Usability Testing, InVision",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Python, AWS, System Design, SQL, CI/CD, Data Structures, Git, Testing, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Animation Systems, OpenGL, Game Optimization, Level Design, Game Design, Multiplayer Networking, Mobile Game Development, C++",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Gameplay Programming, Game Design, Mobile Game Development, C#, Animation Systems, Visual Scripting, 3D Modeling, Unreal Engine",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "TensorFlow, Experiment Design, Hugging Face Transformers, PyTorch, OpenAI Gym, BERT, CNNs, Computer Vision",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Networking, Problem Solving, Data Structures, SQL, CI/CD, Git, Scalability, Algorithms, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Docker, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Networking, Algorithms, NoSQL, Linux, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, C++, UIKit, Swift, UI/UX Design, Agile Development, Xcode, Objective-C",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Distributed Systems, Data Structures, Algorithms, Performance Optimization, Problem Solving, Java, NoSQL, Linux, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "User Research, Sketch, Design Systems, Interaction Design, Accessibility Standards, Web Design, Figma, Wireframing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Responsive Design, Design Systems, UX Writing, Wireframing, Adobe Photoshop, Mobile Design, Figma, Adobe Illustrator",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, NoSQL, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Object-Oriented Programming, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Experiment Design, GPT, Machine Learning, TensorFlow, Research Paper Writing, Python, NLP, Bayesian Methods",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Data Structures, JavaScript, React, Agile Development, Debugging, UI/UX Principles, Cross-Browser Compatibility",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Networking, AWS, Data Structures, Object-Oriented Programming, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, Docker, Python, Performance Optimization, C++, Networking, Microservices, Data Structures, Object-Oriented Programming, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, SQL, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, REST APIs, Linux, NoSQL, Data Structures, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, AWS, Problem Solving, Python, SQL, REST APIs, Microservices, Performance Optimization, C++, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Docker, AWS, System Design, Scalability, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Sketch, InVision, Design Systems, Adobe Photoshop, Accessibility Standards, Visual Design, Mobile Design, Figma",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Concurrency, C++, Python, Docker, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Microservices, Java, AWS, Algorithms, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Mathematical Optimization, NLP, Computer Vision, Research Paper Writing, TensorFlow, PyTorch, CNNs, Jupyter Notebooks",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Object-Oriented Programming, Networking, Java, SQL, NoSQL, Algorithms, CI/CD, Scalability, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "User Stories, Go-to-Market Strategy, Stakeholder Management, Product Strategy, JIRA, Data Analysis, Roadmapping, Confluence",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Docker, NoSQL, Performance Optimization, REST APIs, SQL, Object-Oriented Programming, C++, AWS, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, C++, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "RNNs, Jupyter Notebooks, GANs, Deep Learning, BERT, Python, OpenAI Gym, TensorFlow",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Problem Solving, C++, CI/CD, Java, Concurrency, Linux, Distributed Systems, Scalability, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, AWS, NoSQL, SQL, Algorithms, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Sketch, InVision, Figma, Mobile Design, Visual Design, Responsive Design, Design Systems, Usability Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, AWS, Data Labeling, Kubernetes, Version Control, Machine Learning, Hugging Face Transformers, Keras",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, AWS, Microservices, Docker, REST APIs, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Microservices, Concurrency",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Python, Statistical Analysis, Scikit-learn, Paper Writing, Colab, NLP, Jupyter Notebooks",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, System Design, Networking, Python, Scalability, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Python, Git, Scalability, C++, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Java, Networking, Git, Python, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Algorithms, Git, Scalability, Object-Oriented Programming, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Data Structures, Cloud-Native Development, Resilience Engineering, Video Streaming Architecture, Observability, Monitoring, Scala",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, C++, SQL, Linux, CI/CD, Git, Data Structures, Object-Oriented Programming, Concurrency, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Problem Solving, Docker, Linux, Networking, System Design, Object-Oriented Programming, Git, Python, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, C++, Linux, Algorithms, Data Structures, Problem Solving, Docker, Networking, Concurrency, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Design Systems, Adobe Illustrator, Figma, Adobe XD, Sketch, Prototyping, Wireframing, Interaction Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Microservices, AWS, Java, C++, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Performance Optimization, NoSQL, Data Structures, System Design, Java, Algorithms, SQL, Networking, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Algorithms, Concurrency, Git, Scalability, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Algorithms, NoSQL, Performance Optimization, SQL, Distributed Systems, Git, Scalability, REST APIs, Concurrency",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, Scalability, Java, Linux, Python, NoSQL, REST APIs, System Design, Testing, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Shader Programming, 3D Modeling, Animation Systems, Mobile Game Development, Unreal Engine, Level Design, AI for Games, C#",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Scalability, Problem Solving, System Design, Object-Oriented Programming, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Python, Distributed Systems, Microservices, Object-Oriented Programming, Testing, Concurrency, CI/CD, Scalability, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Stakeholder Management, Confluence, SQL, Agile Methodologies, Product Lifecycle Management, User Stories, Data Analysis, Wireframing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "UX Writing, Adobe Photoshop, Design Systems, Usability Testing, Web Design, Mobile Design, Figma, Adobe XD",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Jupyter Notebooks, GPT, Bayesian Methods, GANs, Hugging Face Transformers, PyTorch, Mathematical Optimization, TensorFlow",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Microservices, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Research Paper Writing, OpenAI Gym, Distributed Training, Jupyter Notebooks, Reinforcement Learning, LaTeX, CNNs, Hugging Face Transformers",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, Algorithms, Distributed Systems, Concurrency, Scalability, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Java, REST APIs, Microservices, CI/CD, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, AWS, Microservices, Data Structures, Problem Solving, Docker, Distributed Systems, C++, Linux, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Docker, Linux, CI/CD, Microservices, Object-Oriented Programming, Distributed Systems, Testing, Performance Optimization, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Sketch, Adobe Illustrator, Mobile Design, Web Design, Design Systems, Accessibility Standards, Interaction Design, Responsive Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "User Research, Mobile Design, Interaction Design, Sketch, Adobe XD, Web Design, Adobe Photoshop, Wireframing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Concurrency, Linux, Performance Optimization, NoSQL, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Distributed Systems, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Networking, Algorithms, Java, Docker, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, REST APIs, System Design, Concurrency, Algorithms, Microservices, NoSQL, Linux, Networking, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "User Stories, SQL, Wireframing, Scrum, Market Research, Roadmapping, Product Strategy, Figma",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Computer Vision, Research Paper Writing, Bayesian Methods, Hugging Face Transformers, LaTeX, Machine Learning, Deep Learning, GANs",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Wireframing, Customer Interviews, Roadmapping, A/B Testing, Agile Methodologies, Data Analysis, Scrum, User Stories",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, C++, SQL, Microservices, Algorithms, Object-Oriented Programming, System Design, Performance Optimization, AWS, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Algorithms, Docker, C++, Distributed Systems, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "GANs, LaTeX, CNNs, Bayesian Methods, Experiment Design, OpenAI Gym, Reinforcement Learning, Python",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Git, NoSQL, Algorithms, Java, SQL, Performance Optimization, Linux, Concurrency, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Linux, Git, Concurrency, Data Structures, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Accessibility Standards, Adobe Illustrator, Sketch, UX Writing, Visual Design, Heuristic Evaluation, InVision, User Research",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, A/B Testing, Stakeholder Management, Market Research, Roadmapping, Product Lifecycle Management, Confluence, Product Strategy",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, Distributed Systems, Microservices, Algorithms, Git, Concurrency, Linux, System Design, Problem Solving, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Performance Optimization, C++, Data Structures, Testing, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Java, Distributed Systems, CI/CD, Testing, Networking, AWS, C++, REST APIs, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, C++, Multithreading, Microcontrollers, Machine Learning Basics, Real-Time Operating Systems, Mathematical Modeling, Embedded Systems",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, SQL, Linux, Problem Solving, System Design, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Docker, Testing, Microservices, Performance Optimization, CI/CD, SQL, AWS, System Design, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Product Strategy, Agile Methodologies, Product Lifecycle Management, A/B Testing, JIRA, Market Research, Data Analysis, Scrum",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Competitive Analysis, Roadmapping, Wireframing, JIRA, Customer Interviews, Agile Methodologies, User Stories, Stakeholder Management",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Networking, Concurrency, Microservices, Distributed Systems, AWS, Docker, Problem Solving, Testing, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Level Design, C#, Animation Systems, Gameplay Programming, Mobile Game Development, Visual Scripting, Game Design, Unity",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Docker, CI/CD, Networking, Scalability, Performance Optimization, Object-Oriented Programming, SQL, Algorithms, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scrum, Product Lifecycle Management, KPI Definition, A/B Testing, JIRA, Figma, Confluence, Wireframing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "InVision, Prototyping, Heuristic Evaluation, Adobe Illustrator, Visual Design, Design Systems, Sketch, Web Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "User Stories, Roadmapping, Go-to-Market Strategy, JIRA, Figma, Agile Methodologies, Confluence, Market Research",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, Object-Oriented Programming, Testing, Networking, Scalability, Docker, AWS, Performance Optimization, Python, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Web Design, Prototyping, InVision, Adobe Illustrator, Adobe XD, Wireframing, Interaction Design, Sketch",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, System Design, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Unreal Engine, Level Design, AI for Games, Mobile Game Development, C++, C#, Audio Integration, DirectX",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "A/B Testing, JIRA, Customer Interviews, KPI Definition, Product Lifecycle Management, Scrum, Market Research, Data Analysis",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Testing, Performance Optimization, NoSQL, Concurrency, Python, Problem Solving, Networking, Data Structures, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Web Design, Interaction Design, Wireframing, Sketch, Design Systems, Mobile Design, Usability Testing, Adobe Illustrator",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Mobile Design, Adobe Photoshop, Heuristic Evaluation, Web Design, Responsive Design, Figma, Interaction Design, Usability Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AI for Games, 3D Modeling, Unreal Engine, VR/AR, OpenGL, Multiplayer Networking, Audio Integration, C++",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Web Design, UX Writing, Figma, Heuristic Evaluation, InVision, User Research, Prototyping, Design Systems",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Scalability, Problem Solving, REST APIs, Docker, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, AWS, Algorithms, C++, Linux, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Concurrency, Microservices, CI/CD, Networking, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Linux, Algorithms, Performance Optimization, CI/CD, Python, Testing, SQL, Scalability, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "InVision, Accessibility Standards, Design Systems, Web Design, Adobe XD, Usability Testing, Heuristic Evaluation, Adobe Illustrator",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Python, Deep Learning, Bayesian Inference, TensorFlow, Matplotlib, Machine Learning, SageMaker",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Linux, Testing, Performance Optimization, Distributed Systems, REST APIs, CI/CD, Docker, Networking, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, Microservices, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, System Design, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, System Design, Performance Optimization, Concurrency, Data Structures, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Performance Optimization, Robotics, Sensor Fusion, Microcontrollers, Mathematical Modeling, Machine Learning Basics, Embedded Systems",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "RNNs, Computer Vision, Mathematical Optimization, Reinforcement Learning, LaTeX, OpenAI Gym, Deep Learning, PyTorch",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Microservices, Networking, Algorithms, NoSQL, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Distributed Systems, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Microservices, High Availability, MySQL, Redis, Kubernetes, Spring Boot, ElasticSearch",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Testing, Node.js, Redis, MongoDB, Express.js, JavaScript, Real-Time Systems",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Roadmapping, Data Analysis, Go-to-Market Strategy, Market Research, SQL, Scrum, Agile Methodologies, Stakeholder Management",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Algorithms, Networking, C++, NoSQL, AWS, Microservices, Problem Solving, Object-Oriented Programming, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Performance Optimization, Git, REST APIs, Problem Solving, Linux, Object-Oriented Programming, Docker, Networking, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, C++, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Git, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Object-Oriented Programming, Cross-Browser Compatibility, React, Debugging, Agile Development, JavaScript, UI/UX Principles",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "JIRA, Competitive Analysis, Agile Methodologies, Data Analysis, User Stories, Market Research, KPI Definition, A/B Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Game Physics, Shader Programming, VR/AR, C#, Audio Integration, OpenGL, Unity, Animation Systems",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Networking, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Training, BERT, Mathematical Optimization, Reinforcement Learning, Machine Learning, CNNs, RNNs, GPT",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Git, Research Paper Reading, Pandas, NLP, PyTorch, Computer Vision, TensorFlow",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, SQL, Python, Data Structures, Java, CI/CD, Linux, Distributed Systems, Concurrency, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Object-Oriented Programming, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Python, Model Deployment, Explainable AI, ONNX, Model Evaluation, Kubernetes, Data Engineering",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, Networking, Object-Oriented Programming, AWS, NoSQL, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Scalability, Git, Data Structures, Docker, Performance Optimization, Concurrency, AWS, Problem Solving, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scrum, Confluence, User Stories, JIRA, Market Research, Customer Interviews, Competitive Analysis, Agile Methodologies",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Linux, C++, Distributed Systems, Problem Solving, Networking, Microservices, Python, Testing, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Design Systems, Usability Testing, Accessibility Standards, Wireframing, Heuristic Evaluation, InVision, Figma, Sketch",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Networking, Java, AWS, Docker, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, System Design, Git, Concurrency, Python, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "User Stories, Scrum, Customer Interviews, Go-to-Market Strategy, JIRA, Market Research, Product Lifecycle Management, Data Analysis",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Testing, Networking, SQL, Concurrency, C++, Microservices, REST APIs, Algorithms, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Data Structures, C++, Distributed Systems, Networking, SQL, Python, Docker, AWS, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Microservices, Kubernetes, MySQL, Go, Reliability, Kafka, Observability",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Customer Interviews, KPI Definition, Market Research, Go-to-Market Strategy, Product Strategy, Roadmapping, SQL, A/B Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "BERT, Deep Learning, RNNs, Experiment Design, Machine Learning, Reinforcement Learning, GANs, CNNs",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, System Design, Linux, NoSQL, Python, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Performance Optimization, Microservices, Testing, Java, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Python, Jupyter Notebooks, Matplotlib, Research Paper Reading, Deep Learning, Probability, NLP",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Object-Oriented Programming, JavaScript, UI/UX Principles, Debugging, Cross-Browser Compatibility, React, Agile Development",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Stakeholder Management, Product Lifecycle Management, Scrum, KPI Definition, Agile Methodologies, Product Strategy, Market Research, User Stories",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, REST APIs, Data Structures, Networking, Java, Distributed Systems, Problem Solving, Testing, CI/CD, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Git, Jupyter Notebooks, Data Preprocessing, Open Source Contribution, Feature Engineering, Mathematics, Colab",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Figma, JIRA, Agile Methodologies, Product Strategy, A/B Testing, KPI Definition, Competitive Analysis, User Stories",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Prototyping, Figma, Responsive Design, Web Design, Heuristic Evaluation, Accessibility Standards, UX Writing, Visual Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Design Systems, UX Writing, Prototyping, Usability Testing, User Research, Accessibility Standards, Wireframing, Sketch",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Adobe Photoshop, Responsive Design, Adobe XD, Design Systems, InVision, UX Writing, Usability Testing, Prototyping",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Market Research, Customer Interviews, Go-to-Market Strategy, KPI Definition, Confluence, Scrum, Data Analysis, Stakeholder Management",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Python, Kubernetes, Reliability, On-call Practices, Load Testing, Cloud Platforms, Infrastructure as Code",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, C++, Multithreading, .NET, C#, Azure, Design Patterns, Agile Methodologies",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Adobe Photoshop, Accessibility Standards, Usability Testing, Prototyping, Design Systems, Mobile Design, Adobe Illustrator, Web Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Go-to-Market Strategy, Customer Interviews, Roadmapping, Wireframing, Agile Methodologies, Product Lifecycle Management, KPI Definition, User Stories",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, SQL, System Design, Networking, Performance Optimization, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Scalability, Git, NoSQL, Microservices, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Object-Oriented Programming, SQL, Testing, Problem Solving, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Testing, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Adobe Photoshop, Adobe Illustrator, Prototyping, Adobe XD, Accessibility Standards, UX Writing, Mobile Design, Figma",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Docker, Problem Solving, Concurrency, NoSQL, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Sketch, Mobile Design, Web Design, Adobe XD, Prototyping, Visual Design, Heuristic Evaluation, Accessibility Standards",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Unreal Engine, Game Physics, Visual Scripting, AI for Games, 3D Modeling, OpenGL, Game Optimization, DirectX",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, AWS, Scalability, Linux, NoSQL, Python, Problem Solving, Algorithms, CI/CD, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Java, CI/CD, Performance Optimization, AWS, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Performance Optimization, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, System Design, Microservices, Concurrency, Scalability, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "TensorFlow, LaTeX, GANs, Deep Learning, NLP, Reinforcement Learning, Computer Vision, CNNs",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "VR/AR, 3D Modeling, C++, C#, Mobile Game Development, Animation Systems, Game Physics, OpenGL",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Product Lifecycle Management, JIRA, Stakeholder Management, User Stories, Product Strategy, Agile Methodologies, KPI Definition, Competitive Analysis",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Stakeholder Management, Market Research, Customer Interviews, Wireframing, JIRA, KPI Definition, A/B Testing, Agile Methodologies",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, AWS, Scalability, Performance Optimization, Microservices, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "LaTeX, Bayesian Methods, Reinforcement Learning, BERT, TensorFlow, PyTorch, RNNs, Hugging Face Transformers",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, C++, Hack, JavaScript, Communication Skills, Machine Learning Basics, Cross-Team Collaboration, Debugging",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Networking, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Confluence, Agile Methodologies, Customer Interviews, Go-to-Market Strategy, JIRA, KPI Definition, SQL, A/B Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, CI/CD, Version Control, Agile Methodologies, JavaScript, Unit Testing, Debugging, Databases",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, REST APIs, C++, AWS, Problem Solving, Git, Linux, Python, Distributed Systems, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Java, Linux, CI/CD, Microservices, Object-Oriented Programming, Docker, System Design, AWS, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Java, CI/CD, Algorithms, Problem Solving, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, Performance Optimization, Distributed Systems, SQL, AWS, Problem Solving, Linux, Algorithms, Testing, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Problem Solving, Python, Networking, C++, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Performance Optimization, Microservices, Python, Testing, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, CI/CD, Problem Solving, Concurrency, REST APIs, Git, Object-Oriented Programming, Performance Optimization, NoSQL, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Scalability, Git, Networking, CI/CD, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, REST APIs, SOAP APIs, CRM Systems, Salesforce Platform, Agile Development, JavaScript, Security Best Practices",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Docker, Python, Object-Oriented Programming, C++, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Accessibility Standards, Figma, Interaction Design, Adobe Photoshop, Mobile Design, Adobe Illustrator, Heuristic Evaluation, Responsive Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, SQL, Object-Oriented Programming, AWS, NoSQL, REST APIs, Docker, Concurrency, Distributed Systems, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Agile Methodologies, Wireframing, Data Analysis, A/B Testing, JIRA, Competitive Analysis, Go-to-Market Strategy",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "InVision, Sketch, Responsive Design, Adobe Photoshop, Mobile Design, Wireframing, Interaction Design, Adobe Illustrator",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Testing, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Microservices, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Product Strategy, Stakeholder Management, User Stories, Confluence, Wireframing, JIRA, KPI Definition, Data Analysis",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Docker, Go, Monitoring, Kafka, Reliability, Kubernetes, Observability",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, C++, Distributed Systems, Scalability, Testing, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Responsive Design, Mobile Design, Accessibility Standards, Adobe Photoshop, Adobe XD, Wireframing, Visual Design, Web Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Figma, Mobile Design, Wireframing, Web Design, Adobe XD, Responsive Design, Prototyping, Sketch",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Shader Programming, Gameplay Programming, Game Optimization, Audio Integration, Multiplayer Networking, DirectX, Mobile Game Development, C#",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, CI/CD, Distributed Systems, Problem Solving, Algorithms, C++, Microservices, Python, System Design, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Git, Redis, MySQL, Kotlin, Kafka, Spring Boot, High Availability",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, CI/CD, Scalability, System Design, Linux, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Wireframing, Go-to-Market Strategy, Agile Methodologies, Market Research, Customer Interviews, JIRA, Product Lifecycle Management, Figma",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Mathematical Optimization, NLP, Jupyter Notebooks, Hugging Face Transformers, RNNs, Reinforcement Learning, TensorFlow, Computer Vision",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, NoSQL, Problem Solving, REST APIs, Docker, Concurrency, Distributed Systems, SQL, Networking, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, Docker, Play Framework, Kafka, Spark, Data Pipelines, Scala, Kubernetes",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Distributed Systems, Data Structures, Java, SQL, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, AWS, Networking, Concurrency, Problem Solving, System Design, Distributed Systems, NoSQL, SQL, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Linux, Spring Boot, Kotlin, ElasticSearch, MySQL, Kafka, High Availability",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "A/B Testing, Customer Interviews, SQL, Confluence, Product Lifecycle Management, Wireframing, Market Research, KPI Definition",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, System Design, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Wireframing, Responsive Design, Design Systems, Adobe XD, Heuristic Evaluation, Adobe Photoshop, Visual Design, UX Writing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, SQL, Windows OS, Cloud Computing, Unit Testing, Azure, Agile Methodologies, Debugging Tools",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, REST APIs, Distributed Systems, Algorithms, Performance Optimization, Linux, Problem Solving, Object-Oriented Programming, CI/CD, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "UX Writing, Adobe XD, InVision, Adobe Illustrator, Responsive Design, Adobe Photoshop, Interaction Design, Design Systems",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Accessibility Standards, Visual Design, User Research, Wireframing, Usability Testing, Prototyping, Mobile Design, Figma",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Adobe Photoshop, Wireframing, Accessibility Standards, UX Writing, Adobe Illustrator, InVision, User Research, Sketch",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Object-Oriented Programming, Networking, Git, Linux, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Concurrency, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Networking, Algorithms, REST APIs, CI/CD, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, System Design, Performance Optimization, Concurrency, SQL, AWS, Linux, Microservices, Data Structures, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "PyTorch, Hugging Face Transformers, GPT, Bayesian Methods, TensorFlow, Distributed Training, Computer Vision, OpenAI Gym",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Linux, CI/CD, Algorithms, Concurrency, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "OpenAI Gym, Research Paper Writing, Machine Learning, Hugging Face Transformers, CNNs, Jupyter Notebooks, BERT, Reinforcement Learning",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Java, Python, C++, Linux, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Web Design, Wireframing, Adobe XD, Visual Design, Mobile Design, Design Systems, Usability Testing, UX Writing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Confluence, Go-to-Market Strategy, User Stories, Data Analysis, Roadmapping, KPI Definition, Customer Interviews, Figma",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, System Design, Object-Oriented Programming, Docker, Testing, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Mobile Design, Adobe Photoshop, InVision, Accessibility Standards, Design Systems, UX Writing, Adobe XD, Usability Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Interaction Design, Figma, UX Writing, Accessibility Standards, Mobile Design, Responsive Design, InVision, Visual Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, Docker, Scalability, Algorithms, Concurrency, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Interaction Design, Heuristic Evaluation, Adobe Photoshop, Visual Design, Design Systems, Mobile Design, UX Writing, Prototyping",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Wireframing, KPI Definition, Figma, Go-to-Market Strategy, Product Lifecycle Management, Stakeholder Management, Confluence, Roadmapping",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, Testing, Networking, Concurrency, REST APIs, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, System Design, Git, REST APIs, Concurrency, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Training, GANs, OpenAI Gym, Jupyter Notebooks, BERT, Hugging Face Transformers, Bayesian Methods, Experiment Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Game Optimization, Shader Programming, Visual Scripting, Game Design, Animation Systems, OpenGL, Multiplayer Networking",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Microservices, SQL, Problem Solving, NoSQL, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Networking, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Accessibility Standards, Visual Design, Design Systems, Prototyping, Heuristic Evaluation, Interaction Design, Figma, User Research",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, AWS, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, Linux, Docker, Problem Solving, Python, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Mobile Game Development, Level Design, C++, Game Optimization, Animation Systems, Unreal Engine, Multiplayer Networking, Visual Scripting",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Market Research, User Stories, Stakeholder Management, A/B Testing, Competitive Analysis, JIRA, SQL, Customer Interviews",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, AWS, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Docker, System Design, Scalability, Problem Solving, Networking, Algorithms, SQL, Python, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, CI/CD, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, NoSQL, Kubernetes, Hadoop, Scala, Search Systems, Kafka, Data Pipelines",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, NoSQL, Git, Performance Optimization, CI/CD, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, CI/CD, Swift, iOS Development, Agile Development, Security Best Practices, Xcode, Multithreading",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Adobe Illustrator, Heuristic Evaluation, Responsive Design, Prototyping, Figma, Accessibility Standards, Sketch, Design Systems",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Performance Optimization, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "PyTorch, GANs, NLP, Jupyter Notebooks, OpenAI Gym, Python, Hugging Face Transformers, BERT",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, CI/CD, Algorithms, Testing, Microservices, System Design, Networking, Git, Performance Optimization, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Scalability, Data Structures, Distributed Systems, Python, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Distributed Systems, NoSQL, Scalability, C++, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Visual Design, User Research, Heuristic Evaluation, Adobe Illustrator, Wireframing, Figma, UX Writing, InVision",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Algorithms, Networking, CI/CD, SQL, C++, Concurrency, System Design, Microservices, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, CI/CD, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, C++, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Git, Azure, Debugging Tools, C#, Windows OS, Cloud Computing, Agile Methodologies",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, AWS, Object-Oriented Programming, SQL, Problem Solving, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Networking, SQL, Distributed Systems, Linux, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Sketch, Prototyping, Heuristic Evaluation, Usability Testing, Mobile Design, Interaction Design, User Research, Responsive Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, System Design, .NET, Cloud Computing, Design Patterns, Agile Methodologies, Multithreading, Debugging Tools",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Concurrency, NoSQL, Networking, Git, Performance Optimization, Python, Algorithms, Testing, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, System Design, Debugging, Agile Methodologies, Databases, Version Control, Unit Testing, JavaScript",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, C++, Problem Solving, Docker, NoSQL, SQL, Concurrency, Testing, REST APIs, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, REST APIs, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, System Design, Search Systems, Hadoop, Kubernetes, Scala, Play Framework, Data Modeling",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, Python, Play Framework, Data Modeling, Spark, Hadoop, Search Systems, Machine Learning Basics",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Design Systems, Interaction Design, Adobe Illustrator, Heuristic Evaluation, Responsive Design, InVision, Visual Design, Figma",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Roadmapping, SQL, Customer Interviews, Confluence, Data Analysis, KPI Definition, User Stories, Go-to-Market Strategy",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Microservices, Networking, Object-Oriented Programming, REST APIs, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Scalability, CI/CD, Problem Solving, Concurrency, Git, NoSQL, AWS, Python, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Problem Solving, System Design, Object-Oriented Programming, NoSQL, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Linux, Go, Software Engineering Principles, Design Patterns, Machine Learning Basics, Cloud Computing, Operating Systems",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, Object-Oriented Programming, AWS, Testing, Microservices, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Market Research, Competitive Analysis, Go-to-Market Strategy, Customer Interviews, KPI Definition, SQL, Figma, Wireframing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Heuristic Evaluation, Adobe Photoshop, Responsive Design, Figma, User Research, Design Systems, Adobe Illustrator, InVision",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Testing, Performance Optimization, SQL, Git, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, C++, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "RNNs, Machine Learning, NLP, BERT, PyTorch, Hugging Face Transformers, Computer Vision, OpenAI Gym",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "User Research, Usability Testing, Mobile Design, InVision, Sketch, Heuristic Evaluation, UX Writing, Interaction Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, System Design, Python, Scalability, NoSQL, Git, Problem Solving, Docker, SQL, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Wireframing, Stakeholder Management, Product Lifecycle Management, Customer Interviews, Market Research, Data Analysis, Figma, Agile Methodologies",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Market Research, Product Lifecycle Management, Figma, Data Analysis, A/B Testing, Roadmapping, Competitive Analysis, Wireframing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, REST APIs, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, C++, Scalability, Microservices, Git, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Market Research, A/B Testing, KPI Definition, JIRA, Confluence, Wireframing, Customer Interviews, Data Analysis",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, CI/CD, Prometheus, Logging, Reliability, ELK Stack, Infrastructure as Code, Kubernetes",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Algorithms, System Design, Networking, Linux, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Object-Oriented Programming, C++, Performance Optimization, System Design, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, AWS, Algorithms, Microservices, SQL, Java, REST APIs, C++, Scalability, Concurrency",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Object-Oriented Programming, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, REST APIs, SQL, Problem Solving, NoSQL, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "KPI Definition, Customer Interviews, Confluence, User Stories, Data Analysis, JIRA, Competitive Analysis, Go-to-Market Strategy",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, C++, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Object-Oriented Programming, Linux, AWS, Git, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, AWS, Reinforcement Learning, Machine Learning, OpenCV, FastAPI, Version Control, MLOps",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, SQL, Research Paper Reading, Probability, Linear Algebra, Computer Vision, Scikit-learn, Deep Learning",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Performance Optimization, Distributed Systems, Microservices, Algorithms, Object-Oriented Programming, Git, Java, Linux, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, C++, Java, Linux, Object-Oriented Programming, Git, Distributed Systems, Docker, System Design, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Python, C++, Testing, Distributed Systems, Java, Algorithms, AWS, Data Structures, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Accessibility Standards, Wireframing, Heuristic Evaluation, Visual Design, User Research, Adobe Illustrator, Adobe Photoshop, Web Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Mobile Design, Adobe Photoshop, Accessibility Standards, Visual Design, Usability Testing, Heuristic Evaluation, Web Design, User Research",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Web Design, Interaction Design, Prototyping, Figma, Adobe Illustrator, Heuristic Evaluation, Visual Design, Usability Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, System Design, Networking, Concurrency, Distributed Systems, REST APIs, Problem Solving, AWS, C++, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Roadmapping, Figma, SQL, Wireframing, Product Lifecycle Management, Confluence, JIRA, Market Research",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Figma, User Stories, Go-to-Market Strategy, JIRA, KPI Definition, Product Strategy, Data Analysis, Roadmapping",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Scalability, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, CI/CD, Algorithms, System Design, Concurrency, Data Structures, C++, Git, REST APIs, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Audio Integration, Game Optimization, Shader Programming, VR/AR, OpenGL, Game Design, C++, Gameplay Programming",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Roadmapping, Competitive Analysis, A/B Testing, Agile Methodologies, Stakeholder Management, Confluence, JIRA, Product Lifecycle Management",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, CI/CD, Networking, Performance Optimization, SQL, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Customer Interviews, Market Research, Data Analysis, Stakeholder Management, A/B Testing, Figma, Product Lifecycle Management, Product Strategy",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, CI/CD, Java, Data Structures, AWS, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, NoSQL, Linux, SQL, REST APIs, Problem Solving, Testing, C++, Networking, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, NoSQL, Play Framework, Kubernetes, Spark, Search Systems, Kafka, Hadoop",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Object-Oriented Programming, Testing, SQL, C++, Algorithms, Git, Networking, System Design, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, Performance Optimization, Docker, Problem Solving, AWS, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Python, PyTorch, NLP, Computer Vision, Scikit-learn, Jupyter Notebooks, Experiment Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Bayesian Methods, Jupyter Notebooks, Experiment Design, RNNs, Reinforcement Learning, Python, Distributed Training, Deep Learning",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, SQL, Data Warehousing, Azure, Hadoop, ETL Pipelines, Delta Lake, BigQuery",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, Networking, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Python, Communication Skills, Debugging, Cross-Team Collaboration, GraphQL, API Development, Hack",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Customer Interviews, Product Strategy, Scrum, Roadmapping, Agile Methodologies, KPI Definition, Figma, Stakeholder Management",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scrum, Competitive Analysis, KPI Definition, SQL, Product Strategy, Product Lifecycle Management, Agile Methodologies, Wireframing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, SQL, Hadoop, Data Modeling, Parquet, ETL Pipelines, Delta Lake, Airflow",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "A/B Testing, Data Analysis, Confluence, Wireframing, KPI Definition, User Stories, Product Lifecycle Management, Market Research",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "GANs, TensorFlow, Machine Learning, Hugging Face Transformers, CNNs, Python, Experiment Design, BERT",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, REST APIs, SOQL, Integration Patterns, Lightning Web Components, SOAP APIs, Agile Development, CRM Systems",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Algorithms, System Design, Scalability, Microservices, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Python, Reliability, Monitoring, Cloud Platforms, Logging, Grafana, Go",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, AWS, Kubernetes, Data Modeling, Spark, Kafka, Delta Lake, Airflow",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, AWS, Object-Oriented Programming, Microservices, Git, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Git, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Product Strategy, Figma, Confluence, JIRA, SQL, KPI Definition, Agile Methodologies, Product Lifecycle Management",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, REST APIs, Agile Development, JavaScript, UI/UX Principles, Cross-Browser Compatibility, Debugging, React",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, Java, Object-Oriented Programming, SQL, NoSQL, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, Docker, Data Pipelines, Kubernetes, Hadoop, Scala, Kafka, Spark",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Design Systems, UX Writing, Wireframing, Web Design, Sketch, Figma, InVision, Prototyping",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Git, Distributed Systems, Linux, Concurrency, AWS, Scalability, Python, Data Structures, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "RNNs, GANs, LaTeX, NLP, OpenAI Gym, PyTorch, CNNs, Machine Learning",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Docker, System Design, Concurrency, Python, Java, Git, Scalability, Distributed Systems, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Visual Design, Interaction Design, Adobe Photoshop, User Research, Web Design, Mobile Design, InVision, Responsive Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Docker, FastAPI, Model Deployment, ONNX, Experiment Tracking, Flask, Reinforcement Learning",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Problem Solving, Data Structures, Microservices, REST APIs, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Problem Solving, Microservices, SQL, Testing, Linux, Python, Concurrency, Performance Optimization, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Wireframing, Market Research, A/B Testing, Agile Methodologies, Go-to-Market Strategy, Data Analysis, Customer Interviews, SQL",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "InVision, Adobe XD, Sketch, Design Systems, Figma, Wireframing, Web Design, Interaction Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, REST APIs, Microservices, SQL, AWS, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Distributed Systems, Data Structures, Docker, Networking, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Performance Optimization, Data Structures, Python, Microservices, System Design, REST APIs, Testing, Scalability, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Networking, Object-Oriented Programming, Git, C++, CI/CD, Distributed Systems, AWS, Performance Optimization, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, CI/CD, macOS, iOS Development, Agile Development, UIKit, Objective-C, Security Best Practices",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Testing, Docker, Python, C++, Git, Algorithms, Scalability, Object-Oriented Programming, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, REST APIs, Redis, Express.js, Real-Time Systems, MongoDB, Kubernetes, JavaScript",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AI for Games, Level Design, OpenGL, C++, Shader Programming, 3D Modeling, Animation Systems, Game Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Analysis, A/B Testing, Competitive Analysis, Agile Methodologies, Scrum, SQL, Confluence, User Stories",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Performance Optimization, Java, Docker, NoSQL, Microservices, REST APIs, Networking, Scalability, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Object-Oriented Programming, Unit Testing, Agile Methodologies, Debugging, Databases, Version Control, JavaScript",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Scalability, NoSQL, Git, Testing, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Testing, Object-Oriented Programming, Git, Distributed Systems, SQL, Algorithms, NoSQL, Problem Solving, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Game Physics, Game Design, Gameplay Programming, Level Design, Unity, AI for Games, OpenGL, C++",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, Git, Microservices, Scalability, Docker, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Git, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, AWS, Distributed Systems, Algorithms, Docker, Scalability, Java, Object-Oriented Programming, Microservices, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Web Design, Wireframing, Visual Design, Design Systems, Adobe Photoshop, Interaction Design, Sketch, User Research",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Algorithms, Java, C++, SQL, Performance Optimization, Data Structures, NoSQL, AWS, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "UX Writing, Interaction Design, Adobe XD, Mobile Design, Heuristic Evaluation, Prototyping, Adobe Illustrator, Responsive Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, Networking, SQL, Git, AWS, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Wireframing, Data Analysis, Product Strategy, JIRA, Stakeholder Management, Competitive Analysis, Product Lifecycle Management, Market Research",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Animation Systems, Visual Scripting, Game Design, C#, Gameplay Programming, Level Design, VR/AR, Game Physics",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, C++, JavaScript, API Development, GraphQL, Machine Learning Basics, React, Hack",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, System Design, Testing, REST APIs, Python, Git, Scalability, Object-Oriented Programming, CI/CD, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, AWS, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Microservices, REST APIs, Docker, Data Structures, NoSQL, Problem Solving, Linux, Object-Oriented Programming, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, System Design, AWS, Git, C++, Concurrency, Problem Solving, Linux, Java, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Linux, Networking, Concurrency, Git, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Usability Testing, Sketch, Visual Design, UX Writing, Design Systems, Heuristic Evaluation, Adobe Illustrator, InVision",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "GANs, Machine Learning, NLP, PyTorch, RNNs, Research Paper Writing, Experiment Design, CNNs",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, SQL, Scalability, Docker, C++, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Java, NoSQL, Docker, C++, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Java, Version Control, Debugging, Agile Methodologies, Unit Testing, Databases, JavaScript",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Confluence, Go-to-Market Strategy, Agile Methodologies, Product Strategy, A/B Testing, Wireframing, Product Lifecycle Management, SQL",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, Problem Solving, Scalability, System Design, Data Structures, NoSQL, Java, SQL, Testing, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Object-Oriented Programming, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "A/B Testing, Competitive Analysis, KPI Definition, Data Analysis, Scrum, JIRA, Figma, Confluence",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Wireframing, Mobile Design, Prototyping, Adobe Illustrator, Web Design, Figma, Adobe XD, Interaction Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Testing, Object-Oriented Programming, Git, Docker, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Responsive Design, InVision, Sketch, Web Design, Prototyping, Heuristic Evaluation, Design Systems, Figma",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, NoSQL, C++, Data Structures, CI/CD, REST APIs, AWS, Linux, Java, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Git, Data Preprocessing, Neural Networks, Scikit-learn, NumPy, Experiment Design, Mathematics",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Unity, 3D Modeling, Unreal Engine, Level Design, OpenGL, Game Physics, Gameplay Programming, DirectX",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, Java, Docker, Performance Optimization, NoSQL, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Distributed Systems, REST APIs, Scalability, Concurrency, Problem Solving, Git, Algorithms, SQL, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "User Stories, Agile Methodologies, Market Research, Stakeholder Management, A/B Testing, Roadmapping, Data Analysis, SQL",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Design Systems, Usability Testing, User Research, Mobile Design, Interaction Design, Visual Design, Responsive Design, Heuristic Evaluation",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, System Design, Git, Testing, Microservices, C++, Python, REST APIs, Distributed Systems, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, REST APIs, Performance Optimization, Python, CI/CD, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Distributed Systems, Java, Python, Problem Solving, System Design, SQL, Algorithms, Concurrency, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CNNs, Jupyter Notebooks, RNNs, OpenAI Gym, Deep Learning, BERT, GANs, Reinforcement Learning",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Linux, CI/CD, Object-Oriented Programming, System Design, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Linux, Microservices, Problem Solving, CI/CD, Concurrency",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Unreal Engine, DirectX, Game Design, Game Physics, VR/AR, Shader Programming, Level Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Docker, Model Deployment, TensorFlow, Kubernetes, FastAPI, Data Labeling, OpenCV",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Python, PyTorch, NumPy, Scikit-learn, Model Deployment, Model Evaluation, Pandas",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Python, Agile Methodologies, JavaScript, Debugging, Version Control, Databases, Unit Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Audio Integration, Mobile Game Development, Unreal Engine, Game Design, Game Physics, VR/AR, Visual Scripting, Game Optimization",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "BERT, Computer Vision, GPT, PyTorch, Bayesian Methods, Mathematical Optimization, GANs, OpenAI Gym",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Distributed Systems, Problem Solving, Testing, NoSQL, Performance Optimization, SQL, CI/CD, Concurrency, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, SQL, Object-Oriented Programming, Testing, Git, Scalability, Concurrency, Performance Optimization, Python, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Java, Linux, Python, Performance Optimization, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, REST APIs, Testing, Data Structures, SQL, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, Networking, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "RNNs, Experiment Design, Python, BERT, GPT, Machine Learning, Jupyter Notebooks, Deep Learning",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Data Structures, Distributed Systems, SQL, Performance Optimization, Object-Oriented Programming, NoSQL, Git, CI/CD, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Figma, Roadmapping, Data Analysis, Wireframing, JIRA, A/B Testing, Market Research, Scrum",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Git, Docker, C++, Linux, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Java, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Git, GraphQL, JavaScript, SASS, Accessibility, Vue.js, Webpack",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, SQL, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Linux, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Wireframing, Go-to-Market Strategy, JIRA, Figma, KPI Definition, Market Research, Agile Methodologies, Competitive Analysis",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, CI/CD, Microservices, SQL, C++, AWS, Concurrency, Linux, Performance Optimization, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Python, C++, Performance Optimization, Problem Solving, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, Distributed Systems, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, System Design, Embedded Systems, Multithreading, Mathematical Modeling, Real-Time Operating Systems, Microcontrollers, Robotics",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Object-Oriented Programming, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Problem Solving, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Docker, REST APIs, AWS, C++, Data Structures, Concurrency, Java, Python, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Audio Integration, Game Physics, 3D Modeling, Mobile Game Development, OpenGL, Game Optimization, Unity, Visual Scripting",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Research Paper Writing, LaTeX, TensorFlow, PyTorch, Experiment Design, Reinforcement Learning, Distributed Training, CNNs",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Object-Oriented Programming, AWS, Networking, SQL, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, System Design, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Python, Problem Solving, AWS, Scalability, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Problem Solving, CI/CD, C++, Docker, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Accessibility Standards, Sketch, Visual Design, InVision, Adobe XD, Usability Testing, Adobe Photoshop, Adobe Illustrator",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Algorithms, Testing, Python, Linux, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Performance Optimization, REST APIs, Problem Solving, Java, Object-Oriented Programming, Distributed Systems, Git, Python, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Scalability, Data Structures, SQL, Distributed Systems, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, AWS, System Design, Python, SQL, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Python, C++, NoSQL, Object-Oriented Programming, Java, Scalability, Algorithms, Data Structures, Concurrency",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Microservices, Distributed Systems, Scalability, Docker, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Sketch, Mobile Design, Wireframing, Visual Design, Web Design, Figma, Interaction Design, Adobe Illustrator",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, C++, Distributed Systems, Object-Oriented Programming, Testing, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Accessibility Standards, Adobe Photoshop, Adobe Illustrator, InVision, UX Writing, Figma, Adobe XD, Usability Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "TensorFlow, BERT, OpenAI Gym, PyTorch, RNNs, GANs, Reinforcement Learning, Experiment Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Linux, SQL, System Design, Problem Solving, C++, Python, Algorithms, Testing, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Computer Vision, CNNs, TensorFlow, GPT, OpenAI Gym, GANs, LaTeX, RNNs",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "OpenGL, C#, Gameplay Programming, Level Design, Unreal Engine, 3D Modeling, Unity, AI for Games",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, System Design, Docker, Testing, CI/CD, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Networking, Java, Performance Optimization, Scalability, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Prototyping, Mobile Design, Wireframing, UX Writing, InVision, Heuristic Evaluation, Adobe XD, Adobe Illustrator",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Testing, SOQL, SOAP APIs, Security Best Practices, Integration Patterns, Lightning Web Components, Agile Development",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, CI/CD, Scalability, Testing, AWS, Linux, Distributed Systems, Object-Oriented Programming, Algorithms, Concurrency",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Wireframing, Adobe XD, User Research, Usability Testing, Design Systems, Heuristic Evaluation, Figma, Mobile Design",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Java, Data Structures, Scalability, Algorithms, Concurrency, Problem Solving, Linux, Microservices, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, C++, Distributed Systems, System Design, Algorithms, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Analysis, JIRA, Product Lifecycle Management, Competitive Analysis, User Stories, Wireframing, Go-to-Market Strategy, SQL",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, CI/CD, SQL, REST APIs, Concurrency, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Game Physics, AI for Games, Multiplayer Networking, DirectX, Game Optimization, Game Design, OpenGL, Animation Systems",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Machine Learning, GPT, TensorFlow, Deep Learning, Hugging Face Transformers, Mathematical Optimization, RNNs, Jupyter Notebooks",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Performance Optimization, Object-Oriented Programming, Concurrency, NoSQL, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, CI/CD, Java, Linux, Testing, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Algorithms, CI/CD, SQL, Object-Oriented Programming, Microservices, Linux, Docker, Concurrency, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, C++, Problem Solving, Performance Optimization, CI/CD, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, REST APIs, Scalability, Java, Problem Solving, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "DirectX, Game Physics, Game Design, VR/AR, C++, Level Design, Shader Programming, 3D Modeling",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Linux, Java, Distributed Systems, Python, CI/CD, Data Structures, Performance Optimization, System Design, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scrum, SQL, User Stories, Confluence, Product Lifecycle Management, Wireframing, Roadmapping, Competitive Analysis",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Python, Algorithms, Concurrency, Networking, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, SQL, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Git, SQL, Docker, Networking, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Problem Solving, Concurrency, Docker, SQL, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, NoSQL, Python, REST APIs, Concurrency, Performance Optimization, Scalability, Problem Solving, CI/CD, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Microservices, SQL, Linux, Problem Solving, Distributed Systems, NoSQL, CI/CD, Python, Concurrency",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Roadmapping, Confluence, KPI Definition, Stakeholder Management, User Stories, Wireframing, Product Lifecycle Management, Agile Methodologies",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "OpenGL, Mobile Game Development, Game Optimization, DirectX, Gameplay Programming, Shader Programming, 3D Modeling, Animation Systems",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Performance Optimization, REST APIs, Distributed Systems, Data Structures, Python, Linux, Testing, Networking, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Training, Jupyter Notebooks, Reinforcement Learning, RNNs, Deep Learning, TensorFlow, CNNs, Computer Vision",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Performance Optimization, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, Scalability, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, Microservices, MySQL, Kubernetes, Scala, Big Data Processing, Monitoring, Kafka",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Docker, Linux, Networking, Git, NoSQL, REST APIs, System Design, Python, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Algorithms, PostgreSQL, Kafka, Monitoring, Reliability, Observability, Go",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Algorithms, Reliability, Kubernetes, PostgreSQL, Observability, MySQL, Kafka",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Mobile Game Development, Audio Integration, Unreal Engine, DirectX, AI for Games, Game Physics, Unity, C++",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Git, Python, Performance Optimization, CI/CD, Object-Oriented Programming, SQL, Distributed Systems, Data Structures, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Design Systems, Interaction Design, Mobile Design, Responsive Design, Prototyping, Figma, Adobe Illustrator, Adobe XD",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Algorithms, Linux, Distributed Systems, Microservices, Networking, System Design, Java, Testing, Performance Optimization",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, CI/CD, Docker, REST APIs, NoSQL, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Scalability, Docker, Distributed Systems, REST APIs, System Design, C++, Git, Concurrency, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Jupyter Notebooks, Computer Vision, BERT, OpenAI Gym, Bayesian Methods, Hugging Face Transformers, Research Paper Writing, NLP",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Linux, On-call Practices, Kubernetes, Logging, Reliability, ELK Stack, Prometheus",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Git, Networking, Scalability, Linux, Microservices, System Design, Algorithms, NoSQL, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Concurrency, Object-Oriented Programming, Testing, Java, Scalability, CI/CD, SQL, Python, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Python, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Microservices, Object-Oriented Programming, AWS, NoSQL, SQL, C++, REST APIs, Scalability, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, Git, Networking, Scalability, Distributed Systems, CI/CD, Microservices, Testing, C++, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Object-Oriented Programming, Python, System Design, Networking, Java, Microservices, SQL, Scalability, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Customer Interviews, Wireframing, Confluence, A/B Testing, User Stories, Agile Methodologies, Competitive Analysis, Product Lifecycle Management",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Testing, Concurrency, System Design, Distributed Systems, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "GANs, Experiment Design, RNNs, BERT, Computer Vision, TensorFlow, CNNs, Distributed Training",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, System Design, JavaScript, Apex, Visualforce, Lightning Web Components, CRM Systems, Security Best Practices",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Sketch, Figma, Adobe Photoshop, Interaction Design, Accessibility Standards, UX Writing, Heuristic Evaluation, Usability Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "A/B Testing, KPI Definition, Data Analysis, Roadmapping, Wireframing, Stakeholder Management, Scrum, Product Lifecycle Management",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, Scalability, Algorithms, C++, System Design, SQL, Microservices, Performance Optimization, REST APIs, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Git, Kubernetes, Machine Learning Basics, Data Modeling, Play Framework, Hadoop, Kafka",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "UX Writing, Prototyping, Usability Testing, Figma, Adobe Illustrator, Wireframing, Responsive Design, InVision",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Data Structures, Docker, Concurrency, System Design, CI/CD, AWS, Linux, Testing, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, C++, Performance Optimization, Java, Microservices, Testing, NoSQL, Problem Solving, Concurrency, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Python, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, CI/CD, Data Engineering, Model Deployment, MLOps, Data Preprocessing, Scikit-learn, Feature Stores",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "User Research, Usability Testing, Sketch, Wireframing, InVision, Mobile Design, Visual Design, Adobe Illustrator",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, AWS, System Design, Data Structures, Java, REST APIs, Concurrency, CI/CD, Microservices, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Reinforcement Learning, GANs, Deep Learning, Research Paper Writing, Experiment Design, Hugging Face Transformers, Jupyter Notebooks, TensorFlow",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, CI/CD, Object-Oriented Programming, NoSQL, C++, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Algorithms, Linux, System Design, Docker, Problem Solving, Git, Scalability, CI/CD, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Mobile Design, Figma, InVision, Adobe Illustrator, Responsive Design, Visual Design, Wireframing, Usability Testing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, REST APIs, Networking",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, SQL, System Design, Python, Data Structures, Concurrency, Algorithms, Networking, Linux, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, AWS, Concurrency, Algorithms, CI/CD, NoSQL, Object-Oriented Programming, Distributed Systems, Problem Solving, Microservices",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Distributed Systems, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "BERT, NLP, Hugging Face Transformers, Machine Learning, Jupyter Notebooks, Research Paper Writing, GANs, Deep Learning",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Figma, Wireframing, Visual Design, Responsive Design, User Research, Sketch, Adobe Illustrator, Prototyping",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "InVision, Mobile Design, Web Design, Sketch, Design Systems, Adobe Illustrator, UX Writing, Adobe XD",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, NoSQL, Data Structures, Algorithms, Java, Networking, Microservices, Docker, Performance Optimization, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Microservices, AWS, Problem Solving, Python, Object-Oriented Programming",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Responsive Design, Web Design, Mobile Design, Visual Design, Figma, Adobe Illustrator, Usability Testing, Adobe Photoshop",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, Microservices, Node.js, MongoDB, MySQL, Redis, Django, PostgreSQL",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AI for Games, Visual Scripting, Unreal Engine, Audio Integration, C#, Multiplayer Networking, Animation Systems, Mobile Game Development",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Git, Integration Patterns, Apex, JavaScript, Visualforce, Agile Development, SOQL",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, SQL, Testing, Distributed Systems, Object-Oriented Programming, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Java, Visualforce, SOAP APIs, Salesforce Platform, Security Best Practices, SOQL, JavaScript",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Prototyping, Usability Testing, InVision, Figma, Adobe XD, UX Writing, Web Design, Adobe Illustrator",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Networking, NoSQL, Python, Data Structures, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, Networking, Distributed Systems",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Adobe Photoshop, User Research, Heuristic Evaluation, InVision, Mobile Design, Accessibility Standards, Prototyping, Wireframing",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Java, Linux, Distributed Systems, SQL, CI/CD, Git, Object-Oriented Programming, Networking, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Python, MySQL, High Availability, Spring Boot, Kotlin, Monitoring, Kubernetes",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Go-to-Market Strategy, User Stories, Agile Methodologies, Roadmapping, Customer Interviews, Scrum, Data Analysis, Product Lifecycle Management",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Python, Neural Networks, Data Preprocessing, Feature Engineering, Scikit-learn, Experiment Design, Jupyter Notebooks",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, C++, Java, NoSQL, Concurrency, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Confluence, Roadmapping, Figma, Data Analysis, Product Lifecycle Management, A/B Testing, User Stories, Customer Interviews",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "NoSQL, Python, Docker, Algorithms, Problem Solving, AWS",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Market Research, Scrum, Product Strategy, Roadmapping, Data Analysis, Figma, KPI Definition, JIRA",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, NoSQL, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Concurrency, Design Patterns, Software Engineering Principles, Go, Coding Interviews, Big-O Analysis, Machine Learning Basics",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Prototyping, Heuristic Evaluation, Sketch, InVision, Web Design, Figma, Adobe Illustrator, Design Systems",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "REST APIs, Git, Observability, MySQL, Big Data Processing, Kafka, Finagle, Thrift",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Linux, Microservices, Testing, Networking, Algorithms, Java, Scalability, REST APIs, Concurrency",
+    "resume_text": "Java, Python, Data Structures, Algorithms, System Design, SQL, REST APIs, Microservices, AWS, Git, Object Oriented Programming, Distributed Systems, Docker, Linux",
     "label": 1
   },
   {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, NoSQL, CI/CD, Scalability, SQL, Networking, Java, Testing, Git, Docker",
+    "goal": "Amazon SDE", 
+    "resume_text": "C++, JavaScript, Data Structures, Algorithms, System Design, Microservices, AWS, Git, Distributed Systems, Docker",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Scalability, Microservices, Testing, NoSQL, System Design, Docker, Git, Algorithms, C++, Python",
+    "resume_text": "Java, Python, Data Structures, System Design, AWS, REST APIs, Git, Linux",
     "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Docker, Python, Spring Boot, Flask, JWT, Kubernetes, Express.js, PostgreSQL",
-    "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "System Design, Docker, Data Structures",
+    "resume_text": "Python, C++, Algorithms, System Design, SQL, Microservices, AWS, Object Oriented Programming, Git",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "SQL, NoSQL, Git",
+    "resume_text": "Java, JavaScript, Data Structures, Algorithms, REST APIs, AWS, Distributed Systems, Docker, Git",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Linux, C++, Performance Optimization, Networking, Microservices, Data Structures, Testing, Scalability, Concurrency, AWS",
+    "resume_text": "Python, Data Structures, Algorithms, System Design, Microservices, AWS, Git, Linux, SQL",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "REST APIs, AWS, Scalability, Microservices, CI/CD, Python, C++, Performance Optimization, Distributed Systems, Docker",
+    "resume_text": "C++, Java, System Design, SQL, REST APIs, AWS, Object Oriented Programming, Distributed Systems, Git",
     "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, SQL, Node.js, Express.js, Redis, MySQL, Authentication, Django",
-    "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Microservices, Git, CI/CD, Scalability, Problem Solving, Java",
+    "resume_text": "JavaScript, Python, Data Structures, Algorithms, Microservices, AWS, Docker, Git, Linux",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Python, Docker, Networking, Object-Oriented Programming, Concurrency, REST APIs, Microservices, CI/CD, Problem Solving",
+    "resume_text": "Java, C++, System Design, SQL, REST APIs, AWS, Distributed Systems, Git, Object Oriented Programming",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "CI/CD, SQL, Testing",
+    "resume_text": "Python, JavaScript, Data Structures, Algorithms, System Design, AWS, Git, Docker",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "REST APIs, Linux, Java, SQL, Problem Solving, Docker",
+    "resume_text": "Java, Data Structures, Algorithms, REST APIs, Microservices, AWS, Git, Linux, SQL",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Networking, Concurrency, REST APIs, Testing, Algorithms, SQL, Java, NoSQL, Distributed Systems",
+    "resume_text": "C++, Python, System Design, Distributed Systems, AWS, Object Oriented Programming, Git, Docker",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Microservices, NoSQL, Networking, AWS, Performance Optimization, CI/CD, Docker, Scalability, Testing",
+    "resume_text": "JavaScript, Java, Data Structures, System Design, SQL, AWS, REST APIs, Git",
     "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, System Design, Multithreading, Embedded Systems, Robotics, CAN Protocol, Sensor Fusion, Microcontrollers",
-    "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, Jupyter Notebooks, GPT, NLP, GANs, TensorFlow, Reinforcement Learning, Computer Vision",
-    "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "System Design, CI/CD, Docker, Concurrency, AWS, Python",
+    "resume_text": "Python, Algorithms, Microservices, AWS, Distributed Systems, Git, Linux, Docker",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, SQL, Scalability, Performance Optimization, Concurrency, AWS, Microservices, Java, Linux, Python",
+    "resume_text": "Java, C++, Data Structures, System Design, REST APIs, AWS, Git, Object Oriented Programming",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "InVision, Usability Testing, UX Writing, Visual Design, Design Systems, Heuristic Evaluation, Wireframing, Interaction Design",
-    "label": 0
+    "resume_text": "Python, JavaScript, Algorithms, SQL, Microservices, AWS, Git, Distributed Systems",
+    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Testing, System Design, MySQL, Kafka, Kubernetes, Reliability, Go, Monitoring",
-    "label": 0
+    "resume_text": "Java, System Design, REST APIs, AWS, Docker, Git, Linux, Object Oriented Programming",
+    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, Linux, Networking, Git, REST APIs, Java",
+    "resume_text": "C++, Data Structures, Algorithms, Microservices, AWS, Distributed Systems, Git, SQL",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "SQL, System Design, CI/CD, Problem Solving, Testing, Java",
+    "resume_text": "JavaScript, Python, System Design, REST APIs, AWS, Git, Docker, Linux",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "System Design, Testing, Data Structures, Networking, Scalability, Algorithms",
+    "resume_text": "Java, Data Structures, SQL, Microservices, AWS, Object Oriented Programming, Git, Distributed Systems",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Microservices, Distributed Systems, Performance Optimization, Algorithms, Linux, Testing, System Design, REST APIs, Python, CI/CD",
+    "resume_text": "Python, C++, Algorithms, System Design, AWS, REST APIs, Git, Docker",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Heuristic Evaluation, Adobe Photoshop, Usability Testing, Mobile Design, User Research, Adobe XD, Adobe Illustrator, InVision",
-    "label": 0
+    "resume_text": "JavaScript, Data Structures, System Design, SQL, AWS, Microservices, Git, Linux",
+    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Object-Oriented Programming, Data Structures, Algorithms, Networking, SQL, REST APIs, Performance Optimization, Testing, NoSQL, Linux",
+    "resume_text": "Java, Python, Algorithms, REST APIs, AWS, Distributed Systems, Git, Object Oriented Programming",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Heuristic Evaluation, User Research, Usability Testing, Interaction Design, Design Systems, Visual Design, Sketch, Prototyping",
-    "label": 0
+    "resume_text": "C++, System Design, Microservices, AWS, Docker, Git, SQL, Linux",
+    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Concurrency, Data Structures, C++, SQL, CI/CD, Distributed Systems",
+    "resume_text": "JavaScript, Java, Data Structures, AWS, REST APIs, Git, Distributed Systems, Object Oriented Programming",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "SQL, AWS, Git, Java, Algorithms, C++",
+    "resume_text": "Python, Algorithms, System Design, SQL, AWS, Git, Docker, Microservices",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, AWS, C++, NoSQL, Testing, Networking, Concurrency, Data Structures, Object-Oriented Programming, Distributed Systems",
+    "resume_text": "Java, C++, Data Structures, REST APIs, AWS, Linux, Git, Distributed Systems",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Scalability, C++, AWS, Networking, Java",
+    "resume_text": "JavaScript, System Design, Microservices, AWS, Object Oriented Programming, Git, Docker",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Docker, NoSQL, Data Structures, Git, CI/CD",
+    "resume_text": "Python, Java, Algorithms, SQL, AWS, REST APIs, Git, Linux",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, Computer Vision, Jupyter Notebooks, LaTeX, TensorFlow, Distributed Training, CNNs, Experiment Design",
-    "label": 0
+    "resume_text": "C++, Data Structures, System Design, AWS, Distributed Systems, Git, Microservices",
+    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "AWS, Networking, Problem Solving, Linux, Testing, Distributed Systems",
+    "resume_text": "Java, Data Structures, AWS, Git, REST APIs, Object Oriented Programming",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Testing, REST APIs, Tailwind CSS, Jest, Cypress, Responsive Design, TypeScript, React",
-    "label": 0
+    "resume_text": "Python, System Design, AWS, Microservices, Git, Docker, SQL",
+    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "System Design, Performance Optimization, GraphQL, React, Communication Skills, JavaScript, API Development, Hack",
-    "label": 0
+    "resume_text": "JavaScript, Algorithms, AWS, Distributed Systems, Git, Linux, REST APIs",
+    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "REST APIs, NoSQL, AWS, Problem Solving, Git, Concurrency, Data Structures, Distributed Systems, Linux, Testing",
+    "resume_text": "C++, Data Structures, AWS, Git, Object Oriented Programming, Docker",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Audio Integration, OpenGL, Level Design, VR/AR, Unreal Engine, Visual Scripting, Shader Programming, C#",
-    "label": 0
+    "resume_text": "Java, System Design, AWS, SQL, Git, Microservices, Linux",
+    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Adobe Photoshop, Mobile Design, Prototyping, Heuristic Evaluation, Accessibility Standards, Adobe XD, Web Design, Interaction Design",
-    "label": 0
+    "resume_text": "Python, Algorithms, AWS, REST APIs, Git, Distributed Systems, Docker",
+    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Linux, REST APIs",
+    "resume_text": "JavaScript, Data Structures, AWS, Git, Object Oriented Programming, SQL",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Docker, System Design, Java, Microservices, Distributed Systems, Scalability",
+    "resume_text": "C++, System Design, AWS, Microservices, Git, Linux, REST APIs",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Scalability, Data Structures, Reliability, PostgreSQL, Go, MySQL, Observability, Kafka",
-    "label": 0
+    "resume_text": "Java, Algorithms, AWS, Distributed Systems, Git, Docker, SQL",
+    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Git, Concurrency, Performance Optimization, Docker, AWS",
+    "resume_text": "Python, Data Structures, AWS, Git, Object Oriented Programming, Microservices",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Sketch, Figma, Adobe Photoshop, Design Systems, Visual Design, Prototyping, Responsive Design, Adobe XD",
-    "label": 0
+    "resume_text": "JavaScript, System Design, AWS, REST APIs, Git, Linux, Docker",
+    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Linux, SQL, AWS, CI/CD, Python, Concurrency, Problem Solving, Performance Optimization, Object-Oriented Programming, Testing",
+    "resume_text": "C++, Algorithms, AWS, SQL, Git, Distributed Systems, Object Oriented Programming",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Git, Mathematical Modeling, Microcontrollers, Robotics, Embedded Systems, Real-Time Operating Systems, Sensor Fusion",
-    "label": 0
+    "resume_text": "Java, Data Structures, AWS, Microservices, Git, Docker, Linux",
+    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Docker, System Design, NoSQL, Networking, Python, Scalability",
+    "resume_text": "Python, System Design, AWS, Git, REST APIs, SQL, Distributed Systems",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "REST APIs, System Design, Scalability, Networking, Concurrency, Testing, Object-Oriented Programming, C++, Algorithms, Performance Optimization",
+    "resume_text": "JavaScript, Algorithms, AWS, Object Oriented Programming, Git, Docker, Microservices",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "SQL, Scalability, REST APIs",
+    "resume_text": "C++, Data Structures, System Design, AWS, Git, Linux, SQL",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "CI/CD, C++, Windows OS, .NET, C#, Multithreading, Cloud Computing, Debugging Tools",
-    "label": 0
+    "resume_text": "Java, Microservices, AWS, REST APIs, Git, Distributed Systems, Docker",
+    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Wireframing, Web Design, Sketch, Usability Testing, Accessibility Standards, Visual Design, Heuristic Evaluation, Design Systems",
-    "label": 0
+    "resume_text": "Python, System Design, AWS, Git, Object Oriented Programming, Linux, SQL",
+    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, REST APIs, Scalability, Microservices, Concurrency, Algorithms",
+    "resume_text": "JavaScript, Data Structures, Algorithms, AWS, Git, Microservices, Docker",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, REST APIs, System Design, Data Structures, Distributed Systems, NoSQL",
+    "resume_text": "C++, AWS, REST APIs, Git, Distributed Systems, SQL, Linux",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Interaction Design, Sketch, Heuristic Evaluation, User Research, InVision, Responsive Design, Adobe XD, Accessibility Standards",
+    "resume_text": "Java, Python, Data Structures, Algorithms, System Design, Azure, Git, Object Oriented Programming, Distributed Systems, Docker, Linux, SQL, REST APIs, Microservices",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, Linux, Kubernetes, Video Streaming Architecture, Scala, Monitoring, Cloud-Native Development, Observability",
+    "resume_text": "C++, JavaScript, Data Structures, Algorithms, System Design, Google Cloud Platform, Git, Distributed Systems, Docker, SQL, REST APIs, Microservices, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Figma, Market Research, Go-to-Market Strategy, Wireframing, A/B Testing, Customer Interviews, Competitive Analysis, Data Analysis",
+    "resume_text": "Java, Python, Data Structures, System Design, IBM Cloud, REST APIs, Git, Linux, SQL, Object Oriented Programming, Distributed Systems",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, AWS, Data Structures, System Design, Networking, Testing",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "3D Modeling, Game Physics, Audio Integration, Game Optimization, AI for Games, Unity, Game Design, Shader Programming",
+    "resume_text": "Python, C++, Algorithms, System Design, Oracle Cloud, Microservices, Git, Docker, SQL, REST APIs, Distributed Systems",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "REST APIs, Data Structures, Unit Testing, Debugging Tools, Cloud Computing, Azure, C#, Design Patterns",
+    "resume_text": "JavaScript, Java, Data Structures, Algorithms, Azure DevOps, Git, Object Oriented Programming, Linux, SQL, REST APIs",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "TensorFlow, Hugging Face Transformers, Bayesian Methods, GANs, Machine Learning, Python, OpenAI Gym, RNNs",
+    "resume_text": "C++, Python, System Design, Google Kubernetes Engine, Distributed Systems, Git, Docker, SQL, Microservices, REST APIs",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Prototyping, Usability Testing, Adobe Photoshop, Web Design, Responsive Design, Visual Design, UX Writing, Sketch",
+    "resume_text": "Java, Data Structures, Algorithms, Salesforce Cloud, REST APIs, Git, Linux, Object Oriented Programming, SQL",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Adobe Photoshop, Responsive Design, Accessibility Standards, Figma, Design Systems, Usability Testing, Prototyping, Mobile Design",
+    "resume_text": "Python, JavaScript, System Design, Alibaba Cloud, Microservices, Git, Docker, Distributed Systems, SQL, REST APIs",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Python, Docker, Linux, Networking, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, CI/CD, AWS, SQL, Object-Oriented Programming, Problem Solving, Data Structures, System Design, Microservices, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Docker, AWS, System Design, CI/CD, Concurrency",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Hugging Face Transformers, TensorFlow, Computer Vision, Jupyter Notebooks, NLP, Python, OpenAI Gym, Mathematical Optimization",
+    "resume_text": "C++, Data Structures, Algorithms, System Design, Heroku, Git, Object Oriented Programming, Linux, SQL, REST APIs",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Git, Microservices, Networking, Scalability, Docker",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Distributed Systems, REST APIs, C++, NoSQL, CI/CD",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Web Design, Adobe XD, Adobe Photoshop, User Research, Visual Design, Figma, UX Writing, InVision",
+    "resume_text": "Java, Python, Algorithms, DigitalOcean, Microservices, Git, Distributed Systems, Docker, SQL, REST APIs, Linux",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "System Design, Distributed Systems, Machine Learning Basics, Hadoop, Spark, Data Modeling, Kubernetes, Scala",
+    "resume_text": "JavaScript, System Design, Data Structures, Linode, REST APIs, Git, Object Oriented Programming, SQL, Docker",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, Linux, Distributed Systems, Java, Python, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Microservices, AWS, Java, Concurrency, Distributed Systems, System Design, Algorithms, Performance Optimization, SQL",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Linux, Docker, Infrastructure as Code, Prometheus, Logging, Go, Alerting, Reliability",
+    "resume_text": "Python, C++, Algorithms, System Design, Vultr, Git, Distributed Systems, Linux, Microservices, SQL",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Networking, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Algorithms, Problem Solving, C++, Docker, Linux, Object-Oriented Programming, Microservices, Git, Scalability",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Roadmapping, Figma, Product Lifecycle Management, SQL, Agile Methodologies, Wireframing, Stakeholder Management, KPI Definition",
+    "resume_text": "Java, Data Structures, System Design, Firebase, REST APIs, Git, Docker, Object Oriented Programming, SQL, Linux",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, System Design, Networking, Docker, Concurrency, Scalability",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Python, Git, Concurrency, C++, SQL",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Algorithms, C++, Communication Skills, Hack, Cross-Team Collaboration, JavaScript, API Development, Big Data Tools",
+    "resume_text": "C++, JavaScript, Algorithms, Netlify, Microservices, Git, Distributed Systems, SQL, REST APIs, Docker",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Heuristic Evaluation, UX Writing, Sketch, Adobe Illustrator, Usability Testing, Web Design, Prototyping, Wireframing",
+    "resume_text": "Python, System Design, Data Structures, Vercel, Git, Object Oriented Programming, Linux, SQL, REST APIs",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Market Research, Product Strategy, Stakeholder Management, Scrum, Confluence, JIRA, Go-to-Market Strategy, Competitive Analysis",
+    "resume_text": "HTML, CSS, React, Angular, Vue.js, JavaScript, TypeScript, Responsive Design, Git, Webpack, Node.js, REST APIs",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Testing, Object-Oriented Programming, UI/UX Principles, JavaScript, Debugging, Agile Development, Cross-Browser Compatibility, React",
+    "resume_text": "React, Redux, HTML5, CSS3, SASS, JavaScript, TypeScript, Git, Webpack, NPM, REST APIs, Responsive Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Responsive Design, Sketch, Prototyping, Usability Testing, InVision, UX Writing, Web Design, Adobe Photoshop",
+    "resume_text": "Angular, TypeScript, HTML, CSS, JavaScript, Git, Node.js, REST APIs, Bootstrap, Material UI",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Performance Optimization, Python, SQL, Algorithms, NoSQL, System Design",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "REST APIs, Python, JavaScript, Cross-Browser Compatibility, Debugging, React, Agile Development, UI/UX Principles",
+    "resume_text": "Vue.js, JavaScript, HTML, CSS, Git, Vuex, Nuxt.js, REST APIs, SASS, Responsive Design",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Python, Scalability, C++, Git, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Docker, Performance Optimization, C++, Distributed Systems, Networking, AWS, Microservices, Concurrency, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, NoSQL, Java, C++, Object-Oriented Programming, REST APIs, Networking, Data Structures, Concurrency, System Design",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, REST APIs, Java, C++, CI/CD, Distributed Systems, Object-Oriented Programming, NoSQL, Python, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Object-Oriented Programming, Python, Testing, Docker, Algorithms, CI/CD, Microservices, REST APIs, NoSQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Python, REST APIs, Algorithms, AWS, NoSQL, Java, Linux, Scalability, SQL, C++",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "REST APIs, System Design, Kafka, Redis, ElasticSearch, Kubernetes, MySQL, Spring Boot",
+    "resume_text": "Docker, Kubernetes, Jenkins, Git, Linux, Python, Bash, Terraform, Ansible, CI/CD, Monitoring",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Heuristic Evaluation, User Research, Visual Design, Design Systems, Wireframing, Sketch, Accessibility Standards, Adobe Illustrator",
+    "resume_text": "Jenkins, Docker, Kubernetes, Git, Linux, Bash, CI/CD, Terraform, Infrastructure as Code, Monitoring",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Figma, Accessibility Standards, Interaction Design, Heuristic Evaluation, Usability Testing, Sketch, Responsive Design, Wireframing",
+    "resume_text": "Kubernetes, Docker, Git, Linux, Python, CI/CD, Terraform, Ansible, Monitoring, Infrastructure as Code",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, SQL, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Docker, Java, Microservices, NoSQL, AWS",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Sketch, Heuristic Evaluation, Web Design, Wireframing, Adobe Illustrator, User Research, Adobe XD, Accessibility Standards",
+    "resume_text": "Python, TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Machine Learning, Deep Learning, Statistics",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, NoSQL, Testing, AWS, Microservices, SQL",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Concurrency, Data Structures",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Testing, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Concurrency, REST APIs, SQL, Microservices, Networking, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Java, Testing",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Scalability, Problem Solving, Testing, Microservices, NoSQL",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "AWS, REST APIs, Model Optimization, Flask, TensorFlow, Reinforcement Learning, MLOps, ONNX",
+    "resume_text": "Machine Learning, Python, Scikit-learn, Pandas, NumPy, TensorFlow, Statistics, Data Analysis, Jupyter",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Customer Interviews, Competitive Analysis, Product Strategy, Figma, Confluence, KPI Definition, Scrum, Agile Methodologies",
+    "resume_text": "Data Science, Python, R, SQL, Statistics, Machine Learning, Pandas, NumPy, Matplotlib, Seaborn",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Algorithms, NoSQL, Distributed Systems, Linux, Object-Oriented Programming, Problem Solving, Python, REST APIs, Git, C++",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Stakeholder Management, Competitive Analysis, User Stories, Market Research, KPI Definition, Agile Methodologies, SQL, Product Strategy",
+    "resume_text": "R, Python, SQL, Statistics, Data Analysis, Machine Learning, Data Visualization, ggplot2, dplyr",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Python, Java, Scalability, System Design, C++",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "AWS, NoSQL, Microservices, Linux, Git, Algorithms, Java, C++, Networking, Docker",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "KPI Definition, Confluence, Data Analysis, Product Strategy, Wireframing, A/B Testing, SQL, Agile Methodologies",
+    "resume_text": "C, Embedded Systems, Microcontrollers, ARM, RTOS, Hardware Design, PCB Design, Firmware",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, Scalability, Docker, Concurrency, Performance Optimization, Python, Linux, Data Structures, REST APIs, NoSQL",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Linux, Data Structures, JavaScript, Unit Testing, Debugging, Databases, Version Control, Agile Methodologies",
+    "resume_text": "Embedded C, ARM Cortex, Microcontrollers, RTOS, Hardware Debugging, PCB Design, Firmware Development",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Networking, Testing, Docker, Performance Optimization, Problem Solving, CI/CD, Microservices, Scalability, Distributed Systems",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "LaTeX, Computer Vision, CNNs, Experiment Design, Research Paper Writing, Mathematical Optimization, Python, PyTorch",
+    "resume_text": "FPGA, Verilog, VHDL, Hardware Design, Digital Signal Processing, Embedded Systems, C",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Microservices, Python, Object-Oriented Programming, Problem Solving, AWS, Java",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "UX Writing, Sketch, Prototyping, InVision, Accessibility Standards, Interaction Design, Adobe Illustrator, Heuristic Evaluation",
+    "resume_text": "AutoCAD, SolidWorks, Mechanical Design, CAD, Product Design, Manufacturing, Engineering Drawing",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Usability Testing, Sketch, Wireframing, Web Design, Adobe Photoshop, Heuristic Evaluation, Adobe Illustrator, UX Writing",
+    "resume_text": "Civil Engineering, AutoCAD, Structural Design, Construction Management, Project Management, Site Planning",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Adobe Illustrator, Interaction Design, Usability Testing, InVision, Heuristic Evaluation, Sketch, Figma, User Research",
+    "resume_text": "Electrical Engineering, Circuit Design, Power Systems, Control Systems, MATLAB, Simulink",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Linux, Concurrency, Performance Optimization, Java, Networking, Algorithms, NoSQL, System Design, Python, Problem Solving",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Testing, Monitoring, Kafka, Observability, Reliability, MySQL, Go",
+    "resume_text": "Java, Spring Boot, Hibernate, Maven, JUnit, Git, SQL, REST APIs, Object Oriented Programming, Tomcat",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, CI/CD, Algorithms",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Java, AWS, Distributed Systems, Testing, Problem Solving, SQL, Scalability, Git, Data Structures, REST APIs",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Data Structures, C++, CI/CD, Linux, Testing",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Git, Python, Paper Writing, Pandas, Neural Networks, Computer Vision, Jupyter Notebooks, NumPy",
+    "resume_text": "Python, Django, Flask, PostgreSQL, Git, REST APIs, SQLAlchemy, Linux, Object Oriented Programming",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "SQL, REST APIs, NoSQL, Microservices, Concurrency, Networking",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Microservices, REST APIs, Spring Boot, Kafka, Monitoring, High Availability, Kotlin, ElasticSearch",
+    "resume_text": "Node.js, Express.js, MongoDB, JavaScript, Git, REST APIs, NPM, JSON, Linux",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Scalability, Linux, REST APIs, Networking, Java, CI/CD",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Data Structures, CI/CD, Performance Optimization, Scalability, Object-Oriented Programming, Git",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, System Design, NoSQL, REST APIs, Performance Optimization, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, REST APIs, Testing",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "SQL, Confluence, Scrum, User Stories, Market Research, Data Analysis, Product Strategy, JIRA",
+    "resume_text": "PHP, Laravel, MySQL, Git, REST APIs, Composer, Apache, Linux, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Figma, Design Systems, User Research, UX Writing, Mobile Design, Prototyping, Accessibility Standards, Heuristic Evaluation",
+    "resume_text": "Swift, iOS Development, Xcode, Core Data, UIKit, Git, REST APIs, App Store, Mobile Development",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Git, Testing, Scalability, Concurrency, Docker, AWS, Networking, Algorithms, Data Structures, Problem Solving",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Testing, Problem Solving, Docker, AWS, System Design, Performance Optimization, SQL, Object-Oriented Programming, Scalability, Java",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, SQL, System Design, Scalability, Microservices, Linux, Object-Oriented Programming, Data Structures, NoSQL, Algorithms",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Scrum, A/B Testing, Confluence, SQL, Product Strategy, Customer Interviews, Competitive Analysis, Wireframing",
+    "resume_text": "Kotlin, Android Development, Android Studio, Firebase, Git, REST APIs, Google Play Store, Mobile Development",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JIRA, Agile Methodologies, Stakeholder Management, SQL, Market Research, Roadmapping, Scrum, Customer Interviews",
+    "resume_text": "React Native, JavaScript, Git, REST APIs, NPM, Mobile Development, Cross-platform Development, Redux",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Unity, 3D Modeling, DirectX, C#, Audio Integration, Unreal Engine, OpenGL, Gameplay Programming",
+    "resume_text": "Flutter, Dart, Git, REST APIs, Firebase, Mobile Development, Cross-platform Development, Android, iOS",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "System Design, Algorithms, REST APIs",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Web Design, User Research, Adobe XD, Usability Testing, Adobe Photoshop, Visual Design, Accessibility Standards, Responsive Design",
+    "resume_text": "Manual Testing, Automation Testing, Selenium, Java, Git, TestNG, Bug Tracking, Test Cases",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Distributed Systems, CI/CD, Thrift, Observability, Kafka, Scala, Monitoring, Kubernetes",
+    "resume_text": "Selenium WebDriver, Java, TestNG, Maven, Git, Automation Testing, API Testing, Test Framework",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JIRA, Product Strategy, Go-to-Market Strategy, Market Research, Roadmapping, SQL, Agile Methodologies, A/B Testing",
+    "resume_text": "Cypress, JavaScript, Git, End-to-End Testing, API Testing, Test Automation, Mocha, Chai",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "CI/CD, Docker, Embedded Systems, Multithreading, Mathematical Modeling, Microcontrollers, Robotics, CAN Protocol",
+    "resume_text": "Business Analysis, Requirements Gathering, SQL, Data Analysis, Stakeholder Management, Agile, Documentation",
     "label": 0
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Networking, Performance Optimization, Object-Oriented Programming, SQL, AWS, Python",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, REST APIs, C++, AWS, Object-Oriented Programming, Git",
-    "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Wireframing, Product Strategy, Product Lifecycle Management, A/B Testing, Data Analysis, JIRA, Market Research, Scrum",
+    "resume_text": "Product Management, Market Research, User Experience, Agile, Scrum, Analytics, Roadmap Planning",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "CI/CD, REST APIs, Model Optimization, Deep Learning, Kubernetes, OpenCV, ONNX, TensorFlow",
+    "resume_text": "UX Design, UI Design, Figma, Adobe XD, User Research, Prototyping, Wireframing, Design Thinking",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Problem Solving, AWS, Linux, Java, Distributed Systems, Object-Oriented Programming",
-    "label": 1
+    "resume_text": "Graphic Design, Adobe Photoshop, Adobe Illustrator, CorelDRAW, InDesign, Creative Design, Typography",
+    "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Mobile Design, Interaction Design, Figma, Adobe XD, Prototyping, UX Writing, Responsive Design, Visual Design",
+    "resume_text": "Network Security, Penetration Testing, Ethical Hacking, Cybersecurity, Risk Assessment, SIEM, Incident Response",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Data Structures, SQL, Networking",
-    "label": 1
+    "resume_text": "Information Security, Vulnerability Assessment, Security Auditing, Compliance, Risk Management, Firewall",
+    "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Concurrency, Problem Solving, Git",
-    "label": 1
+    "resume_text": "Digital Marketing, SEO, SEM, Google Analytics, Social Media Marketing, Content Marketing, PPC",
+    "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Scalability, Algorithms, Problem Solving, Data Structures, Object-Oriented Programming, Networking, C++, AWS, SQL, Docker",
-    "label": 1
+    "resume_text": "Content Writing, Copywriting, SEO Writing, Blog Writing, Technical Writing, Creative Writing",
+    "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Prototyping, Figma, Web Design, Interaction Design, Visual Design, Mobile Design, Wireframing, Accessibility Standards",
+    "resume_text": "Sales, CRM, Lead Generation, Customer Relationship Management, Salesforce, Sales Strategy",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Heuristic Evaluation, Adobe XD, Visual Design, UX Writing, Adobe Illustrator, Adobe Photoshop, Design Systems, Prototyping",
+    "resume_text": "Human Resources, Talent Acquisition, Employee Relations, HR Management, Recruitment, Performance Management",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Algorithms, Testing, Performance Optimization",
-    "label": 1
+    "resume_text": "Accounting, Financial Analysis, Excel, QuickBooks, Financial Reporting, Budgeting, Tax Preparation",
+    "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Git, Java, Problem Solving",
-    "label": 1
+    "resume_text": "Java, Spring, Hibernate, Maven, Git, JUnit, Object Oriented Programming, Design Patterns, REST APIs",
+    "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "REST APIs, AWS, Data Structures",
-    "label": 1
+    "resume_text": "Python, Data Structures, Git, Object Oriented Programming, REST APIs, Linux, SQL",
+    "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Data Structures, Python, Scalability",
-    "label": 1
+    "resume_text": "JavaScript, HTML, CSS, Git, REST APIs, Node.js, Object Oriented Programming",
+    "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "UX Writing, Adobe Illustrator, Wireframing, Web Design, Prototyping, Visual Design, Interaction Design, Heuristic Evaluation",
+    "resume_text": "C++, Data Structures, Algorithms, Git, Object Oriented Programming, Linux",
     "label": 0
   }
 ]

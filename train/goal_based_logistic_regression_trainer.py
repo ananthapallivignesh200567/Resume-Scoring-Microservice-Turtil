@@ -3,6 +3,7 @@ import json
 import joblib
 import numpy as np
 from sklearn.linear_model import LogisticRegression
+from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 
@@ -21,9 +22,6 @@ def train_goal_models(data_dir="../data", model_dir="../app/model"):
         print("Please run the vectorizer generation script first.")
         return
     
-    print(f"📥 Loading shared TF-IDF vectorizer from {vectorizer_path}")
-    vectorizer = joblib.load(vectorizer_path)
-    print(f"✅ Vectorizer loaded with {len(vectorizer.vocabulary_)} features")
     
     # Find all training files
     training_files = []
@@ -43,6 +41,7 @@ def train_goal_models(data_dir="../data", model_dir="../app/model"):
     # Train a model for each goal
     trained_models = {}
     model_metrics = {}
+    vectorizers = {}
     
     for filename in training_files:
         goal_name = filename[len("training_"):-len(".json")]
@@ -81,22 +80,35 @@ def train_goal_models(data_dir="../data", model_dir="../app/model"):
             
             # Vectorize the texts using shared vectorizer
             print(f"  🔄 Vectorizing texts...")
-            X = vectorizer.transform(texts)
+            
             y = np.array(labels)
             
-            print(f"  📈 Feature matrix shape: {X.shape}")
             
             # Split into train/test
-            if len(texts) > 20:
-                X_train, X_test, y_train, y_test = train_test_split(
-                    X, y, test_size=0.4, random_state=42, stratify=y
-                )
-                print(f"  📊 Train/test split: {X_train.shape[0]}/{X_test.shape[0]} samples")
-            else:
-                # Use all data for training if dataset is small
-                X_train, X_test = X, X
-                y_train, y_test = y, y
-                print(f"  📊 Using all {X_train.shape[0]} samples for training (small dataset)")
+            
+            texts_train, texts_test, y_train, y_test = train_test_split(texts, y, test_size=0.4, random_state=42, stratify=y)
+            print(f"Train Labels: {np.bincount(y_train)}")
+            print(f"Test Labels: {np.bincount(y_test)}")
+            vectorizer = TfidfVectorizer(
+                    max_features=5000,
+                    stop_words='english',
+                    ngram_range=(1, 2),
+                    min_df=1,
+                    max_df=0.8,
+                    lowercase=True,
+                    token_pattern=r'\b[a-zA-Z][a-zA-Z0-9]*\b',
+                    sublinear_tf=True
+                    )
+            X_train = vectorizer.fit_transform(texts_train)
+            X_test = vectorizer.transform(texts_test)
+            print(f"  📈 Feature matrix shape: train {X_train.shape}, test {X_test.shape}")
+            vectorizer_filename = f"{goal_name.lower().replace(' ', '_')}_vectorizer.pkl"
+            vectorizer_path = os.path.join(model_dir, vectorizer_filename)
+            joblib.dump(vectorizer, vectorizer_path)
+            vectorizers[goal_name] = vectorizer_filename
+
+
+
             
             # Train logistic regression model
             print(f"  🤖 Training logistic regression model...")
@@ -144,7 +156,8 @@ def train_goal_models(data_dir="../data", model_dir="../app/model"):
                 'samples': len(texts),
                 'positive_samples': sum(labels),
                 'negative_samples': len(labels) - sum(labels),
-                'feature_count': X.shape[1]
+                'feature_count': X_train.shape[1]
+
             }
             
         except Exception as e:
@@ -168,8 +181,8 @@ def train_goal_models(data_dir="../data", model_dir="../app/model"):
         
         # Save model registry
         registry = {
-            'vectorizer': 'tfidf_vectorizer.pkl',
             'models': {goal: os.path.basename(path) for goal, path in trained_models.items()},
+            'vectorizers': vectorizers,
             'metrics': model_metrics
         }
         
@@ -182,7 +195,6 @@ def train_goal_models(data_dir="../data", model_dir="../app/model"):
     else:
         print("❌ No models were successfully trained!")
         print("Please check your training data format and try again.")
-
 def test_trained_models(model_dir="../app/model"):
     """
     Test the trained models with sample inputs.
@@ -190,20 +202,15 @@ def test_trained_models(model_dir="../app/model"):
     print("\n🧪 TESTING TRAINED MODELS")
     print("="*50)
     
-    # Use consistent path handling
+    # Load model registry
     registry_path = os.path.join(model_dir, "model_registry.json")
-    
     if not os.path.exists(registry_path):
         print("❌ Model registry not found. Train models first.")
         return
-    
+
     with open(registry_path, 'r') as f:
         registry = json.load(f)
-    
-    # Load vectorizer
-    vectorizer_path = os.path.join(model_dir, registry['vectorizer'])
-    vectorizer = joblib.load(vectorizer_path)
-    
+
     # Test samples
     test_samples = [
         "Experienced software engineer with Java, Python, data structures, algorithms, system design, and AWS experience",
@@ -211,23 +218,26 @@ def test_trained_models(model_dir="../app/model"):
         "Mechanical engineer with AutoCAD, SolidWorks, manufacturing, and materials science background",
         "Fresh graduate with basic programming knowledge in C++ and some web development"
     ]
-    
+
     print("🎯 Testing with sample resumes:")
-    
+
     for goal, model_file in registry['models'].items():
         print(f"\n📄 Goal: {goal}")
         print("-" * 30)
-        
-        # Load model with consistent path handling
+
+        # Load vectorizer specific to this goal
+        vectorizer_file = registry['vectorizers'][goal]
+        vectorizer_path = os.path.join(model_dir, vectorizer_file)
+        vectorizer = joblib.load(vectorizer_path)
+
+        # Load model
         model_path = os.path.join(model_dir, model_file)
         model = joblib.load(model_path)
-        
+
         for i, sample in enumerate(test_samples, 1):
-            # Vectorize and predict
             X = vectorizer.transform([sample])
             score = model.predict_proba(X)[0, 1]
             prediction = "MATCH" if score > 0.5 else "NO MATCH"
-            
             print(f"  {i}. Score: {score:.3f} ({prediction})")
             print(f"     Text: {sample[:60]}...")
 
