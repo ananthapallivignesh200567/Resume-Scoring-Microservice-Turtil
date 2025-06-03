@@ -1,17 +1,53 @@
 {
   "models": {
-    "Amazon SDE": "amazon_sde_model.pkl"
+    "Amazon SDE": "amazon_sde_model.pkl",
+    "Data Scientist": "data_scientist_model.pkl",
+    "GATE CSE": "gate_cse_model.pkl",
+    "GATE ECE": "gate_ece_model.pkl",
+    "ML Internship": "ml_internship_model.pkl"
   },
   "vectorizers": {
-    "Amazon SDE": "amazon_sde_vectorizer.pkl"
+    "Amazon SDE": "amazon_sde_vectorizer.pkl",
+    "Data Scientist": "data_scientist_vectorizer.pkl",
+    "GATE CSE": "gate_cse_vectorizer.pkl",
+    "GATE ECE": "gate_ece_vectorizer.pkl",
+    "ML Internship": "ml_internship_vectorizer.pkl"
   },
   "metrics": {
     "Amazon SDE": {
-      "accuracy": 0.9153225806451613,
-      "samples": 620,
-      "positive_samples": 313,
-      "negative_samples": 307,
-      "feature_count": 3815
+      "accuracy": 0.9899497487437185,
+      "samples": 995,
+      "positive_samples": 500,
+      "negative_samples": 495,
+      "feature_count": 1524
+    },
+    "Data Scientist": {
+      "accuracy": 0.985,
+      "samples": 1000,
+      "positive_samples": 500,
+      "negative_samples": 500,
+      "feature_count": 3401
+    },
+    "GATE CSE": {
+      "accuracy": 0.9925,
+      "samples": 1000,
+      "positive_samples": 500,
+      "negative_samples": 500,
+      "feature_count": 2386
+    },
+    "GATE ECE": {
+      "accuracy": 0.92,
+      "samples": 1000,
+      "positive_samples": 500,
+      "negative_samples": 500,
+      "feature_count": 1282
+    },
+    "ML Internship": {
+      "accuracy": 0.92,
+      "samples": 1000,
+      "positive_samples": 500,
+      "negative_samples": 500,
+      "feature_count": 1179
     }
   }
 }

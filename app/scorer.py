@@ -44,25 +44,79 @@ class ResumeScorer:
         logger.info(f"ResumeScorer initialized with {len(self.models)} models")
         
     def _build_skill_synonym_map(self) -> Dict[str, List[str]]:
-        """Define synonyms for each canonical skill."""
+        """Expanded skill synonym map based on real resume data variations."""
         return {
-            "Java": ["Java SE", "Java 8", "Core Java"],
-            "Python": ["Python 3", "Python programming"],
-            "C++": ["C plus plus", "CPP"],
-            "JavaScript": ["JS", "ECMAScript"],
-            "System Design": ["Architecture design", "Software design"],
-            "Data Structures": ["DSA", "Data struct"],
-            "Algorithms": ["Algo", "Problem solving"],
-            "AWS": ["Amazon Web Services", "AWS Cloud"],
-            "Git": ["Version control", "GitHub", "GitLab"],
-            "SQL": ["Structured Query Language", "MySQL", "PostgreSQL"],
-            "REST APIs": ["RESTful services", "API development"],
-            "Microservices": ["Service-oriented architecture", "Microservice architecture"],
-            "Object Oriented Programming": ["OOP", "OOPS"],
-            "Distributed Systems": ["Scalable systems", "Distributed architecture"],
-            "Docker": ["Containerization", "Docker containers"],
-            "Linux": ["Unix", "Linux shell"]
+            "Java": [
+                "Java", "Java SE", "Java 8", "Core Java", "Java programming", 
+                "Java developer"
+            ],
+        "Python": [
+            "Python", "Python 3", "Python programming", "Python developer",
+            "Programming in Python"
+        ],
+        "C++": [
+            "C++", "CPP", "C plus plus", "C", "C programming", 
+            "Programming in C++", "C/C++", "C language"
+        ],
+        "JavaScript": [
+            "JavaScript", "JS", "ECMAScript", "Java Script", 
+            "Frontend scripting", "JS developer"
+        ],
+        "System Design": [
+            "System Design", "Architecture design", "Software design",
+            "Application design", "System architecture", 
+            "Design of scalable systems"
+        ],
+        "Data Structures": [
+            "Data Structures", "DSA", "Data struct", 
+            "Data structure and algorithm", "Data structures and algorithms"
+        ],
+        "Algorithms": [
+            "Algorithms", "Algo", "Problem solving", 
+            "Algorithm design", "Optimized algorithms"
+        ],
+        "AWS": [
+            "AWS", "AWS Cloud", "Amazon Web Services", 
+            "Cloud on AWS", "AWS services", "AWS infrastructure"
+        ],
+        "Git": [
+            "Git", "GitHub", "GitLab", "Version control", 
+            "Git versioning", "Code repository", "Source control"
+        ],
+        "SQL": [
+            "SQL", "Structured Query Language", "MySQL", "PostgreSQL",
+            "Relational databases", "SQL programming", 
+            "Database querying", "SQL-based systems"
+        ],
+        "REST APIs": [
+            "REST APIs", "RESTful services", "API development", 
+            "Web APIs", "Backend APIs", "HTTP APIs", 
+            "Building APIs", "REST endpoints"
+        ],
+        "Microservices": [
+            "Microservices", "Service-oriented architecture", 
+            "Microservice architecture", "SOA", 
+            "Distributed microservices", "Service-based systems"
+        ],
+        "Object Oriented Programming": [
+            "Object Oriented Programming", "OOP", "OOPS", 
+            "OOPs concepts", "OOP design", "Object-oriented principles"
+        ],
+        "Distributed Systems": [
+            "Distributed Systems", "Distributed architecture", 
+            "Scalable systems", "High availability systems", 
+            "Decentralized systems", "Scalable architecture"
+        ],
+        "Docker": [
+            "Docker", "Docker containers", "Containerization", 
+            "Dockerized applications", "Running in containers"
+        ],
+        "Linux": [
+            "Linux", "Linux shell", "Unix", "Shell scripting", 
+            "Linux OS", "Command-line on Linux", "Terminal (Linux)"
+        ]
         }
+
 
     def _build_reverse_skill_map(self) -> Dict[str, str]:
         """Flatten synonym map into alias → canonical skill map."""
