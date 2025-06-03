@@ -1,542 +1,3109 @@
 [
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Python, Data Structures, Algorithms, System Design, SQL, REST APIs, Microservices, AWS, Git, Object Oriented Programming, Distributed Systems, Docker, Linux",
-    "label": 1
-  },
-  {
-    "goal": "Amazon SDE", 
-    "resume_text": "C++, JavaScript, Data Structures, Algorithms, System Design, Microservices, AWS, Git, Distributed Systems, Docker",
+    "resume_text": "Java, Python, Data Structures, Algorithms, System Design, Microservices, AWS, SQL, REST APIs, Git, Object Oriented Programming, Distributed Systems, Docker, Linux, C++",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Python, Data Structures, System Design, AWS, REST APIs, Git, Linux",
+    "resume_text": "System Design, JavaScript, Scalable Systems, Web APIs, NoSQL, Python, Algorithms, Cloud Computing, Git, OOP, Containerization, Unix",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, C++, Algorithms, System Design, SQL, Microservices, AWS, Object Oriented Programming, Git",
+    "resume_text": "C++, Data Structures, AWS Lambda, RESTful Services, Java, Database Design, Git, Linux, Object Oriented Design, Microservices Architecture",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, JavaScript, Data Structures, Algorithms, REST APIs, AWS, Distributed Systems, Docker, Git",
+    "resume_text": "Python, Algorithms, Architecture Design, SQL Server, JavaScript, Distributed Computing, Git, Docker, AWS EC2, Data Structures, REST APIs",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, Data Structures, Algorithms, System Design, Microservices, AWS, Git, Linux, SQL",
+    "resume_text": "Java, System Design, Microservices, AWS S3, Python, Data Structures, Git, Linux, Object Oriented Programming, RESTful APIs, SQL",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, Java, System Design, SQL, REST APIs, AWS, Object Oriented Programming, Distributed Systems, Git",
+    "resume_text": "Algorithms, C++, Distributed Systems, Java, AWS RDS, Python, System Architecture, Git, Docker, SQL, Data Structures",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JavaScript, Python, Data Structures, Algorithms, Microservices, AWS, Docker, Git, Linux",
+    "resume_text": "JavaScript, System Design, Python, Web APIs, AWS CloudWatch, Data Structures, Git, Microservices, Linux, Object Oriented Programming",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, C++, System Design, SQL, REST APIs, AWS, Distributed Systems, Git, Object Oriented Programming",
+    "resume_text": "Java, Algorithms, Scalable Systems, REST APIs, Python, AWS DynamoDB, Git, SQL, Data Structures, Docker, System Design",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, JavaScript, Data Structures, Algorithms, System Design, AWS, Git, Docker",
+    "resume_text": "C++, Microservices Architecture, Python, Data Structures, AWS ECS, Git, Linux, Algorithms, RESTful Services, Object Oriented Design",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Data Structures, Algorithms, REST APIs, Microservices, AWS, Git, Linux, SQL",
+    "resume_text": "System Design, Java, Python, Distributed Computing, AWS API Gateway, Data Structures, Git, SQL, Web APIs, Containerization",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, Python, System Design, Distributed Systems, AWS, Object Oriented Programming, Git, Docker",
+    "resume_text": "Python, Data Structures, System Architecture, JavaScript, AWS CloudFormation, Git, Algorithms, REST APIs, Linux, Microservices",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JavaScript, Java, Data Structures, System Design, SQL, AWS, REST APIs, Git",
+    "resume_text": "Java, AWS SNS, System Design, C++, Data Structures, Git, Python, Scalable Systems, SQL, Object Oriented Programming",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, Algorithms, Microservices, AWS, Distributed Systems, Git, Linux, Docker",
+    "resume_text": "Algorithms, System Design, Python, RESTful APIs, AWS ElastiCache, Data Structures, Git, Java, Distributed Systems, Docker",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, C++, Data Structures, System Design, REST APIs, AWS, Git, Object Oriented Programming",
+    "resume_text": "JavaScript, Microservices, AWS Kinesis, Python, Data Structures, Git, System Design, Linux, Web APIs, Object Oriented Programming",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, JavaScript, Algorithms, SQL, Microservices, AWS, Git, Distributed Systems",
+    "resume_text": "C++, System Architecture, Java, AWS SQS, Python, Data Structures, Git, Algorithms, REST APIs, Containerization",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, System Design, REST APIs, AWS, Docker, Git, Linux, Object Oriented Programming",
+    "resume_text": "Python, System Design, Data Structures, AWS CodePipeline, JavaScript, Git, Microservices, SQL, Scalable Systems, Linux",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, Data Structures, Algorithms, Microservices, AWS, Distributed Systems, Git, SQL",
+    "resume_text": "Java, Distributed Systems, AWS Redshift, Python, Data Structures, Git, System Design, RESTful Services, Object Oriented Design, Docker",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JavaScript, Python, System Design, REST APIs, AWS, Git, Docker, Linux",
+    "resume_text": "Algorithms, Python, System Architecture, AWS Neptune, C++, Data Structures, Git, JavaScript, Web APIs, Microservices",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Data Structures, SQL, Microservices, AWS, Object Oriented Programming, Git, Distributed Systems",
+    "resume_text": "System Design, Java, AWS Glue, Python, Data Structures, Git, Distributed Computing, REST APIs, Linux, Object Oriented Programming",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, C++, Algorithms, System Design, AWS, REST APIs, Git, Docker",
+    "resume_text": "Python, Microservices Architecture, AWS EMR, JavaScript, Data Structures, Git, System Design, SQL, Scalable Systems, Containerization",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JavaScript, Data Structures, System Design, SQL, AWS, Microservices, Git, Linux",
+    "resume_text": "C++, Data Structures, System Design, AWS Step Functions, Java, Git, Python, Algorithms, RESTful APIs, Distributed Systems",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Python, Algorithms, REST APIs, AWS, Distributed Systems, Git, Object Oriented Programming",
+    "resume_text": "JavaScript, System Architecture, Python, AWS AppSync, Data Structures, Git, Microservices, Linux, Web APIs, Object Oriented Design",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, System Design, Microservices, AWS, Docker, Git, SQL, Linux",
+    "resume_text": "Java, AWS Batch, System Design, Python, Data Structures, Git, Algorithms, REST APIs, Docker, Scalable Systems",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JavaScript, Java, Data Structures, AWS, REST APIs, Git, Distributed Systems, Object Oriented Programming",
+    "resume_text": "Python, Distributed Systems, Data Structures, AWS Athena, C++, Git, System Design, JavaScript, Microservices, SQL",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, Algorithms, System Design, SQL, AWS, Git, Docker, Microservices",
+    "resume_text": "System Design, AWS Cognito, Java, Python, Data Structures, Git, Algorithms, RESTful Services, Linux, Object Oriented Programming",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, C++, Data Structures, REST APIs, AWS, Linux, Git, Distributed Systems",
+    "resume_text": "JavaScript, Python, Microservices, AWS IoT, Data Structures, Git, System Architecture, Web APIs, Containerization, Scalable Systems",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JavaScript, System Design, Microservices, AWS, Object Oriented Programming, Git, Docker",
+    "resume_text": "C++, System Design, AWS X-Ray, Java, Python, Data Structures, Git, Distributed Computing, REST APIs, Docker",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, Java, Algorithms, SQL, AWS, REST APIs, Git, Linux",
+    "resume_text": "Python, Data Structures, Algorithms, AWS Secrets Manager, JavaScript, Git, System Design, Microservices, Linux, Object Oriented Design",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, Data Structures, System Design, AWS, Distributed Systems, Git, Microservices",
+    "resume_text": "Java, System Architecture, Python, AWS Systems Manager, Data Structures, Git, Scalable Systems, RESTful APIs, SQL, Distributed Systems",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Data Structures, AWS, Git, REST APIs, Object Oriented Programming",
+    "resume_text": "System Design, C++, AWS Config, Python, Data Structures, Git, JavaScript, Algorithms, Web APIs, Microservices",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, System Design, AWS, Microservices, Git, Docker, SQL",
+    "resume_text": "Python, Java, Data Structures, System Design, Git, AWS, REST APIs, Linux, Object Oriented Programming",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JavaScript, Algorithms, AWS, Distributed Systems, Git, Linux, REST APIs",
+    "resume_text": "C++, Algorithms, System Architecture, Python, Data Structures, Git, Microservices, SQL, Containerization",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, Data Structures, AWS, Git, Object Oriented Programming, Docker",
+    "resume_text": "JavaScript, System Design, Data Structures, Python, Git, AWS Lambda, RESTful Services, Distributed Systems",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, System Design, AWS, SQL, Git, Microservices, Linux",
+    "resume_text": "Java, Python, Microservices Architecture, Data Structures, Git, AWS EC2, System Design, Web APIs",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, Algorithms, AWS, REST APIs, Git, Distributed Systems, Docker",
+    "resume_text": "System Design, Data Structures, Python, C++, Git, AWS S3, Algorithms, Linux, Object Oriented Design",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JavaScript, Data Structures, AWS, Git, Object Oriented Programming, SQL",
+    "resume_text": "Python, JavaScript, Scalable Systems, Data Structures, Git, AWS RDS, System Design, REST APIs",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, System Design, AWS, Microservices, Git, Linux, REST APIs",
+    "resume_text": "Java, Data Structures, System Architecture, Python, Git, AWS DynamoDB, Microservices, Docker",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Algorithms, AWS, Distributed Systems, Git, Docker, SQL",
+    "resume_text": "Algorithms, System Design, Python, Data Structures, Git, AWS CloudWatch, C++, RESTful APIs",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, Data Structures, AWS, Git, Object Oriented Programming, Microservices",
+    "resume_text": "Python, System Design, JavaScript, Data Structures, Git, AWS ECS, Distributed Computing, SQL",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JavaScript, System Design, AWS, REST APIs, Git, Linux, Docker",
+    "resume_text": "Java, Microservices, Data Structures, System Design, Git, AWS API Gateway, Python, Web APIs",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, Algorithms, AWS, SQL, Git, Distributed Systems, Object Oriented Programming",
+    "resume_text": "C++, Python, System Architecture, Data Structures, Git, AWS CloudFormation, Algorithms, Linux",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Data Structures, AWS, Microservices, Git, Docker, Linux",
+    "resume_text": "System Design, Data Structures, JavaScript, Python, Git, AWS SNS, Scalable Systems, Object Oriented Programming",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, System Design, AWS, Git, REST APIs, SQL, Distributed Systems",
+    "resume_text": "Python, Java, Distributed Systems, Data Structures, Git, AWS ElastiCache, System Design, REST APIs",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JavaScript, Algorithms, AWS, Object Oriented Programming, Git, Docker, Microservices",
+    "resume_text": "Data Structures, System Design, Python, AWS Kinesis, Git, Microservices, C++, Containerization",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, Data Structures, System Design, AWS, Git, Linux, SQL",
+    "resume_text": "JavaScript, System Architecture, Data Structures, Python, Git, AWS SQS, Algorithms, RESTful Services",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Microservices, AWS, REST APIs, Git, Distributed Systems, Docker",
+    "resume_text": "System Design, Python, Data Structures, Java, Git, AWS CodePipeline, Microservices Architecture, Docker",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, System Design, AWS, Git, Object Oriented Programming, Linux, SQL",
+    "resume_text": "Python, C++, Scalable Systems, Data Structures, Git, AWS Redshift, System Design, Web APIs",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JavaScript, Data Structures, Algorithms, AWS, Git, Microservices, Docker",
+    "resume_text": "Data Structures, JavaScript, System Design, Python, Git, AWS Neptune, Distributed Computing, Linux",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, AWS, REST APIs, Git, Distributed Systems, SQL, Linux",
+    "resume_text": "Java, System Architecture, Data Structures, Python, Git, AWS Glue, Algorithms, Object Oriented Design",
     "label": 1
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Python, Data Structures, Algorithms, System Design, Azure, Git, Object Oriented Programming, Distributed Systems, Docker, Linux, SQL, REST APIs, Microservices",
+    "resume_text": "Python, System Design, Data Structures, Git, AWS EMR, Microservices, JavaScript, REST APIs",
+    "label": 1
+  },
+  {
+    "goal": "Amazon SDE",
+    "resume_text": "Java, Python, C++, JavaScript, SQL, Git, REST APIs, Docker, Linux",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, JavaScript, Data Structures, Algorithms, System Design, Google Cloud Platform, Git, Distributed Systems, Docker, SQL, REST APIs, Microservices, Object Oriented Programming",
+    "resume_text": "Python, Machine Learning, TensorFlow, Pandas, NumPy, Scikit-learn, Jupyter, Matplotlib, Seaborn, Statistics",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Python, Data Structures, System Design, IBM Cloud, REST APIs, Git, Linux, SQL, Object Oriented Programming, Distributed Systems",
+    "resume_text": "React, Angular, Vue.js, HTML, CSS, JavaScript, TypeScript, Node.js, Webpack, Bootstrap",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, C++, Algorithms, System Design, Oracle Cloud, Microservices, Git, Docker, SQL, REST APIs, Distributed Systems",
+    "resume_text": "C, Embedded Systems, Microcontrollers, UART, SPI, I2C, RTOS, Hardware Design, PCB Design, Firmware",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JavaScript, Java, Data Structures, Algorithms, Azure DevOps, Git, Object Oriented Programming, Linux, SQL, REST APIs",
+    "resume_text": "DevOps, Jenkins, Ansible, Terraform, Kubernetes, Docker, CI/CD, Prometheus, Grafana, Helm",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, Python, System Design, Google Kubernetes Engine, Distributed Systems, Git, Docker, SQL, Microservices, REST APIs",
+    "resume_text": "SQL, Tableau, Power BI, Excel, R, Statistics, Data Visualization, ETL, Data Warehousing, Business Intelligence",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Data Structures, Algorithms, Salesforce Cloud, REST APIs, Git, Linux, Object Oriented Programming, SQL",
+    "resume_text": "AutoCAD, SolidWorks, MATLAB, Mechanical Design, CAD Modeling, Manufacturing, Engineering Drawing, Product Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, JavaScript, System Design, Alibaba Cloud, Microservices, Git, Docker, Distributed Systems, SQL, REST APIs",
+    "resume_text": "Electrical Circuits, PCB Design, Analog Electronics, Digital Electronics, VHDL, Verilog, Signal Processing, Control Systems",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, Data Structures, Algorithms, System Design, Heroku, Git, Object Oriented Programming, Linux, SQL, REST APIs",
+    "resume_text": "HTML, CSS, JavaScript, React, Bootstrap, jQuery, Responsive Design, UI/UX Design, Figma, Adobe XD",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Python, Algorithms, DigitalOcean, Microservices, Git, Distributed Systems, Docker, SQL, REST APIs, Linux",
+    "resume_text": "Python, Java, SQL, Git, Basic Data Structures, HTML, CSS, JavaScript, MySQL, Linux Commands",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JavaScript, System Design, Data Structures, Linode, REST APIs, Git, Object Oriented Programming, SQL, Docker",
+    "resume_text": "C++, Java, Python, Data Structures, SQL, Git, Object Oriented Programming, HTML, CSS, JavaScript",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, C++, Algorithms, System Design, Vultr, Git, Distributed Systems, Linux, Microservices, SQL",
+    "resume_text": "Python, Java, Algorithms, SQL, Git, REST APIs, Linux, Basic System Design, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Data Structures, System Design, Firebase, REST APIs, Git, Docker, Object Oriented Programming, SQL, Linux",
+    "resume_text": "JavaScript, Python, Data Structures, Git, SQL, Web APIs, Docker, Linux, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C++, JavaScript, Algorithms, Netlify, Microservices, Git, Distributed Systems, SQL, REST APIs, Docker",
+    "resume_text": "Java, C++, Python, Algorithms, Git, SQL, Object Oriented Programming, Linux, REST APIs",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, System Design, Data Structures, Vercel, Git, Object Oriented Programming, Linux, SQL, REST APIs",
+    "resume_text": "Python, JavaScript, Data Structures, Git, SQL, RESTful APIs, Docker, Object Oriented Programming, Linux",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "HTML, CSS, React, Angular, Vue.js, JavaScript, TypeScript, Responsive Design, Git, Webpack, Node.js, REST APIs",
+    "resume_text": "C++, Java, Python, Git, SQL, Algorithms, Object Oriented Design, Linux, Web APIs",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "React, Redux, HTML5, CSS3, SASS, JavaScript, TypeScript, Git, Webpack, NPM, REST APIs, Responsive Design",
+    "resume_text": "JavaScript, Python, Data Structures, Git, REST APIs, SQL, Docker, Linux, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Angular, TypeScript, HTML, CSS, JavaScript, Git, Node.js, REST APIs, Bootstrap, Material UI",
+    "resume_text": "Java, Python, C++, Algorithms, Git, SQL, Object Oriented Programming, RESTful Services, Linux",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Vue.js, JavaScript, HTML, CSS, Git, Vuex, Nuxt.js, REST APIs, SASS, Responsive Design",
+    "resume_text": "Python, JavaScript, Data Structures, Git, Web APIs, SQL, Containerization, Object Oriented Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Docker, Kubernetes, Jenkins, Git, Linux, Python, Bash, Terraform, Ansible, CI/CD, Monitoring",
+    "resume_text": "C++, Java, Python, Git, Algorithms, SQL, REST APIs, Linux, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Jenkins, Docker, Kubernetes, Git, Linux, Bash, CI/CD, Terraform, Infrastructure as Code, Monitoring",
+    "resume_text": "Python, JavaScript, Data Structures, Git, SQL, RESTful APIs, Docker, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Kubernetes, Docker, Git, Linux, Python, CI/CD, Terraform, Ansible, Monitoring, Infrastructure as Code",
+    "resume_text": "Java, C++, Python, Git, Algorithms, SQL, Web APIs, Linux, Object Oriented Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy, Machine Learning, Deep Learning, Statistics",
+    "resume_text": "JavaScript, Python, Data Structures, Git, REST APIs, SQL, Containerization, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Machine Learning, Python, Scikit-learn, Pandas, NumPy, TensorFlow, Statistics, Data Analysis, Jupyter",
+    "resume_text": "Python, Java, C++, Git, Algorithms, SQL, RESTful Services, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Data Science, Python, R, SQL, Statistics, Machine Learning, Pandas, NumPy, Matplotlib, Seaborn",
+    "resume_text": "C++, JavaScript, Python, Data Structures, Git, Web APIs, SQL, Linux, Object Oriented Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "R, Python, SQL, Statistics, Data Analysis, Machine Learning, Data Visualization, ggplot2, dplyr",
+    "resume_text": "Java, Python, Git, Algorithms, SQL, REST APIs, Docker, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "C, Embedded Systems, Microcontrollers, ARM, RTOS, Hardware Design, PCB Design, Firmware",
+    "resume_text": "Python, JavaScript, Data Structures, Git, SQL, RESTful APIs, Linux, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Embedded C, ARM Cortex, Microcontrollers, RTOS, Hardware Debugging, PCB Design, Firmware Development",
+    "resume_text": "C++, Java, Python, Git, Algorithms, Web APIs, SQL, Object Oriented Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "FPGA, Verilog, VHDL, Hardware Design, Digital Signal Processing, Embedded Systems, C",
+    "resume_text": "JavaScript, Python, Data Structures, Git, REST APIs, SQL, Containerization, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "AutoCAD, SolidWorks, Mechanical Design, CAD, Product Design, Manufacturing, Engineering Drawing",
+    "resume_text": "Java, C++, Python, Git, Algorithms, SQL, RESTful Services, Linux, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Civil Engineering, AutoCAD, Structural Design, Construction Management, Project Management, Site Planning",
+    "resume_text": "Python, JavaScript, Data Structures, Git, Web APIs, SQL, Docker, Object Oriented Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Electrical Engineering, Circuit Design, Power Systems, Control Systems, MATLAB, Simulink",
+    "resume_text": "C++, Java, Python, Git, Algorithms, REST APIs, SQL, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Spring Boot, Hibernate, Maven, JUnit, Git, SQL, REST APIs, Object Oriented Programming, Tomcat",
+    "resume_text": "JavaScript, Python, Data Structures, Git, SQL, RESTful APIs, Linux, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, Django, Flask, PostgreSQL, Git, REST APIs, SQLAlchemy, Linux, Object Oriented Programming",
+    "resume_text": "Java, Python, C++, Git, Algorithms, Web APIs, SQL, Containerization, Object Oriented Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Node.js, Express.js, MongoDB, JavaScript, Git, REST APIs, NPM, JSON, Linux",
+    "resume_text": "Python, JavaScript, Data Structures, Git, REST APIs, SQL, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "PHP, Laravel, MySQL, Git, REST APIs, Composer, Apache, Linux, Object Oriented Programming",
+    "resume_text": "C++, Java, Python, Git, Algorithms, SQL, RESTful Services, Docker, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Swift, iOS Development, Xcode, Core Data, UIKit, Git, REST APIs, App Store, Mobile Development",
+    "resume_text": "JavaScript, Python, Data Structures, Git, Web APIs, SQL, Linux, Object Oriented Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Kotlin, Android Development, Android Studio, Firebase, Git, REST APIs, Google Play Store, Mobile Development",
+    "resume_text": "Java, C++, Python, Git, Algorithms, REST APIs, SQL, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "React Native, JavaScript, Git, REST APIs, NPM, Mobile Development, Cross-platform Development, Redux",
+    "resume_text": "Python, JavaScript, Data Structures, Git, SQL, RESTful APIs, Containerization, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Flutter, Dart, Git, REST APIs, Firebase, Mobile Development, Cross-platform Development, Android, iOS",
+    "resume_text": "C++, Java, Python, Git, Algorithms, Web APIs, SQL, Linux, Object Oriented Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Manual Testing, Automation Testing, Selenium, Java, Git, TestNG, Bug Tracking, Test Cases",
+    "resume_text": "JavaScript, Python, Data Structures, Git, REST APIs, SQL, Docker, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Selenium WebDriver, Java, TestNG, Maven, Git, Automation Testing, API Testing, Test Framework",
+    "resume_text": "Java, Python, C++, Git, Algorithms, SQL, RESTful Services, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Cypress, JavaScript, Git, End-to-End Testing, API Testing, Test Automation, Mocha, Chai",
+    "resume_text": "Python, JavaScript, Data Structures, Git, Web APIs, SQL, Linux, Object Oriented Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Business Analysis, Requirements Gathering, SQL, Data Analysis, Stakeholder Management, Agile, Documentation",
+    "resume_text": "C++, Java, Python, Git, Algorithms, REST APIs, SQL, Containerization, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Product Management, Market Research, User Experience, Agile, Scrum, Analytics, Roadmap Planning",
+    "resume_text": "JavaScript, Python, Data Structures, Git, SQL, RESTful APIs, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "UX Design, UI Design, Figma, Adobe XD, User Research, Prototyping, Wireframing, Design Thinking",
+    "resume_text": "Java, C++, Python, Git, Algorithms, Web APIs, SQL, Docker, Object Oriented Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Graphic Design, Adobe Photoshop, Adobe Illustrator, CorelDRAW, InDesign, Creative Design, Typography",
+    "resume_text": "Python, JavaScript, Data Structures, Git, REST APIs, SQL, Linux, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Network Security, Penetration Testing, Ethical Hacking, Cybersecurity, Risk Assessment, SIEM, Incident Response",
+    "resume_text": "C++, Java, Python, Git, Algorithms, SQL, RESTful Services, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Information Security, Vulnerability Assessment, Security Auditing, Compliance, Risk Management, Firewall",
+    "resume_text": "JavaScript, Python, Data Structures, Git, Web APIs, SQL, Containerization, Object Oriented Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Digital Marketing, SEO, SEM, Google Analytics, Social Media Marketing, Content Marketing, PPC",
+    "resume_text": "Java, Python, C++, Git, Algorithms, REST APIs, SQL, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Content Writing, Copywriting, SEO Writing, Blog Writing, Technical Writing, Creative Writing",
+    "resume_text": "Python, JavaScript, Data Structures, Git, SQL, RESTful APIs, Docker, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Sales, CRM, Lead Generation, Customer Relationship Management, Salesforce, Sales Strategy",
+    "resume_text": "C++, Java, Python, Git, Algorithms, Web APIs, SQL, Linux, Object Oriented Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Human Resources, Talent Acquisition, Employee Relations, HR Management, Recruitment, Performance Management",
+    "resume_text": "JavaScript, Python, Data Structures, Git, REST APIs, SQL, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Accounting, Financial Analysis, Excel, QuickBooks, Financial Reporting, Budgeting, Tax Preparation",
+    "resume_text": "Java, C++, Python, Git, Algorithms, SQL, RESTful Services, Containerization, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Java, Spring, Hibernate, Maven, Git, JUnit, Object Oriented Programming, Design Patterns, REST APIs",
+    "resume_text": "Python, JavaScript, Data Structures, Git, Web APIs, SQL, Docker, Object Oriented Design",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "Python, Data Structures, Git, Object Oriented Programming, REST APIs, Linux, SQL",
+    "resume_text": "C++, Java, Python, Git, Algorithms, REST APIs, SQL, Linux, Object Oriented Programming",
     "label": 0
   },
   {
     "goal": "Amazon SDE",
-    "resume_text": "JavaScript, HTML, CSS, Git, REST APIs, Node.js, Object Oriented Programming",
+    "resume_text": "JavaScript, Python, Data Structures, Git, SQL, RESTful APIs, Object Oriented Programming",
     "label": 0
   },
-  {
-    "goal": "Amazon SDE",
-    "resume_text": "C++, Data Structures, Algorithms, Git, Object Oriented Programming, Linux",
-    "label": 0
-  }
+  
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, Python, Data Structures, Algorithms, System Design, SQL, RESTful APIs, Microservices, AWS, Git, Object Oriented Programming, Distributed Systems, Docker, Linux",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, JavaScript, Algorithms, Architecture Design, Database Design, Web APIs, Service-oriented Architecture, Amazon Web Services, Version Control, OOP, Scalable Systems, Containerization, Unix",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, Java, DSA, System Architecture, MySQL, REST Services, Cloud Services, Git, Object-Oriented Design, Distributed Computing, Container Technologies, Linux Systems",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, C++, Data Structures and Algorithms, Scalable Design, PostgreSQL, API Development, Microservice Architecture, AWS EC2, Source Control, Design Patterns, High Availability Systems, Docker Containers",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, Python, Algorithm Design, System Architecture, NoSQL, RESTful Web Services, Service Mesh, AWS Lambda, Git Workflows, SOLID Principles, Fault Tolerant Systems, Linux Administration",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, Java, Tree Algorithms, Distributed Architecture, SQL Databases, HTTP APIs, Container Orchestration, Amazon S3, Version Management, Inheritance, Load Balancing, Docker Compose",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, JavaScript, Graph Algorithms, Large Scale Systems, Database Management, Web Services, Event-driven Architecture, AWS RDS, Git Branching, Polymorphism, Horizontal Scaling, Shell Scripting",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, C++, Sorting Algorithms, High Level Design, RDBMS, API Gateway, Domain-driven Design, Cloud Computing, Code Reviews, Abstraction, Concurrent Systems, Linux Commands",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, Java, Dynamic Programming, Software Architecture, SQL Optimization, Service APIs, Modular Design, AWS CloudFormation, Merge Conflicts, Encapsulation, Consensus Algorithms, Container Runtime",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, Python, Hash Tables, System Scalability, Database Indexing, REST Endpoints, Serverless Architecture, Amazon DynamoDB, Git Rebase, Interface Design, CAP Theorem, Process Management",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, Java, Binary Search, Architectural Patterns, Data Modeling, JSON APIs, Clean Architecture, AWS IAM, Pull Requests, Method Overloading, Eventually Consistent Systems, Bash Scripting",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, JavaScript, Heap Data Structure, Scalable Web Systems, Query Optimization, HTTP Services, Hexagonal Architecture, EC2 Instances, Feature Branches, Class Hierarchies, Partition Tolerance, Docker Images",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, C++, Linked Lists, Enterprise Architecture, Transaction Management, Web API Design, Component-based Architecture, S3 Storage, Code Collaboration, Design by Contract, Network Partitions, Linux Kernel",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, Java, Binary Trees, Distributed Computing, Database Transactions, RESTful Design, Layered Architecture, Lambda Functions, Repository Management, Multiple Inheritance, Replication Strategies, Command Line",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, C++, Queue Implementation, Service Design, SQL Joins, API Versioning, Plugin Architecture, CloudWatch Monitoring, Branch Management, Factory Pattern, Data Consistency, Container Networking",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, Python, Stack Operations, High Throughput Systems, Index Strategies, Service Contracts, Pipeline Architecture, Auto Scaling Groups, Collaborative Development, Observer Pattern, Sharding Techniques, System Calls",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, JavaScript, Graph Traversal, Performance Engineering, Connection Pooling, API Standards, Message-driven Architecture, Route 53, Code Integration, Strategy Pattern, Load Distribution, File Permissions",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, Java, Recursion Techniques, Fault Tolerance, Database Sharding, Service Orchestration, Actor Model, VPC Configuration, Merge Strategies, Command Pattern, Circuit Breaker, Process Synchronization",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, Python, Greedy Algorithms, System Reliability, Cache Strategies, Resource APIs, Reactive Architecture, Application Load Balancer, Conflict Resolution, Decorator Pattern, Consensus Protocols, Memory Management",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, C++, Backtracking, Availability Design, Schema Design, HTTP Methods, CQRS Pattern, ElastiCache, Commit History, Adapter Pattern, Byzantine Fault Tolerance, Thread Management",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, JavaScript, Divide Conquer, Resilient Systems, Normalization, Content Negotiation, Event Sourcing, API Gateway, Remote Repositories, Bridge Pattern, Vector Clocks, Resource Allocation",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, Java, Trie Structures, Horizontal Scaling, Foreign Keys, Status Codes, Saga Pattern, CloudFront CDN, Upstream Changes, Composite Pattern, Merkle Trees, Signal Handling",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, Java, Segment Trees, Elastic Architecture, Primary Keys, Error Handling, Strangler Fig Pattern, Kinesis Streams, Branch Policies, Proxy Pattern, Gossip Protocol, Socket Programming",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, C++, Fenwick Tree, Auto-scaling Design, Stored Procedures, Rate Limiting, Bulkhead Pattern, SQS Queues, Tag Management, Chain of Responsibility, Paxos Algorithm, Inter-process Communication",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, Python, Suffix Arrays, Multi-tenant Architecture, Database Triggers, Authentication, Ambassador Pattern, SNS Notifications, Submodule Management, State Pattern, Raft Consensus, Kernel Modules",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, JavaScript, Bloom Filters, Cloud Native Design, View Optimization, Authorization, Anti-corruption Layer, Step Functions, Workflow Automation, Template Method, Two-phase Commit, Device Drivers",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, Java, Skip Lists, Serverless Patterns, Materialized Views, Content Types, Backend for Frontend, EventBridge, Integration Patterns, Visitor Pattern, Three-phase Commit, System Administration",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, C++, Red Black Trees, Edge Computing, Partitioning, Compression, Database per Service, Fargate Containers, Continuous Integration, Iterator Pattern, Blockchain Consensus, Network Configuration",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, Java, AVL Trees, Edge-to-Cloud, Replication, Caching Headers, Shared Database, EKS Clusters, Deployment Pipelines, Mediator Pattern, Proof of Work, Security Hardening",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, Python, B-Trees, Fog Computing, Data Lakes, CORS Handling, API Composition, CodePipeline, Release Management, Memento Pattern, Proof of Stake, Performance Tuning",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, JavaScript, Hash Maps, Multi-region Design, ETL Processes, Webhooks, Choreography, CodeDeploy, Infrastructure as Code, Null Object Pattern, Practical Byzantine, Monitoring Systems",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, Java, Priority Queues, Global Distribution, Stream Processing, Pagination, Orchestration, CloudFormation, Configuration Management, Flyweight Pattern, PBFT Algorithm, Log Analysis",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, Python, Disjoint Sets, Geographic Replication, Batch Processing, Filtering, Aggregator Pattern, Systems Manager, Change Management, Prototype Pattern, Tendermint, Capacity Planning",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, C++, Topological Sort, Cross-region Failover, Data Pipelines, Sorting, Scatter Gather, Parameter Store, Environment Management, Builder Pattern, HotStuff, Resource Monitoring",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, Java, Minimum Spanning Tree, Disaster Recovery, Real-time Analytics, Search APIs, Circuit Breaker, Secrets Manager, Secret Management, Abstract Factory, GHOST, Alert Management",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, C++, Shortest Path, Business Continuity, Data Warehousing, Bulk Operations, Retry Pattern, Certificate Manager, SSL Management, Singleton Pattern, Casper FFG, Incident Response",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, JavaScript, Maximum Flow, Service Mesh, OLAP Systems, Batch APIs, Timeout Pattern, WAF Security, Security Policies, Facade Pattern, Ethereum 2.0, Troubleshooting",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, Python, Network Flow, Zero-downtime Deployment, Dimensional Modeling, Async Processing, Bulkhead Pattern, Shield Protection, DDoS Protection, Module Pattern, Algorand, Debugging",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, JavaScript, Bipartite Matching, Rolling Updates, Star Schema, Event Streaming, Throttling Pattern, GuardDuty, Threat Detection, MVC Pattern, Avalanche, Profiling",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, Java, Strongly Connected Components, Blue-green Deployment, Snowflake Schema, Message Queuing, Backpressure Pattern, Inspector, Vulnerability Assessment, MVP Pattern, Solana, Optimization",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, C++, Articulation Points, Canary Releases, Fact Tables, Pub Sub, Health Check Pattern, Macie, Data Classification, MVVM Pattern, Cardano, Code Quality",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, Python, Tarjan Algorithm, Feature Toggles, Dimension Tables, Message Brokers, Sidecar Pattern, Config, Compliance, Repository Pattern, Polkadot, Static Analysis",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, JavaScript, Kosaraju Algorithm, A/B Testing, Cube Processing, Event Sourcing, Ambassador Pattern, Trusted Advisor, Cost Optimization, Unit of Work, Cosmos, Dynamic Analysis",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, Java, Floyd Warshall, Gradual Rollout, Data Marts, CQRS, Anti-corruption Layer, Well-Architected, Framework Reviews, Data Mapper, Tezos, Security Testing",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, Python, Bellman Ford, Chaos Engineering, Data Vaults, Domain Events, Strangler Fig, Organizations, Multi-account, Active Record, NEO, Penetration Testing",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, C++, Johnson Algorithm, Fault Injection, Slowly Changing Dimensions, Event Store, Database per Service, Control Tower, Landing Zone, Table Data Gateway, IOTA, Compliance Testing",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, JavaScript, Kruskal Algorithm, Resilience Testing, Type 1 SCD, Replay Events, Shared Database, Service Catalog, Service Management, Row Data Gateway, Chainlink, Integration Testing",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, Java, Prim Algorithm, Load Testing, Type 2 SCD, Snapshot Events, API Composition, AppSync, GraphQL APIs, Data Transfer Object, VeChain, Performance Testing",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, C++, Dijkstra Algorithm, Stress Testing, Type 3 SCD, Command Events, Choreography, Amplify, Full-stack Development, Value Object, Stellar, Load Testing",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, Java, A Star Algorithm, Spike Testing, Hybrid SCD, Integration Events, Orchestration, Device Farm, Mobile Testing, Entity, Monero, Stress Testing",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, Python, Bidirectional Search, Volume Testing, Mini Dimensions, Domain Events, Saga Pattern, GameLift, Game Development, Aggregate, Zcash, Chaos Testing",
+      "label": 1
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "HTML, CSS, JavaScript, React, Angular, Vue.js, TypeScript, Responsive Design, Web Performance, UI/UX, SASS, Webpack",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, R, Statistics, Machine Learning, Data Analysis, Pandas, NumPy, Matplotlib, Jupyter, Scikit-learn, Data Visualization, A/B Testing",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C, Assembly, Embedded Systems, Microcontrollers, RTOS, Hardware Design, PCB Design, ARM Cortex, Firmware Development, Low Power Design",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "AutoCAD, SolidWorks, Mechanical Design, Finite Element Analysis, CAD Modeling, Product Design, Manufacturing, Engineering Drawing, Materials Science",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Electrical Circuits, Power Systems, Control Systems, MATLAB, Simulink, PLC Programming, Motor Control, Power Electronics, Circuit Analysis",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Jenkins, Kubernetes, Terraform, Ansible, CI/CD, Infrastructure as Code, Monitoring, Prometheus, Grafana, ELK Stack, Configuration Management",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Excel, Power BI, Tableau, Business Intelligence, Data Analytics, SQL Reporting, Dashboard Creation, KPI Analysis, Financial Modeling",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Manual Testing, Test Cases, Bug Reports, Quality Assurance, Test Planning, User Acceptance Testing, Regression Testing, Test Documentation",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Marketing Analytics, Google Analytics, Social Media Marketing, Content Marketing, SEO, SEM, Email Marketing, Campaign Management",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Accounting, Financial Analysis, Budgeting, Forecasting, Tax Preparation, Audit, Financial Reporting, Bookkeeping, Cost Analysis",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Project Management, Scrum Master, Agile Methodologies, Risk Management, Stakeholder Management, Resource Planning, Timeline Management",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Network Administration, Cisco, Routing, Switching, Firewall Configuration, Network Security, VLAN, TCP/IP, Network Troubleshooting",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Photoshop, Illustrator, Graphic Design, Brand Design, Logo Design, Print Design, Creative Suite, Typography, Color Theory",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Sales Management, Customer Relationship Management, Lead Generation, Sales Forecasting, Territory Management, Client Relations",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Human Resources, Recruitment, Employee Relations, Performance Management, Compensation, Benefits Administration, HR Policies",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Supply Chain Management, Logistics, Inventory Management, Procurement, Vendor Management, Operations Research, Lean Manufacturing",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Content Writing, Copy Writing, Technical Writing, Blog Writing, Social Media Content, Email Marketing, SEO Writing",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, Python, Web Development, Spring Framework, Hibernate, MVC Pattern, Unit Testing, Code Reviews, Agile Development",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, Node.js, Express.js, MongoDB, Web APIs, Database Design, Authentication, Session Management, Web Security",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, Flask, Django, PostgreSQL, API Development, Database Optimization, Server Configuration, Web Frameworks",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, Game Development, Unity, Unreal Engine, 3D Graphics, Game Physics, Animation Systems, Gameplay Programming",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, Android Development, Kotlin, Mobile UI, Firebase, Play Store, Mobile Testing, App Performance",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Swift, iOS Development, Xcode, Core Data, UIKit, App Store, Mobile Design, Push Notifications",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, Data Science, TensorFlow, PyTorch, Neural Networks, Computer Vision, Natural Language Processing, Model Training",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Blockchain, Solidity, Smart Contracts, Ethereum, Web3, DeFi, Cryptocurrency, Decentralized Applications",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Cybersecurity, Penetration Testing, Vulnerability Assessment, Security Auditing, Incident Response, Risk Assessment, Compliance",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Database Administration, MySQL, PostgreSQL, Database Tuning, Backup Recovery, Database Security, Performance Monitoring",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Cloud Architecture, Azure, Google Cloud, Cloud Migration, Serverless Computing, Cloud Security, Cost Optimization",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Business Analysis, Requirements Gathering, Process Modeling, Stakeholder Management, Documentation, Workflow Analysis",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Product Management, Market Research, Product Strategy, Roadmap Planning, User Experience, Feature Prioritization",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, JavaScript, HTML, CSS, SQL, Basic Programming, Computer Science, Software Development, Problem Solving",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, C++, Programming Fundamentals, Object Oriented Programming, Database Concepts, Web Development Basics, Git",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, Python, Data Structures, Algorithms, SQL, Git, Linux, Programming Logic, Software Engineering",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, Python, Web APIs, Database Design, Version Control, Software Testing, Code Documentation, Debugging",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, Java, Algorithm Implementation, Data Management, Source Code Management, Software Development Life Cycle",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, JavaScript, REST APIs, MySQL, Git, Object Oriented Design, Web Development, Software Architecture",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, C++, Data Structures, SQL, Version Control, Software Design, Code Quality, Development Tools",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, Java, Algorithms, Database Systems, Git, Linux Commands, Programming Paradigms, Software Engineering",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, Python, Web Services, Database Management, Source Control, Software Development, Code Review",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, Java, Programming Concepts, SQL Queries, Git Workflow, Object Oriented Programming, Software Testing",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, JavaScript, API Development, Database Design, Version Management, Software Architecture, Development Process",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, Python, Algorithm Design, Data Storage, Git Repository, Object Oriented Design, Code Maintenance",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, C++, Data Organization, SQL Operations, Source Code Control, Programming Methods, Software Quality",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, Java, Programming Logic, Database Operations, Git Management, Software Development, Code Standards",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, JavaScript, Algorithm Analysis, Data Handling, Version Control System, Object Oriented Concepts, Development Best Practices",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, Python, Data Processing, SQL Database, Git Version Control, Software Design Patterns, Code Development",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "JavaScript, Python, Programming Techniques, Database Management Systems, Source Code Management, Software Engineering Principles",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "C++, Java, Data Structure Implementation, Query Languages, Git Operations, Object Oriented Programming, Software Development Methodology",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Python, JavaScript, Algorithm Implementation, Database Technologies, Version Control Tools, Programming Design, Software Quality Assurance",
+      "label": 0
+    },
+    {
+      "goal": "Amazon SDE",
+      "resume_text": "Java, C++, Data Management Techniques, SQL Programming, Git Collaboration, Software Architecture Patterns, Development Lifecycle",
+      "label": 0
+    }
+    ,
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "System Design, Java, Python, Algorithms, Data Structures, AWS EC2, Microservices Architecture, SQL Database, RESTful APIs, Git Version Control, Object Oriented Programming, Distributed Computing, Docker Containers, Linux Ubuntu",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "C++, JavaScript ES6, Python Django, Data Structures, System Architecture, Scalable Systems, PostgreSQL, Web APIs, AWS Lambda, Git, OOP Design Patterns, Docker, Ubuntu Linux",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java Spring Boot, Algorithms, System Design Patterns, MySQL, REST Services, Amazon Web Services, Microservices, Git, Object Oriented Design, Distributed Systems, Linux Commands",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python Flask, JavaScript Node.js, Data Structures Trees, AWS S3, System Architecture Design, SQL Queries, RESTful Web Services, Docker Compose, Git Branch Management, Distributed Computing",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "C++ STL, Java Collections, Algorithms Sorting, System Design Principles, Microservice Architecture, AWS DynamoDB, REST API Development, Linux Shell Scripting, Git Merge Conflicts, OOP Concepts",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript React, Python Pandas, Data Structures Graphs, System Design Scalability, SQL Joins, AWS CloudFormation, RESTful Services, Docker Images, Git Workflow, Distributed Systems Design",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java Multithreading, C++ Pointers, Algorithms Dynamic Programming, Architecture Design, Microservices Communication, AWS RDS, Web APIs, Linux File System, Git Rebase, Object Oriented Analysis",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python OOP, JavaScript Async, Data Structures LinkedList, System Design Load Balancing, SQL Indexing, Amazon EC2 Instances, REST Endpoints, Docker Networking, Git Stash, Distributed Database Systems",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java Streams, C++ Templates, Algorithms Graph Traversal, Scalable Architecture, Microservices Patterns, AWS VPC, RESTful API Design, Linux Process Management, Git Cherry Pick, OOP Inheritance",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript Promises, Python Decorators, Data Structures HashMap, System Design Caching, SQL Transactions, AWS ELB, Web Service APIs, Docker Volumes, Git Submodules, Distributed Computing Frameworks",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java Hibernate, C++ Memory Management, Algorithms Greedy, Architecture Patterns, Microservice Deployment, AWS Route53, REST Client Development, Linux Cron Jobs, Git Hooks, Object Oriented Principles",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python FastAPI, JavaScript Closures, Data Structures Binary Trees, System Design Database Sharding, SQL Stored Procedures, Amazon SQS, RESTful Architecture, Docker Swarm, Git Bisect, Scalable Systems Design",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java Concurrency, C++ Standard Library, Algorithms Backtracking, Distributed Architecture, Microservices Orchestration, AWS SNS, Web APIs Integration, Linux Systemd, Git LFS, OOP Polymorphism",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript Modules, Python Asyncio, Data Structures Heaps, System Design High Availability, SQL Performance Tuning, AWS CloudWatch, REST Service Design, Docker Multi-stage, Git Worktree, Distributed Systems Patterns",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "C++ Boost Libraries, Java Lambda Expressions, Algorithms Divide Conquer, Architecture Documentation, Microservice Testing, AWS IAM, RESTful Microservices, Linux Package Management, Git Reflog, Object Oriented Testing",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python Type Hints, JavaScript Arrow Functions, Data Structures Tries, System Design Event Driven, SQL Query Optimization, Amazon Kinesis, Web API Security, Docker Health Checks, Git Subtree, Scalable System Architecture",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java Design Patterns, C++ RAII, Algorithms String Matching, Distributed System Design, Microservices Monitoring, AWS ECS, REST API Versioning, Linux Shell Programming, Git Configuration, OOP Encapsulation",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript Event Loop, Python Context Managers, Data Structures Stacks Queues, System Design Consistency, SQL Data Modeling, AWS Fargate, RESTful Web APIs, Docker Environment Variables, Git Aliases, Distributed Computing Models",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "C++ Move Semantics, Java Reflection, Algorithms Network Flow, Architecture Review, Microservice Security, AWS API Gateway, Web Service Development, Linux User Management, Git Remote Tracking, Object Oriented Metrics",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python Generators, JavaScript Prototypes, Data Structures Red Black Trees, System Design Partitioning, SQL Replication, Amazon ElastiCache, REST API Documentation, Docker Container Orchestration, Git Branch Protection, Scalable Web Architecture",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java Memory Model, C++ Smart Pointers, Algorithms Computational Geometry, Distributed System Consensus, Microservices Circuit Breaker, AWS Step Functions, RESTful Service Testing, Linux Memory Management, Git Flow Strategy, OOP SOLID Principles",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript Web Workers, Python Metaclasses, Data Structures Segment Trees, System Design Eventual Consistency, SQL Partitioning, AWS Lambda Layers, Web API Rate Limiting, Docker Image Optimization, Git Release Management, Distributed Database Design",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "C++ Variadic Templates, Java Completable Future, Algorithms Approximation, Architecture Evolution, Microservice Gateway, AWS X-Ray, REST API Throttling, Linux Network Configuration, Git Tag Management, Object Oriented Refactoring",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python Coroutines, JavaScript Service Workers, Data Structures Fenwick Trees, System Design CAP Theorem, SQL Materialized Views, Amazon CloudFront, RESTful API Caching, Docker Registry Management, Git Branch Strategies, Scalable Microservice Architecture",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java Virtual Threads, C++ Concepts, Algorithms Randomized, Distributed System Patterns, Microservices Service Mesh, AWS EventBridge, Web API Authentication, Linux Container Runtime, Git Workflow Automation, OOP Design Reviews",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript Streams API, Python ABC, Data Structures Bloom Filters, System Design Microservice Patterns, SQL Window Functions, AWS Systems Manager, REST Service Composition, Docker Build Optimization, Git Integration Strategies, Distributed System Monitoring",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "C++ Constexpr, Java Project Loom, Algorithms Parallel, Architecture Governance, Microservice Resilience, Amazon MQ, RESTful API Gateway, Linux Performance Tuning, Git Repository Management, Object Oriented Architecture",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python Data Classes, JavaScript Async Generators, Data Structures Skip Lists, System Design Event Sourcing, SQL Common Table Expressions, AWS App Mesh, Web Service Orchestration, Docker Secret Management, Git Security Practices, Scalable System Patterns",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java Records, C++ Modules, Algorithms Parallel Sorting, Distributed System Coordination, Microservices Data Consistency, AWS Cloud Development Kit, REST API Best Practices, Linux Security Hardening, Git Code Review, OOP Behavioral Patterns",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript Top Level Await, Python Structural Pattern Matching, Data Structures Persistent, System Design CQRS, SQL Recursive Queries, Amazon Timestream, RESTful Service Discovery, Docker Multi-platform, Git Workflow Optimization, Distributed Computing Paradigms",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java, Python, Data Structures, Algorithms, System Design, SQL, REST APIs, Git, Object Oriented Programming, AWS",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "C++, JavaScript, Data Structures Arrays, Algorithms Searching, Architecture Design, SQL Database Design, Web APIs, Microservices, Git Version Control, Linux",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python Programming, Java Development, Data Structures Lists, Algorithms Sorting, System Architecture, SQL Joins, RESTful Services, AWS Cloud, Git Branching, Docker",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript ES6, C++ Programming, Data Structures Trees, Algorithms Graph, System Design Basics, SQL Queries, REST API Development, Microservice Architecture, Git Commands, Object Oriented Design",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java Backend, Python Scripting, Data Structures Hash Tables, Algorithms Dynamic Programming, Scalable Architecture, SQL Database, Web APIs, AWS Services, Git Workflow, Distributed Systems",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "C++ Development, JavaScript Frontend, Data Structures Graphs, Algorithms Greedy, System Design Principles, SQL Optimization, RESTful Web Services, Microservices Design, Git Repository, Linux Commands",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python Web Development, Java Enterprise, Data Structures Stacks, Algorithms Backtracking, Architecture Patterns, SQL Performance, REST Services, AWS Infrastructure, Git Management, Object Oriented Programming",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript Node.js, C++ System Programming, Data Structures Queues, Algorithms String, System Design Scalability, SQL Indexing, Web API Design, Microservice Patterns, Git Operations, Docker Containers",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java Spring, Python Django, Data Structures Binary Search Trees, Algorithms Divide and Conquer, Distributed Architecture, SQL Transactions, RESTful APIs, AWS EC2, Git Collaboration, Linux System Administration",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "C++ STL, JavaScript React, Data Structures Heaps, Algorithms Network, System Design Load Balancing, SQL Database Design, Web Services, Microservices Communication, Git Best Practices, Object Oriented Analysis",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python, JavaScript, Data Structures, Algorithms, System Design, SQL, REST APIs, AWS, Git",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java, C++, Data Structures Linked Lists, Algorithms Sorting, Architecture Design, SQL Database, Web APIs, Microservices, Git, Docker",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript, Python, Data Structures Trees, Algorithms Graph Traversal, System Architecture, SQL Joins, RESTful Services, AWS Lambda, Git Version Control, Linux",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "C++, Java, Data Structures Arrays, Algorithms Dynamic Programming, Scalable System Design, SQL Queries, REST API, Microservice Architecture, Git Workflow, Object Oriented Programming",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python Flask, JavaScript Node, Data Structures Hash Maps, Algorithms Greedy, System Design Patterns, SQL Database Design, Web APIs, AWS Services, Git Branching, Distributed Systems",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java Spring Boot, C++ Programming, Data Structures Graphs, Algorithms Backtracking, Architecture Principles, SQL Optimization, RESTful Web Services, Microservices Design, Git Commands, Docker Containerization",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript ES6, Python Django, Data Structures Stacks, Algorithms String Matching, System Design Basics, SQL Performance, REST Services, AWS Infrastructure, Git Repository Management, Linux Commands",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "C++ Development, Java Backend, Data Structures Queues, Algorithms Divide Conquer, Distributed Architecture, SQL Indexing, Web API Development, Microservice Patterns, Git Collaboration, Object Oriented Design",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python Scripting, JavaScript Frontend, Data Structures Binary Trees, Algorithms Network Flow, System Architecture Scalability, SQL Database, RESTful APIs, AWS Cloud, Git Operations, Docker Deployment",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java Enterprise, C++ System, Data Structures Heaps, Algorithms Computational, System Design Load Balancing, SQL Transactions, Web Services, Microservices Communication, Git Best Practices, Linux System",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript, Python, Data Structures, Algorithms, System Design, SQL, REST APIs, Git, Microservices, AWS",
+        "label": 1
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "HTML, CSS, JavaScript, React, Angular, Vue.js, Frontend Development, UI/UX Design, Responsive Design, Browser Compatibility",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "DevOps, CI/CD, Jenkins, Kubernetes, Terraform, Ansible, Infrastructure as Code, Monitoring, Prometheus, Grafana",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Data Analysis, Pandas, NumPy, Matplotlib, Seaborn, Jupyter, Statistical Analysis, Data Visualization, Excel, Tableau",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Mechanical Engineering, CAD, SolidWorks, AutoCAD, Manufacturing, Product Design, Materials Science, Thermodynamics, Fluid Mechanics",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Electrical Engineering, Circuit Design, PCB Layout, MATLAB, Simulink, Power Systems, Control Systems, Signal Processing, Embedded Systems",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Machine Learning, Deep Learning, TensorFlow, PyTorch, Neural Networks, Computer Vision, Natural Language Processing, Scikit-learn, Keras",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Mobile Development, Android, iOS, React Native, Flutter, Kotlin, Swift, Mobile UI, App Store, Google Play",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Database Administration, MySQL, PostgreSQL, Oracle, MongoDB, Database Tuning, Backup Recovery, Data Migration, Database Security",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Quality Assurance, Manual Testing, Automation Testing, Selenium, TestNG, Bug Tracking, Test Cases, Regression Testing, Performance Testing",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Network Administration, Cisco, Routing, Switching, Network Security, Firewall Configuration, VPN, Network Monitoring, TCP/IP",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Game Development, Unity, Unreal Engine, C# Scripting, Game Physics, 3D Modeling, Animation, Game Design, Mobile Games",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Cybersecurity, Penetration Testing, Vulnerability Assessment, Security Auditing, Ethical Hacking, CISSP, CEH, Network Security, Incident Response",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Business Analysis, Requirements Gathering, Process Improvement, Stakeholder Management, Documentation, Use Cases, Business Process Modeling, Agile",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Project Management, Scrum Master, Agile Methodologies, Risk Management, Budget Planning, Resource Allocation, Timeline Management, Stakeholder Communication",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Sales, Customer Relationship Management, Lead Generation, Sales Forecasting, Negotiation, CRM Software, Client Acquisition, Revenue Growth",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Digital Marketing, SEO, SEM, Social Media Marketing, Content Marketing, Google Analytics, Email Marketing, PPC Campaigns, Brand Management",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Human Resources, Talent Acquisition, Employee Relations, Performance Management, Compensation Benefits, HR Policies, Recruitment, Training Development",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Finance, Financial Analysis, Budgeting, Forecasting, Investment Analysis, Risk Assessment, Financial Reporting, Excel Modeling, Accounting",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Graphic Design, Adobe Photoshop, Illustrator, InDesign, Creative Suite, Logo Design, Branding, Print Design, Web Design, Typography",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Content Writing, Copywriting, Technical Writing, Blog Writing, SEO Writing, Content Strategy, Editorial, Proofreading, Publishing",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java, Python, JavaScript, MySQL, HTML, CSS, Bootstrap, jQuery, Node.js, Express.js",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "C++, Python, Data Structures, Linux, Git, Firebase, MongoDB, React, Angular, PHP",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript, HTML, CSS, React Native, Flutter, Swift, Kotlin, Mobile App Development, UI Design, User Experience",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python, Pandas, NumPy, Scikit-learn, Machine Learning, Data Visualization, Statistics, R Programming, Excel, Tableau",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java Spring, MySQL, RESTful Services, Git, Jenkins, Maven, Junit, Hibernate, Apache Tomcat, Web Development",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "C++, Embedded Systems, Microcontrollers, Arduino, Raspberry Pi, IoT, Sensor Integration, Hardware Programming, Real-time Systems",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript, React, Angular, Vue.js, HTML5, CSS3, SASS, Webpack, NPM, Frontend Development",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python Django, PostgreSQL, Redis, Celery, Docker, Linux, Git, RESTful APIs, Web Development, Backend Development",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Java, C++, Python, SQL, Git, Object Oriented Programming, Web Development, Database Design, Software Testing",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "JavaScript, Node.js, Express, MongoDB, React, HTML, CSS, Git, npm, Web APIs",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Python, Flask, SQLAlchemy, JavaScript, jQuery, Bootstrap, Git, Linux, MySQL, Web Development",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "C#, .NET Framework, ASP.NET, SQL Server, Entity Framework, Visual Studio, Git, Web APIs, MVC Pattern",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "PHP, Laravel, MySQL, JavaScript, jQuery, HTML, CSS, Git, Apache, Web Development",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Ruby, Ruby on Rails, PostgreSQL, JavaScript, Git, Heroku, RSpec, HTML, CSS, Web Development",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Go, Gin Framework, PostgreSQL, Docker, Git, RESTful APIs, JSON, HTTP, Web Services, Backend Development",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Rust, Actix Web, SQLite, Git, System Programming, Memory Safety, Performance Optimization, CLI Tools",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Kotlin, Android Development, Java, XML, SQLite, Git, Android Studio, Mobile Apps, UI Design",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Swift, iOS Development, Xcode, Core Data, Git, UIKit, Mobile App Development, App Store",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Dart, Flutter, Firebase, Git, Mobile Development, Cross-platform, Material Design, State Management",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "TypeScript, Angular, RxJS, NgRx, HTML, CSS, Git, npm, Web Components, Frontend Development",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Scala, Akka, Play Framework, SBT, Git, Functional Programming, Concurrent Programming, JVM",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Clojure, Leiningen, Ring, Compojure, Git, Functional Programming, JVM, Immutable Data Structures",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Elixir, Phoenix Framework, OTP, Ecto, Git, Functional Programming, Actor Model, Fault Tolerance",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Haskell, Cabal, Stack, Git, Functional Programming, Type Safety, Lazy Evaluation, Category Theory",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "F#, .NET Core, Functional Programming, Git, Type Providers, Pattern Matching, Immutability",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Perl, CGI, DBI, Git, Text Processing, Regular Expressions, System Administration, Legacy Systems",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "COBOL, Mainframe, JCL, DB2, CICS, Legacy System Maintenance, Batch Processing, Enterprise Systems",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Assembly Language, Low-level Programming, Embedded Systems, Microprocessors, Hardware Interface, System Programming",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "MATLAB, Simulink, Signal Processing, Control Systems, Mathematical Modeling, Scientific Computing, Engineering Analysis",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "R, ggplot2, dplyr, Shiny, Statistical Analysis, Data Mining, Bioinformatics, Machine Learning, Data Science",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Julia, DataFrames, Plots, Scientific Computing, High Performance Computing, Numerical Analysis, Mathematical Programming",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Fortran, Scientific Computing, Numerical Methods, High Performance Computing, Mathematical Modeling, Legacy Code",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "VHDL, Verilog, FPGA, Digital Design, Hardware Description Languages, Logic Synthesis, Timing Analysis",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "LabVIEW, Data Acquisition, Instrument Control, Test Automation, Measurement Systems, National Instruments",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Objective-C, iOS Development, Cocoa Touch, Core Foundation, Memory Management, Legacy iOS Apps",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "VB.NET, Visual Basic, Windows Forms, .NET Framework, Legacy Applications, Desktop Development",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Delphi, Pascal, RAD Studio, Windows Development, Legacy Applications, Desktop Software",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "PowerShell, Windows Administration, Active Directory, Group Policy, System Administration, Automation Scripts",
+        "label": 0
+      },
+      {
+        "goal": "Amazon SDE",
+        "resume_text": "Bash Scripting, Shell Programming, Linux Administration, System Automation, Command Line Tools, Server Management",
+        "label": 0
+      }
+      ,
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, Data Structures, Algorithms, System Design, SQL, REST APIs, Microservices, AWS, Git, Object Oriented Programming, Distributed Systems, Docker, Linux",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, JavaScript, Scalable Systems, Database Design, Web APIs, Cloud Computing, Version Control, OOP, Container Technologies, Unix",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Java, DSA, Algorithm Design, Architecture Design, MySQL, RESTful Services, Service-Oriented Architecture, Amazon Web Services, GitLab",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "JavaScript, C++, Tree Structures, Graph Algorithms, Large Scale Systems, PostgreSQL, API Development, Event-Driven Architecture, EC2, SVN",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, Hash Tables, Sorting Algorithms, Distributed Architecture, NoSQL, HTTP APIs, Container Orchestration, S3, Mercurial",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, Java, Linked Lists, Dynamic Programming, Scalable Design, Oracle, Web Services, Kubernetes, Lambda, Bitbucket",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, JavaScript, Binary Trees, Search Algorithms, System Architecture, MongoDB, REST, Docker Swarm, CloudFormation, Git Flow",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, C++, Queues, Stacks, High Availability Systems, Redis, GraphQL, Service Mesh, DynamoDB, Source Control",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Java, Graphs, Recursion, Fault Tolerant Systems, Elasticsearch, API Gateway, Load Balancing, RDS, Version Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "JavaScript, C++, Heaps, Greedy Algorithms, Horizontal Scaling, Cassandra, JSON APIs, Auto Scaling, IAM, Code Repository",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, Arrays, String Manipulation, Concurrent Systems, SQLite, SOAP, Container Runtime, VPC, Collaborative Development",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, JavaScript, Tries, Backtracking, Resilient Architecture, CouchDB, XML-RPC, Orchestration Tools, Route53, Distributed Version Control",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Java, Matrices, Divide and Conquer, Load Distribution, InfluxDB, gRPC, Service Discovery, ELB, Change Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "JavaScript, C++, Bit Manipulation, Number Theory, Partition Tolerance, Neo4j, Protocol Buffers, Circuit Breakers, CloudWatch, Repository Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, Sliding Window, Two Pointers, CAP Theorem, HBase, Message Queues, Health Checks, SNS, Source Code Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Data Structures, Algorithms, System Design, Java, Python, SQL, REST APIs, AWS, Git, OOP",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, JavaScript, DSA, Algorithm Analysis, Distributed Systems, Database Systems, Web APIs, Microservices, Cloud Services, Version Control",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Java, Data Structures, Dynamic Programming, Architecture Design, MySQL, RESTful APIs, Container Technologies, Amazon Cloud, Git Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "JavaScript, C++, Trees, Graphs, Scalable Systems, PostgreSQL, HTTP Services, Docker Containers, EC2 Services, Code Versioning",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, Hash Maps, Sorting, Large Scale Design, NoSQL Databases, API Development, Service Architecture, S3 Storage, Source Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, JavaScript, Linked Data Structures, Graph Traversal, High Performance Systems, Relational Databases, Web Service APIs, Containerization, Lambda Functions, Repository Tools",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Java, Binary Search Trees, Recursion Techniques, Fault Tolerance, Document Databases, REST Architecture, Orchestration, CloudFormation Templates, Collaborative Tools",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "JavaScript, C++, Priority Queues, Optimization Algorithms, Concurrent Programming, Key-Value Stores, Service APIs, Load Balancers, DynamoDB Tables, Development Tools",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, String Algorithms, Mathematical Algorithms, Distributed Computing, Time Series Databases, Message Protocols, Auto Scaling Groups, RDS Instances, Version Systems",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, JavaScript, Trie Structures, Pattern Matching, Resilient Design, Graph Databases, Remote Procedure Calls, Service Mesh Technologies, Network Security, Change Control",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Java, Matrix Operations, Computational Geometry, Consistency Models, Column Stores, Messaging Systems, Health Monitoring, Identity Management, Code Repositories",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "JavaScript, C++, Bit Operations, Combinatorics, Eventually Consistent Systems, In-Memory Databases, Serialization Protocols, Circuit Breaking, Monitoring Services, Software Configuration",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, Sliding Window Technique, Pointer Manipulation, BASE Properties, Wide Column Stores, Asynchronous Messaging, Service Registration, Notification Services, Project Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, JavaScript, Union Find, Topological Sort, Eventual Consistency, Multi-Model Databases, Event Streaming, Configuration Management, Storage Services, Workflow Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Java, Segment Trees, Fenwick Trees, ACID Compliance, Distributed Ledgers, Publish Subscribe, Infrastructure as Code, Compute Services, Release Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Data Structures, System Design, AWS, Python, SQL, Microservices, Git",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, Algorithms, Architecture Design, Amazon Web Services, JavaScript, Database Design, Service-Oriented Architecture, Version Control",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, DSA, Distributed Systems, Cloud Computing, Java, MySQL, Container Technologies, Source Control",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "JavaScript, Tree Structures, Scalable Design, EC2, C++, PostgreSQL, Docker Containers, Code Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Hash Tables, Large Scale Systems, S3, Python, NoSQL, Web APIs, Repository Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, Linked Lists, High Availability, Lambda, JavaScript, Oracle, REST APIs, Git Flow",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Binary Trees, Fault Tolerant Systems, DynamoDB, Java, MongoDB, HTTP APIs, Version Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "JavaScript, Queues, Concurrent Systems, RDS, C++, Redis, GraphQL, Source Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Graphs, Horizontal Scaling, CloudFormation, Python, Elasticsearch, API Gateway, Collaborative Development",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, Heaps, Resilient Architecture, VPC, JavaScript, Cassandra, JSON APIs, Development Tools",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Arrays, Load Distribution, Route53, Java, SQLite, SOAP, Change Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "JavaScript, Tries, Partition Tolerance, ELB, C++, CouchDB, XML-RPC, Repository Tools",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Matrices, CAP Theorem, CloudWatch, Python, InfluxDB, gRPC, Software Configuration",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, Bit Manipulation, Eventually Consistent, SNS, JavaScript, Neo4j, Protocol Buffers, Project Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Sliding Window, BASE Properties, IAM, Java, HBase, Message Queues, Workflow Management",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "System Design, AWS, Data Structures, Java, Python, Microservices",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Architecture Design, Amazon Web Services, DSA, C++, JavaScript, Service Architecture",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Distributed Systems, Cloud Computing, Algorithms, Python, Java, Container Technologies",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Scalable Design, EC2, Tree Structures, JavaScript, C++, Docker Containers",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Large Scale Systems, S3, Hash Tables, Java, Python, Web APIs",
+          "label": 1
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "HTML, CSS, Bootstrap, jQuery, Frontend Development, UI/UX Design, Responsive Design, Angular, React, Vue.js",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Photoshop, Illustrator, InDesign, Graphic Design, Logo Design, Brand Identity, Print Design, Typography, Color Theory, Creative Suite",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Excel, PowerBI, Tableau, Data Visualization, Statistical Analysis, R Programming, SPSS, Data Mining, Business Intelligence, Reporting",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "AutoCAD, SolidWorks, Mechanical Design, CAD Modeling, Engineering Drawing, Product Design, Manufacturing, Materials Science, Finite Element Analysis, 3D Printing",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Circuit Design, PCB Layout, VHDL, Verilog, Embedded Systems, Signal Processing, Analog Electronics, Digital Electronics, Microcontrollers, FPGA",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Ansible, Terraform, Jenkins, CI/CD, Infrastructure as Code, Monitoring, Logging, Prometheus, Grafana, System Administration",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Machine Learning, TensorFlow, PyTorch, Deep Learning, Neural Networks, Computer Vision, NLP, Scikit-learn, Data Science, AI Research",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Project Management, Agile, Scrum, JIRA, Confluence, Stakeholder Management, Risk Management, Budget Planning, Team Leadership, Process Improvement",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Sales, CRM, Lead Generation, Customer Relationship Management, B2B Sales, Account Management, Sales Funnel, Revenue Growth, Market Research, Cold Calling",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Content Writing, SEO, Social Media Marketing, Digital Marketing, Google Analytics, WordPress, Blog Writing, Email Marketing, Brand Management, Content Strategy",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, HTML, CSS, JavaScript, Basic Programming, Student Projects, Coursework, Final Year Project, Academic Programming",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, JavaScript, Web Development, Frontend Technologies, jQuery, Bootstrap, DOM Manipulation, CSS Frameworks, HTML5, Responsive Web Design",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Data Analysis, Pandas, NumPy, Matplotlib, Statistical Computing, Data Cleaning, Excel Integration, Report Generation, Business Analytics",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Spring Framework, Hibernate, Maven, Web Applications, JSP, Servlets, Application Development, Enterprise Java, Business Logic",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, Game Development, Unity, OpenGL, Graphics Programming, Game Engine, 3D Modeling, Animation, Game Physics, Interactive Media",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, JavaScript, C++, Web Development, Mobile Development, Basic Algorithms, Simple Projects, Learning Programming, Beginner Level, Code Practice",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, SQL, Database Management, CRUD Operations, Basic Queries, Table Design, Data Entry, Database Administration, Simple Applications",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "JavaScript, Node.js, Express, MongoDB, Full Stack Development, Web Applications, API Development, Frontend Backend Integration, MEAN Stack, Web Technologies",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, Embedded Programming, Arduino, Raspberry Pi, IoT Development, Sensor Integration, Hardware Programming, Microprocessor Programming, Real-time Systems, Firmware Development",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Machine Learning, Data Science, Scikit-learn, Pandas, NumPy, Jupyter Notebooks, Statistical Analysis, Predictive Modeling, Data Visualization",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, C++, Basic Programming, College Projects, Theoretical Knowledge, Academic Coursework, Programming Fundamentals, Algorithm Basics, Code Writing",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "JavaScript, React, Angular, Vue.js, Frontend Frameworks, Component Development, State Management, Single Page Applications, User Interface Development, Client-side Programming",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Django, Flask, Web Framework Development, Backend Development, Server-side Programming, Database Integration, API Creation, Web Services, Application Logic",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, Java, Python, Object Oriented Programming, Design Patterns, Software Engineering Principles, Code Organization, Class Design, Inheritance, Polymorphism",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, JavaScript, C++, Git, SQL, Programming Languages, Version Control, Database Basics, Software Development, Code Management",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, JavaScript, Web APIs, HTTP Protocols, JSON Processing, API Integration, Web Services, Client-Server Communication, Network Programming, Service Integration",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, C++, Data Structures, Arrays, Lists, Basic Algorithms, Sorting, Searching, Programming Fundamentals, Computer Science Basics",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, JavaScript, Docker, Containerization, Application Deployment, Container Management, Development Tools, Software Packaging, Environment Management, Deployment Automation",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, Linux, Command Line, Shell Scripting, Unix Systems, Operating Systems, System Administration, File Management, Process Management",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, JavaScript, Algorithms, Problem Solving, Competitive Programming, Algorithm Implementation, Code Optimization, Mathematical Programming, Logic Building, Puzzle Solving",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Java, SQL, REST APIs, Web Development, Database Connectivity, API Development, Backend Programming, Server Development, Application Programming",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "JavaScript, C++, Git, Version Control, Code Repository, Branch Management, Merge Conflicts, Collaborative Development, Source Code Management, Team Development",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, Object Oriented Design, Class Hierarchies, Encapsulation, Abstraction, Interface Design, Modular Programming, Software Architecture, Design Methodology",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, JavaScript, Microservices, Service Development, API Gateway, Service Communication, Distributed Applications, Service Architecture, Application Decomposition, Service Management",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, C++, AWS, Cloud Services, EC2, S3, Cloud Computing, Infrastructure Services, Cloud Deployment, Managed Services",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, JavaScript, System Design, Architecture Planning, Component Design, System Planning, Technical Design, Solution Architecture, Design Documentation, System Specification",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, Distributed Systems, Network Programming, Concurrent Programming, Parallel Processing, System Integration, Inter-process Communication, Distributed Computing, System Coordination",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, JavaScript, Data Structures, Algorithm Design, Problem Analysis, Solution Development, Computational Thinking, Logic Implementation, Code Optimization, Performance Analysis",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, Java, SQL, Database Design, Query Optimization, Data Modeling, Relational Databases, Database Performance, Data Management, Storage Systems",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "JavaScript, C++, REST API, Web Services, HTTP Methods, API Design, Service Endpoints, Request Response, Web Protocols, API Documentation",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, Microservice Architecture, Service Decomposition, API Management, Service Discovery, Load Balancing, Service Mesh, Container Orchestration, Service Monitoring",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, JavaScript, AWS Services, Cloud Architecture, Serverless Computing, Cloud Storage, Cloud Networking, Infrastructure Management, Cloud Security, Cost Optimization",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "C++, Java, Git Workflows, Branch Strategies, Code Reviews, Merge Strategies, Release Management, Continuous Integration, Development Workflow, Team Collaboration",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, JavaScript, OOP Principles, Design Patterns, SOLID Principles, Code Reusability, Maintainable Code, Software Design, Architecture Patterns, Development Best Practices",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, C++, Distributed Architecture, Scalability Design, High Availability, Fault Tolerance, System Reliability, Performance Engineering, Capacity Planning, System Optimization",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Python, JavaScript, Docker Containers, Container Orchestration, Kubernetes, Container Security, Image Management, Container Networking, Deployment Strategies, Container Monitoring",
+          "label": 0
+        },
+        {
+          "goal": "Amazon SDE",
+          "resume_text": "Java, Python, Linux Administration, System Configuration, Process Management, File Systems, Network Configuration, Security Management, Performance Tuning, Troubleshooting",
+          "label": 0
+        }
+        ,
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, Data Structures, Algorithms, System Design, SQL, RESTful services, Microservices, AWS, Git, Object Oriented Programming, Distributed Systems, Docker, Linux",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, JavaScript, Data Structures, Algorithms, Architecture design, SQL, Web APIs, AWS Lambda, Git, OOP, Scalable systems, Kubernetes, Unix",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, Java, DSA, System Architecture, REST APIs, Microservices, Amazon Web Services, Git, Object-Oriented Design, Distributed Computing, Docker, Linux Shell",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, C++, Data Structures and Algorithms, System Design, SQL Server, RESTful APIs, Service-Oriented Architecture, AWS EC2, Version Control, OOP, Distributed Systems, Containerization",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, Algorithms, Data Structures, Scalable Architecture, Database Management, Web APIs, Cloud Computing, Git, Object Oriented Programming, Microservices Architecture",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, Java, DSA, System Design, MySQL, REST Services, AWS S3, Git, OOP Principles, Distributed Computing, Docker Containers, Linux Administration",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, JavaScript, Data Structures, Algorithm Design, System Architecture, PostgreSQL, RESTful Web Services, Amazon Cloud Services, Source Control, Object Oriented Design",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, C++, Algorithms, Data Structures, Distributed System Design, SQL, Web APIs, Microservices, AWS CloudFormation, Git, OOP, Container Orchestration",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, Java, DSA, System Design, Database Systems, REST APIs, Service Mesh, AWS DynamoDB, Version Control Systems, Object-Oriented Programming, Linux Systems",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Python, Data Structures, Algorithms, Architecture Design, SQL Databases, RESTful Services, Cloud Architecture, Git, OOP, Distributed Systems, Docker",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, Java, Algorithm Design, Data Structures, System Architecture, NoSQL, Web APIs, Microservices Design, AWS Infrastructure, Git, Object Oriented Programming",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, JavaScript, DSA, Scalable System Design, Database Design, REST Services, Service Architecture, Amazon Web Services, Source Control, OOP Principles",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, Data Structures and Algorithms, System Design Patterns, SQL, RESTful APIs, Microservices Architecture, AWS Lambda, Git, Object-Oriented Design, Linux",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, JavaScript, Algorithms, Data Structures, Distributed Architecture, Database Management, Web APIs, Cloud Services, Version Control, OOP, Containerization",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, Java, DSA, System Architecture Design, Relational Databases, REST APIs, Service-Oriented Design, AWS EC2, Git, Object Oriented Programming, Docker",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, C++, Data Structures, Algorithm Implementation, System Design, SQL Server, RESTful Web APIs, Microservices, Amazon Cloud, Git, OOP, Distributed Computing",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Python, Algorithms, Data Structures, Architecture Design, Database Systems, Web Services, AWS S3, Source Control, Object-Oriented Programming, Linux Shell",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, Java, DSA, Scalable System Architecture, MySQL, REST Services, Microservices Design, Cloud Computing, Git, OOP Principles, Container Technology",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, JavaScript, Data Structures and Algorithms, System Design, PostgreSQL, RESTful Services, Service Architecture, AWS Infrastructure, Version Control, OOP",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, Algorithm Design, Data Structures, Distributed System Design, Database Design, Web APIs, Amazon Web Services, Git, Object Oriented Design, Linux",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, JavaScript, DSA, System Architecture, SQL, REST APIs, Microservices, AWS DynamoDB, Git, Object-Oriented Programming, Docker Containers",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, C++, Data Structures, Algorithms, Architecture Design, Database Management, RESTful APIs, Cloud Services, Source Control, OOP, Distributed Systems",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Python, Algorithm Implementation, Data Structures, System Design, NoSQL, Web Services, Service Mesh, AWS CloudFormation, Git, Object Oriented Programming",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, Java, DSA, Scalable Architecture, Relational Databases, REST Services, Microservices Architecture, Amazon Cloud Services, Version Control, OOP Principles",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, JavaScript, Data Structures and Algorithms, System Architecture Design, SQL Databases, RESTful Web Services, AWS Lambda, Git, Object-Oriented Design, Linux Systems",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, Algorithms, Data Structures, Distributed Architecture, Database Systems, Web APIs, Cloud Architecture, Source Control, OOP, Container Orchestration",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, JavaScript, DSA, System Design Patterns, MySQL, REST APIs, Service-Oriented Architecture, AWS EC2, Git, Object Oriented Programming, Docker",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, Java, Data Structures, Algorithm Design, Architecture Design, PostgreSQL, RESTful Services, Microservices Design, Amazon Web Services, Version Control, OOP",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, C++, Algorithm Implementation, Data Structures, System Architecture, Database Design, Web Services, AWS S3, Git, Object-Oriented Programming, Linux Administration",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, DSA, Scalable System Design, SQL Server, REST Services, Service Architecture, Cloud Computing, Source Control, OOP Principles, Containerization",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, JavaScript, Data Structures and Algorithms, Distributed System Design, Database Management, RESTful APIs, AWS Infrastructure, Git, Object Oriented Design",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, Java, Algorithms, Data Structures, System Architecture, NoSQL Databases, Web APIs, Microservices, Amazon Cloud, Version Control, OOP, Docker Containers",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Python, DSA, Architecture Design, Relational Databases, REST APIs, Service-Oriented Design, AWS DynamoDB, Git, Object-Oriented Programming, Linux Shell",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, C++, Data Structures, Algorithm Design, Scalable Architecture, SQL, RESTful Web Services, Cloud Services, Source Control, OOP Principles, Distributed Computing",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, JavaScript, Algorithm Implementation, Data Structures, System Design, Database Systems, Web Services, Service Mesh, AWS CloudFormation, Git, Object Oriented Programming",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, DSA, System Architecture Design, MySQL, REST Services, Microservices Architecture, Amazon Web Services, Version Control, OOP, Container Technology",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, JavaScript, Data Structures and Algorithms, Distributed Architecture, PostgreSQL, RESTful Services, AWS Lambda, Git, Object-Oriented Design, Linux Systems",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, Java, Algorithms, Data Structures, System Design Patterns, Database Design, Web APIs, Cloud Architecture, Source Control, OOP Principles, Docker",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, C++, DSA, Architecture Design, SQL Server, REST APIs, Service Architecture, AWS EC2, Git, Object Oriented Programming, Container Orchestration",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, Data Structures, Algorithm Design, Scalable System Design, NoSQL, RESTful APIs, Microservices Design, Amazon Cloud Services, Version Control, OOP",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, JavaScript, Algorithm Implementation, Data Structures, System Architecture, Database Management, Web Services, AWS S3, Git, Object-Oriented Programming, Linux Administration",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, Java, DSA, Distributed System Design, Relational Databases, REST Services, Service-Oriented Architecture, Cloud Computing, Source Control, OOP Principles",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Python, Data Structures and Algorithms, Architecture Design, MySQL, RESTful Web Services, AWS Infrastructure, Git, Object Oriented Design, Containerization",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, C++, Algorithms, Data Structures, System Design, PostgreSQL, Web APIs, Microservices, Amazon Web Services, Version Control, OOP, Docker Containers",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, JavaScript, DSA, Scalable Architecture, Database Systems, REST APIs, Service Mesh, AWS DynamoDB, Git, Object-Oriented Programming, Linux Shell",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, Java, Data Structures, Algorithm Design, System Architecture Design, SQL Databases, RESTful Services, Cloud Services, Source Control, OOP Principles, Distributed Systems",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Python, Algorithm Implementation, Data Structures, Architecture Design, NoSQL Databases, Web Services, Microservices Architecture, AWS CloudFormation, Git, Object Oriented Programming",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, DSA, System Design Patterns, Database Design, REST Services, Service Architecture, Amazon Cloud, Version Control, OOP, Container Technology",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, C++, Data Structures and Algorithms, Distributed Architecture, Relational Databases, RESTful APIs, AWS Lambda, Git, Object-Oriented Design, Linux Systems",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Java, Algorithms, Data Structures, Scalable System Design, MySQL, Web APIs, Cloud Architecture, Source Control, OOP Principles, Docker",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, DSA, System Design, SQL, REST APIs, Microservices, Git, Object Oriented Programming",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, JavaScript, Data Structures, Algorithms, Architecture Design, Database Management, RESTful Services, AWS EC2, Version Control, OOP",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, Java, Algorithm Design, Data Structures, System Architecture, PostgreSQL, Web Services, Amazon Web Services, Git, Object-Oriented Programming",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, C++, DSA, Distributed System Design, NoSQL, REST Services, Microservices Design, Cloud Computing, Source Control, OOP Principles",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, Data Structures and Algorithms, System Design, SQL Server, RESTful APIs, AWS S3, Git, Object Oriented Design",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, JavaScript, Algorithms, Data Structures, Architecture Design, Database Systems, Web APIs, Service Architecture, Amazon Cloud Services, Version Control, OOP",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, Java, DSA, Scalable System Architecture, Relational Databases, REST APIs, AWS Infrastructure, Git, Object-Oriented Programming",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Python, Data Structures, Algorithm Implementation, System Design Patterns, MySQL, RESTful Web Services, Microservices, Source Control, OOP Principles",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, C++, Algorithm Design, Data Structures, Distributed Architecture, Database Design, Web Services, AWS DynamoDB, Git, Object Oriented Programming",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, JavaScript, DSA, System Architecture Design, PostgreSQL, REST Services, Service-Oriented Architecture, Amazon Web Services, Version Control, OOP",
+            "label": 1
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "React, HTML, CSS, JavaScript, Frontend Development, UI/UX Design, Bootstrap, jQuery, Responsive Design, Web Design, DOM Manipulation, SASS",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Angular, TypeScript, HTML5, CSS3, Node.js, Express, MongoDB, Frontend Architecture, Component Design, Material UI, Webpack, NPM",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Vue.js, JavaScript, HTML, CSS, Vuex, Nuxt.js, Frontend Development, UI Components, Responsive Design, SCSS, Web Performance, Browser APIs",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C, Assembly Language, Embedded Systems, Microcontrollers, ARM Architecture, Real-time Systems, Hardware Debugging, PCB Design, Firmware Development, RTOS",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "VHDL, Verilog, FPGA Programming, Digital Circuit Design, Xilinx, Altera, Hardware Synthesis, Logic Design, Signal Processing, Electronic Engineering",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Arduino, Raspberry Pi, IoT Development, Sensor Integration, C Programming, Embedded C, Hardware Interfacing, Protocol Implementation, Microprocessor Design",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Jenkins, CI/CD Pipelines, Kubernetes, Docker, Terraform, Ansible, Infrastructure as Code, Monitoring, Prometheus, Grafana, DevOps Engineering, Cloud Operations",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Bash Scripting, Linux Administration, Server Management, Configuration Management, Puppet, Chef, Infrastructure Automation, System Administration, Network Configuration",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, R, Data Analysis, Statistical Modeling, Pandas, NumPy, Matplotlib, Data Visualization, Machine Learning, Jupyter Notebooks, Data Mining, Excel",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "SQL, Tableau, Power BI, Data Warehousing, ETL Processes, Business Intelligence, Statistical Analysis, Data Reporting, Excel Analytics, Database Querying",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Hadoop, Spark, Big Data Analytics, Hive, HBase, Data Engineering, Stream Processing, Kafka, Data Pipeline Development, Scala, Data Lake Architecture",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "AutoCAD, SolidWorks, Mechanical Design, CAD Modeling, Engineering Drawing, Product Design, Manufacturing Processes, 3D Modeling, Finite Element Analysis",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "MATLAB, Simulink, Control Systems, Signal Processing, Electrical Circuit Design, Power Systems, Electronics, Embedded Control, Motor Control, PCB Layout",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Civil Engineering, Structural Analysis, Construction Management, Project Planning, AutoCAD Civil 3D, Surveying, Geotechnical Engineering, Building Codes",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, HTML, CSS, Basic Programming, Student Projects, Coursework, Programming Fundamentals, Git, Database Basics",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, JavaScript, Web Development, Frontend Skills, Basic Algorithms, Programming Logic, Software Development Basics, Version Control",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, Java, Object Oriented Programming, SQL, Web Development, Programming Concepts, Software Engineering Principles, Basic Data Structures",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Python, C++, Web APIs, Object-Oriented Design, Database Management, Software Development, Programming Fundamentals, Version Control Systems",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, C++, Python, SQL, REST APIs, Git, Object Oriented Programming, Database Design, Web Development, Software Engineering",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, JavaScript, Java, RESTful Services, Database Systems, Object-Oriented Programming, Web APIs, Software Development, Version Control, SQL Databases",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, Python, Java, Web Services, Database Management, Object Oriented Design, REST APIs, Software Engineering, Git, Programming Languages",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Python, C++, SQL, RESTful APIs, Object-Oriented Programming, Database Design, Web Development, Software Development Lifecycle, Version Control",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, JavaScript, Database Systems, Web APIs, Object Oriented Programming, SQL, Software Engineering Principles, Git, Programming Fundamentals",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, C++, Java, REST Services, Database Management, Object-Oriented Design, Web APIs, Software Development, SQL Databases, Version Control Systems",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Java, Python, RESTful Web Services, Database Design, Object Oriented Programming, SQL, Software Engineering, Git, Web Development",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, JavaScript, Python, Database Systems, Web Services, Object-Oriented Programming, REST APIs, Software Development Principles, Version Control, SQL",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, C++, Web APIs, Database Management, Object Oriented Design, RESTful Services, Software Engineering, Git, Programming Languages",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, JavaScript, Java, Database Design, REST APIs, Object-Oriented Programming, Web Services, Software Development, SQL Databases, Version Control",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, Python, JavaScript, Database Systems, RESTful APIs, Object Oriented Programming, Web Development, Software Engineering, Git, SQL",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, JavaScript, Python, Web Services, Database Management, Object-Oriented Design, REST APIs, Software Development Lifecycle, Version Control Systems, SQL Databases",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, C++, Java, RESTful Web Services, Database Design, Object Oriented Programming, Web APIs, Software Engineering Principles, Git, Programming Fundamentals",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Python, C++, Database Systems, Web Services, Object-Oriented Programming, REST Services, Software Development, SQL, Version Control",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, JavaScript, Database Management, RESTful APIs, Object Oriented Design, Web Development, Software Engineering, Git, SQL Databases",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, JavaScript, Python, Web APIs, Database Design, Object-Oriented Programming, REST APIs, Software Development Principles, Version Control Systems, SQL",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, Java, C++, Database Systems, RESTful Services, Object Oriented Programming, Web Services, Software Engineering, Git, Programming Languages",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Python, Java, Web APIs, Database Management, Object-Oriented Design, REST Services, Software Development, SQL Databases, Version Control",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, Python, JavaScript, RESTful Web Services, Database Design, Object Oriented Programming, Web Development, Software Engineering Principles, Git, SQL",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, JavaScript, Python, Database Systems, Web Services, Object-Oriented Programming, REST APIs, Software Development Lifecycle, Version Control Systems, Programming Fundamentals",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, C++, Java, Web APIs, Database Management, Object Oriented Design, RESTful Services, Software Engineering, Git, SQL Databases",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Python, C++, Database Design, REST APIs, Object-Oriented Programming, Web Services, Software Development, Version Control, SQL",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Java, Python, JavaScript, RESTful APIs, Database Systems, Object Oriented Programming, Web Development, Software Engineering Principles, Git, Programming Languages",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "C++, JavaScript, Python, Web Services, Database Management, Object-Oriented Design, REST Services, Software Development, SQL Databases, Version Control Systems",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "Python, Java, C++, Database Design, RESTful Web Services, Object Oriented Programming, Web APIs, Software Engineering, Git, SQL",
+            "label": 0
+          },
+          {
+            "goal": "Amazon SDE",
+            "resume_text": "JavaScript, Python, Java, Web Services, Database Systems, Object-Oriented Programming, REST APIs, Software Development Principles, Version Control, Programming Fundamentals",
+            "label": 0
+          }
+                  ,
+                  
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "System Design, Java, AWS, Data Structures, Algorithms, Microservices, SQL, Python, Docker, Git",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python, C++, Distributed Systems, REST APIs, Object Oriented Programming, AWS Lambda, Data Structures, System Design",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "JavaScript, Node.js, Microservices Architecture, AWS EC2, SQL Database Design, Git Version Control, Linux Administration",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java Spring Boot, System Architecture, Algorithms Implementation, Docker Containerization, RESTful APIs, AWS S3",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "C++ Programming, Data Structures Implementation, Scalable Systems Design, MySQL, Python Flask, AWS CloudFormation",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Microservices Development, Java Enterprise, AWS RDS, System Design Patterns, Git Workflow, SQL Optimization",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python Django, Distributed Computing, JavaScript ES6, Docker Compose, Web APIs, Data Structures Analysis",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "AWS Infrastructure, System Architecture Design, Java Collections, C++ STL, Linux Shell Scripting, REST Services",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Object Oriented Design, Microservices Patterns, Python Backend, SQL Query Optimization, Git Branching, AWS IAM",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "System Design Fundamentals, Java Multithreading, Docker Orchestration, Algorithms Complexity, JavaScript React, AWS VPC",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "C++ Object Oriented Programming, Data Structures Optimization, Scalable Architecture, SQL Database Management, Python Scripting",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Microservices Communication, Java Spring Framework, AWS Auto Scaling, System Design Principles, Git Merge Strategies",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python Web Development, Distributed System Architecture, JavaScript Backend, Docker Swarm, RESTful Web Services",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "AWS Cloud Services, System Performance Design, Java Concurrency, SQL Transaction Management, Linux System Administration",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Data Structures Algorithms, Microservices Deployment, C++ Standard Library, Python Data Analysis, Web API Development",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "System Architecture Patterns, Java Memory Management, AWS Elastic Load Balancing, Git Rebase, SQL Index Optimization",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Object Oriented Analysis, Distributed Systems Coordination, JavaScript Node.js, Docker Multi-stage Builds, Python Flask API",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Microservices Security, System Design Scalability, C++ Memory Management, AWS CloudWatch, SQL Performance Tuning",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java Enterprise Architecture, Data Structures Implementation, Python Web Frameworks, Git Hooks, Linux Process Management",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "AWS Serverless Architecture, System Design Patterns, JavaScript Async Programming, Docker Container Security, REST API Design",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python, Data Structures, AWS, System Architecture, Java, SQL, Git",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "C++, Microservices, Algorithms, JavaScript, Docker, Linux, Object Oriented Programming",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java, Distributed Systems, REST APIs, AWS EC2, System Design, SQL Database",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python Flask, Data Structures, Microservices Architecture, Git Version Control, AWS Lambda",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "System Design, C++ Programming, JavaScript, Docker Containerization, SQL Queries, Linux Commands",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "AWS Cloud Computing, Java Spring, Algorithms Implementation, RESTful Services, Object Oriented Design",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Microservices Development, Python Django, Data Structures Analysis, Git Workflow, System Architecture",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "JavaScript Node.js, Distributed Computing, C++ STL, AWS S3, SQL Optimization, Docker Compose",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "System Design Principles, Java Collections, Python Scripting, Web APIs, Linux Administration, Git Branching",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "AWS Infrastructure, Microservices Patterns, Data Structures, C++ Object Oriented, JavaScript ES6, SQL Database Design",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python Backend Development, System Architecture Design, Java Multithreading, Docker Orchestration, REST API Development",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Algorithms Complexity, AWS Auto Scaling, JavaScript React, C++ Memory Management, SQL Transaction Processing",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Microservices Communication, System Design Scalability, Python Web Development, Git Merge Strategies, Linux Shell",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java Enterprise, Distributed System Architecture, AWS RDS, Data Structures Optimization, Docker Swarm",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "System Performance Design, C++ Standard Library, JavaScript Backend, Python Data Processing, RESTful Web Services",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "AWS Cloud Services, Microservices Deployment, Java Concurrency, SQL Index Management, Object Oriented Analysis",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Data Structures Algorithms, System Architecture Patterns, Python Flask API, Git Rebase, Linux System Programming",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "JavaScript Node.js, Distributed Systems Coordination, C++ Programming, AWS Elastic Load Balancing, Docker Multi-stage",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Microservices Security, Java Memory Management, System Design Patterns, Python Web Frameworks, SQL Performance",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "AWS Serverless, System Scalability Design, Data Structures Implementation, C++ STL Algorithms, JavaScript Async",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java, Python, Data Structures, System Design, AWS",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "C++, Algorithms, Microservices, SQL, Git, Docker",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "JavaScript, System Architecture, AWS Lambda, Data Structures, REST APIs",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python, Distributed Systems, Java, SQL Database, Object Oriented Programming",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "System Design, C++, Microservices Architecture, Linux, Git Version Control",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "AWS Cloud, Java Spring, Data Structures, JavaScript, Docker Containerization",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python Django, System Design Patterns, Algorithms, SQL Optimization, RESTful Services",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Microservices Development, C++ Programming, JavaScript Node.js, AWS EC2, Git Workflow",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Data Structures Analysis, System Architecture, Python Flask, Java Collections, Linux Administration",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "AWS Infrastructure, Distributed Computing, JavaScript ES6, SQL Database Management, Docker Compose",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "System Design Fundamentals, C++ Object Oriented, Microservices Patterns, Python Scripting, Web APIs",
+                      "label": 1
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "HTML, CSS, Frontend JavaScript, React, Angular, UI/UX Design, Responsive Web Design",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "DevOps, Kubernetes, Jenkins, CI/CD Pipelines, Infrastructure Automation, Terraform, Ansible",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Data Analysis, Python Pandas, R Programming, Statistical Modeling, Machine Learning, Tableau, Power BI",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Embedded C, ARM Processors, Hardware Design, RTOS, Firmware Development, PCB Design, Microcontrollers",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Mechanical Engineering, CAD Design, SolidWorks, AutoCAD, Manufacturing Processes, Quality Control, Project Management",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Electrical Engineering, Circuit Design, MATLAB, Simulink, Power Systems, Control Systems, Signal Processing",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Mobile Development, Swift, Kotlin, iOS Development, Android Development, Mobile UI Design, App Store Optimization",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Digital Marketing, SEO, Social Media Marketing, Google Analytics, Content Marketing, Email Marketing, PPC Advertising",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Game Development, Unity, C# Scripting, 3D Modeling, Game Physics, Animation, Level Design",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Network Administration, Cisco Networking, Firewall Configuration, Network Security, CCNA, TCP/IP, VPN Setup",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java, Python, C++, JavaScript, SQL, Git, HTML, CSS",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python Flask, JavaScript React, SQL Database, Git Version Control, Linux Basic Commands, Docker Basics",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "C++ Programming, Java Core, REST API Consumption, Basic Algorithms, SQL Queries, Object Oriented Concepts",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "JavaScript Node.js, Python Django, Git Basics, SQL Database Design, Linux File System, Web Development",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java Spring Boot, Python Scripting, C++ Basics, JavaScript Frontend, SQL Joins, Docker Introduction",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Data Structures Basics, Python Programming, Java Collections, SQL Database, Git Commands, Linux Terminal",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "JavaScript ES6, C++ Object Oriented, Python Web Development, REST API Basics, SQL Optimization, Git Workflow",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java Fundamentals, Python Flask API, JavaScript DOM, SQL Transaction Basics, Docker Containers, Git Branching",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "C++ Standard Library, Python Data Structures, JavaScript Async, SQL Index Basics, Linux Commands, Object Oriented Design",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python Backend, Java Enterprise Basics, JavaScript Node.js, SQL Database Management, Git Version Control, Algorithms Introduction",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java, Python, C++, JavaScript, SQL, Docker, REST APIs, Object Oriented Programming",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python Flask, Data Structures, JavaScript React, Git Version Control, SQL Database, Linux Basic",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "C++ Programming, Java Spring, Algorithms, REST APIs, SQL Optimization, Docker Containers",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "JavaScript Node.js, Python Django, Data Structures, Git Workflow, SQL Database Design, Object Oriented Programming",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java Collections, C++ STL, Python Web Development, JavaScript ES6, SQL Queries, Linux Shell",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python Scripting, Java Enterprise, Data Structures Analysis, REST API Development, Git Branching, SQL Transaction",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "JavaScript Backend, C++ Object Oriented, Python Flask API, Algorithms Implementation, Docker Compose, SQL Index",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java Multithreading, Python Data Processing, C++ Standard Library, JavaScript Async Programming, Git Merge, SQL Performance",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python Web Frameworks, Java Memory Management, Data Structures Optimization, JavaScript DOM Manipulation, REST Web Services",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "C++ Memory Management, Python Backend Development, Java Concurrency, JavaScript Event Handling, SQL Database Management, Git Rebase",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Cybersecurity, Penetration Testing, Ethical Hacking, Network Security, Cryptography, Incident Response, Security Auditing",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Business Analysis, Requirements Gathering, Process Improvement, Stakeholder Management, Documentation, Agile Methodology, Project Coordination",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Quality Assurance, Test Automation, Selenium, Manual Testing, Bug Tracking, Test Case Design, Performance Testing",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Technical Writing, Documentation, API Documentation, User Manuals, Content Creation, Information Architecture, Version Control",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Database Administration, MySQL DBA, PostgreSQL, Database Optimization, Backup Recovery, Database Security, Performance Tuning",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Site Reliability Engineering, Monitoring, Alerting, Performance Optimization, Incident Management, Capacity Planning, Service Level Objectives",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Product Management, Market Research, Product Strategy, User Experience Research, Roadmap Planning, Stakeholder Communication, Analytics",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Cloud Architecture, Azure, Google Cloud Platform, Cloud Migration, Serverless Computing, Cloud Security, Cost Optimization",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Artificial Intelligence, Neural Networks, Deep Learning, TensorFlow, PyTorch, Computer Vision, Natural Language Processing",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Blockchain Development, Smart Contracts, Ethereum, Solidity, Cryptocurrency, DeFi, Web3 Development",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java, Python, C++, JavaScript, SQL, Git, Object Oriented Programming, Web Development, Database Design",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python Flask, JavaScript React, C++ Programming, REST API Development, SQL Database, Git Version Control, Linux Commands",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java Spring Framework, Data Structures, Python Django, JavaScript Node.js, SQL Optimization, Docker Basics, Object Oriented Design",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "C++ STL, Python Web Development, Java Collections, JavaScript ES6, REST APIs, SQL Transaction Management, Git Workflow",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python Scripting, Java Enterprise, JavaScript Backend, Data Structures Analysis, SQL Database Management, Docker Containerization",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "JavaScript Async Programming, C++ Object Oriented Programming, Python Flask API, Java Multithreading, SQL Index Optimization, Git Branching",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java Memory Management, Python Data Processing, C++ Standard Library, JavaScript DOM, REST Web Services, SQL Performance Tuning",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python Backend Development, Java Concurrency, JavaScript Event Handling, C++ Memory Management, SQL Database Design, Object Oriented Analysis",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Java Spring Boot, Python Web Frameworks, C++ Programming Fundamentals, JavaScript React Development, SQL Query Optimization, Git Version Control",
+                      "label": 0
+                    },
+                    {
+                      "goal": "Amazon SDE",
+                      "resume_text": "Python Django Framework, JavaScript Node.js Development, C++ Object Oriented Design, Java Collections Framework, SQL Database Administration, REST API Integration",
+                      "label": 0
+                    }
+                  
 ]

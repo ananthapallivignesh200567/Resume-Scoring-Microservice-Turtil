@@ -1,17 +1,17 @@
 {
   "models": {
-    "amazon_sde": "amazon_sde_model.pkl"
+    "Amazon SDE": "amazon_sde_model.pkl"
   },
   "vectorizers": {
-    "amazon_sde": "amazon_sde_vectorizer.pkl"
+    "Amazon SDE": "amazon_sde_vectorizer.pkl"
   },
   "metrics": {
-    "amazon_sde": {
-      "accuracy": 0.8863636363636364,
-      "samples": 108,
-      "positive_samples": 50,
-      "negative_samples": 58,
-      "feature_count": 517
+    "Amazon SDE": {
+      "accuracy": 0.9153225806451613,
+      "samples": 620,
+      "positive_samples": 313,
+      "negative_samples": 307,
+      "feature_count": 3815
     }
   }
 }

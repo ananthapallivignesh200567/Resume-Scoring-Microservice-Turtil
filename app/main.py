@@ -112,7 +112,12 @@ async def lifespan(app: FastAPI):
         goals = load_goals()
 
         # Attach scorer and config to app state
-        app.state.scorer = ResumeScorer(config, goals)
+        app.state.scorer = ResumeScorer(
+            model_dir="../app/model",
+            data_dir="../data",
+            config_path="../config.json"
+            )
+
         app.state.config = config
 
         logger.info(
