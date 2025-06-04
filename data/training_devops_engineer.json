@@ -1,0 +1,502 @@
+[
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Sociology, Graphic Design, AutoCAD, 3D Modeling, Biotechnology, Market Research",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Prometheus Monitoring, Cybersecurity, AWS Cloud, IaC, Jenkins Pipelines, Grafana Dashboards, Ansible Playbooks, Continuous Integration Continuous Delivery, Orchestration of Containers, System Monitoring, Shell Scripts, Azure Cloud, Containerization, K8s",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "GitHub CI/CD, Jenkins Pipelines, Grafana Dashboards, Linux Environment, Continuous Integration Continuous Delivery, Cybersecurity, Prometheus Monitoring, Infra Configuration, Ansible Playbooks, Orchestration of Containers, Microsoft Azure",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Unix-like OS, Bash Scripting, Elasticsearch Logstash Kibana, Containerization, System Monitoring, Grafana Dashboards, Continuous Integration Continuous Delivery, Python Programming, Microsoft Azure, Prometheus Monitoring, Infra Configuration, Computer Networking, AWS Cloud, Orchestration of Containers, Google Cloud Platform",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Container Orchestration, Prometheus Monitoring, GitHub CI/CD, IaC with Terraform, Continuous Integration Continuous Delivery, GitLab Continuous Integration, CI Server, Git, Elasticsearch Logstash Kibana, System Monitoring, Orchestration of Containers, Shell Scripts, Amazon Web Services, Automation with Ansible, Python Programming, IaC, Linux Environment, Bash Scripting, Microsoft Azure, Computer Networking, Containerization, Cybersecurity, Google Cloud, Grafana Dashboards",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Linux Environment, Computer Networking, Orchestration of Containers, Infra Configuration, Terraform Scripting, System Monitoring, Git, Jenkins Pipelines, Prometheus Monitoring, Containerization, Google Cloud Platform, IaC, Bash Scripting, Container Orchestration, Continuous Integration Continuous Delivery",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Microsoft Azure, Python Programming, System Monitoring, Shell Scripts, Orchestration of Containers, Bash Scripting, Docker Engine, IaC, IaC with Terraform, Elasticsearch Logstash Kibana, Ansible Playbooks, GitHub CI/CD, Google Cloud, K8s, Git, Infra Configuration, AWS Cloud, Prometheus Monitoring, Continuous Integration Continuous Delivery, GitLab Continuous Integration, Unix-like OS, Computer Networking",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Shell Scripts, Google Cloud, IaC, Docker Engine, AWS Cloud, Prometheus Monitoring, System Monitoring, Python Programming, K8s, Ansible Playbooks, Azure Cloud, Linux Environment, GitHub CI/CD",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "GitLab Continuous Integration, Linux Environment, Containerization, Continuous Integration Continuous Delivery, IaC, Infra Configuration, Shell Scripts, Orchestration of Containers, IaC with Terraform",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Bash Scripting, Continuous Integration Continuous Delivery, CI Server, Shell Scripts, Unix-like OS, Infra Configuration, GitHub CI/CD, Computer Networking, Amazon Web Services, GitLab Continuous Integration",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Graphic Design, SolidWorks, Content Writing, Interior Design, Biotechnology, Sociology",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Continuous Integration Continuous Delivery, GitHub CI/CD, Computer Networking, Git, Amazon Web Services, Unix-like OS, Elasticsearch Logstash Kibana, Bash Scripting, Jenkins Pipelines, Orchestration of Containers, System Monitoring",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Ansible Playbooks, Docker Engine, Grafana Dashboards, GitHub CI/CD, IaC with Terraform, Linux Environment, Bash Scripting, Elasticsearch Logstash Kibana, Source Control, Orchestration of Containers, GitLab Continuous Integration, Microsoft Azure, IaC, Google Cloud Platform, K8s, Continuous Integration Continuous Delivery",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Prometheus Monitoring, GitLab Continuous Integration, Grafana Dashboards, Bash Scripting, Azure Cloud, Continuous Integration Continuous Delivery, Computer Networking, Ansible Playbooks, GitHub CI/CD, Unix-like OS, Elasticsearch Logstash Kibana, Shell Scripts, Amazon Web Services",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "IaC with Terraform, Computer Networking, IaC, Cybersecurity, GitHub CI/CD, Unix-like OS, Terraform Scripting, Microsoft Azure",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Python Programming, System Monitoring, Bash Scripting, IaC, AWS Cloud, Cybersecurity, Grafana Dashboards, GitLab Continuous Integration, Infra Configuration, Ansible Playbooks, Azure Cloud",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Amazon Web Services, Python Programming, Source Control, Unix-like OS, Microsoft Azure, Computer Networking, IaC, Grafana Dashboards, System Monitoring",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Biotechnology, Civil Engineering, Photoshop, 3D Modeling, Mechanical CAD, Sociology",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Orchestration of Containers, Shell Scripts, System Monitoring, Computer Networking, Linux Environment, Bash Scripting, Continuous Integration Continuous Delivery, IaC, Prometheus Monitoring",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Orchestration of Containers, Grafana Dashboards, Computer Networking, Jenkins Pipelines, Google Cloud Platform, Bash Scripting, Infra Configuration, Linux Environment, Container Orchestration, Elasticsearch Logstash Kibana, Shell Scripts, GitHub CI/CD, Continuous Integration Continuous Delivery",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Shell Scripts, K8s, GitHub CI/CD, Container Orchestration, System Monitoring, Elasticsearch Logstash Kibana, IaC, Microsoft Azure, Git",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Google Cloud, System Monitoring, AWS Cloud, Python Programming, Source Control, Unix-like OS, Continuous Integration Continuous Delivery, Computer Networking, IaC, GitHub CI/CD, GitLab Continuous Integration, Shell Scripts, Prometheus Monitoring",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Git, Python Programming, Elasticsearch Logstash Kibana, Grafana Dashboards, Azure Cloud, Linux Environment, Prometheus Monitoring, CI Server, GitHub CI/CD, Continuous Integration Continuous Delivery, IaC, GitLab Continuous Integration, Shell Scripts",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "IaC, Continuous Integration Continuous Delivery, Container Orchestration, CI Server, Python Programming, Terraform Scripting, Microsoft Azure, Cybersecurity",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Ansible Playbooks, IaC, Source Control, Elasticsearch Logstash Kibana, Python Programming, Prometheus Monitoring, IaC with Terraform, Docker Engine, System Monitoring, Cybersecurity, Google Cloud Platform, Bash Scripting, K8s, Unix-like OS, AWS Cloud, Shell Scripts, Continuous Integration Continuous Delivery, Infra Configuration, Grafana Dashboards, Orchestration of Containers, Microsoft Azure, GitHub CI/CD, GitLab Continuous Integration",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Source Control, Ansible Playbooks, Computer Networking, Python Programming, Containerization, Orchestration of Containers, Bash Scripting, Grafana Dashboards, Elasticsearch Logstash Kibana, Google Cloud Platform, Container Orchestration, System Monitoring, GitHub CI/CD, IaC, GitLab Continuous Integration, IaC with Terraform, Cybersecurity, Unix-like OS, AWS Cloud, Continuous Integration Continuous Delivery",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "SolidWorks, Content Writing, AutoCAD, 3D Modeling, Sociology, Pharma Research",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Continuous Integration Continuous Delivery, Unix-like OS, CI Server, Python Programming, Computer Networking, Amazon Web Services, GitLab Continuous Integration, Infra Configuration, Source Control, Bash Scripting, Prometheus Monitoring",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Graphic Design, Sociology, Photoshop, Interior Design, 3D Modeling, Market Research",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "System Monitoring, Bash Scripting, Automation with Ansible, Google Cloud, Orchestration of Containers, Elasticsearch Logstash Kibana, Grafana Dashboards, Computer Networking, Linux Environment, GitLab Continuous Integration, Containerization, IaC, Jenkins Pipelines, Prometheus Monitoring",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Microsoft Azure, Google Cloud Platform, Source Control, GitLab Continuous Integration, Continuous Integration Continuous Delivery, GitHub CI/CD, System Monitoring, Orchestration of Containers",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "SolidWorks, Civil Engineering, Interior Design, UI Design, Sociology, Mechanical CAD",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Git, Jenkins Pipelines, Linux Environment, Grafana Dashboards, Python Programming, Google Cloud Platform, Continuous Integration Continuous Delivery",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Grafana Dashboards, Elasticsearch Logstash Kibana, Continuous Integration Continuous Delivery, Linux Environment, Source Control, IaC, Python Programming, Infra Configuration, GitLab Continuous Integration, Automation with Ansible, Jenkins Pipelines, Azure Cloud, Orchestration of Containers",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Bash Scripting, Google Cloud Platform, Orchestration of Containers, Source Control, Prometheus Monitoring, Azure Cloud, Docker Engine",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "IaC, GitLab Continuous Integration, GitHub CI/CD, Shell Scripts, Automation with Ansible, Grafana Dashboards, Container Orchestration, Unix-like OS, Source Control, CI Server, Infra Configuration, Python Programming, System Monitoring, Bash Scripting, Elasticsearch Logstash Kibana, IaC with Terraform, Continuous Integration Continuous Delivery, Computer Networking, Google Cloud, Prometheus Monitoring, Cybersecurity, Microsoft Azure, Docker Engine, Orchestration of Containers",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Bash Scripting, Grafana Dashboards, Containerization, Prometheus Monitoring, Cybersecurity, GitHub CI/CD, Continuous Integration Continuous Delivery, Unix-like OS",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Shell Scripts, Grafana Dashboards, GitHub CI/CD, Cybersecurity, Computer Networking, Google Cloud Platform, Python Programming, IaC with Terraform, Prometheus Monitoring, AWS Cloud, GitLab Continuous Integration, CI Server, Bash Scripting",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "System Monitoring, GitLab Continuous Integration, Computer Networking, Ansible Playbooks, IaC, Bash Scripting, Orchestration of Containers, Prometheus Monitoring, Infra Configuration, Azure Cloud, Unix-like OS, Continuous Integration Continuous Delivery",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Elasticsearch Logstash Kibana, K8s, Git, Bash Scripting, Terraform Scripting, Orchestration of Containers, Grafana Dashboards, Computer Networking, Infra Configuration, Unix-like OS, Prometheus Monitoring, Cybersecurity, GitHub CI/CD, Shell Scripts, AWS Cloud, GitLab Continuous Integration, IaC, Google Cloud Platform, System Monitoring, Ansible Playbooks, Continuous Integration Continuous Delivery, Microsoft Azure",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Orchestration of Containers, Python Programming, System Monitoring, Grafana Dashboards, Infra Configuration, IaC, Prometheus Monitoring, Cybersecurity, Computer Networking, AWS Cloud, Elasticsearch Logstash Kibana, Bash Scripting, Ansible Playbooks, Azure Cloud, Source Control, Jenkins Pipelines, Continuous Integration Continuous Delivery, GitLab Continuous Integration, IaC with Terraform, K8s, Shell Scripts, GitHub CI/CD, Google Cloud Platform, Docker Engine",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Mechanical CAD, Pharma Research, Biotechnology, Sociology, UI Design, Interior Design",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "K8s, Elasticsearch Logstash Kibana, Unix-like OS, Docker Engine, Microsoft Azure, Google Cloud, System Monitoring",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "IaC, Linux Environment, Elasticsearch Logstash Kibana, Ansible Playbooks, Computer Networking, Jenkins Pipelines, Git, AWS Cloud, Google Cloud Platform",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Ansible Playbooks, Git, Prometheus Monitoring, Elasticsearch Logstash Kibana, IaC, Orchestration of Containers, Continuous Integration Continuous Delivery, Python Programming, Shell Scripts, Infra Configuration",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "GitHub CI/CD, Orchestration of Containers, Automation with Ansible, Terraform Scripting, CI Server, Bash Scripting, Azure Cloud, Continuous Integration Continuous Delivery, Grafana Dashboards, Prometheus Monitoring, Cybersecurity, Computer Networking, Unix-like OS",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "GitLab Continuous Integration, Shell Scripts, System Monitoring, Cybersecurity, Orchestration of Containers, Unix-like OS, IaC, Continuous Integration Continuous Delivery, Automation with Ansible, Grafana Dashboards, CI Server, Prometheus Monitoring, Python Programming, Source Control",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "3D Modeling, Biotechnology, Civil Engineering, Mechanical CAD, SolidWorks, Market Research",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "IaC with Terraform, AWS Cloud, Grafana Dashboards, GitHub CI/CD, Automation with Ansible, Unix-like OS, Infra Configuration, Google Cloud Platform",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Orchestration of Containers, Terraform Scripting, Python Programming, Elasticsearch Logstash Kibana, Grafana Dashboards, GitLab Continuous Integration, Cybersecurity, Infra Configuration, Bash Scripting, Amazon Web Services, System Monitoring, Source Control, Google Cloud, Prometheus Monitoring",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Infra Configuration, Linux Environment, Elasticsearch Logstash Kibana, Bash Scripting, GitHub CI/CD, Prometheus Monitoring, IaC, System Monitoring, Computer Networking, Shell Scripts, Continuous Integration Continuous Delivery, GitLab Continuous Integration, AWS Cloud",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "GitLab Continuous Integration, Source Control, Continuous Integration Continuous Delivery, Grafana Dashboards, Elasticsearch Logstash Kibana, System Monitoring, CI Server, Cybersecurity, IaC, Unix-like OS, Shell Scripts, Amazon Web Services, Infra Configuration, Python Programming, IaC with Terraform, Computer Networking",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Graphic Design, Pharma Research, Interior Design, Market Research, Photoshop, SolidWorks",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Jenkins Pipelines, AWS Cloud, GitHub CI/CD, Unix-like OS, Prometheus Monitoring, GitLab Continuous Integration, Shell Scripts, Continuous Integration Continuous Delivery, Infra Configuration, Elasticsearch Logstash Kibana",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Microsoft Azure, Orchestration of Containers, K8s, Google Cloud, Python Programming, Cybersecurity, Shell Scripts, Ansible Playbooks, GitLab Continuous Integration, Bash Scripting, Computer Networking, GitHub CI/CD, Containerization, Jenkins Pipelines, System Monitoring, Amazon Web Services, Continuous Integration Continuous Delivery, Terraform Scripting, Elasticsearch Logstash Kibana, Prometheus Monitoring, Infra Configuration",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Unix-like OS, Grafana Dashboards, Elasticsearch Logstash Kibana, IaC, Continuous Integration Continuous Delivery, Orchestration of Containers, Ansible Playbooks, GitLab Continuous Integration, Shell Scripts, Cybersecurity, GitHub CI/CD",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "AutoCAD, 3D Modeling, Sociology, Market Research, Biotechnology, Content Writing",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Automation with Ansible, GitLab Continuous Integration, Jenkins Pipelines, Source Control, Continuous Integration Continuous Delivery, Prometheus Monitoring, Grafana Dashboards, Computer Networking, Unix-like OS, Bash Scripting",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Azure Cloud, Git, Grafana Dashboards, Python Programming, System Monitoring, Bash Scripting, Container Orchestration, Terraform Scripting, Automation with Ansible, Docker Engine, Continuous Integration Continuous Delivery, Shell Scripts, GitHub CI/CD, GitLab Continuous Integration, Orchestration of Containers, Cybersecurity, IaC, Amazon Web Services, Google Cloud, Infra Configuration",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "IaC, Elasticsearch Logstash Kibana, Python Programming, GitHub CI/CD, Orchestration of Containers, Computer Networking, Ansible Playbooks, Prometheus Monitoring, Google Cloud, Bash Scripting, GitLab Continuous Integration, Infra Configuration, Containerization, Cybersecurity, IaC with Terraform, AWS Cloud, K8s, CI Server, Unix-like OS, Microsoft Azure, Continuous Integration Continuous Delivery, Git",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Infra Configuration, Prometheus Monitoring, Continuous Integration Continuous Delivery, Shell Scripts, Bash Scripting, GitLab Continuous Integration, Microsoft Azure, Amazon Web Services, Ansible Playbooks, Grafana Dashboards, IaC, Unix-like OS, Elasticsearch Logstash Kibana, Orchestration of Containers",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "IaC, Container Orchestration, CI Server, Terraform Scripting, Git, Grafana Dashboards, Shell Scripts, Elasticsearch Logstash Kibana, Orchestration of Containers, Bash Scripting, GitLab Continuous Integration, Linux Environment, Continuous Integration Continuous Delivery",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Content Writing, Biotechnology, UI Design, Civil Engineering, Mechanical CAD, Interior Design",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "SolidWorks, Graphic Design, Mechanical CAD, Photoshop, Content Writing, Interior Design",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "K8s, GitLab Continuous Integration, Shell Scripts, Computer Networking, Google Cloud Platform, Amazon Web Services, GitHub CI/CD, Docker Engine, Continuous Integration Continuous Delivery, Azure Cloud, Prometheus Monitoring, Elasticsearch Logstash Kibana, System Monitoring, Cybersecurity, Source Control, IaC with Terraform, Grafana Dashboards, Bash Scripting, Automation with Ansible, Infra Configuration",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Pharma Research, 3D Modeling, Photoshop, AutoCAD, Biotechnology, Sociology",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Cybersecurity, Orchestration of Containers, Elasticsearch Logstash Kibana, System Monitoring, GitHub CI/CD, Infra Configuration, Continuous Integration Continuous Delivery, Amazon Web Services, Ansible Playbooks, Bash Scripting, IaC, Azure Cloud",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "GitHub CI/CD, Linux Environment, Prometheus Monitoring, Ansible Playbooks, Shell Scripts, Cybersecurity, Grafana Dashboards, Bash Scripting, Google Cloud Platform, Python Programming, GitLab Continuous Integration, Orchestration of Containers, Elasticsearch Logstash Kibana, K8s, Continuous Integration Continuous Delivery, Jenkins Pipelines, Terraform Scripting, Git, IaC, Infra Configuration, Azure Cloud, Amazon Web Services",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Grafana Dashboards, GitHub CI/CD, Docker Engine, Continuous Integration Continuous Delivery, Terraform Scripting, Bash Scripting, Computer Networking, Source Control",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Prometheus Monitoring, Container Orchestration, Azure Cloud, Google Cloud Platform, Grafana Dashboards, IaC with Terraform, Jenkins Pipelines, Python Programming, IaC, Infra Configuration, System Monitoring, GitLab Continuous Integration, Git, Shell Scripts, Ansible Playbooks, Cybersecurity",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Source Control, GitLab Continuous Integration, Infra Configuration, Bash Scripting, GitHub CI/CD, Google Cloud, Cybersecurity, IaC, Orchestration of Containers, Container Orchestration, Automation with Ansible, Elasticsearch Logstash Kibana, Containerization, Linux Environment, Terraform Scripting, Python Programming, System Monitoring, CI Server, Shell Scripts, Computer Networking, Amazon Web Services, Continuous Integration Continuous Delivery, Prometheus Monitoring, Grafana Dashboards",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Jenkins Pipelines, Infra Configuration, Python Programming, Azure Cloud, Shell Scripts, Computer Networking, Google Cloud, K8s, GitLab Continuous Integration",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Unix-like OS, Elasticsearch Logstash Kibana, GitLab Continuous Integration, Automation with Ansible, Jenkins Pipelines, Amazon Web Services, Orchestration of Containers, Computer Networking, Bash Scripting, GitHub CI/CD, Cybersecurity, Infra Configuration, IaC, Source Control, System Monitoring, Grafana Dashboards, Microsoft Azure, Docker Engine, Google Cloud, Prometheus Monitoring, Shell Scripts",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "SolidWorks, Graphic Design, Market Research, UI Design, Photoshop, Mechanical CAD",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Photoshop, Graphic Design, 3D Modeling, Biotechnology, Content Writing, Market Research",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Elasticsearch Logstash Kibana, GitLab Continuous Integration, Containerization, Prometheus Monitoring, Linux Environment, AWS Cloud, Shell Scripts, Source Control, Python Programming, System Monitoring, Computer Networking, GitHub CI/CD, Grafana Dashboards",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Pharma Research, Photoshop, Content Writing, Biotechnology, UI Design, Interior Design",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Computer Networking, Amazon Web Services, Automation with Ansible, Microsoft Azure, Git, System Monitoring, Elasticsearch Logstash Kibana, Continuous Integration Continuous Delivery, Shell Scripts, GitHub CI/CD, IaC, Orchestration of Containers, Grafana Dashboards, Infra Configuration",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Civil Engineering, Graphic Design, SolidWorks, Content Writing, Pharma Research, Photoshop",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Photoshop, Pharma Research, Biotechnology, Interior Design, Graphic Design, Mechanical CAD",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Git, Containerization, Elasticsearch Logstash Kibana, Ansible Playbooks, Linux Environment, Grafana Dashboards, Terraform Scripting, GitLab Continuous Integration, Orchestration of Containers, Python Programming, Bash Scripting, Microsoft Azure, GitHub CI/CD",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Photoshop, AutoCAD, Photoshop, Civil Engineering, Biotechnology, Mechanical CAD",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Google Cloud, Ansible Playbooks, Grafana Dashboards, Python Programming, Containerization, Bash Scripting, Container Orchestration, Cybersecurity, IaC, System Monitoring, GitHub CI/CD, IaC with Terraform, Computer Networking, Continuous Integration Continuous Delivery, Git",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Market Research, Graphic Design, UI Design, Content Writing, Sociology, Biotechnology",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "SolidWorks, UI Design, Civil Engineering, AutoCAD, Interior Design, Photoshop",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Grafana Dashboards, Automation with Ansible, System Monitoring, Jenkins Pipelines, GitLab Continuous Integration, IaC with Terraform, Container Orchestration, K8s",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "GitLab Continuous Integration, IaC, GitHub CI/CD, System Monitoring, Python Programming, Prometheus Monitoring, Unix-like OS, Elasticsearch Logstash Kibana, Source Control, Microsoft Azure, Jenkins Pipelines, Continuous Integration Continuous Delivery, Terraform Scripting",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Civil Engineering, Content Writing, Photoshop, Biotechnology, Graphic Design, AutoCAD",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Bash Scripting, Cybersecurity, Computer Networking, Python Programming, CI Server, Continuous Integration Continuous Delivery, Microsoft Azure, Prometheus Monitoring, Git, Orchestration of Containers, Automation with Ansible, IaC, Shell Scripts",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Orchestration of Containers, Cybersecurity, GitHub CI/CD, Git, Amazon Web Services, Bash Scripting, Computer Networking, Python Programming, Unix-like OS, System Monitoring, Continuous Integration Continuous Delivery",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Elasticsearch Logstash Kibana, Cybersecurity, Continuous Integration Continuous Delivery, Bash Scripting, Python Programming, Orchestration of Containers, System Monitoring, Amazon Web Services, Computer Networking, Linux Environment",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Shell Scripts, Google Cloud Platform, IaC, System Monitoring, Elasticsearch Logstash Kibana, Grafana Dashboards, Computer Networking, Docker Engine, Python Programming, Infra Configuration, Jenkins Pipelines, Continuous Integration Continuous Delivery, Bash Scripting, Cybersecurity, Orchestration of Containers, Microsoft Azure",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Photoshop, Mechanical CAD, Civil Engineering, Biotechnology, Sociology, Content Writing",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Photoshop, Photoshop, Content Writing, Biotechnology, Graphic Design, UI Design",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Photoshop, Interior Design, Content Writing, Pharma Research, UI Design, Graphic Design",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Google Cloud Platform, K8s, Infra Configuration, AWS Cloud, Python Programming, Orchestration of Containers, Docker Engine, Cybersecurity, Source Control, Ansible Playbooks, GitLab Continuous Integration, Bash Scripting, Prometheus Monitoring, Elasticsearch Logstash Kibana, Continuous Integration Continuous Delivery, Azure Cloud, IaC, Shell Scripts, GitHub CI/CD, Terraform Scripting, Unix-like OS, System Monitoring, Grafana Dashboards, Computer Networking",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Git, Python Programming, AWS Cloud, Shell Scripts, Container Orchestration, IaC with Terraform, Infra Configuration, Unix-like OS, Bash Scripting, Cybersecurity, Google Cloud Platform, Microsoft Azure, Computer Networking, Jenkins Pipelines, Orchestration of Containers",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "GitLab Continuous Integration, Prometheus Monitoring, Jenkins Pipelines, Amazon Web Services, System Monitoring, Microsoft Azure, Bash Scripting, Continuous Integration Continuous Delivery, GitHub CI/CD, Grafana Dashboards, IaC",
+      "label": 0
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Shell Scripts, Computer Networking, Python Programming, K8s, Source Control, K8s, Elasticsearch Logstash Kibana, Orchestration of Containers, Prometheus Monitoring",
+      "label": 1
+    },
+    {
+      "goal": "DevOps Engineer",
+      "resume_text": "Orchestration of Containers, Python Programming, Computer Networking, CI Server, Shell Scripts, Automation with Ansible, Continuous Integration Continuous Delivery, Prometheus Monitoring, Amazon Web Services, Bash Scripting, Source Control",
+      "label": 0
+    }
+  ]
