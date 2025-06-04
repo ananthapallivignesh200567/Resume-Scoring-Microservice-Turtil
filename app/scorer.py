@@ -29,6 +29,51 @@ class ResumeScorer:
             config: Configuration dictionary loaded from config.json
             goals: Dictionary of goals and their required skills
         """
+        self.synonym_map={
+    "Object-Oriented Programming": ["OOP", "Object Oriented Design", "Object Oriented Prog", "OOPS"],
+    "Data Structures": ["DSA", "Data Structs"],
+    "Algorithms": ["Algo", "Algos"],
+    "System Design": ["Architecture Design", "Software Design"],
+    "CI/CD": ["Continuous Integration", "Continuous Deployment", "DevOps Pipelines"],
+    "AWS": ["Amazon Web Services", "AWS Cloud", "AWS EC2", "AWS Lambda"],
+    "REST APIs": ["RESTful APIs", "API Development", "REST Services"],
+    "Microservices": ["Microservice Architecture", "Micro-services"],
+    "Git": ["Version Control", "GitHub", "Gitlab"],
+    "Linux": ["Unix", "Linux OS", "Ubuntu", "Red Hat"],
+    "Docker": ["Containers", "Docker Engine", "Containerization"],
+    "Kubernetes": ["K8s", "Kube"],
+    "SQL": ["Structured Query Language", "MySQL", "PostgreSQL", "T-SQL"],
+    "NoSQL": ["MongoDB", "Cassandra", "DynamoDB"],
+    "Concurrency": ["Multithreading", "Parallel Programming", "Threading"],
+    "Testing": ["Unit Testing", "Integration Testing", "Test Automation"],
+    "Problem Solving": ["Coding Challenges", "Algorithmic Thinking"],
+    "Networking": ["Computer Networks", "TCP/IP", "Networking Protocols"],
+    "Performance Optimization": ["Performance Tuning", "Code Optimization", "Profiling"],
+    "Scalability": ["Horizontal Scaling", "Vertical Scaling"],
+    "Machine Learning": ["ML", "Supervised Learning", "Unsupervised Learning"],
+    "Deep Learning": ["DL", "Neural Nets", "Neural Networks"],
+    "Natural Language Processing": ["NLP", "Text Mining", "Text Processing"],
+    "Computer Vision": ["CV", "Image Processing"],
+    "Jupyter Notebooks": ["Jupyter", "IPython Notebook"],
+    "Feature Engineering": ["Feature Extraction", "Feature Selection"],
+    "Data Preprocessing": ["Data Cleaning", "Data Wrangling"],
+    "Model Deployment": ["Model Serving", "Deploying Models", "ML Deployment"],
+    "MLOps": ["ML Operations", "ModelOps"],
+    "Experiment Tracking": ["MLflow", "Experiment Logging"],
+    "Statistics": ["Statistical Analysis", "Descriptive Stats"],
+    "Linear Algebra": ["Matrix Math", "Vectors and Matrices"],
+    "Visualization": ["Data Viz", "Plots", "Graphs"],
+    "Reinforcement Learning": ["RL", "Q-Learning", "Policy Gradients"],
+    "Optimization": ["Mathematical Optimization", "Convex Optimization"],
+    "Agile Methodologies": ["Agile", "Scrum", "Kanban"],
+    "Wireframing": ["Mockups", "UI Sketches"],
+    "Prototyping": ["Prototype Design", "Interactive Prototypes"],
+    "User Research": ["UX Research", "User Studies"],
+    "UI/UX Design": ["User Interface Design", "User Experience Design"],
+    "Accessibility": ["A11y", "Web Accessibility"],
+    "Responsive Design": ["Mobile Friendly Design", "Adaptive Design"]
+    }
+
         self.config = config
         self.goals = goals
         self.models = {}
@@ -64,32 +109,30 @@ class ResumeScorer:
 
     
     def _extract_skills_from_resume(self, resume_text: str) -> List[str]:
-        """
-        Extract skills from the resume text by checking for each skill in the goals data.
-        Uses pattern matching to find skills in the resume.
+        if isinstance(resume_text, list):
+            resume_text = ", ".join(resume_text)
         
-        Args:
-            resume_text: The full text of the resume
-            
-        Returns:
-            List of skills found in the resume
-        """
-        # Create a set of all unique skills across all goals
         all_skills = set()
         for skills in self.goals.values():
             all_skills.update(skills)
-        
-        # Find skills in the resume text
-        found_skills = []
+
         resume_text_lower = resume_text.lower()
-        
+        normalized_resume = resume_text_lower
+
+        # Fix: Replace all synonyms with canonical skills
+        for canonical, synonyms in self.synonym_map.items():
+            for synonym in synonyms:
+                pattern = r'\b' + re.escape(synonym.lower()) + r'\b'
+                normalized_resume = re.sub(pattern, canonical.lower(), normalized_resume)
+
+        found_skills = []
         for skill in all_skills:
-            # Create a regex pattern that looks for the skill as a whole word
             pattern = r'\b' + re.escape(skill.lower()) + r'\b'
-            if re.search(pattern, resume_text_lower):
+            if re.search(pattern, normalized_resume):
                 found_skills.append(skill)
-                
+
         return found_skills
+
     
     def _get_matched_missing_skills(self, found_skills: List[str], goal: str) -> tuple:
         """
