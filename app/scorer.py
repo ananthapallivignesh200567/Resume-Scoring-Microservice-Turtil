@@ -29,6 +29,7 @@ class ResumeScorer:
             config: Configuration dictionary loaded from config.json
             goals: Dictionary of goals and their required skills
         """
+        self.goals_data = goals
         self.synonym_map={
     "Object-Oriented Programming": ["OOP", "Object Oriented Design", "Object Oriented Prog", "OOPS"],
     "Data Structures": ["DSA", "Data Structs"],
@@ -228,6 +229,16 @@ class ResumeScorer:
         Returns:
             Dictionary with score, matched_skills, missing_skills, and suggested_learning_path
         """
+        resume_text = resume_text.strip()
+        if not resume_text:
+            goal = goal if goal in self.goals_data else self.default_goal
+            return {
+                "score": 0.0,
+                "matched_skills": [],
+                "missing_skills": self.goals_data.get(goal, []),
+                "suggested_learning_path": self._generate_learning_path(self.goals_data.get(goal, []))
+            }
+
         # Check if the goal is supported, otherwise use default
         if goal not in self.config["model_goals_supported"]:
             logger.warning(f"Goal '{goal}' not supported, using default: {self.config['default_goal_model']}")
