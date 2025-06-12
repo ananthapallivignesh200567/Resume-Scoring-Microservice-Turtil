@@ -93,6 +93,11 @@ def train_goal_models(data_dir="../data", model_dir="../app/model"):
                     X, y, test_size=0.4, random_state=42, stratify=y
                 )
                 print(f"  📊 Train/test split: {X_train.shape[0]}/{X_test.shape[0]} samples")
+            else:
+                # Use all data for training if dataset is small
+                scores = cross_val_score(model, X, y, cv=min(5, len(y)), scoring='accuracy')
+                print(f"📊 Cross-validation accuracy: {np.mean(scores):.3f} (+/- {np.std(scores):.3f})")
+                continue  # skip saving model unless you're sure it's okay
             
             # Train logistic regression model
             print(f"  🤖 Training logistic regression model...")
