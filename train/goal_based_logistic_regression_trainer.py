@@ -5,6 +5,7 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
+from sklearn.model_selection import cross_val_score
 
 def train_goal_models(data_dir="../data", model_dir="../app/model"):
     """
@@ -92,11 +93,6 @@ def train_goal_models(data_dir="../data", model_dir="../app/model"):
                     X, y, test_size=0.4, random_state=42, stratify=y
                 )
                 print(f"  📊 Train/test split: {X_train.shape[0]}/{X_test.shape[0]} samples")
-            else:
-                # Use all data for training if dataset is small
-                X_train, X_test = X, X
-                y_train, y_test = y, y
-                print(f"  📊 Using all {X_train.shape[0]} samples for training (small dataset)")
             
             # Train logistic regression model
             print(f"  🤖 Training logistic regression model...")
