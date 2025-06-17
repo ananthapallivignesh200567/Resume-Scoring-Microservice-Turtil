@@ -4,10 +4,13 @@ import logging
 import joblib
 from typing import Dict, Any, Optional
 from fastapi import FastAPI, HTTPException, Request
-from datetime import datetime
+from datetime import datetime ,timezone
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
-from scorer import ResumeScorer
+try:
+    from scorer import ResumeScorer
+except ImportError:
+    from app.scorer import ResumeScorer
 
 # Setup logging
 logging.basicConfig(
@@ -105,6 +108,7 @@ async def _check_app_state() -> Dict[str, Any]:
 
 
 
+
 #@asynccontextmanager
 async def lifespan(app: FastAPI):
     try:
@@ -131,6 +135,7 @@ app = FastAPI(
     version="1.0.0",
     lifespan=lifespan  # ← this replaces on_event("startup")
 )
+
 # Error handler for internal exceptions
 @app.exception_handler(Exception)
 async def generic_exception_handler(request: Request, exc: Exception):
@@ -149,7 +154,7 @@ async def health_check():
     """
     health_status = {
         "status": "ok",
-        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "timestamp": datetime.now(timezone.utc).isoformat(),
         "service": "resume-scorer",
         "checks": {}
     }
@@ -443,12 +448,14 @@ async def _check_performance() -> Dict[str, Any]:
     try:
         # This would normally call your scorer function
         test_text = "Python programming data structures algorithms"
-        start_time = datetime.utcnow()
+        start_time = datetime.now(timezone.utc)
+
         
         # Simulate scoring (replace with actual scorer call)
         # score_result = await score_resume("test", "Amazon SDE", test_text)
         
-        end_time = datetime.utcnow()
+        end_time = datetime.now(timezone.utc)
+
         response_time = (end_time - start_time).total_seconds()
         
         # Check if response time meets SLA (< 1.5s as per requirements)

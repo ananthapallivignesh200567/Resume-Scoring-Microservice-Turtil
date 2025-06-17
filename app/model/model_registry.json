@@ -74,7 +74,7 @@
       "feature_count": 5000
     },
     "backend_engineer": {
-      "accuracy": 0.985,
+      "accuracy": 0.9825,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
@@ -88,7 +88,7 @@
       "feature_count": 5000
     },
     "flipkart_sde": {
-      "accuracy": 0.9975,
+      "accuracy": 1.0,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
@@ -123,7 +123,7 @@
       "feature_count": 5000
     },
     "machineleraning_engineer": {
-      "accuracy": 0.99,
+      "accuracy": 0.9875,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
@@ -144,14 +144,14 @@
       "feature_count": 5000
     },
     "ml_internship": {
-      "accuracy": 1.0,
+      "accuracy": 0.9975,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
       "feature_count": 5000
     },
     "netflix_sde": {
-      "accuracy": 0.995,
+      "accuracy": 0.9925,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,

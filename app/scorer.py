@@ -229,6 +229,20 @@ class ResumeScorer:
         Returns:
             Dictionary with score, matched_skills, missing_skills, and suggested_learning_path
         """
+        if not isinstance(resume_text, str):
+            resume_text = ""
+        resume_text = resume_text.strip()
+        cleaned = re.sub(r"[^a-zA-Z0-9\s]", "", resume_text)
+        if not cleaned.strip():
+            return {
+                "score": 0.0,
+                    "matched_skills": [],
+                    "missing_skills": [],
+                    "suggested_learning_path": []
+                }
+        if not isinstance(resume_text, str):
+            resume_text = ""
+
         resume_text = resume_text.strip()
         if not resume_text:
             goal = goal if goal in self.goals_data else self.default_goal
@@ -256,7 +270,7 @@ class ResumeScorer:
 
             
             # Get probability score from the model (positive class probability)
-            score = float(self.models[goal].predict_proba(X)[0, 1])
+            score = float(self.models[goal].predict_proba(X)[0][1])
         else:
             # Fallback scoring based on skill match percentage if model unavailable
             logger.warning(f"No model available for goal '{goal}', using skill-based scoring")
