@@ -7,6 +7,13 @@ from fastapi import FastAPI, HTTPException, Request
 from datetime import datetime ,timezone
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, Field
+from fastapi.exceptions import RequestValidationError
+from fastapi.responses import JSONResponse
+from fastapi.exception_handlers import request_validation_exception_handler
+from starlette.requests import Request
+from starlette.responses import JSONResponse
+from starlette.exceptions import HTTPException as StarletteHTTPException
+
 try:
     from scorer import ResumeScorer
 except ImportError:
@@ -20,6 +27,9 @@ logging.basicConfig(
 logger = logging.getLogger("resume-scorer")
 
 
+class LearningPathItem(BaseModel):
+    path: str
+    course: str
 
 # Define request & response models
 class ScoreRequest(BaseModel):
@@ -31,7 +41,7 @@ class ScoreResponse(BaseModel):
     score: float = Field(..., description="Match score between 0.0 and 1.0")
     matched_skills: list[str] = Field(..., description="Skills found in resume that match goal")
     missing_skills: list[str] = Field(..., description="Skills required for goal but not found in resume")
-    suggested_learning_path: list[str] = Field(..., description="Recommended steps to improve match")
+    suggested_learning_path: list[LearningPathItem] = Field(..., description="Recommended steps to improve match")
 
 # Load configuration at startup
 def load_config() -> Dict[str, Any]:
@@ -72,6 +82,7 @@ def load_goals() -> Dict[str, list]:
     except (FileNotFoundError, json.JSONDecodeError) as e:
         logger.critical(f"Failed to load goals data: {str(e)}")
         raise RuntimeError(f"Goals data error: {str(e)}")
+
 async def _check_app_state() -> Dict[str, Any]:
     """Check if FastAPI app state is properly initialized."""
     try:
@@ -513,36 +524,76 @@ async def version():
 async def score_resume(request: ScoreRequest):
     """Score a resume against a goal and return insights."""
     config = app.state.config
-    
-    # Check if goal is supported
-    if request.goal not in config["model_goals_supported"]:
-        logger.warning(f"Unsupported goal requested: {request.goal}, falling back to default")
-        goal = config["default_goal_model"]
-    else:
-        goal = request.goal
-    
+
     try:
-        # Score the resume
-        result = app.state.scorer.score_resume(
-            student_id=request.student_id,
-            goal=goal,
-            resume_text=request.resume_text
-        )
-        
-        # Log details if enabled
-        if config["log_score_details"]:
+        # Validate goal
+        if request.goal not in config["model_goals_supported"]:
+            logger.warning(f"Unsupported goal requested: {request.goal}, falling back to default")
+            goal = config["default_goal_model"]
+        else:
+            goal = request.goal
+
+        try:
+            # Score the resume
+            result = app.state.scorer.score_resume(
+                student_id=request.student_id,
+                goal=goal,
+                resume_text=request.resume_text
+            )
+        except Exception as e:
+            logger.exception(f"❌ Error during resume scoring for goal={goal}")
+            raise HTTPException(status_code=500, detail="Error occurred while scoring resume")
+
+        # Log scoring details
+        if config.get("log_score_details", False):
             logger.info(
                 f"Scored resume for student {request.student_id}: "
                 f"goal={goal}, score={result['score']:.2f}, "
                 f"matched={len(result['matched_skills'])}, "
                 f"missing={len(result['missing_skills'])}"
             )
-            
-        return result
-    except Exception as e:
-        logger.error(f"Error scoring resume: {str(e)}")
-        raise HTTPException(status_code=500, detail=f"Failed to score resume: {str(e)}")
 
+        return result
+
+    except HTTPException:
+        raise  # re-raise explicitly raised exceptions
+    except Exception as e:
+        logger.exception("❌ Unexpected error in score endpoint")
+        raise HTTPException(status_code=500, detail="Unexpected server error occurred")
+
+@app.exception_handler(RequestValidationError)
+async def validation_exception_handler(request: Request, exc: RequestValidationError):
+    errors = exc.errors()
+    logger.warning(f"📛 Validation error at {request.url.path} - {errors}")
+
+    # Format custom errors
+    custom_errors = []
+    for err in errors:
+        field = ".".join(str(x) for x in err.get("loc", []))
+        message = err.get("msg", "Invalid input")
+        custom_errors.append(f"{field}: {message}")
+
+    return JSONResponse(
+        status_code=422,
+        content={
+            "error": "Invalid request payload",
+            "message": "One or more required fields are missing or malformed.",
+            "details": custom_errors
+        }
+    )
+    
+@app.exception_handler(StarletteHTTPException)
+async def custom_http_exception_handler(request: Request, exc: StarletteHTTPException):
+    logger.warning(f"HTTP error at {request.url.path} - {exc.detail}")
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={
+            "error": "HTTP error",
+            "message": exc.detail
+        }
+    )
+    
+    
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("main:app", host="0.0.0.0", port=8000)

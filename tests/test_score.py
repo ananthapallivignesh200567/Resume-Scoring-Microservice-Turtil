@@ -327,7 +327,8 @@ class TestResumeScorer(unittest.TestCase):
         self.assertGreater(len(learning_path), 0)
         
         # Should contain specific recommendations for known skills
-        path_text = " ".join(learning_path)
+        path_text = " ".join(item["course"] for item in learning_path)
+
         self.assertIn("system design", path_text.lower())
     
     @patch('app.scorer.os.path.dirname')
