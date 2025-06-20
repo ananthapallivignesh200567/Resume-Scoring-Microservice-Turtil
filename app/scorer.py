@@ -31,49 +31,2245 @@ class ResumeScorer:
         """
         self.goals_data = goals
         self.synonym_map={
-    "Object-Oriented Programming": ["OOP", "Object Oriented Design", "Object Oriented Prog", "OOPS"],
-    "Data Structures": ["DSA", "Data Structs"],
-    "Algorithms": ["Algo", "Algos"],
-    "System Design": ["Architecture Design", "Software Design"],
-    "CI/CD": ["Continuous Integration", "Continuous Deployment", "DevOps Pipelines"],
-    "AWS": ["Amazon Web Services", "AWS Cloud", "AWS EC2", "AWS Lambda"],
-    "REST APIs": ["RESTful APIs", "API Development", "REST Services"],
-    "Microservices": ["Microservice Architecture", "Micro-services"],
-    "Git": ["Version Control", "GitHub", "Gitlab"],
-    "Linux": ["Unix", "Linux OS", "Ubuntu", "Red Hat"],
-    "Docker": ["Containers", "Docker Engine", "Containerization"],
-    "Kubernetes": ["K8s", "Kube"],
-    "SQL": ["Structured Query Language", "MySQL", "PostgreSQL", "T-SQL"],
-    "NoSQL": ["MongoDB", "Cassandra", "DynamoDB"],
-    "Concurrency": ["Multithreading", "Parallel Programming", "Threading"],
-    "Testing": ["Unit Testing", "Integration Testing", "Test Automation"],
-    "Problem Solving": ["Coding Challenges", "Algorithmic Thinking"],
-    "Networking": ["Computer Networks", "TCP/IP", "Networking Protocols"],
-    "Performance Optimization": ["Performance Tuning", "Code Optimization", "Profiling"],
-    "Scalability": ["Horizontal Scaling", "Vertical Scaling"],
-    "Machine Learning": ["ML", "Supervised Learning", "Unsupervised Learning"],
-    "Deep Learning": ["DL", "Neural Nets", "Neural Networks"],
-    "Natural Language Processing": ["NLP", "Text Mining", "Text Processing"],
-    "Computer Vision": ["CV", "Image Processing"],
-    "Jupyter Notebooks": ["Jupyter", "IPython Notebook"],
-    "Feature Engineering": ["Feature Extraction", "Feature Selection"],
-    "Data Preprocessing": ["Data Cleaning", "Data Wrangling"],
-    "Model Deployment": ["Model Serving", "Deploying Models", "ML Deployment"],
-    "MLOps": ["ML Operations", "ModelOps"],
-    "Experiment Tracking": ["MLflow", "Experiment Logging"],
-    "Statistics": ["Statistical Analysis", "Descriptive Stats"],
-    "Linear Algebra": ["Matrix Math", "Vectors and Matrices"],
-    "Visualization": ["Data Viz", "Plots", "Graphs"],
-    "Reinforcement Learning": ["RL", "Q-Learning", "Policy Gradients"],
-    "Optimization": ["Mathematical Optimization", "Convex Optimization"],
-    "Agile Methodologies": ["Agile", "Scrum", "Kanban"],
-    "Wireframing": ["Mockups", "UI Sketches"],
-    "Prototyping": ["Prototype Design", "Interactive Prototypes"],
-    "User Research": ["UX Research", "User Studies"],
-    "UI/UX Design": ["User Interface Design", "User Experience Design"],
-    "Accessibility": ["A11y", "Web Accessibility"],
-    "Responsive Design": ["Mobile Friendly Design", "Adaptive Design"]
-    }
+  ".NET": [
+    ".NET",
+    "DotNet",
+    ".NET Framework",
+    ".NET Core",
+    "ASP.NET",
+    "Microsoft .NET"
+  ],
+  "3D Modeling": [
+    "3D Modeling",
+    "3D Design",
+    "Three-dimensional modeling",
+    "3D Graphics",
+    "CAD",
+    "Computer-Aided Design",
+    "Blender",
+    "Maya",
+    "3ds Max"
+  ],
+  "A/B Testing": [
+    "A/B Testing",
+    "Split Testing",
+    "Multivariate Testing",
+    "Conversion Testing",
+    "User Testing",
+    "Growth Hacking"
+  ],
+  "AI for Games": [
+    "AI for Games",
+    "Game AI",
+    "Artificial Intelligence in Gaming",
+    "NPC AI",
+    "Procedural Generation",
+    "Behavior Trees",
+    "Game Intelligence"
+  ],
+  "API Development": [
+    "API Development",
+    "REST API",
+    "RESTful Services",
+    "Web Services",
+    "Service Development",
+    "Backend Development",
+    "Microservices API",
+    "API Design"
+  ],
+  "AWS": [
+    "AWS",
+    "AWS Cloud",
+    "Amazon Web Services",
+    "Amazon Cloud",
+    "EC2",
+    "S3",
+    "Lambda",
+    "AWS Infrastructure"
+  ],
+  "Accessibility": [
+    "Accessibility",
+    "A11y",
+    "Web Accessibility",
+    "WCAG",
+    "ADA Compliance",
+    "Inclusive Design",
+    "Universal Design"
+  ],
+  "Accessibility Standards": [
+    "Accessibility Standards",
+    "WCAG 2.1",
+    "Section 508",
+    "ADA Standards",
+    "WAI-ARIA",
+    "Accessibility Guidelines"
+  ],
+  "Adobe Illustrator": [
+    "Adobe Illustrator",
+    "Illustrator",
+    "AI",
+    "Vector Graphics",
+    "Adobe AI"
+  ],
+  "Adobe Photoshop": [
+    "Adobe Photoshop",
+    "Photoshop",
+    "PS",
+    "Image Editing",
+    "Photo Manipulation",
+    "Adobe PS"
+  ],
+  "Adobe XD": [
+    "Adobe XD",
+    "XD",
+    "Adobe Experience Design",
+    "UI Design Tool",
+    "Prototyping Tool"
+  ],
+  "Agile Development": [
+    "Agile Development",
+    "Agile",
+    "Agile Software Development",
+    "Iterative Development",
+    "Scrum Development",
+    "Kanban Development"
+  ],
+  "Agile Methodologies": [
+    "Agile Methodologies",
+    "Agile Methods",
+    "Scrum",
+    "Kanban",
+    "Lean Development",
+    "XP",
+    "Extreme Programming"
+  ],
+  "Airflow": [
+    "Airflow",
+    "Apache Airflow",
+    "Workflow Management",
+    "Data Orchestration",
+    "ETL Orchestration"
+  ],
+  "Alerting": [
+    "Alerting",
+    "Monitoring Alerts",
+    "Notification Systems",
+    "Alert Management",
+    "Incident Alerting"
+  ],
+  "Algorithms": [
+    "Algorithms",
+    "Algorithm Design",
+    "Algorithmic Thinking",
+    "Computer Algorithms",
+    "Data Structures and Algorithms",
+    "DSA"
+  ],
+  "Angular": [
+    "Angular",
+    "AngularJS",
+    "Angular Framework",
+    "TypeScript Framework",
+    "Frontend Framework"
+  ],
+  "Animation Systems": [
+    "Animation Systems",
+    "Game Animation",
+    "Character Animation",
+    "Skeletal Animation",
+    "Motion Graphics",
+    "Animation Programming"
+  ],
+  "Ansible": [
+    "Ansible",
+    "Configuration Management",
+    "Infrastructure Automation",
+    "IT Automation",
+    "Playbooks"
+  ],
+  "Apex": [
+    "Apex",
+    "Salesforce Apex",
+    "Apex Programming",
+    "Force.com",
+    "Salesforce Development"
+  ],
+  "Athena": [
+    "Athena",
+    "Amazon Athena",
+    "AWS Athena",
+    "Serverless Query Service",
+    "Data Lake Analytics"
+  ],
+  "Audio Integration": [
+    "Audio Integration",
+    "Sound Programming",
+    "Audio APIs",
+    "Game Audio",
+    "Audio Processing",
+    "Sound Design"
+  ],
+  "Authentication": [
+    "Authentication",
+    "Auth",
+    "User Authentication",
+    "Login Systems",
+    "Identity Management",
+    "SSO",
+    "Single Sign-On"
+  ],
+  "Authorization": [
+    "Authorization",
+    "Access Control",
+    "Permissions",
+    "Role-Based Access",
+    "RBAC",
+    "Security Authorization"
+  ],
+  "Automation": [
+    "Automation",
+    "Test Automation",
+    "Process Automation",
+    "Workflow Automation",
+    "Scripting",
+    "Build Automation"
+  ],
+  "Azure": [
+    "Azure",
+    "Microsoft Azure",
+    "Azure Cloud",
+    "Azure Services",
+    "Azure Platform"
+  ],
+  "BERT": [
+    "BERT",
+    "Bidirectional Encoder Representations from Transformers",
+    "Transformer Models",
+    "Pre-trained Language Models"
+  ],
+  "Babel": [
+    "Babel",
+    "JavaScript Compiler",
+    "ES6 Transpiler",
+    "Babel.js",
+    "JavaScript Transpilation"
+  ],
+  "Bayesian Inference": [
+    "Bayesian Inference",
+    "Bayesian Statistics",
+    "Probabilistic Inference",
+    "Bayes' Theorem",
+    "Bayesian Analysis"
+  ],
+  "Bayesian Methods": [
+    "Bayesian Methods",
+    "Bayesian Approach",
+    "Bayesian Statistics",
+    "Probabilistic Methods",
+    "Bayesian Machine Learning"
+  ],
+  "Big Data": [
+    "Big Data",
+    "Large-scale Data",
+    "Data at Scale",
+    "Massive Data Processing",
+    "Enterprise Data"
+  ],
+  "Big Data Processing": [
+    "Big Data Processing",
+    "Large-scale Data Processing",
+    "Distributed Data Processing",
+    "Batch Processing",
+    "Stream Processing"
+  ],
+  "Big Data Tools": [
+    "Big Data Tools",
+    "Hadoop Ecosystem",
+    "Spark Tools",
+    "Data Processing Tools",
+    "Analytics Tools"
+  ],
+  "Big-O Analysis": [
+    "Big-O Analysis",
+    "Algorithmic Complexity",
+    "Time Complexity",
+    "Space Complexity",
+    "Computational Complexity"
+  ],
+  "BigQuery": [
+    "BigQuery",
+    "Google BigQuery",
+    "GCP BigQuery",
+    "Data Warehouse",
+    "Cloud Analytics"
+  ],
+  "Bootstrap": [
+    "Bootstrap",
+    "Bootstrap CSS",
+    "CSS Framework",
+    "Responsive Framework",
+    "Frontend Framework"
+  ],
+  "C#": [
+    "C#",
+    "C-Sharp",
+    "CSharp",
+    "C# Programming",
+    "Microsoft C#",
+    ".NET C#"
+  ],
+  "C++": [
+    "C++",
+    "CPP",
+    "C Plus Plus",
+    "C++ Programming",
+    "Systems Programming"
+  ],
+  "CAN Protocol": [
+    "CAN Protocol",
+    "Controller Area Network",
+    "Automotive Communication",
+    "Embedded Communication",
+    "Vehicle Bus Standard"
+  ],
+  "CI/CD": [
+    "CI/CD",
+    "Continuous Deployment",
+    "Continuous Integration",
+    "DevOps Pipelines",
+    "Build Pipelines",
+    "Deployment Automation",
+    "Jenkins",
+    "GitLab CI"
+  ],
+  "CNNs": [
+    "CNNs",
+    "Convolutional Neural Networks",
+    "Deep Learning",
+    "Computer Vision",
+    "Image Recognition"
+  ],
+  "CRM Systems": [
+    "CRM Systems",
+    "Customer Relationship Management",
+    "Salesforce",
+    "HubSpot",
+    "Customer Management"
+  ],
+  "CSS": [
+    "CSS",
+    "Cascading Style Sheets",
+    "CSS3",
+    "Styling",
+    "Web Styling",
+    "Frontend Styling"
+  ],
+  "CV": [
+    "CV",
+    "Computer Vision",
+    "Image Processing",
+    "Visual Recognition",
+    "Machine Vision"
+  ],
+  "Causal Inference": [
+    "Causal Inference",
+    "Causality",
+    "Causal Analysis",
+    "Treatment Effects",
+    "Experimental Design"
+  ],
+  "Chaos Engineering": [
+    "Chaos Engineering",
+    "Fault Injection",
+    "System Resilience Testing",
+    "Chaos Monkey",
+    "Reliability Engineering"
+  ],
+  "Cloud Computing": [
+    "Cloud Computing",
+    "Cloud Services",
+    "Cloud Infrastructure",
+    "Public Cloud",
+    "Private Cloud",
+    "Hybrid Cloud"
+  ],
+  "Cloud Infrastructure": [
+    "Cloud Infrastructure",
+    "Infrastructure as a Service",
+    "IaaS",
+    "Cloud Architecture",
+    "Virtual Infrastructure"
+  ],
+  "Cloud Platforms": [
+    "Cloud Platforms",
+    "Cloud Providers",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Cloud Services"
+  ],
+  "Cloud-Native Development": [
+    "Cloud-Native Development",
+    "Cloud-Native Applications",
+    "Microservices",
+    "Containerization",
+    "Serverless"
+  ],
+  "Coding Interviews": [
+    "Coding Interviews",
+    "Technical Interviews",
+    "Algorithm Interviews",
+    "Programming Interviews",
+    "Whiteboard Coding"
+  ],
+  "Colab": [
+    "Colab",
+    "Google Colab",
+    "Jupyter Notebooks",
+    "Cloud Notebooks",
+    "Collaborative Coding"
+  ],
+  "Communication Skills": [
+    "Communication Skills",
+    "Interpersonal Skills",
+    "Presentation Skills",
+    "Technical Communication",
+    "Written Communication"
+  ],
+  "Competitive Analysis": [
+    "Competitive Analysis",
+    "Market Analysis",
+    "Competitor Research",
+    "Business Intelligence",
+    "Market Intelligence"
+  ],
+  "Computer Vision": [
+    "Computer Vision",
+    "CV",
+    "Image Processing",
+    "Visual Recognition",
+    "Machine Vision",
+    "OpenCV"
+  ],
+  "Concurrency": [
+    "Concurrency",
+    "Parallel Programming",
+    "Multithreading",
+    "Asynchronous Programming",
+    "Concurrent Systems"
+  ],
+  "Confluence": [
+    "Confluence",
+    "Atlassian Confluence",
+    "Documentation Platform",
+    "Wiki",
+    "Knowledge Management"
+  ],
+  "Context API": [
+    "Context API",
+    "React Context",
+    "State Management",
+    "React State",
+    "Global State"
+  ],
+  "Core Data": [
+    "Core Data",
+    "iOS Data Persistence",
+    "Apple Core Data",
+    "Object Graph Management",
+    "Data Model Framework"
+  ],
+  "Cross-Browser Compatibility": [
+    "Cross-Browser Compatibility",
+    "Browser Compatibility",
+    "Web Standards",
+    "Progressive Enhancement",
+    "Browser Testing"
+  ],
+  "Cross-Team Collaboration": [
+    "Cross-Team Collaboration",
+    "Team Collaboration",
+    "Interdisciplinary Teamwork",
+    "Stakeholder Management",
+    "Project Coordination"
+  ],
+  "Customer Interviews": [
+    "Customer Interviews",
+    "User Interviews",
+    "Customer Research",
+    "Qualitative Research",
+    "User Feedback"
+  ],
+  "Cypress": [
+    "Cypress",
+    "End-to-End Testing",
+    "E2E Testing",
+    "Test Automation",
+    "Frontend Testing"
+  ],
+  "DBT": [
+    "DBT",
+    "Data Build Tool",
+    "SQL Transformation",
+    "Data Modeling",
+    "Analytics Engineering"
+  ],
+  "Data Analysis": [
+    "Data Analysis",
+    "Data Analytics",
+    "Statistical Analysis",
+    "Exploratory Data Analysis",
+    "EDA",
+    "Business Intelligence"
+  ],
+  "Data Analytics": [
+    "Data Analytics",
+    "Business Analytics",
+    "Predictive Analytics",
+    "Descriptive Analytics",
+    "Data Science"
+  ],
+  "Data Engineering": [
+    "Data Engineering",
+    "ETL",
+    "Data Pipelines",
+    "Data Architecture",
+    "Big Data Engineering"
+  ],
+  "Data Labeling": [
+    "Data Labeling",
+    "Data Annotation",
+    "Ground Truth",
+    "Training Data Preparation",
+    "Dataset Creation"
+  ],
+  "Data Modeling": [
+    "Data Modeling",
+    "Database Design",
+    "Entity Relationship Modeling",
+    "ER Modeling",
+    "Dimensional Modeling"
+  ],
+  "Data Pipelines": [
+    "Data Pipelines",
+    "ETL Pipelines",
+    "Data Workflows",
+    "Data Processing Pipelines",
+    "Batch Processing"
+  ],
+  "Data Preprocessing": [
+    "Data Preprocessing",
+    "Data Cleaning",
+    "Data Preparation",
+    "Feature Engineering",
+    "Data Transformation"
+  ],
+  "Data Structures": [
+    "Data Structures",
+    "Arrays",
+    "Linked Lists",
+    "Trees",
+    "Graphs",
+    "Hash Tables",
+    "DSA"
+  ],
+  "Data Visualization": [
+    "Data Visualization",
+    "Data Viz",
+    "Charts",
+    "Graphs",
+    "Dashboards",
+    "Business Intelligence"
+  ],
+  "Data Warehousing": [
+    "Data Warehousing",
+    "Data Warehouse",
+    "OLAP",
+    "Data Marts",
+    "Business Intelligence"
+  ],
+  "Databases": [
+    "Databases",
+    "Database Management",
+    "RDBMS",
+    "NoSQL",
+    "Database Design",
+    "SQL"
+  ],
+  "Debugging": [
+    "Debugging",
+    "Bug Fixing",
+    "Troubleshooting",
+    "Error Resolution",
+    "Code Debugging"
+  ],
+  "Debugging Tools": [
+    "Debugging Tools",
+    "Debuggers",
+    "Profiling Tools",
+    "Error Tracking",
+    "Development Tools"
+  ],
+  "Deep Learning": [
+    "DL",
+    "Deep Learning",
+    "Neural Networks",
+    "Artificial Neural Networks",
+    "Deep Neural Networks",
+    "Machine Learning"
+  ],
+  "Delta Lake": [
+    "Delta Lake",
+    "Data Lake",
+    "ACID Transactions",
+    "Data Versioning",
+    "Lakehouse Architecture"
+  ],
+  "Design Patterns": [
+    "Design Patterns",
+    "Software Design Patterns",
+    "Gang of Four",
+    "Architectural Patterns",
+    "Object-Oriented Design"
+  ],
+  "Design Systems": [
+    "Design Systems",
+    "Component Libraries",
+    "Style Guides",
+    "UI Libraries",
+    "Design Tokens"
+  ],
+  "DirectX": [
+    "DirectX",
+    "Microsoft DirectX",
+    "Graphics API",
+    "Game Development",
+    "3D Graphics"
+  ],
+  "Distributed Systems": [
+    "Distributed Systems",
+    "Microservices",
+    "System Architecture",
+    "Scalable Systems",
+    "Cloud Architecture"
+  ],
+  "Distributed Training": [
+    "Distributed Training",
+    "Parallel Training",
+    "Multi-GPU Training",
+    "Cluster Computing",
+    "Model Parallelism"
+  ],
+  "Django": [
+    "Django",
+    "Django Framework",
+    "Python Web Framework",
+    "Web Development",
+    "Backend Framework"
+  ],
+  "Docker": [
+    "Containerization",
+    "Containers",
+    "Docker",
+    "Container Technology",
+    "Virtualization",
+    "Container Orchestration"
+  ],
+  "ELK Stack": [
+    "ELK Stack",
+    "Elasticsearch",
+    "Logstash",
+    "Kibana",
+    "Elastic Stack",
+    "Log Management"
+  ],
+  "ETL Pipelines": [
+    "ETL Pipelines",
+    "Extract Transform Load",
+    "Data Integration",
+    "Data Processing",
+    "Data Workflows"
+  ],
+  "ElasticSearch": [
+    "ElasticSearch",
+    "Elastic",
+    "Search Engine",
+    "Full-text Search",
+    "NoSQL Search"
+  ],
+  "Embedded Systems": [
+    "Embedded Systems",
+    "Firmware",
+    "Microcontrollers",
+    "IoT",
+    "Real-time Systems"
+  ],
+  "Experiment Design": [
+    "Experiment Design",
+    "Experimental Design",
+    "A/B Testing",
+    "Statistical Testing",
+    "Hypothesis Testing"
+  ],
+  "Experiment Tracking": [
+    "Experiment Tracking",
+    "ML Experiment Management",
+    "Model Versioning",
+    "MLOps",
+    "Model Registry"
+  ],
+  "Experimentation": [
+    "Experimentation",
+    "A/B Testing",
+    "Growth Experiments",
+    "Product Experiments",
+    "Statistical Testing"
+  ],
+  "Explainable AI": [
+    "Explainable AI",
+    "XAI",
+    "Interpretable ML",
+    "Model Interpretability",
+    "AI Transparency"
+  ],
+  "Express.js": [
+    "Express.js",
+    "Express",
+    "Node.js Framework",
+    "Web Framework",
+    "Backend Framework"
+  ],
+  "FastAPI": [
+    "FastAPI",
+    "Python API Framework",
+    "Modern API",
+    "High Performance API",
+    "Async API"
+  ],
+  "Feature Engineering": [
+    "Feature Engineering",
+    "Feature Selection",
+    "Feature Extraction",
+    "Data Preprocessing",
+    "ML Features"
+  ],
+  "Feature Stores": [
+    "Feature Stores",
+    "ML Feature Management",
+    "Feature Registry",
+    "MLOps",
+    "Data Management"
+  ],
+  "Figma": [
+    "Figma",
+    "UI Design Tool",
+    "Design Collaboration",
+    "Prototyping",
+    "Interface Design"
+  ],
+  "Finagle": [
+    "Finagle",
+    "RPC Framework",
+    "Microservices Framework",
+    "Distributed Systems",
+    "Service Communication"
+  ],
+  "Flask": [
+    "Flask",
+    "Python Web Framework",
+    "Microframework",
+    "Web Development",
+    "Backend Development"
+  ],
+  "GANs": [
+    "GANs",
+    "Generative Adversarial Networks",
+    "Generative Models",
+    "Deep Learning",
+    "Neural Networks"
+  ],
+  "GCP": [
+    "GCP",
+    "Google Cloud Platform",
+    "Google Cloud",
+    "Cloud Computing",
+    "Cloud Services"
+  ],
+  "GPT": [
+    "GPT",
+    "Generative Pre-trained Transformer",
+    "Language Models",
+    "NLP Models",
+    "OpenAI"
+  ],
+  "Game Design": [
+    "Game Design",
+    "Game Development",
+    "Level Design",
+    "Gameplay Design",
+    "Game Mechanics"
+  ],
+  "Game Optimization": [
+    "Game Optimization",
+    "Performance Optimization",
+    "Graphics Optimization",
+    "Memory Optimization",
+    "Code Optimization"
+  ],
+  "Game Physics": [
+    "Game Physics",
+    "Physics Simulation",
+    "Collision Detection",
+    "Rigid Body Dynamics",
+    "Physics Engines"
+  ],
+  "Gameplay Programming": [
+    "Gameplay Programming",
+    "Game Logic",
+    "Game Systems",
+    "Game Development",
+    "Interactive Systems"
+  ],
+  "Git": [
+    "Git",
+    "GitHub",
+    "GitLab",
+    "Version Control",
+    "Source Control",
+    "VCS",
+    "Code Management"
+  ],
+  "Glue": [
+    "Glue",
+    "AWS Glue",
+    "ETL Service",
+    "Data Integration",
+    "Serverless ETL"
+  ],
+  "Go": [
+    "Go",
+    "Golang",
+    "Go Programming",
+    "Google Go",
+    "Systems Programming"
+  ],
+  "Go-to-Market Strategy": [
+    "Go-to-Market Strategy",
+    "GTM",
+    "Product Launch",
+    "Market Entry",
+    "Product Strategy"
+  ],
+  "Grafana": [
+    "Grafana",
+    "Data Visualization",
+    "Monitoring Dashboards",
+    "Observability",
+    "Metrics Visualization"
+  ],
+  "GraphQL": [
+    "GraphQL",
+    "Query Language",
+    "API Query Language",
+    "Data Fetching",
+    "API Development"
+  ],
+  "HTML": [
+    "HTML",
+    "HyperText Markup Language",
+    "HTML5",
+    "Web Markup",
+    "Frontend Development"
+  ],
+  "Hack": [
+    "Hack",
+    "PHP",
+    "Facebook Hack",
+    "Type-safe PHP",
+    "HHVM"
+  ],
+  "Hadoop": [
+    "Hadoop",
+    "Apache Hadoop",
+    "Big Data",
+    "Distributed Computing",
+    "MapReduce",
+    "HDFS"
+  ],
+  "Heuristic Evaluation": [
+    "Heuristic Evaluation",
+    "Usability Evaluation",
+    "UX Evaluation",
+    "Interface Evaluation",
+    "Design Critique"
+  ],
+  "High Availability": [
+    "High Availability",
+    "HA",
+    "System Reliability",
+    "Uptime",
+    "Fault Tolerance"
+  ],
+  "Hugging Face Transformers": [
+    "Hugging Face Transformers",
+    "Transformers Library",
+    "Pre-trained Models",
+    "NLP Models",
+    "BERT",
+    "GPT"
+  ],
+  "InVision": [
+    "InVision",
+    "Prototyping Tool",
+    "Design Collaboration",
+    "UI Prototyping",
+    "Design System"
+  ],
+  "Incident Response": [
+    "Incident Response",
+    "On-call",
+    "System Recovery",
+    "Troubleshooting",
+    "Emergency Response"
+  ],
+  "Infrastructure as Code": [
+    "Infrastructure as Code",
+    "IaC",
+    "Terraform",
+    "CloudFormation",
+    "Infrastructure Automation"
+  ],
+  "Integration Patterns": [
+    "Integration Patterns",
+    "System Integration",
+    "API Integration",
+    "Service Integration",
+    "Enterprise Integration"
+  ],
+  "Interaction Design": [
+    "Interaction Design",
+    "IxD",
+    "User Interaction",
+    "Interface Design",
+    "UX Design"
+  ],
+  "JIRA": [
+    "JIRA",
+    "Atlassian JIRA",
+    "Issue Tracking",
+    "Project Management",
+    "Agile Tools"
+  ],
+  "JWT": [
+    "JWT",
+    "JSON Web Tokens",
+    "Authentication Tokens",
+    "Stateless Authentication",
+    "Token-based Auth"
+  ],
+  "Java": [
+    "Core Java",
+    "Java",
+    "Java SE",
+    "Java Programming",
+    "Oracle Java",
+    "OpenJDK"
+  ],
+  "JavaScript": [
+    "ECMAScript",
+    "JS",
+    "JavaScript",
+    "Vanilla JavaScript",
+    "ES6",
+    "Frontend Programming"
+  ],
+  "Jest": [
+    "Jest",
+    "JavaScript Testing",
+    "Unit Testing",
+    "Test Framework",
+    "React Testing"
+  ],
+  "Jupyter Notebooks": [
+    "Jupyter Notebooks",
+    "Jupyter",
+    "IPython",
+    "Data Science Notebooks",
+    "Interactive Computing"
+  ],
+  "KPI Definition": [
+    "KPI Definition",
+    "Key Performance Indicators",
+    "Metrics Definition",
+    "Success Metrics",
+    "Performance Measurement"
+  ],
+  "Kafka": [
+    "Kafka",
+    "Apache Kafka",
+    "Message Streaming",
+    "Event Streaming",
+    "Message Queues"
+  ],
+  "Keras": [
+    "Keras",
+    "Deep Learning Framework",
+    "Neural Networks",
+    "TensorFlow Keras",
+    "High-level API"
+  ],
+  "Kotlin": [
+    "Kotlin",
+    "Android Development",
+    "JetBrains Kotlin",
+    "Mobile Development",
+    "JVM Language"
+  ],
+  "Kubernetes": [
+    "K8s",
+    "Kubernetes",
+    "Container Orchestration",
+    "Cloud Native",
+    "Microservices"
+  ],
+  "LaTeX": [
+    "LaTeX",
+    "Document Preparation",
+    "Scientific Writing",
+    "Academic Writing",
+    "Typesetting"
+  ],
+  "Level Design": [
+    "Level Design",
+    "Game Level Design",
+    "Environment Design",
+    "Gameplay Design",
+    "Game Development"
+  ],
+  "Lightning Web Components": [
+    "Lightning Web Components",
+    "LWC",
+    "Salesforce Components",
+    "Web Components",
+    "Lightning Platform"
+  ],
+  "Linear Algebra": [
+    "Linear Algebra",
+    "Matrix Operations",
+    "Vector Mathematics",
+    "Mathematical Foundations",
+    "Numerical Methods"
+  ],
+  "Linux": [
+    "Linux",
+    "Linux OS",
+    "Red Hat",
+    "Ubuntu",
+    "Unix",
+    "CentOS",
+    "Debian",
+    "System Administration"
+  ],
+  "Load Balancing": [
+    "Load Balancing",
+    "Load Balancers",
+    "Traffic Distribution",
+    "High Availability",
+    "Scalability"
+  ],
+  "Load Testing": [
+    "Load Testing",
+    "Performance Testing",
+    "Stress Testing",
+    "Capacity Testing",
+    "Scalability Testing"
+  ],
+  "Logging": [
+    "Logging",
+    "Application Logging",
+    "System Logs",
+    "Log Management",
+    "Observability"
+  ],
+  "MLOps": [
+    "MLOps",
+    "Machine Learning Operations",
+    "ML Engineering",
+    "Model Deployment",
+    "ML Pipelines"
+  ],
+  "MLflow": [
+    "MLflow",
+    "ML Lifecycle Management",
+    "Experiment Tracking",
+    "Model Registry",
+    "MLOps Platform"
+  ],
+  "Machine Learning": [
+    "ML",
+    "Machine Intelligence",
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Predictive Modeling",
+    "Statistical Learning"
+  ],
+  "Machine Learning Algorithms": [
+    "ML Algorithms",
+    "Machine Learning Algorithms",
+    "Supervised Learning",
+    "Unsupervised Learning",
+    "Classification",
+    "Regression"
+  ],
+  "Machine Learning Basics": [
+    "ML Basics",
+    "Machine Learning Basics",
+    "ML Fundamentals",
+    "Introduction to ML",
+    "Basic ML Concepts"
+  ],
+  "Market Research": [
+    "Market Research",
+    "Customer Research",
+    "Market Analysis",
+    "Consumer Insights",
+    "Business Research"
+  ],
+  "Mathematical Modeling": [
+    "Mathematical Modeling",
+    "Mathematical Models",
+    "Quantitative Modeling",
+    "Predictive Modeling",
+    "Statistical Modeling"
+  ],
+  "Mathematical Optimization": [
+    "Mathematical Optimization",
+    "Optimization Theory",
+    "Linear Programming",
+    "Convex Optimization",
+    "Operations Research"
+  ],
+  "Mathematics": [
+    "Mathematics",
+    "Math",
+    "Applied Mathematics",
+    "Pure Mathematics",
+    "Mathematical Analysis"
+  ],
+  "Matplotlib": [
+    "Matplotlib",
+    "Python Plotting",
+    "Data Visualization",
+    "Scientific Plotting",
+    "Charts and Graphs"
+  ],
+  "Microcontrollers": [
+    "Microcontrollers",
+    "MCU",
+    "Embedded Programming",
+    "Arduino",
+    "Raspberry Pi",
+    "IoT Development"
+  ],
+  "Microservices": [
+    "Microservices",
+    "Service-Oriented Architecture",
+    "SOA",
+    "Distributed Architecture",
+    "Cloud Architecture"
+  ],
+  "Mobile Design": [
+    "Mobile Design",
+    "Mobile UI",
+    "App Design",
+    "Responsive Design",
+    "Mobile UX"
+  ],
+  "Mobile Game Development": [
+    "Mobile Game Development",
+    "iOS Games",
+    "Android Games",
+    "Mobile Gaming",
+    "Game Development"
+  ],
+  "Model Deployment": [
+    "Model Deployment",
+    "ML Deployment",
+    "Production ML",
+    "Model Serving",
+    "MLOps"
+  ],
+  "Model Evaluation": [
+    "Model Evaluation",
+    "Model Assessment",
+    "Performance Metrics",
+    "Model Validation",
+    "Cross-validation"
+  ],
+  "Model Optimization": [
+    "Model Optimization",
+    "Hyperparameter Tuning",
+    "Model Performance",
+    "Algorithm Optimization",
+    "Model Efficiency"
+  ],
+  "MongoDB": [
+    "MongoDB",
+    "NoSQL Database",
+    "Document Database",
+    "JSON Database",
+    "Non-relational Database"
+  ],
+  "Monitoring": [
+    "Monitoring",
+    "Application Monitoring",
+    "System Monitoring",
+    "Performance Monitoring",
+    "Observability"
+  ],
+  "Multiplayer Networking": [
+    "Multiplayer Networking",
+    "Network Programming",
+    "Game Networking",
+    "Online Gaming",
+    "Client-Server Architecture"
+  ],
+  "Multithreading": [
+    "Multithreading",
+    "Parallel Programming",
+    "Concurrent Programming",
+    "Thread Management",
+    "Asynchronous Programming"
+  ],
+  "MySQL": [
+    "MySQL",
+    "Relational Database",
+    "SQL Database",
+    "Database Management",
+    "RDBMS"
+  ],
+  "NLP": [
+    "NLP",
+    "Natural Language Processing",
+    "Text Mining",
+    "Computational Linguistics",
+    "Language Models",
+    "Text Analysis"
+  ],
+  "Natural Language Processing": [
+    "NLP",
+    "Natural Language Processing",
+    "Text Mining",
+    "Text Analytics",
+    "Language Understanding",
+    "Computational Linguistics"
+  ],
+  
+  "Networking": [
+    "Networking",
+    "Computer Networks",
+    "Network Administration",
+    "Network Engineering",
+    "Network Security",
+    "TCP/IP",
+    "Network Protocols",
+    "LAN/WAN",
+    "Network Infrastructure",
+    "Network Architecture"
+  ],
+  "Neural Networks": [
+    "Neural Networks",
+    "Artificial Neural Networks",
+    "ANN",
+    "Deep Neural Networks",
+    "DNN",
+    "Neural Nets",
+    "Connectionist Networks",
+    "Perceptrons",
+    "Multi-layer Perceptrons",
+    "MLP"
+  ],
+  "Next.js": [
+    "Next.js",
+    "NextJS",
+    "Next",
+    "React Framework",
+    "Full-stack React",
+    "Server-side React",
+    "SSR React",
+    "Vercel Framework"
+  ],
+  "NoSQL": [
+    "NoSQL",
+    "No SQL",
+    "Non-relational Database",
+    "Document Database",
+    "Non-SQL",
+    "Structured Query Language",
+    "Key-Value Store",
+    "Graph Database",
+    "Column-family",
+    "MongoDB",
+    "Cassandra"
+  ],
+  "Node.js": [
+    "Node.js",
+    "NodeJS",
+    "Node",
+    "Server-side JavaScript",
+    "JavaScript Runtime",
+    "V8 Engine",
+    "NPM",
+    "Express.js",
+    "Backend JavaScript"
+  ],
+  "NumPy": [
+    "NumPy",
+    "Numpy",
+    "Numerical Python",
+    "Python Arrays",
+    "Scientific Computing Python",
+    "Matrix Operations Python",
+    "Linear Algebra Python"
+  ],
+  "OAuth": [
+    "OAuth",
+    "OAuth 2.0",
+    "OAuth2",
+    "Open Authorization",
+    "Authentication Protocol",
+    "Authorization Framework",
+    "API Authentication",
+    "Token-based Authentication"
+  ],
+  "ONNX": [
+    "ONNX",
+    "Open Neural Network Exchange",
+    "Model Interoperability",
+    "ML Model Format",
+    "Cross-platform ML"
+  ],
+  "Object-Oriented Programming": [
+    "OOP",
+    "OOPS",
+    "Object Oriented Programming",
+    "Object-Oriented Programming",
+    "Object-Oriented Design",
+    "OOD",
+    "Classes and Objects",
+    "Inheritance",
+    "Polymorphism",
+    "Encapsulation",
+    "Abstraction"
+  ],
+  "Objective-C": [
+    "Objective-C",
+    "ObjC",
+    "Obj-C",
+    "iOS Programming",
+    "macOS Programming",
+    "Apple Development",
+    "Cocoa Framework"
+  ],
+  "Observability": [
+    "Observability",
+    "System Monitoring",
+    "Application Monitoring",
+    "Logging",
+    "Metrics",
+    "Tracing",
+    "Distributed Tracing",
+    "APM",
+    "Application Performance Monitoring",
+    "SRE",
+    "Site Reliability Engineering"
+  ],
+  "On-call Practices": [
+    "On-call Practices",
+    "On-call Engineering",
+    "Incident Response",
+    "Production Support",
+    "Emergency Response",
+    "24/7 Support",
+    "Escalation Procedures",
+    "Runbook Management"
+  ],
+  "Open Source Contribution": [
+    "Open Source Contribution",
+    "OSS Contribution",
+    "GitHub Contributions",
+    "Community Development",
+    "FOSS",
+    "Free and Open Source Software",
+    "Pull Requests",
+    "Code Contributions",
+    "Maintainer Experience"
+  ],
+  "OpenAI Gym": [
+    "OpenAI Gym",
+    "Gym",
+    "RL Environment",
+    "Reinforcement Learning Environment",
+    "AI Training Environment",
+    "Simulation Environment"
+  ],
+  "OpenCV": [
+    "OpenCV",
+    "Open Source Computer Vision",
+    "Computer Vision Library",
+    "Image Processing",
+    "CV",
+    "Computer Vision",
+    "Image Recognition",
+    "Video Processing"
+  ],
+  "OpenGL": [
+    "OpenGL",
+    "Open Graphics Library",
+    "3D Graphics",
+    "Graphics Programming",
+    "Shader Programming",
+    "GLSL",
+    "3D Rendering",
+    "Graphics API"
+  ],
+  "Operating Systems": [
+    "Operating Systems",
+    "OS",
+    "System Programming",
+    "Kernel Development",
+    "Linux",
+    "Unix",
+    "Windows",
+    "System Administration",
+    "DevOps"
+  ],
+  "Optimization": [
+    "Optimization",
+    "Performance Optimization",
+    "Algorithm Optimization",
+    "Code Optimization",
+    "Mathematical Optimization",
+    "Constraint Optimization",
+    "Linear Programming",
+    "Non-linear Programming"
+  ],
+  "Pandas": [
+    "Pandas",
+    "Python Data Analysis",
+    "DataFrame",
+    "Data Manipulation Python",
+    "Data Wrangling",
+    "CSV Processing",
+    "Data Cleaning Python"
+  ],
+  "Paper Writing": [
+    "Paper Writing",
+    "Academic Writing",
+    "Research Writing",
+    "Scientific Writing",
+    "Technical Writing",
+    "Publication Writing",
+    "Manuscript Writing",
+    "LaTeX"
+  ],
+  "Parquet": [
+    "Parquet",
+    "Apache Parquet",
+    "Columnar Storage",
+    "Data Format",
+    "Big Data Format",
+    "Analytics Storage"
+  ],
+  "Performance Optimization": [
+    "Performance Optimization",
+    "Performance Tuning",
+    "Code Optimization",
+    "Speed Optimization",
+    "Memory Optimization",
+    "CPU Optimization",
+    "Database Optimization",
+    "Query Optimization",
+    "Profiling"
+  ],
+  "Play Framework": [
+    "Play Framework",
+    "Play",
+    "Scala Web Framework",
+    "Java Web Framework",
+    "Reactive Web Framework",
+    "Akka HTTP"
+  ],
+  "PostgreSQL": [
+    "PostgreSQL",
+    "Postgres",
+    "PostGIS",
+    "RDBMS",
+    "Relational Database",
+    "SQL Database",
+    "Structured Query Language",
+    "ACID Compliance"
+  ],
+  "Probability": [
+    "Probability",
+    "Probability Theory",
+    "Statistical Probability",
+    "Bayesian Statistics",
+    "Stochastic Processes",
+    "Random Variables",
+    "Probability Distributions"
+  ],
+  "Problem Solving": [
+    "Problem Solving",
+    "Analytical Thinking",
+    "Critical Thinking",
+    "Troubleshooting",
+    "Debugging",
+    "Root Cause Analysis",
+    "Algorithmic Thinking",
+    "Logic"
+  ],
+  "Product Lifecycle Management": [
+    "Product Lifecycle Management",
+    "PLM",
+    "Product Management",
+    "Product Development",
+    "Product Strategy",
+    "Go-to-Market",
+    "Product Planning"
+  ],
+  "Product Strategy": [
+    "Product Strategy",
+    "Product Planning",
+    "Product Vision",
+    "Product Roadmap",
+    "Market Analysis",
+    "Competitive Analysis",
+    "Product-Market Fit"
+  ],
+  "Prometheus": [
+    "Prometheus",
+    "Time Series Database",
+    "Metrics Collection",
+    "Monitoring System",
+    "Alerting System",
+    "Grafana Integration",
+    "TSDB"
+  ],
+  "Prototyping": [
+    "Prototyping",
+    "Rapid Prototyping",
+    "MVP Development",
+    "Proof of Concept",
+    "POC",
+    "Mockups",
+    "Wireframing",
+    "Design Thinking"
+  ],
+  "PyTorch": [
+    "PyTorch",
+    "Torch",
+    "Deep Learning Framework",
+    "Neural Network Framework",
+    "Facebook AI",
+    "Meta AI",
+    "Dynamic Graphs",
+    "Autograd"
+  ],
+  "Python": [
+    "Py",
+    "Python",
+    "Python3",
+    "Python 3",
+    "CPython",
+    "Pythonic",
+    "Scripting Language",
+    "Data Science Python",
+    "Web Development Python"
+  ],
+  "REST APIs": [
+    "REST APIs",
+    "RESTful APIs",
+    "REST",
+    "HTTP APIs",
+    "Web APIs",
+    "API Development",
+    "Microservices",
+    "JSON APIs",
+    "Web Services"
+  ],
+  "RNNs": [
+    "RNNs",
+    "Recurrent Neural Networks",
+    "LSTM",
+    "Long Short-Term Memory",
+    "GRU",
+    "Gated Recurrent Unit",
+    "Sequence Models",
+    "Time Series Neural Networks"
+  ],
+  "React": [
+    "React",
+    "ReactJS",
+    "React.js",
+    "Frontend Framework",
+    "JavaScript Library",
+    "Virtual DOM",
+    "JSX",
+    "Component-based UI",
+    "Single Page Application",
+    "SPA"
+  ],
+  "Real-Time Operating Systems": [
+    "Real-Time Operating Systems",
+    "RTOS",
+    "Embedded Systems",
+    "Hard Real-time",
+    "Soft Real-time",
+    "Deterministic Systems",
+    "FreeRTOS"
+  ],
+  "Real-Time Systems": [
+    "Real-Time Systems",
+    "RT Systems",
+    "Low-latency Systems",
+    "Time-critical Systems",
+    "Embedded Real-time",
+    "Concurrent Systems"
+  ],
+  "Redis": [
+    "Redis",
+    "In-memory Database",
+    "Cache",
+    "Key-Value Store",
+    "Session Store",
+    "Message Broker",
+    "Pub/Sub"
+  ],
+  "Redshift": [
+    "Redshift",
+    "Amazon Redshift",
+    "Data Warehouse",
+    "Analytics Database",
+    "Columnar Database",
+    "OLAP",
+    "Big Data Analytics"
+  ],
+  "Redux": [
+    "Redux",
+    "State Management",
+    "React State Management",
+    "Flux Architecture",
+    "Predictable State Container",
+    "Action Creators",
+    "Reducers"
+  ],
+  "Reinforcement Learning": [
+    "Reinforcement Learning",
+    "RL",
+    "Q-Learning",
+    "Deep Q-Networks",
+    "DQN",
+    "Policy Gradient",
+    "Actor-Critic",
+    "Multi-Agent RL",
+    "MARL"
+  ],
+  "Reliability": [
+    "Reliability",
+    "System Reliability",
+    "High Availability",
+    "Fault Tolerance",
+    "Disaster Recovery",
+    "Business Continuity",
+    "Uptime",
+    "SLA",
+    "Service Level Agreement"
+  ],
+  "Research Paper Reading": [
+    "Research Paper Reading",
+    "Literature Review",
+    "Academic Research",
+    "Scientific Papers",
+    "Technical Papers",
+    "Research Analysis",
+    "Paper Analysis"
+  ],
+  "Research Paper Writing": [
+    "Research Paper Writing",
+    "Academic Writing",
+    "Scientific Writing",
+    "Technical Documentation",
+    "Peer Review",
+    "Publication",
+    "Research Methods"
+  ],
+  "Resilience Engineering": [
+    "Resilience Engineering",
+    "Chaos Engineering",
+    "Fault Injection",
+    "System Resilience",
+    "Failure Recovery",
+    "Graceful Degradation",
+    "Circuit Breakers"
+  ],
+  "Responsive Design": [
+    "Responsive Design",
+    "Mobile-first Design",
+    "Adaptive Design",
+    "Cross-device Design",
+    "Media Queries",
+    "Flexible Layouts",
+    "Progressive Enhancement"
+  ],
+  "Roadmapping": [
+    "Roadmapping",
+    "Product Roadmapping",
+    "Strategic Planning",
+    "Feature Planning",
+    "Release Planning",
+    "Timeline Planning",
+    "Milestone Planning"
+  ],
+  "Robotics": [
+    "Robotics",
+    "Robot Programming",
+    "Autonomous Systems",
+    "ROS",
+    "Robot Operating System",
+    "Computer Vision Robotics",
+    "Motion Planning",
+    "Sensor Integration"
+  ],
+  "S3": [
+    "S3",
+    "Amazon S3",
+    "Simple Storage Service",
+    "Object Storage",
+    "Cloud Storage",
+    "Bucket Storage",
+    "AWS Storage"
+  ],
+  "SASS": [
+    "SASS",
+    "Syntactically Awesome Style Sheets",
+    "SCSS",
+    "CSS Preprocessor",
+    "Nested CSS",
+    "CSS Variables",
+    "Mixins"
+  ],
+  "SOAP APIs": [
+    "SOAP APIs",
+    "SOAP Web Services",
+    "Simple Object Access Protocol",
+    "XML Web Services",
+    "WSDL",
+    "Enterprise APIs"
+  ],
+  "SOQL": [
+    "SOQL",
+    "Salesforce Object Query Language",
+    "Salesforce Queries",
+    "CRM Queries",
+    "Force.com Queries"
+  ],
+  "SQL": [
+    "SQL",
+    "Structured Query Language",
+    "Database Queries",
+    "RDBMS",
+    "MySQL",
+    "PostgreSQL",
+    "SQLite",
+    "T-SQL",
+    "PL/SQL"
+  ],
+  "SageMaker": [
+    "SageMaker",
+    "Amazon SageMaker",
+    "AWS SageMaker",
+    "ML Platform",
+    "Machine Learning Platform",
+    "Model Training",
+    "Model Deployment"
+  ],
+  "Salesforce Platform": [
+    "Salesforce Platform",
+    "Force.com",
+    "Salesforce Development",
+    "CRM Development",
+    "Apex",
+    "Lightning Platform",
+    "Trailhead"
+  ],
+  "Scala": [
+    "Scala",
+    "Functional Programming",
+    "JVM Language",
+    "Actor Model",
+    "Akka",
+    "Play Framework",
+    "Spark Scala"
+  ],
+  "Scalability": [
+    "Scalability",
+    "Horizontal Scaling",
+    "Vertical Scaling",
+    "Load Balancing",
+    "Auto-scaling",
+    "Distributed Systems",
+    "High Performance Systems"
+  ],
+  "Scikit-learn": [
+    "Scikit-learn",
+    "sklearn",
+    "Machine Learning Python",
+    "ML Library",
+    "Python ML",
+    "Classification",
+    "Regression",
+    "Clustering"
+  ],
+  "Scrum": [
+    "Scrum",
+    "Agile Methodology",
+    "Sprint Planning",
+    "Daily Standups",
+    "Retrospectives",
+    "Product Owner",
+    "Scrum Master",
+    "User Stories"
+  ],
+  "Seaborn": [
+    "Seaborn",
+    "Statistical Visualization",
+    "Python Plotting",
+    "Data Visualization Python",
+    "Statistical Plots",
+    "Matplotlib Enhancement"
+  ],
+  "Search Systems": [
+    "Search Systems",
+    "Information Retrieval",
+    "Search Engines",
+    "Elasticsearch",
+    "Solr",
+    "Full-text Search",
+    "Search Algorithms",
+    "Indexing"
+  ],
+  "Security Best Practices": [
+    "Security Best Practices",
+    "Cybersecurity",
+    "Information Security",
+    "Application Security",
+    "Network Security",
+    "Data Protection",
+    "OWASP",
+    "Penetration Testing",
+    "Vulnerability Assessment"
+  ],
+  "Sensor Fusion": [
+    "Sensor Fusion",
+    "Multi-sensor Integration",
+    "Data Fusion",
+    "Kalman Filtering",
+    "IMU Integration",
+    "Computer Vision Fusion"
+  ],
+  "Shader Programming": [
+    "Shader Programming",
+    "GLSL",
+    "HLSL",
+    "Graphics Shaders",
+    "Vertex Shaders",
+    "Fragment Shaders",
+    "Compute Shaders",
+    "GPU Programming"
+  ],
+  "Shell Scripting": [
+    "Shell Scripting",
+    "Bash Scripting",
+    "Command Line",
+    "Terminal",
+    "Unix Shell",
+    "Linux Commands",
+    "Automation Scripts",
+    "System Administration"
+  ],
+  "Sketch": [
+    "Sketch",
+    "UI Design Tool",
+    "Vector Graphics",
+    "Design Software",
+    "Prototyping Tool",
+    "Interface Design"
+  ],
+  "Snowflake": [
+    "Snowflake",
+    "Cloud Data Warehouse",
+    "Data Platform",
+    "Analytics Platform",
+    "SQL Data Warehouse",
+    "Cloud Analytics"
+  ],
+  "Software Engineering Principles": [
+    "Software Engineering Principles",
+    "SOLID Principles",
+    "Design Patterns",
+    "Clean Code",
+    "Code Quality",
+    "Software Architecture",
+    "Best Practices",
+    "Refactoring"
+  ],
+  "Spark": [
+    "Spark",
+    "Apache Spark",
+    "Big Data Processing",
+    "Distributed Computing",
+    "PySpark",
+    "Spark SQL",
+    "Data Processing",
+    "ETL"
+  ],
+  "Spring Boot": [
+    "Spring Boot",
+    "Spring Framework",
+    "Java Framework",
+    "Microservices Java",
+    "REST Services Java",
+    "Enterprise Java",
+    "Dependency Injection"
+  ],
+  "Stakeholder Management": [
+    "Stakeholder Management",
+    "Client Relations",
+    "Business Communication",
+    "Project Management",
+    "Relationship Management",
+    "Cross-functional Collaboration"
+  ],
+  "Statistical Analysis": [
+    "Statistical Analysis",
+    "Data Analysis",
+    "Hypothesis Testing",
+    "A/B Testing",
+    "Regression Analysis",
+    "Descriptive Statistics",
+    "Inferential Statistics"
+  ],
+  "Statistical Modeling": [
+    "Statistical Modeling",
+    "Predictive Modeling",
+    "Regression Modeling",
+    "Time Series Analysis",
+    "Bayesian Modeling",
+    "Machine Learning Models"
+  ],
+  "Statistics": [
+    "Statistics",
+    "Statistical Methods",
+    "Data Science",
+    "Probability and Statistics",
+    "Biostatistics",
+    "Applied Statistics",
+    "Mathematical Statistics"
+  ],
+  "Swift": [
+    "Swift",
+    "iOS Development",
+    "macOS Development",
+    "Apple Programming",
+    "SwiftUI",
+    "Objective-C Alternative",
+    "Mobile Development"
+  ],
+  "System Design": [
+    "System Design",
+    "Architecture Design",
+    "Distributed Systems",
+    "Scalable Systems",
+    "High-level Design",
+    "Low-level Design",
+    "System Architecture",
+    "Software Architecture"
+  ],
+  "Tailwind CSS": [
+    "Cascading Style Sheets",
+    "Tailwind CSS",
+    "Utility-first CSS",
+    "CSS Framework",
+    "Responsive CSS",
+    "Component Styling",
+    "Atomic CSS"
+  ],
+  "TensorFlow": [
+    "TensorFlow",
+    "TF",
+    "Deep Learning Framework",
+    "Google AI",
+    "Keras",
+    "TensorBoard",
+    "TPU",
+    "Neural Networks"
+  ],
+  "Terraform": [
+    "Terraform",
+    "Infrastructure as Code",
+    "IaC",
+    "Cloud Infrastructure",
+    "DevOps Automation",
+    "HashiCorp",
+    "Cloud Provisioning"
+  ],
+  "Testing": [
+    "Testing",
+    "Software Testing",
+    "QA",
+    "Quality Assurance",
+    "Test Automation",
+    "Unit Testing",
+    "Integration Testing",
+    "End-to-end Testing",
+    "TDD",
+    "Test-Driven Development"
+  ],
+  "Thrift": [
+    "Thrift",
+    "Apache Thrift",
+    "RPC Framework",
+    "Cross-language Services",
+    "Serialization Framework",
+    "Service Definition"
+  ],
+  "TypeScript": [
+    "TypeScript",
+    "TS",
+    "Typed JavaScript",
+    "Static Typing",
+    "JavaScript Superset",
+    "Type Safety",
+    "Angular TypeScript"
+  ],
+  "UI/UX Design": [
+    "UI/UX Design",
+    "User Interface Design",
+    "User Experience Design",
+    "Product Design",
+    "Digital Design",
+    "Interaction Design",
+    "Visual Design"
+  ],
+  "UI/UX Principles": [
+    "UI/UX Principles",
+    "Design Principles",
+    "Usability Principles",
+    "Human-Computer Interaction",
+    "HCI",
+    "User-Centered Design",
+    "Design Thinking"
+  ],
+  "UIKit": [
+    "UIKit",
+    "iOS UI Framework",
+    "Apple UI Framework",
+    "Interface Builder",
+    "Storyboards",
+    "Auto Layout"
+  ],
+  "UX Writing": [
+    "UX Writing",
+    "Content Design",
+    "Microcopy",
+    "Interface Copy",
+    "Content Strategy",
+    "User-focused Writing"
+  ],
+  "Unit Testing": [
+    "Unit Testing",
+    "Test-Driven Development",
+    "TDD",
+    "Jest",
+    "JUnit",
+    "PyTest",
+    "Mocking",
+    "Test Coverage"
+  ],
+  "Unity": [
+    "Unity",
+    "Unity3D",
+    "Game Engine",
+    "C# Scripting",
+    "3D Game Development",
+    "2D Game Development",
+    "Cross-platform Games"
+  ],
+  "Unreal Engine": [
+    "Unreal Engine",
+    "UE4",
+    "UE5",
+    "Game Development",
+    "C++ Game Development",
+    "Blueprint Scripting",
+    "3D Games",
+    "AAA Game Development"
+  ],
+  "Usability Testing": [
+    "Usability Testing",
+    "User Testing",
+    "A/B Testing",
+    "User Research",
+    "Prototype Testing",
+    "User Feedback",
+    "UX Research"
+  ],
+  "User Research": [
+    "User Research",
+    "UX Research",
+    "Market Research",
+    "User Interviews",
+    "Surveys",
+    "Ethnographic Research",
+    "Persona Development"
+  ],
+  "User Stories": [
+    "User Stories",
+    "Agile Requirements",
+    "Acceptance Criteria",
+    "Epic Stories",
+    "Feature Requirements",
+    "Behavior-Driven Development",
+    "BDD"
+  ],
+  "VR/AR": [
+    "VR/AR",
+    "Virtual Reality",
+    "Augmented Reality",
+    "Mixed Reality",
+    "XR",
+    "Extended Reality",
+    "Immersive Technology",
+    "3D Environments"
+  ],
+  "Version Control": [
+    "Version Control",
+    "Git",
+    "GitHub",
+    "GitLab",
+    "Source Control",
+    "SVN",
+    "Mercurial",
+    "Branch Management",
+    "Code Collaboration"
+  ],
+  "Video Streaming Architecture": [
+    "Video Streaming Architecture",
+    "Video CDN",
+    "Streaming Protocols",
+    "Video Encoding",
+    "Live Streaming",
+    "Video on Demand",
+    "HLS",
+    "DASH"
+  ],
+  "Visual Design": [
+    "Visual Design",
+    "Graphic Design",
+    "Brand Design",
+    "Typography",
+    "Color Theory",
+    "Layout Design",
+    "Design Systems"
+  ],
+  "Visual Scripting": [
+    "Visual Scripting",
+    "Node-based Programming",
+    "Blueprint Scripting",
+    "Scratch Programming",
+    "Flow-based Programming",
+    "No-code Development"
+  ],
+  "Visualforce": [
+    "Visualforce",
+    "Salesforce Pages",
+    "Force.com Pages",
+    "Custom Salesforce UI",
+    "Apex Controllers"
+  ],
+  "Vue.js": [
+    "Vue.js",
+    "Vue",
+    "VueJS",
+    "Progressive Framework",
+    "Frontend Framework",
+    "Component Framework",
+    "Single File Components"
+  ],
+  "Web Design": [
+    "Web Design",
+    "Frontend Design",
+    "Website Design",
+    "UI Design",
+    "Responsive Web Design",
+    "Modern Web Design",
+    "CSS Design"
+  ],
+  "Webpack": [
+    "Webpack",
+    "Module Bundler",
+    "Build Tool",
+    "Asset Bundling",
+    "Code Splitting",
+    "Hot Module Replacement",
+    "Frontend Build"
+  ],
+  "Windows OS": [
+    "Windows OS",
+    "Windows Operating System",
+    "Microsoft Windows",
+    "Windows Administration",
+    "Windows Development",
+    "PowerShell",
+    "Windows Server"
+  ],
+  "Wireframing": [
+    "Wireframing",
+    "Low-fidelity Design",
+    "Information Architecture",
+    "Layout Planning",
+    "User Flow Design",
+    "Sketching",
+    "Mockups"
+  ],
+  "Xcode": [
+    "Xcode",
+    "iOS IDE",
+    "Apple IDE",
+    "Swift Development",
+    "Interface Builder",
+    "iOS Simulator",
+    "macOS Development"
+  ],
+  "iOS Development": [
+    "iOS Development",
+    "iPhone Development",
+    "iPad Development",
+    "Apple Development",
+    "Mobile App Development",
+    "Swift Programming",
+    "Objective-C Development"
+  ],
+  "macOS": [
+    "macOS",
+    "Mac OS",
+    "Apple Operating System",
+    "macOS Development",
+    "Cocoa Framework",
+    "Mac Applications"
+  ]
+}
 
         self.config = config
         self.goals = goals
@@ -621,25 +2817,20 @@ class ResumeScorer:
     "course": "Competitive Intelligence (Coursera) or Market Research for Competitive Analysis (Udemy)"
   },
   "C#": {
-    "path": "1. C# Basics: Syntax, variables, types → 2. OOP: Classes, inheritance, polymorphism → 3. Collections: Lists, dictionaries, arrays → 4. Exception Handling: try-catch, custom exceptions →"
+    "path": "1. C# Fundamentals: Syntax, variables, data types → 2. Object-Oriented Programming: Classes, inheritance, polymorphism → 3. Collections: Arrays, lists, dictionaries → 4. Exception Handling: Try-catch, custom exceptions → 5. LINQ: Query syntax, method syntax → 6. Async Programming: Tasks, async/await → 7. Memory Management: Garbage collection, IDisposable → 8. Generics: Type parameters, constraints → 9. Delegates & Events: Function pointers, event handling → 10. File I/O: Streams, serialization",
+    "course": "C# Fundamentals (Pluralsight) or Complete C# Masterclass (Udemy - Denis Panjuta)"
   },
   
   "Go": {
     "path": "1. Syntax Basics: Variables, types, functions → 2. Goroutines: Concurrent programming → 3. Channels: Communication between goroutines → 4. Packages: Modules, imports, exports → 5. Error Handling: Error interface, panic/recover → 6. Interfaces: Implicit implementation → 7. Structs: Data structures, methods → 8. Testing: Unit tests, benchmarks → 9. HTTP Programming: Web servers, clients → 10. Standard Library: fmt, io, net packages",
     "course": "Go: The Complete Developer's Guide (Udemy - Stephen Grider) or Learn Go Programming (Codecademy)"
   },
-  "Algorithms": {
-    "path": "1. Time/Space Complexity: Big O notation → 2. Sorting: Quicksort, mergesort, heapsort → 3. Searching: Binary search, DFS, BFS → 4. Dynamic Programming: Memoization, tabulation → 5. Greedy Algorithms: Optimization problems → 6. Graph Algorithms: Shortest path, MST → 7. String Algorithms: Pattern matching, KMP → 8. Divide and Conquer: Problem decomposition → 9. Backtracking: Constraint satisfaction",
-    "course": "Algorithms Specialization (Coursera - Stanford) or Introduction to Algorithms (MIT OpenCourseWare)"
-  },
+  
   "Operating Systems": {
     "path": "1. OS Concepts: Processes, threads, scheduling → 2. Memory Management: Virtual memory, paging → 3. File Systems: Inodes, directories, permissions → 4. Synchronization: Mutexes, semaphores → 5. Deadlocks: Detection, prevention, avoidance → 6. I/O Systems: Device drivers, interrupt handling → 7. System Calls: Kernel interface → 8. Security: Access control, authentication → 9. Distributed Systems: Network protocols",
     "course": "Operating Systems (Coursera - University of California San Diego) or Operating Systems: Three Easy Pieces (Book + Videos)"
   },
-  "Concurrency": {
-    "path": "1. Thread Fundamentals: Creation, lifecycle, scheduling → 2. Synchronization Primitives: Locks, semaphores, monitors → 3. Atomic Operations: Compare-and-swap, memory barriers → 4. Producer-Consumer: Bounded buffer problem → 5. Reader-Writer: Concurrent access patterns → 6. Deadlock Prevention: Ordering, timeouts → 7. Lock-free Programming: Wait-free data structures → 8. Parallel Algorithms: Fork-join, map-reduce → 9. Memory Models: Consistency, ordering",
-    "course": "Parallel Programming (Coursera - University of Illinois) or Java Concurrency in Practice (Book)"
-  },
+  
   "Machine Learning Basics": {
     "path": "1. Supervised Learning: Classification, regression → 2. Unsupervised Learning: Clustering, dimensionality reduction → 3. Model Evaluation: Cross-validation, metrics → 4. Feature Engineering: Selection, transformation → 5. Overfitting: Bias-variance tradeoff → 6. Linear Models: Regression, logistic regression → 7. Tree-based Models: Decision trees, random forest → 8. Neural Networks: Perceptron, backpropagation → 9. Model Selection: Hyperparameter tuning",
     "course": "Machine Learning (Coursera - Andrew Ng) or Introduction to Statistical Learning (Stanford Online)"
@@ -1203,9 +3394,706 @@ class ResumeScorer:
   "On-call Practices": {
     "path": "1. On-Call Fundamentals: Responsibilities, expectations → 2. Alert Design: Quality over quantity → 3. Escalation: Multi-tier support → 4. Handoff Procedures: Knowledge transfer → 5. Burnout Prevention: Rotation, workload balance → 6. Tools: Alert management, communication → 7. Documentation: Runbooks, troubleshooting guides → 8. Metrics: Response time, resolution time → 9. Training: Shadow shifts, knowledge sharing → 10. Post-Incident: Learning, improvement",
     "course": "On-Call Engineering (Google SRE) or Effective On-Call Practices (PagerDuty)"
+  },
+  
+  "Accessibility": {
+    "path": "1. WCAG Guidelines: Understanding A, AA, AAA standards → 2. Semantic HTML: Proper element usage, landmarks → 3. ARIA: Roles, properties, states → 4. Keyboard Navigation: Tab order, focus management → 5. Screen Readers: NVDA, JAWS, VoiceOver testing → 6. Color Contrast: Tools, ratios, color blindness → 7. Testing Tools: axe, Lighthouse, Pa11y → 8. Legal Compliance: ADA, Section 508, GDPR accessibility",
+    "course": "Web Accessibility (Coursera - University of Colorado) or Accessibility in Web Design (Udacity)"
+  },
+  "Agile Development": {
+    "path": "1. Agile Manifesto: Values and principles → 2. Scrum Framework: Roles, events, artifacts → 3. Sprint Planning: Estimation, velocity, story points → 4. Daily Standups: Effective communication → 5. Sprint Review: Demo, stakeholder feedback → 6. Retrospectives: Continuous improvement → 7. Kanban: Flow, WIP limits, metrics → 8. User Stories: Acceptance criteria, INVEST → 9. Agile Metrics: Burndown, velocity, lead time",
+    "course": "Agile Development (Coursera - University of Virginia) or Certified ScrumMaster (Scrumalliance)"
+  },
+  "Alerting": {
+    "path": "1. Alert Design: Thresholds, severity levels → 2. Notification Channels: Email, SMS, Slack, PagerDuty → 3. Alert Fatigue: Reducing false positives → 4. Escalation Policies: On-call rotations → 5. SLA/SLO: Service level objectives → 6. Monitoring Integration: Prometheus, Grafana → 7. Runbooks: Documentation, troubleshooting → 8. Post-mortem: Incident analysis, learning",
+    "course": "Site Reliability Engineering (Coursera - Google) or Monitoring and Alerting (Pluralsight)"
+  },
+  "Angular": {
+    "path": "1. TypeScript Basics: Types, interfaces, classes → 2. Components: Templates, data binding → 3. Directives: Structural, attribute directives → 4. Services: Dependency injection, HTTP client → 5. Routing: Navigation, route guards → 6. Forms: Reactive forms, validation → 7. State Management: NgRx, services → 8. Testing: Jasmine, Karma, Protractor → 9. Deployment: Build optimization, lazy loading",
+    "course": "Angular - The Complete Guide (Udemy - Maximilian Schwarzmüller) or Angular Fundamentals (Pluralsight)"
+  },
+  "Apex": {
+    "path": "1. Salesforce Platform: Data model, security → 2. Apex Basics: Syntax, data types, collections → 3. SOQL/SOSL: Query languages → 4. Triggers: Before/after, bulk operations → 5. Classes: Object-oriented programming → 6. Exception Handling: Try-catch, custom exceptions → 7. Testing: Test classes, assertions, coverage → 8. Asynchronous Apex: Future, batch, queueable → 9. Integration: REST/SOAP callouts",
+    "course": "Salesforce Developer I (Trailhead) or Apex Programming (Pluralsight)"
+  },
+  "Authentication": {
+    "path": "1. Authentication Basics: Identity verification → 2. Password Security: Hashing, salting, bcrypt → 3. Multi-factor Authentication: TOTP, SMS, biometrics → 4. Session Management: Cookies, tokens → 5. OAuth 2.0: Authorization flows → 6. OpenID Connect: Identity layer → 7. SAML: Enterprise SSO → 8. JWT: Token structure, claims → 9. Biometric Authentication: Fingerprint, face recognition",
+    "course": "Authentication and Authorization (Auth0 University) or Identity and Access Management (Coursera - Google)"
+  },
+  "Authorization": {
+    "path": "1. Authorization Models: RBAC, ABAC, ACL → 2. Permissions: Granular access control → 3. Role-Based Access: User roles, permissions mapping → 4. Attribute-Based Access: Context-aware decisions → 5. Policy Engines: Open Policy Agent, Cedar → 6. Token-Based: JWT claims, scopes → 7. API Authorization: OAuth scopes, API keys → 8. Zero Trust: Least privilege, continuous verification",
+    "course": "Authorization in Web Applications (Pluralsight) or Access Control Systems (Coursera - University of Colorado)"
+  },
+  "Automation": {
+    "path": "1. Scripting Languages: Python, Bash, PowerShell → 2. Task Automation: Cron jobs, scheduled tasks → 3. Configuration Management: Ansible, Puppet → 4. Infrastructure as Code: Terraform, CloudFormation → 5. CI/CD Pipelines: Jenkins, GitLab CI → 6. Testing Automation: Selenium, pytest → 7. Deployment Automation: Blue-green, canary → 8. Monitoring Automation: Self-healing, auto-scaling",
+    "course": "Automation with Python (Coursera - University of Michigan) or Infrastructure Automation (Linux Academy)"
+  },
+  "Babel": {
+    "path": "1. JavaScript Evolution: ES6+, browser compatibility → 2. Babel Configuration: .babelrc, babel.config.js → 3. Presets: @babel/preset-env, preset-react → 4. Plugins: Transform plugins, syntax plugins → 5. Polyfills: Core-js, regenerator-runtime → 6. Build Integration: Webpack, Rollup → 7. Source Maps: Debugging transpiled code → 8. Performance: Bundle size, tree shaking",
+    "course": "Modern JavaScript Tooling (Frontend Masters) or Babel Configuration (Egghead.io)"
+  },
+  "Bayesian Inference": {
+    "path": "1. Bayes' Theorem: Prior, likelihood, posterior → 2. Bayesian vs Frequentist: Philosophical differences → 3. Conjugate Priors: Analytical solutions → 4. MCMC: Markov Chain Monte Carlo → 5. Gibbs Sampling: Conditional distributions → 6. Metropolis-Hastings: Acceptance-rejection → 7. Variational Inference: Approximation methods → 8. Bayesian Model Selection: Evidence, BIC → 9. Applications: A/B testing, medical diagnosis",
+    "course": "Bayesian Statistics (Coursera - Duke University) or Bayesian Methods for Machine Learning (Coursera - HSE)"
+  },
+  "Big Data": {
+    "path": "1. Big Data Characteristics: Volume, velocity, variety → 2. Hadoop Ecosystem: HDFS, MapReduce, YARN → 3. Apache Spark: RDDs, DataFrames, Streaming → 4. Data Storage: Columnar formats, compression → 5. Data Processing: Batch vs stream processing → 6. NoSQL Databases: MongoDB, Cassandra → 7. Data Warehousing: Snowflake, BigQuery → 8. Real-time Analytics: Kafka, Storm → 9. Cloud Platforms: AWS, GCP, Azure big data services",
+    "course": "Big Data Specialization (Coursera - UC San Diego) or Big Data Analytics (edX - MIT)"
+  },
+  "Bootstrap": {
+    "path": "1. Grid System: Containers, rows, columns → 2. Responsive Design: Breakpoints, utilities → 3. Components: Buttons, forms, navigation → 4. Layout: Flexbox, CSS Grid integration → 5. Utilities: Spacing, colors, typography → 6. Customization: Sass variables, themes → 7. JavaScript Components: Modals, carousels → 8. Accessibility: Built-in accessibility features → 9. Migration: Version differences, upgrade paths",
+    "course": "Bootstrap 5 Tutorial (W3Schools) or Responsive Web Design with Bootstrap (Coursera - University of Michigan)"
+  },
+  "CAN Protocol": {
+    "path": "1. CAN Basics: Controller Area Network fundamentals → 2. Frame Structure: Data, remote, error frames → 3. Arbitration: Priority-based bus access → 4. Error Detection: CRC, acknowledgment → 5. Network Topology: Bus configuration, termination → 6. Higher-Level Protocols: CANopen, J1939 → 7. Programming: SocketCAN, CANbus libraries → 8. Diagnostics: Bus monitoring, error analysis → 9. Automotive Applications: ECU communication",
+    "course": "CAN Bus Fundamentals (Vector Academy) or Automotive Networking (Coursera - University of Michigan)"
+  },
+  "CRM Systems": {
+    "path": "1. CRM Fundamentals: Customer lifecycle management → 2. Data Management: Contact, account, opportunity → 3. Sales Process: Lead qualification, pipeline → 4. Marketing Automation: Campaigns, nurturing → 5. Customer Service: Case management, knowledge base → 6. Analytics: Reports, dashboards, KPIs → 7. Integration: Email, calendar, third-party apps → 8. Customization: Fields, workflows, automation → 9. Popular Platforms: Salesforce, HubSpot, Dynamics",
+    "course": "Salesforce Administrator (Trailhead) or CRM Strategy and Implementation (Coursera - University of Virginia)"
+  },
+  "CSS": {
+    "path": "1. CSS Fundamentals: Selectors, properties, values → 2. Box Model: Margin, padding, border → 3. Layout: Flexbox, CSS Grid, positioning → 4. Responsive Design: Media queries, mobile-first → 5. Typography: Fonts, spacing, hierarchy → 6. Colors: Color theory, gradients, transparency → 7. Animations: Transitions, keyframes → 8. Preprocessors: Sass, Less → 9. Modern CSS: Custom properties, container queries",
+    "course": "CSS - The Complete Guide (Udemy - Maximilian Schwarzmüller) or CSS Grid and Flexbox (Wes Bos)"
+  },
+  "CV": {
+    "path": "1. Image Fundamentals: Pixels, color spaces, formats → 2. Image Processing: Filtering, morphology → 3. Feature Detection: Corners, edges, blobs → 4. Object Detection: Sliding window, region proposals → 5. Deep Learning: CNN architectures, transfer learning → 6. Image Segmentation: Semantic, instance segmentation → 7. Face Recognition: Detection, alignment, recognition → 8. Video Processing: Optical flow, tracking → 9. 3D Vision: Stereo, structure from motion",
+    "course": "Computer Vision (Coursera - University of Buffalo) or Deep Learning for Computer Vision (CS231n Stanford)"
+  },
+  "Causal Inference": {
+    "path": "1. Causation vs Correlation: Confounding variables → 2. Randomized Experiments: A/B testing, design → 3. Observational Studies: Selection bias, confounders → 4. Instrumental Variables: Natural experiments → 5. Regression Discontinuity: Threshold effects → 6. Difference-in-Differences: Treatment effects → 7. Propensity Score Matching: Balancing covariates → 8. Directed Acyclic Graphs: Causal diagrams → 9. Mediation Analysis: Direct, indirect effects",
+    "course": "Causal Inference (Coursera - University of Pennsylvania) or Causal Inference: The Mixtape (Scott Cunningham)"
+  },
+  "Chaos Engineering": {
+    "path": "1. Chaos Engineering Principles: Resilience testing → 2. Failure Modes: Network, hardware, software failures → 3. Blast Radius: Controlled failure injection → 4. Monitoring: Observability during chaos → 5. Automation: Chaos tools, CI/CD integration → 6. Game Days: Planned chaos exercises → 7. Tools: Chaos Monkey, Gremlin, Litmus → 8. Incident Response: Learning from failures → 9. Cultural Aspects: Blameless post-mortems",
+    "course": "Chaos Engineering (O'Reilly) or Site Reliability Engineering (Google)"
+  },
+  "Cloud Platforms": {
+    "path": "1. Cloud Fundamentals: IaaS, PaaS, SaaS → 2. Compute Services: VMs, containers, serverless → 3. Storage: Object, block, file storage → 4. Networking: VPC, load balancers, CDN → 5. Databases: Managed databases, NoSQL → 6. Security: IAM, encryption, compliance → 7. Monitoring: Logging, metrics, alerting → 8. Cost Management: Billing, optimization → 9. Multi-cloud: Vendor comparison, migration",
+    "course": "Cloud Computing Specialization (Coursera - University of Illinois) or AWS Solutions Architect (A Cloud Guru)"
+  },
+  "Colab": {
+    "path": "1. Getting Started: Account setup, interface → 2. Notebooks: Cells, markdown, execution → 3. Runtime Management: GPU, TPU, memory → 4. File System: Drive integration, uploads → 5. Package Management: pip, conda, requirements → 6. Data Loading: CSV, images, APIs → 7. Visualization: Matplotlib, Plotly integration → 8. Sharing: Collaboration, publishing → 9. Pro Features: Longer runtimes, priority access",
+    "course": "Google Colab Tutorial (Coursera - Google) or Practical Deep Learning with Colab (Fast.ai)"
+  },
+  "Context API": {
+    "path": "1. React Context: Provider, Consumer pattern → 2. Creating Context: createContext, default values → 3. Context Provider: Wrapping components → 4. Consuming Context: useContext hook → 5. Multiple Contexts: Composition, nesting → 6. Performance: Re-render optimization → 7. State Management: Combined with useReducer → 8. Patterns: Compound components, render props → 9. Alternatives: Redux comparison, when to use",
+    "course": "React Context API (Scrimba) or Advanced React Patterns (Epic React - Kent C. Dodds)"
+  },
+  "Cypress": {
+    "path": "1. E2E Testing: End-to-end testing concepts → 2. Installation: Setup, configuration → 3. Writing Tests: Commands, assertions → 4. Selectors: Finding elements, best practices → 5. Interactions: Clicking, typing, scrolling → 6. Network Stubbing: Mocking API responses → 7. Custom Commands: Reusable test logic → 8. CI/CD Integration: Automated test runs → 9. Debugging: Time travel, screenshots",
+    "course": "Cypress End-to-End Testing (Cypress.io) or JavaScript Testing with Cypress (Udemy)"
+  },
+  "Data Analytics": {
+    "path": "1. Data Types: Structured, unstructured, semi-structured → 2. Data Collection: Surveys, sensors, web scraping → 3. Data Cleaning: Missing values, outliers → 4. Exploratory Analysis: Descriptive statistics → 5. Statistical Testing: Hypothesis testing, p-values → 6. Visualization: Charts, dashboards → 7. Predictive Analytics: Regression, classification → 8. Business Intelligence: KPIs, reporting → 9. Tools: Excel, R, Python, Tableau",
+    "course": "Data Analytics Specialization (Coursera - Google) or Business Analytics (Wharton - Coursera)"
+  },
+  "Data Engineering": {
+    "path": "1. Data Pipeline Architecture: ETL, ELT patterns → 2. Data Ingestion: Batch, streaming, APIs → 3. Data Storage: Data lakes, warehouses → 4. Data Processing: Spark, Hadoop, Airflow → 5. Data Modeling: Dimensional, normalized → 6. Data Quality: Validation, monitoring → 7. Orchestration: Workflow management → 8. Cloud Platforms: AWS, GCP, Azure → 9. Real-time Processing: Kafka, Kinesis",
+    "course": "Data Engineering Specialization (Coursera - Google) or Data Engineering Nanodegree (Udacity)"
+  },
+  "Data Labeling": {
+    "path": "1. Annotation Guidelines: Consistency, quality standards → 2. Labeling Tools: Labelbox, Prodigy, CVAT → 3. Active Learning: Intelligent sample selection → 4. Quality Control: Inter-annotator agreement → 5. Crowd Sourcing: Amazon Mechanical Turk → 6. Semi-supervised: Using unlabeled data → 7. Data Augmentation: Synthetic data generation → 8. Version Control: Label versioning, tracking → 9. Domain-specific: Text, image, audio labeling",
+    "course": "Data Labeling for Machine Learning (Coursera) or Human-in-the-Loop ML (O'Reilly)"
+  },
+  "Data Pipelines": {
+    "path": "1. Pipeline Architecture: Data flow design → 2. ETL vs ELT: Processing strategies → 3. Data Ingestion: Batch, streaming, real-time → 4. Data Transformation: Cleaning, aggregation → 5. Orchestration: Airflow, Luigi, Prefect → 6. Monitoring: Data quality, pipeline health → 7. Error Handling: Retry logic, dead letters → 8. Scalability: Parallel processing → 9. Testing: Unit, integration, data validation",
+    "course": "Data Pipelines with Apache Airflow (Udemy) or Building Data Pipelines (Coursera - Google)"
+  },
+  "Databases": {
+    "path": "1. Database Fundamentals: ACID properties, transactions → 2. Relational Databases: SQL, normalization → 3. NoSQL Databases: Document, key-value, graph → 4. Database Design: ER diagrams, schema design → 5. Indexing: B-trees, performance optimization → 6. Query Optimization: Execution plans → 7. Replication: Master-slave, clustering → 8. Backup & Recovery: PITR, disaster recovery → 9. Security: Access control, encryption",
+    "course": "Database Design and Basic SQL (Coursera - University of Michigan) or MongoDB University"
+  },
+  "Debugging": {
+    "path": "1. Debugging Mindset: Systematic problem solving → 2. Debugging Tools: IDE debuggers, profilers → 3. Logging: Structured logging, log levels → 4. Error Handling: Exception handling, graceful degradation → 5. Testing: Unit tests, integration tests → 6. Performance Debugging: Memory leaks, CPU profiling → 7. Network Debugging: Packet capture, API testing → 8. Production Debugging: Live debugging, monitoring → 9. Code Review: Peer review, static analysis",
+    "course": "Debugging Techniques (Pluralsight) or Effective Debugging (O'Reilly)"
+  },
+  "Django": {
+    "path": "1. Django Basics: MVT architecture, project structure → 2. Models: ORM, database relationships → 3. Views: Function-based, class-based views → 4. Templates: Template language, inheritance → 5. Forms: Form handling, validation → 6. Authentication: User management, permissions → 7. Admin Interface: Customization, permissions → 8. REST API: Django REST Framework → 9. Deployment: Production settings, WSGI",
+    "course": "Django for Everybody (Coursera - University of Michigan) or Django REST Framework (Udemy)"
+  },
+  "ELK Stack": {
+    "path": "1. Elasticsearch: Search engine, indexing → 2. Logstash: Data processing pipeline → 3. Kibana: Visualization, dashboards → 4. Beats: Lightweight data shippers → 5. Data Ingestion: Log parsing, filtering → 6. Index Management: Mappings, templates → 7. Query DSL: Search queries, aggregations → 8. Monitoring: Cluster health, performance → 9. Security: X-Pack, authentication",
+    "course": "Elastic Stack (Elasticsearch, Logstash, Kibana) (Udemy) or Elasticsearch Fundamentals (Elastic)"
+  },
+  "ElasticSearch": {
+    "path": "1. Search Engine Fundamentals: Inverted index, scoring → 2. Installation: Cluster setup, configuration → 3. Index Operations: Creating, mapping, settings → 4. Document Operations: CRUD operations → 5. Query DSL: Match, term, bool queries → 6. Aggregations: Metrics, bucket aggregations → 7. Performance: Sharding, replication → 8. Monitoring: Cluster health, metrics → 9. Advanced: Scripting, plugins",
+    "course": "Elasticsearch 7 and Elastic Stack (Udemy) or Complete Guide to Elasticsearch (Pluralsight)"
+  },
+  "Embedded Systems": {
+    "path": "1. Microcontroller Basics: Architecture, peripherals → 2. Programming: C/C++, assembly language → 3. Hardware Interfaces: GPIO, UART, SPI, I2C → 4. Real-time Systems: RTOS, scheduling → 5. Memory Management: Flash, RAM, stack → 6. Interrupt Handling: ISR, priority → 7. Power Management: Low-power modes → 8. Debugging: JTAG, oscilloscope → 9. Communication: Wireless, networking protocols",
+    "course": "Embedded Systems (Coursera - University of Colorado) or Embedded Systems Programming (Udacity)"
+  },
+  "Experimentation": {
+    "path": "1. Experimental Design: Hypothesis, variables → 2. A/B Testing: Statistical power, sample size → 3. Randomization: Treatment assignment → 4. Statistical Analysis: T-tests, chi-square → 5. Multiple Testing: Bonferroni correction → 6. Causal Inference: Confounding, bias → 7. Platform Design: Experimentation infrastructure → 8. Metrics: Primary, secondary, guardrail → 9. Ethics: Informed consent, privacy",
+    "course": "Experimentation for Improvement (Coursera - McMaster University) or A/B Testing (Udacity)"
+  },
+  "Explainable AI": {
+    "path": "1. Interpretability: Global vs local explanations → 2. Model-agnostic Methods: LIME, SHAP → 3. Feature Importance: Permutation, gain → 4. Visualization: Partial dependence plots → 5. Counterfactual Explanations: What-if analysis → 6. Attention Mechanisms: Transformer attention → 7. Rule-based Models: Decision trees, linear models → 8. Fairness: Bias detection, mitigation → 9. Human Factors: Explanation design, trust",
+    "course": "Explainable AI (Coursera - University of Glasgow) or Interpretable Machine Learning (Christoph Molnar)"
+  },
+  "Express.js": {
+    "path": "1. Node.js Basics: Event loop, modules → 2. Express Setup: Application structure → 3. Routing: HTTP methods, parameters → 4. Middleware: Built-in, third-party, custom → 5. Request/Response: Headers, body parsing → 6. Template Engines: EJS, Handlebars → 7. Error Handling: Error middleware → 8. Security: Helmet, CORS, authentication → 9. Testing: Mocha, Chai, Supertest",
+    "course": "Node.js - The Complete Guide (Udemy - Maximilian Schwarzmüller) or Express.js Fundamentals (Pluralsight)"
+  },
+  "FastAPI": {
+    "path": "1. FastAPI Basics: ASGI, automatic documentation → 2. Path Operations: HTTP methods, parameters → 3. Request Body: Pydantic models, validation → 4. Response Models: Serialization, status codes → 5. Dependency Injection: Reusable components → 6. Authentication: OAuth2, JWT → 7. Database Integration: SQLAlchemy, async → 8. Testing: pytest, TestClient → 9. Deployment: Uvicorn, Docker, cloud",
+    "course": "FastAPI - The Complete Course (Udemy) or Building APIs with FastAPI (Real Python)"
+  },
+  "Feature Stores": {
+    "path": "1. Feature Store Concepts: Centralized feature management → 2. Feature Engineering: Transformation, aggregation → 3. Feature Serving: Online, offline serving → 4. Data Consistency: Training/serving skew → 5. Feature Discovery: Catalog, lineage → 6. Versioning: Feature evolution, rollback → 7. Monitoring: Data drift, quality → 8. Tools: Feast, Tecton, AWS Feature Store → 9. MLOps Integration: CI/CD for features",
+    "course": "MLOps Feature Stores (Coursera) or Feature Engineering for ML (O'Reilly)"
+  },
+  "Flask": {
+    "path": "1. Flask Basics: Microframework, WSGI → 2. Routing: URL patterns, HTTP methods → 3. Templates: Jinja2, template inheritance → 4. Forms: WTForms, validation → 5. Database: SQLAlchemy, migrations → 6. Authentication: Flask-Login, sessions → 7. API Development: RESTful APIs, JSON → 8. Blueprints: Application modularization → 9. Deployment: Gunicorn, Docker, cloud",
+    "course": "Python and Flask Bootcamp (Udemy) or Flask Web Development (O'Reilly - Miguel Grinberg)"
+  },
+  "HTML": {
+    "path": "1. HTML Fundamentals: Elements, attributes, structure → 2. Semantic HTML: Meaningful markup → 3. Forms: Input types, validation → 4. Multimedia: Images, audio, video → 5. Tables: Structure, accessibility → 6. Links: Navigation, anchors → 7. Accessibility: ARIA, screen readers → 8. SEO: Meta tags, structured data → 9. Modern HTML: HTML5 APIs, web components",
+    "course": "HTML5 and CSS3 Fundamentals (edX - W3C) or HTML & CSS (Codecademy)"
+  },
+  "Infrastructure as Code": {
+    "path": "1. IaC Principles: Declarative, version control → 2. Terraform: Resources, providers, state → 3. CloudFormation: AWS-specific templates → 4. Configuration Management: Ansible, Puppet → 5. Immutable Infrastructure: Image-based deployment → 6. State Management: Remote state, locking → 7. Modules: Reusable components → 8. Testing: Terratest, policy validation → 9. CI/CD Integration: Automated deployments",
+    "course": "Infrastructure as Code (Pluralsight) or Terraform Associate Certification (HashiCorp)"
+  },
+  "Integration Patterns": {
+    "path": "1. Integration Styles: File transfer, shared database, messaging → 2. Messaging Patterns: Publish-subscribe, request-reply → 3. Message Routing: Content-based, recipient list → 4. Message Transformation: Data format conversion → 5. Endpoint Patterns: Polling consumer, event-driven → 6. System Management: Message channel, monitoring → 7. ESB: Enterprise Service Bus → 8. API Gateway: Routing, authentication → 9. Microservices: Service mesh, circuit breaker",
+    "course": "Enterprise Integration Patterns (Gregor Hohpe) or Microservices Patterns (Chris Richardson)"
+  },
+  "JWT": {
+    "path": "1. Token-based Authentication: Stateless authentication → 2. JWT Structure: Header, payload, signature → 3. Claims: Standard, public, private claims → 4. Signing Algorithms: HMAC, RSA, ECDSA → 5. Token Lifecycle: Issuance, validation, expiration → 6. Security: Token storage, XSS, CSRF → 7. Refresh Tokens: Long-term authentication → 8. Libraries: Platform-specific implementations → 9. Best Practices: Security, performance",
+    "course": "JWT Authentication (Auth0) or Securing Applications with JWT (Pluralsight)"
+  },
+  "Jest": {
+    "path": "1. Testing Fundamentals: Unit vs integration testing → 2. Jest Setup: Configuration, test environment → 3. Test Structure: Describe, it, assertions → 4. Matchers: Equality, truthiness, exceptions → 5. Mocking: Functions, modules, timers → 6. Async Testing: Promises, async/await → 7. Snapshot Testing: Component snapshots → 8. Coverage: Code coverage reports → 9. Advanced: Custom matchers, setup/teardown",
+    "course": "JavaScript Testing with Jest (Udemy) or Testing JavaScript Applications (Frontend Masters)"
+  },
+  "Keras": {
+    "path": "1. Keras Fundamentals: High-level API, backend → 2. Sequential Model: Layer stacking → 3. Functional API: Complex architectures → 4. Layers: Dense, convolutional, recurrent → 5. Compilation: Optimizer, loss, metrics → 6. Training: Fit, validation, callbacks → 7. Regularization: Dropout, batch normalization → 8. Custom Components: Layers, losses, metrics → 9. Model Deployment: SavedModel, TensorFlow Serving",
+    "course": "Deep Learning with Keras (Udemy) or Deep Learning Specialization (Coursera - DeepLearning.AI)"
+  },
+  "Kotlin": {
+    "path": "1. Kotlin Basics: Syntax, null safety → 2. Object-Oriented: Classes, inheritance, interfaces → 3. Functional Programming: Lambdas, higher-order functions → 4. Collections: Lists, maps, sequences → 5. Coroutines: Asynchronous programming → 6. Android Development: Activities, fragments → 7. Interoperability: Java interop → 8. DSLs: Domain-specific languages → 9. Multiplatform: Kotlin/Native, Kotlin/JS",
+    "course": "Kotlin for Java Developers (Coursera - JetBrains) or Android Kotlin Developer (Google)"
+  },
+  "Lightning Web Components": {
+    "path": "1. LWC Fundamentals: Modern web standards → 2. Component Structure: HTML, JavaScript, CSS → 3. Data Binding: Property binding, event handling → 4. Apex Integration: Calling server methods → 5. Lightning Data Service: Wire service, caching → 6. Event Handling: Custom events, communication → 7. Styling: CSS, SLDS design system → 8. Testing: Jest, LWC testing utils → 9. Deployment: Scratch orgs, packaging",
+    "course": "Lightning Web Components (Trailhead) or Salesforce Developer Certification"
+  },
+  "Load Testing": {
+    "path": "1. Performance Testing Types: Load, stress, spike testing → 2. Test Planning: Requirements, scenarios → 3. Tool Selection: JMeter, k6, Artillery → 4. Script Development: HTTP requests, parameters → 5. Test Execution: Ramp-up, steady state → 6. Monitoring: Response times, throughput → 7. Bottleneck Analysis: CPU, memory, database → 8. Reporting: Performance metrics, trends → 9. Continuous Testing: CI/CD integration",
+    "course": "Performance Testing with JMeter (Udemy) or Load Testing with k6 (k6.io)"
+  },
+  "Logging": {
+    "path": "1. Logging Fundamentals: Log levels, structured logging → 2. Log Formats: JSON, key-value, plain text → 3. Centralized Logging: Log aggregation, shipping → 4. Log Analysis: Search, filtering, alerting → 5. Performance: Async logging, sampling → 6. Security: Log sanitization, privacy → 7. Retention: Storage, archival policies → 8. Monitoring: Log-based metrics → 9. Tools: ELK stack, Fluentd, Splunk",
+    "course": "Logging and Monitoring (Linux Academy) or Centralized Logging with ELK Stack"
+  },
+  
+  "MLOps": {
+    "path": "1. ML Lifecycle: Data → Model → Deployment → Monitoring → 2. Version Control: DVC, Git-LFS for data/models → 3. Experiment Tracking: MLflow, Weights & Biases → 4. Model Packaging: Docker, containerization → 5. CI/CD: Automated testing, deployment pipelines → 6. Model Serving: REST APIs, batch inference → 7. Monitoring: Data drift, model performance → 8. Infrastructure: Kubernetes, cloud platforms → 9. Governance: Model registry, compliance",
+    "course": "MLOps Specialization (Coursera - DeepLearning.AI) or Machine Learning Engineering for Production"
+  },
+  "MLflow": {
+    "path": "1. Tracking: Experiments, parameters, metrics → 2. Projects: Reproducible runs, environments → 3. Models: Packaging, registry, versioning → 4. Model Serving: REST API deployment → 5. Artifacts: Logging files, images, models → 6. Runs: Comparing experiments, nested runs → 7. UI: Web interface, experiment visualization → 8. Integration: Spark, scikit-learn, TensorFlow → 9. Production: Scaling, monitoring deployed models",
+    "course": "MLflow Tutorial (Official Documentation) or MLOps with MLflow (Udemy)"
+  },
+  "MacOS": {
+    "path": "1. System Basics: Finder, dock, menu bar → 2. Applications: Installing, managing apps → 3. System Preferences: Customization, settings → 4. Terminal: Command line, shell scripting → 5. File System: Permissions, hidden files → 6. Networking: Wi-Fi, sharing, VPN → 7. Security: FileVault, firewall, permissions → 8. Development: Xcode, Homebrew, development tools → 9. Troubleshooting: Activity Monitor, logs, repair",
+    "course": "macOS Support Essentials (Apple Training) or macOS for Developers (Pluralsight)"
+  },
+  "Market Research": {
+    "path": "1. Research Design: Primary vs secondary, qualitative vs quantitative → 2. Survey Design: Question types, bias avoidance → 3. Sampling: Representative samples, sampling methods → 4. Data Collection: Online surveys, interviews, focus groups → 5. Competitive Analysis: Market positioning, SWOT → 6. Statistical Analysis: Descriptive, inferential statistics → 7. Data Visualization: Charts, dashboards, reporting → 8. Tools: Google Analytics, SurveyMonkey, Tableau → 9. Insights: Actionable recommendations, presentation",
+    "course": "Market Research (Coursera - University of California Davis) or Market Research Fundamentals (LinkedIn Learning)"
+  },
+  "Mobile Design": {
+    "path": "1. Platform Guidelines: iOS HIG, Material Design → 2. Screen Sizes: Responsive design, adaptive layouts → 3. Touch Interactions: Gestures, tap targets → 4. Navigation: Tab bars, hamburger menus, bottom sheets → 5. Typography: Readable fonts, hierarchy → 6. Icons: Consistent iconography, sizing → 7. Performance: Image optimization, loading states → 8. Accessibility: VoiceOver, TalkBack, contrast → 9. Prototyping: Figma, Principle, interactive prototypes",
+    "course": "Mobile App Design (Coursera - University of California San Diego) or iOS App Design (Udemy)"
+  },
+  "Monitoring": {
+    "path": "1. Metrics: System, application, business metrics → 2. Logging: Structured logging, log levels → 3. Tracing: Distributed tracing, request flows → 4. Alerting: Thresholds, escalation policies → 5. Dashboards: Grafana, custom visualizations → 6. Tools: Prometheus, ELK stack, Datadog → 7. SLI/SLO: Service level indicators/objectives → 8. Incident Response: On-call procedures, runbooks → 9. Observability: Three pillars integration",
+    "course": "Site Reliability Engineering (Coursera - Google Cloud) or Monitoring and Observability (Pluralsight)"
+  },
+  "Multiplatform Development": {
+    "path": "1. Cross-Platform Frameworks: React Native, Flutter, Xamarin → 2. Code Sharing: Business logic, UI components → 3. Platform-Specific: Native modules, platform APIs → 4. Performance: Optimization, memory management → 5. Testing: Unit, integration, UI testing → 6. Deployment: App stores, distribution → 7. Debugging: Platform-specific tools → 8. Maintenance: Updates, backward compatibility → 9. Architecture: MVVM, clean architecture patterns",
+    "course": "Cross-Platform Mobile Development (Coursera - University of California San Diego) or Flutter & Dart Complete Guide (Udemy)"
+  },
+  "Multiplayer Networking": {
+    "path": "1. Network Architecture: Client-server, peer-to-peer → 2. Protocols: TCP vs UDP, reliability → 3. Synchronization: State sync, prediction → 4. Latency: Compensation, lag mitigation → 5. Security: Anti-cheat, encryption → 6. Scalability: Load balancing, matchmaking → 7. Real-time: WebSockets, low-latency protocols → 8. Tools: Photon, Mirror, custom solutions → 9. Testing: Network simulation, stress testing",
+    "course": "Multiplayer Game Programming (Pluralsight) or Network Programming for Games (Udemy)"
+  },
+  "MySQL": {
+    "path": "1. Database Basics: Tables, rows, columns, keys → 2. SQL Fundamentals: SELECT, INSERT, UPDATE, DELETE → 3. Joins: INNER, LEFT, RIGHT, FULL joins → 4. Indexing: B-tree, composite indexes, optimization → 5. Stored Procedures: Functions, triggers, cursors → 6. Transactions: ACID, isolation levels → 7. Replication: Master-slave, cluster setup → 8. Performance: Query optimization, profiling → 9. Administration: Backup, recovery, security",
+    "course": "MySQL Database Administration (Udemy) or MySQL for Developers (Pluralsight)"
+  },
+  "Objective-C": {
+    "path": "1. Language Basics: Syntax, messaging, memory management → 2. Object-Oriented: Classes, inheritance, protocols → 3. Foundation Framework: NSString, NSArray, NSDictionary → 4. Memory Management: ARC, retain/release → 5. Delegates: Protocol-based communication → 6. Categories: Extending existing classes → 7. Blocks: Closures, callback handling → 8. Runtime: Dynamic typing, method swizzling → 9. Interoperability: Bridging with Swift, C++",
+    "course": "Objective-C Programming (Big Nerd Ranch) or iOS Development with Objective-C (Udemy)"
+  },
+  "Observability": {
+    "path": "1. Three Pillars: Metrics, logs, traces → 2. Instrumentation: Application, infrastructure monitoring → 3. Distributed Tracing: Jaeger, Zipkin, OpenTelemetry → 4. Metrics Collection: Prometheus, StatsD, custom metrics → 5. Log Aggregation: ELK stack, Fluentd, structured logging → 6. Correlation: Connecting metrics, logs, traces → 7. Alerting: Intelligent alerting, noise reduction → 8. Visualization: Grafana, custom dashboards → 9. Practices: SRE, incident response, post-mortems",
+    "course": "Observability Engineering (O'Reilly) or Distributed Systems Observability (Pluralsight)"
+  },
+  "OAuth": {
+    "path": "1. Authorization Concepts: Authentication vs authorization → 2. OAuth 2.0 Flow: Authorization code, implicit, client credentials → 3. Tokens: Access tokens, refresh tokens, JWT → 4. Scopes: Permission granularity → 5. PKCE: Public clients, security enhancement → 6. OpenID Connect: Identity layer, ID tokens → 7. Security: Best practices, common vulnerabilities → 8. Implementation: Server-side, client-side integration → 9. Providers: Google, Facebook, custom OAuth servers",
+    "course": "OAuth 2.0 and OpenID Connect (Pluralsight) or Modern Authentication (Auth0 Academy)"
+  },
+  "Open Source Contribution": {
+    "path": "1. Finding Projects: GitHub, GitLab, good first issues → 2. Understanding Projects: README, contributing guidelines → 3. Development Setup: Local environment, dependencies → 4. Issue Tracking: Bug reports, feature requests → 5. Code Contribution: Pull requests, code review → 6. Documentation: README, API docs, tutorials → 7. Testing: Unit tests, integration tests → 8. Community: Communication, maintainer interaction → 9. Best Practices: Commit messages, code quality",
+    "course": "Introduction to Open Source (Linux Foundation) or Contributing to Open Source Projects (freeCodeCamp)"
+  },
+  "OpenGL": {
+    "path": "1. Graphics Pipeline: Vertex, fragment shaders → 2. Rendering Context: Window creation, initialization → 3. Buffers: Vertex, index, uniform buffers → 4. Shaders: GLSL, vertex/fragment programming → 5. Textures: 2D, 3D, cube maps → 6. Transformations: Model, view, projection matrices → 7. Lighting: Phong, physically-based rendering → 8. Advanced: Framebuffers, post-processing → 9. Performance: Optimization, profiling tools",
+    "course": "Learn OpenGL (learnopengl.com) or OpenGL Programming (Udemy)"
+  },
+  "Operating Systems": {
+    "path": "1. OS Concepts: Kernel, system calls, processes → 2. Process Management: Scheduling, synchronization → 3. Memory Management: Virtual memory, paging → 4. File Systems: Structure, operations, journaling → 5. I/O Systems: Device drivers, interrupt handling → 6. Concurrency: Threads, synchronization primitives → 7. Deadlocks: Prevention, detection, recovery → 8. Security: Access control, authentication → 9. Virtualization: Hypervisors, containers",
+    "course": "Operating Systems (Coursera - University of California San Diego) or Operating Systems Concepts (Udacity)"
+  },
+  "Optimization": {
+    "path": "1. Problem Formulation: Objective, constraints, variables → 2. Linear Programming: Simplex method, duality → 3. Nonlinear Optimization: Gradient descent, Newton's method → 4. Convex Optimization: Convex functions, KKT conditions → 5. Integer Programming: Branch and bound, cutting planes → 6. Heuristic Methods: Genetic algorithms, simulated annealing → 7. Multi-objective: Pareto optimization, trade-offs → 8. Stochastic: Uncertainty, robust optimization → 9. Applications: Machine learning, operations research",
+    "course": "Optimization Methods (edX - MIT) or Convex Optimization (Stanford Online)"
+  },
+  "Parquet": {
+    "path": "1. Columnar Storage: Benefits, structure, compression → 2. Schema Evolution: Adding/removing columns → 3. Data Types: Primitive, complex, nested structures → 4. Compression: Snappy, GZIP, LZO algorithms → 5. Partitioning: Directory structure, pruning → 6. Reading/Writing: Pandas, Spark, Arrow integration → 7. Metadata: Schema, statistics, row groups → 8. Performance: Query optimization, predicate pushdown → 9. Ecosystem: Hadoop, Spark, cloud storage integration",
+    "course": "Apache Parquet Tutorial (Databricks) or Big Data File Formats (Pluralsight)"
+  },
+  "Paper Writing": {
+    "path": "1. Structure: Title, abstract, introduction, methodology → 2. Literature Review: Related work, gap identification → 3. Methodology: Experimental design, reproducibility → 4. Results: Data presentation, statistical analysis → 5. Discussion: Interpretation, limitations, implications → 6. References: Citation style, bibliography management → 7. Figures/Tables: Clear visualization, captions → 8. Writing Style: Clarity, conciseness, academic tone → 9. Submission: Peer review, revision process",
+    "course": "Writing in the Sciences (Coursera - Stanford) or Academic Writing (edX - UC Berkeley)"
+  },
+  "Performance": {
+    "path": "1. Profiling: CPU, memory, I/O bottlenecks → 2. Measurement: Benchmarking, metrics collection → 3. Optimization: Algorithm, data structure improvements → 4. Caching: In-memory, distributed caching → 5. Database: Query optimization, indexing → 6. Network: Compression, CDN, connection pooling → 7. Concurrency: Parallel processing, async operations → 8. Tools: Profilers, monitoring, load testing → 9. Architecture: Microservices, scalability patterns",
+    "course": "Performance Engineering (Coursera) or High Performance Computing (Udacity)"
+  },
+  "Platform-Specific Deployment": {
+    "path": "1. iOS Deployment: App Store, TestFlight, provisioning → 2. Android Deployment: Google Play, APK signing → 3. Web Deployment: CDN, hosting, SSL certificates → 4. Desktop: Installers, code signing, auto-updates → 5. Cloud Deployment: AWS, Azure, GCP services → 6. Container Deployment: Docker, Kubernetes → 7. CI/CD: Automated deployment pipelines → 8. Environment Management: Staging, production → 9. Monitoring: Deployment health, rollback strategies",
+    "course": "DevOps for Mobile Apps (Pluralsight) or Cloud Deployment Strategies (Udemy)"
+  },
+  "PostGIS": {
+    "path": "1. Spatial Data: Geometry, geography types → 2. Coordinate Systems: Projections, transformations → 3. Spatial Functions: Distance, intersection, buffer → 4. Indexing: GiST, spatial query optimization → 5. Data Import: Shapefiles, GeoJSON, raster data → 6. Queries: Spatial joins, nearest neighbor → 7. Raster Analysis: Elevation, satellite imagery → 8. Performance: Clustering, partitioning strategies → 9. Integration: QGIS, web mapping, applications",
+    "course": "PostGIS Tutorial (BostonGIS) or Spatial Database with PostGIS (Udemy)"
+  },
+  "Postman": {
+    "path": "1. API Testing: GET, POST, PUT, DELETE requests → 2. Collections: Organizing requests, folders → 3. Environments: Variables, different configurations → 4. Authentication: API keys, OAuth, bearer tokens → 5. Testing: Scripts, assertions, test automation → 6. Mock Servers: API mocking, development → 7. Documentation: API docs generation → 8. Collaboration: Team workspaces, sharing → 9. Automation: Newman, CI/CD integration",
+    "course": "Postman Complete Guide (Udemy) or API Testing with Postman (Pluralsight)"
+  },
+  "PostgreSQL": {
+    "path": "1. Installation: Setup, configuration, initialization → 2. SQL Basics: CRUD operations, data types → 3. Advanced SQL: Window functions, CTEs, JSON → 4. Indexing: B-tree, GiST, performance tuning → 5. Transactions: ACID, isolation levels, locking → 6. Stored Procedures: PL/pgSQL, functions, triggers → 7. Replication: Streaming, logical replication → 8. Administration: Backup, recovery, monitoring → 9. Extensions: PostGIS, full-text search, custom types",
+    "course": "PostgreSQL Database Administration (Udemy) or PostgreSQL for Developers (Pluralsight)"
+  },
+  "Product Lifecycle Management": {
+    "path": "1. Lifecycle Stages: Introduction, growth, maturity, decline → 2. Strategy: Product roadmap, portfolio management → 3. Requirements: User stories, acceptance criteria → 4. Development: Agile, sprint planning, backlog → 5. Launch: Go-to-market, marketing, sales enablement → 6. Metrics: KPIs, user analytics, success measurement → 7. Iteration: User feedback, feature updates → 8. Sunset: End-of-life planning, migration → 9. Tools: JIRA, Productboard, roadmapping software",
+    "course": "Product Management Fundamentals (Coursera - University of Virginia) or Product Lifecycle Management (Udemy)"
+  },
+  "Product Strategy": {
+    "path": "1. Vision: Product vision, mission alignment → 2. Market Analysis: TAM, SAM, SOM, competitive landscape → 3. User Research: Personas, jobs-to-be-done → 4. Positioning: Value proposition, differentiation → 5. Roadmapping: Priority, resource allocation → 6. Metrics: North star, OKRs, success criteria → 7. Stakeholder Alignment: Executive buy-in, communication → 8. Experimentation: A/B testing, hypothesis validation → 9. Pivoting: Strategy adjustment, course correction",
+    "course": "Product Strategy (Coursera - University of Virginia) or Strategic Product Management (Udemy)"
+  },
+  "Prototyping": {
+    "path": "1. Fidelity Levels: Low-fi, mid-fi, high-fi prototypes → 2. Paper Prototyping: Sketching, wireframes → 3. Digital Tools: Figma, Sketch, Adobe XD → 4. Interactive Prototypes: Clickable, animated → 5. User Testing: Usability testing, feedback → 6. Iteration: Rapid prototyping, design sprints → 7. Handoff: Developer collaboration, specifications → 8. Documentation: Design systems, style guides → 9. Tools: InVision, Principle, Framer",
+    "course": "Prototyping and Design (Coursera - University of California San Diego) or UI/UX Design Specialization"
+  },
+  "R": {
+    "path": "1. Basics: Data types, vectors, data frames → 2. Data Manipulation: dplyr, data cleaning → 3. Visualization: ggplot2, base plotting → 4. Statistics: Descriptive, inferential statistics → 5. Packages: CRAN, package management → 6. Functions: Writing custom functions → 7. Data Import: CSV, databases, APIs → 8. Machine Learning: caret, randomForest → 9. Reporting: R Markdown, Shiny applications",
+    "course": "R Programming (Coursera - Johns Hopkins) or R for Data Science (DataCamp)"
+  },
+  "RDBMS": {
+    "path": "1. Database Design: Normalization, ER diagrams → 2. SQL: DDL, DML, DCL, TCL → 3. Indexes: Types, performance optimization → 4. Constraints: Primary keys, foreign keys, check → 5. Transactions: ACID properties, concurrency → 6. Stored Procedures: Functions, triggers, views → 7. Backup/Recovery: PITR, disaster recovery → 8. Performance: Query tuning, execution plans → 9. Security: User management, access control",
+    "course": "Database Systems (Coursera - University of California San Diego) or SQL and Database Design (Udemy)"
+  },
+  "React Native": {
+    "path": "1. Setup: CLI, Expo, development environment → 2. Components: View, Text, Image, ScrollView → 3. Navigation: React Navigation, stack, tab → 4. State Management: useState, Redux, Context → 5. Styling: Flexbox, StyleSheet, responsive → 6. APIs: Fetch, Axios, REST integration → 7. Native Modules: Platform-specific code → 8. Performance: Optimization, memory management → 9. Deployment: iOS App Store, Google Play",
+    "course": "React Native Complete Guide (Udemy - Maximilian Schwarzmüller) or React Native (Coursera - Meta)"
+  },
+  "Real-Time Operating Systems": {
+    "path": "1. RTOS Concepts: Determinism, real-time constraints → 2. Scheduling: Priority-based, preemptive → 3. Tasks: Creation, synchronization, communication → 4. Memory Management: Static allocation, memory pools → 5. Interrupt Handling: ISR, context switching → 6. Synchronization: Semaphores, mutexes, queues → 7. Timing: Timers, delays, periodic tasks → 8. Hardware Abstraction: Device drivers, HAL → 9. Examples: FreeRTOS, VxWorks, QNX",
+    "course": "Real-Time Operating Systems (Coursera - University of Colorado) or Embedded Systems Programming (Udemy)"
+  },
+  "Real-Time Systems": {
+    "path": "1. Timing Constraints: Hard, soft, firm deadlines → 2. System Architecture: Distributed, embedded systems → 3. Scheduling Algorithms: Rate monotonic, EDF → 4. Communication: Message passing, shared memory → 5. Fault Tolerance: Redundancy, recovery → 6. Performance Analysis: Worst-case execution time → 7. Synchronization: Clock synchronization, consensus → 8. Applications: Automotive, aerospace, industrial → 9. Tools: Modeling, simulation, verification",
+    "course": "Real-Time Systems (edX - KTH) or Embedded and Real-Time Systems (Coursera)"
+  },
+  "Redis": {
+    "path": "1. Data Structures: Strings, hashes, lists, sets → 2. Commands: Basic operations, pipeline, transactions → 3. Persistence: RDB, AOF, durability → 4. Replication: Master-slave, sentinel → 5. Clustering: Sharding, high availability → 6. Pub/Sub: Message patterns, channels → 7. Lua Scripting: Server-side scripting → 8. Performance: Memory optimization, monitoring → 9. Use Cases: Caching, session store, message broker",
+    "course": "Redis University (Redis Labs) or Redis Complete Guide (Udemy)"
+  },
+  "Reliability": {
+    "path": "1. SLA/SLO/SLI: Service level agreements, objectives → 2. Error Budgets: Reliability vs feature velocity → 3. Monitoring: Alerting, observability, metrics → 4. Incident Response: On-call, escalation, post-mortems → 5. Fault Tolerance: Redundancy, graceful degradation → 6. Testing: Chaos engineering, load testing → 7. Deployment: Canary, blue-green deployments → 8. Capacity Planning: Scaling, resource allocation → 9. Culture: Blameless post-mortems, learning",
+    "course": "Site Reliability Engineering (Coursera - Google Cloud) or Building Reliable Systems (O'Reilly)"
+  },
+  "Responsive Design": {
+    "path": "1. Viewport: Meta tag, device pixel ratio → 2. Flexible Grid: CSS Grid, Flexbox layouts → 3. Media Queries: Breakpoints, device targeting → 4. Images: Responsive images, srcset, picture → 5. Typography: Fluid typography, readable text → 6. Navigation: Mobile-first, hamburger menus → 7. Performance: Lazy loading, optimization → 8. Testing: Device testing, browser compatibility → 9. Frameworks: Bootstrap, Foundation, Tailwind",
+    "course": "Responsive Web Design (freeCodeCamp) or Advanced CSS and Sass (Udemy)"
+  },
+  "Roadmapping": {
+    "path": "1. Strategic Planning: Vision, goals, objectives → 2. Stakeholder Input: Customer feedback, business needs → 3. Prioritization: Impact vs effort, MoSCoW → 4. Timeline: Milestones, dependencies, resources → 5. Communication: Stakeholder alignment, updates → 6. Flexibility: Adaptation, pivot strategies → 7. Metrics: Success criteria, KPIs → 8. Tools: ProductPlan, Roadmunk, Aha! → 9. Governance: Review process, approval workflow",
+    "course": "Product Roadmapping (Product School) or Strategic Planning (Coursera)"
+  },
+  "Robotics": {
+    "path": "1. Fundamentals: Kinematics, dynamics, control → 2. Sensors: Cameras, LIDAR, IMU, encoders → 3. Actuators: Motors, servos, pneumatics → 4. Path Planning: A*, RRT, obstacle avoidance → 5. Localization: SLAM, odometry, GPS → 6. Computer Vision: Object detection, tracking → 7. Control Systems: PID, state feedback → 8. Programming: ROS, C++, Python → 9. Applications: Autonomous vehicles, manipulation",
+    "course": "Robotics Specialization (Coursera - University of Pennsylvania) or Modern Robotics (Northwestern)"
+  },
+  "Rust": {
+    "path": "1. Ownership: Borrowing, lifetimes, memory safety → 2. Data Types: Primitives, structs, enums → 3. Pattern Matching: Match expressions, destructuring → 4. Error Handling: Result, Option, panic → 5. Traits: Generics, associated types → 6. Concurrency: Threads, channels, async/await → 7. Cargo: Package manager, dependencies → 8. Unsafe: Raw pointers, FFI → 9. Applications: System programming, web servers",
+    "course": "Rust Programming Language (Udemy) or Rust by Example (Official)"
+  },
+  "RxJS": {
+    "path": "1. Observables: Streams, subscription, operators → 2. Creation: of, from, interval, fromEvent → 3. Transformation: map, filter, reduce, scan → 4. Combination: merge, concat, combineLatest → 5. Error Handling: catchError, retry, timeout → 6. Multicasting: share, publish, subject → 7. Schedulers: Async, animation frame → 8. Testing: Marble testing, TestScheduler → 9. Patterns: Reactive programming, backpressure",
+    "course": "RxJS in Angular (Udemy) or Reactive Extensions for JavaScript (Pluralsight)"
+  },
+  "S3": {
+    "path": "1. Buckets: Creation, naming, regions → 2. Objects: Upload, download, metadata → 3. Storage Classes: Standard, IA, Glacier → 4. Security: IAM, bucket policies, ACLs → 5. Versioning: Object versions, lifecycle → 6. Replication: Cross-region, same-region → 7. Performance: Multipart upload, transfer acceleration → 8. Integration: CloudFront, Lambda, other services → 9. Cost Optimization: Storage classes, lifecycle policies",
+    "course": "AWS S3 Complete Guide (Udemy) or AWS Storage Services (A Cloud Guru)"
+  },
+  "SaaS": {
+    "path": "1. Business Model: Subscription, pricing strategies → 2. Architecture: Multi-tenancy, scalability → 3. Customer Onboarding: Trial, activation, success → 4. Metrics: MRR, churn, LTV, CAC → 5. Security: Data isolation, compliance → 6. Infrastructure: Cloud, containerization → 7. API Design: REST, GraphQL, versioning → 8. Integration: Third-party services, webhooks → 9. Growth: Product-led growth, referrals",
+    "course": "SaaS Metrics and Analytics (Udemy) or Building SaaS Applications (Pluralsight)"
+  },
+  "Salesforce Platform": {
+    "path": "1. Platform Basics: Objects, fields, relationships → 2. Apex: Programming language, triggers → 3. Visualforce: Custom UI development → 4. Lightning: Component framework, app builder → 5. SOQL/SOSL: Query languages, data access → 6. Integration: REST/SOAP APIs, middleware → 7. Security: Profiles, permission sets, sharing → 8. Deployment: Change sets, metadata API → 9. Administration: Users, workflows, validation rules",
+    "course": "Salesforce Platform Developer I (Trailhead) or Salesforce Development (Udemy)"
+  },
+  "Scala": {
+    "path": "1. Functional Programming: Immutability, higher-order functions → 2. Object-Oriented: Classes, traits, inheritance → 3. Pattern Matching: Case classes, extractors → 4. Collections: List, Set, Map, operations → 5. Concurrency: Actors, futures, parallel collections → 6. Type System: Generics, variance, implicits → 7. SBT: Build tool, dependencies → 8. Frameworks: Akka, Play, Spark → 9. Interoperability: Java integration, libraries",
+    "course": "Functional Programming in Scala (Coursera - École Polytechnique Fédérale de Lausanne) or Scala for Beginners (Udemy)"
+  },
+  "Security Best Practices": {
+    "path": "1. Authentication: Multi-factor, password policies → 2. Authorization: RBAC, least privilege → 3. Encryption: At rest, in transit, key management → 4. Input Validation: SQL injection, XSS prevention → 5. Network Security: Firewalls, VPN, segmentation → 6. Monitoring: SIEM, anomaly detection → 7. Incident Response: Procedures, forensics → 8. Compliance: GDPR, HIPAA, SOC 2 → 9. Training: Security awareness, phishing",
+    "course": "Cybersecurity Fundamentals (Coursera - University of Maryland) or Security+ (CompTIA)"
+  },
+  "Sensor Fusion": {
+    "path": "1. Sensor Types: IMU, GPS, cameras, LIDAR → 2. Kalman Filters: Linear, extended, unscented → 3. Particle Filters: Monte Carlo methods → 4. Coordinate Frames: Transformations, calibration → 5. Data Association: Matching, gating → 6. Uncertainty: Error propagation, covariance → 7. Multi-sensor: Centralized, distributed fusion → 8. Applications: Robotics, autonomous vehicles → 9. Evaluation: Performance metrics, validation",
+    "course": "Sensor Fusion and Nonlinear Filtering (Coursera - Chalmers) or Autonomous Systems (Udacity)"
+  },
+  "Shell Scripting": {
+    "path": "1. Bash Basics: Variables, commands, pipes → 2. Control Flow: if/else, loops, functions → 3. Text Processing: grep, sed, awk → 4. File Operations: find, chmod, permissions → 5. Process Management: ps, kill, jobs → 6. Environment: PATH, aliases, profile → 7. Error Handling: Exit codes, debugging → 8. Advanced: Regular expressions, arrays → 9. Automation: Cron jobs, system administration",
+    "course": "Shell Scripting Tutorial (Linux Command Line) or Bash Scripting (Udemy)"
+  },
+  "Sketch": {
+    "path": "1. Interface: Artboards, layers, inspector → 2. Vector Tools: Shapes, paths, boolean operations → 3. Symbols: Reusable components, overrides → 4. Prototyping: Linking, interactions, animations → 5. Plugins: Sketch ecosystem, automation → 6. Collaboration: Sketch Cloud, sharing → 7. Design Systems: Libraries, shared styles → 8. Handoff: Developer specs, assets → 9. Integration: Zeplin, InVision, Abstract",
+    "course": "Sketch for UI/UX Design (Udemy) or Sketch App Mastery (DesignCourse)"
+  },
+  "Snowflake": {
+    "path": "1. Architecture: Cloud data warehouse, separation of compute/storage → 2. Data Loading: Bulk loading, streaming, Snowpipe → 3. SQL: Standard SQL, extensions, functions → 4. Performance: Clustering, partitioning, caching → 5. Security: Role-based access, encryption → 6. Data Sharing: Secure sharing, marketplace → 7. Integration: ETL tools, BI platforms → 8. Administration: Warehouses, resource monitors → 9. Advanced: Time travel, zero-copy cloning",
+    "course": "Snowflake Fundamentals (Snowflake University) or Snowflake Data Warehouse (Udemy)"
+  },
+  
+  "SOAP APIs": {
+    "path": "1. Web Services Fundamentals: SOAP vs REST concepts → 2. WSDL: Web Service Description Language → 3. XML Schema: Data type definitions → 4. SOAP Envelope: Header, body structure → 5. SOAP Faults: Error handling → 6. Security: WS-Security, authentication → 7. Testing: SoapUI, Postman → 8. Best Practices: Performance, versioning",
+    "course": "SOAP Web Services Tutorial (Udemy) or Web Services Testing with SoapUI (Pluralsight)"
+  },
+  "SOQL": {
+    "path": "1. Salesforce Data Model: Objects, fields, relationships → 2. Basic Queries: SELECT statements, WHERE clauses → 3. Relationships: Parent-child queries, joins → 4. Aggregate Functions: COUNT, SUM, GROUP BY → 5. Date Functions: Date literals, filtering → 6. SOQL Limits: Governor limits, optimization → 7. Dynamic SOQL: Building queries programmatically → 8. Best Practices: Performance tuning, bulk operations",
+    "course": "Salesforce Developer Course (Trailhead) or SOQL and SOSL (Salesforce Trailhead)"
+  },
+  "Spark": {
+    "path": "1. Big Data Concepts: Distributed computing, cluster computing → 2. Spark Architecture: Driver, executors, cluster managers → 3. RDDs: Resilient Distributed Datasets, transformations → 4. DataFrames: Structured data processing → 5. Spark SQL: Querying structured data → 6. Streaming: Real-time data processing → 7. MLlib: Machine learning library → 8. Performance: Optimization, tuning → 9. Deployment: Cluster modes, monitoring",
+    "course": "Apache Spark with Scala (Udemy - Rock the JVM) or Big Data with Spark and Hadoop (Coursera)"
+  },
+  "Spring Boot": {
+    "path": "1. Spring Framework Basics: Dependency injection, IoC container → 2. Spring Boot Setup: Auto-configuration, starters → 3. Web Development: Controllers, REST APIs → 4. Data Access: JPA, repositories, databases → 5. Security: Authentication, authorization → 6. Testing: Unit tests, integration tests → 7. Actuator: Monitoring, health checks → 8. Profiles: Environment-specific configuration → 9. Deployment: JAR, WAR, containerization",
+    "course": "Spring Boot Masterclass (Udemy - Amigoscode) or Spring Framework and Spring Boot (Coursera)"
+  },
+  "SQLAlchemy": {
+    "path": "1. ORM Concepts: Object-relational mapping basics → 2. Core vs ORM: Expression language vs declarative → 3. Engine & Connection: Database connectivity → 4. Schema Definition: Tables, columns, relationships → 5. Sessions: Unit of work pattern → 6. Querying: Select, filter, join operations → 7. Relationships: One-to-many, many-to-many → 8. Migrations: Alembic integration → 9. Performance: Query optimization, lazy loading",
+    "course": "SQLAlchemy Tutorial (Real Python) or Database Programming with Python (Pluralsight)"
+  },
+  "Stakeholder Management": {
+    "path": "1. Stakeholder Identification: Primary, secondary stakeholders → 2. Stakeholder Analysis: Power, interest matrix → 3. Communication Planning: Channels, frequency, format → 4. Engagement Strategies: Collaboration, consultation → 5. Conflict Resolution: Negotiation, mediation → 6. Requirements Gathering: Interviews, workshops → 7. Change Management: Managing expectations → 8. Reporting: Status updates, dashboards → 9. Relationship Building: Trust, influence",
+    "course": "Stakeholder Management (Coursera - University of Virginia) or Project Management Fundamentals (LinkedIn Learning)"
+  },
+  "Statistical Analysis": {
+    "path": "1. Descriptive Statistics: Central tendency, dispersion → 2. Data Visualization: Histograms, box plots, scatter plots → 3. Probability Theory: Distributions, sampling → 4. Hypothesis Testing: t-tests, ANOVA, chi-square → 5. Correlation: Pearson, Spearman correlation → 6. Regression Analysis: Linear, multiple regression → 7. Time Series: Trends, seasonality, forecasting → 8. Non-parametric Tests: Mann-Whitney, Kruskal-Wallis → 9. Software Tools: R, Python, SPSS",
+    "course": "Statistics with R (Coursera - Duke) or Statistical Analysis with Python (DataCamp)"
+  },
+  "Swift": {
+    "path": "1. Swift Basics: Variables, constants, data types → 2. Control Flow: Conditionals, loops, switch → 3. Functions: Parameters, return types, closures → 4. Object-Oriented: Classes, structures, inheritance → 5. Protocols: Interfaces, delegation patterns → 6. Error Handling: Try-catch, throwing functions → 7. Memory Management: ARC, weak references → 8. Generics: Type parameters, constraints → 9. Concurrency: GCD, async/await",
+    "course": "iOS Development with Swift (Coursera - University of Toronto) or Swift Programming (Apple Developer)"
+  },
+  "System Administration": {
+    "path": "1. Operating Systems: Linux distributions, Windows Server → 2. User Management: Accounts, groups, permissions → 3. File Systems: Mounting, quotas, backups → 4. Network Configuration: TCP/IP, DNS, DHCP → 5. Services: Starting, stopping, monitoring → 6. Security: Firewalls, access controls, hardening → 7. Automation: Shell scripting, configuration management → 8. Monitoring: System performance, log analysis → 9. Troubleshooting: Diagnostic tools, problem solving",
+    "course": "Linux System Administration (Linux Academy) or Windows Server Administration (Pluralsight)"
+  },
+  "Systems Programming": {
+    "path": "1. Operating System Concepts: Processes, threads, memory → 2. System Calls: File I/O, process management → 3. Memory Management: Virtual memory, heap, stack → 4. Concurrency: Synchronization, locks, semaphores → 5. Inter-Process Communication: Pipes, sockets, shared memory → 6. File Systems: Inodes, directories, permissions → 7. Network Programming: Sockets, protocols → 8. Performance: Profiling, optimization → 9. Debugging: GDB, system tracing",
+    "course": "Systems Programming (University of Illinois - Coursera) or Advanced C Programming (Udemy)"
+  },
+  "Tailwind CSS": {
+    "path": "1. Utility-First Approach: Understanding utility classes → 2. Installation: CDN, npm, configuration → 3. Layout: Flexbox, grid, positioning → 4. Typography: Fonts, sizing, spacing → 5. Colors: Palette, customization → 6. Responsive Design: Breakpoints, mobile-first → 7. Components: Extracting reusable patterns → 8. Customization: Config file, extending → 9. Optimization: PurgeCSS, production builds",
+    "course": "Tailwind CSS From Scratch (Traversy Media) or Tailwind CSS Tutorial (Scrimba)"
+  },
+  "Terraform": {
+    "path": "1. Infrastructure as Code: IaC principles, benefits → 2. Terraform Basics: Providers, resources, variables → 3. Configuration Language: HCL syntax, expressions → 4. State Management: State files, remote backends → 5. Modules: Reusable infrastructure components → 6. Planning: terraform plan, preview changes → 7. Provisioning: Apply changes, resource creation → 8. Workspaces: Environment separation → 9. Best Practices: Version control, team collaboration",
+    "course": "Terraform Associate Certification (HashiCorp Learn) or Infrastructure as Code with Terraform (Pluralsight)"
+  },
+  "Thrift": {
+    "path": "1. RPC Fundamentals: Remote procedure calls, serialization → 2. Thrift IDL: Interface definition language → 3. Data Types: Basic types, containers, structures → 4. Service Definition: Methods, exceptions → 5. Code Generation: Multi-language support → 6. Protocols: Binary, compact, JSON → 7. Transports: Socket, HTTP, memory → 8. Server Types: Simple, threaded, async → 9. Best Practices: Versioning, performance",
+    "course": "Apache Thrift Tutorial (Apache Documentation) or Microservices with Thrift (Udemy)"
+  },
+  "TypeScript": {
+    "path": "1. JavaScript Foundation: ES6+ features, modern syntax → 2. Type System: Basic types, type annotations → 3. Functions: Parameter types, return types → 4. Objects & Interfaces: Shape definitions, optional properties → 5. Classes: Inheritance, access modifiers → 6. Generics: Type parameters, constraints → 7. Advanced Types: Union, intersection, conditional → 8. Modules: Import/export, namespaces → 9. Tooling: Compiler, IDE integration",
+    "course": "TypeScript: The Complete Developer's Guide (Udemy - Stephen Grider) or Understanding TypeScript (Udemy - Maximilian Schwarzmüller)"
+  },
+  "UI/UX Principles": {
+    "path": "1. Design Thinking: User-centered design process → 2. Visual Hierarchy: Layout, typography, contrast → 3. Color Theory: Psychology, accessibility, palettes → 4. Typography: Readability, font pairing, hierarchy → 5. Layout Principles: Grid systems, alignment, spacing → 6. Interaction Design: User flows, micro-interactions → 7. Accessibility: WCAG guidelines, inclusive design → 8. Mobile Design: Touch interfaces, responsive → 9. Design Systems: Consistency, component libraries",
+    "course": "UI/UX Design Bootcamp (Google UX Design Certificate) or Design Principles (CalArts - Coursera)"
+  },
+  "UIKit": {
+    "path": "1. View Hierarchy: UIView, subviews, superview → 2. View Controllers: Lifecycle, navigation → 3. Interface Builder: Storyboards, XIB files → 4. Auto Layout: Constraints, stack views → 5. Table Views: Data source, delegate patterns → 6. Collection Views: Custom layouts, cells → 7. Animations: Core Animation, UIView animations → 8. Gestures: Touch handling, gesture recognizers → 9. Networking: URLSession, JSON parsing",
+    "course": "iOS Development with Swift and UIKit (Udemy - Angela Yu) or UIKit Fundamentals (Ray Wenderlich)"
+  },
+  "Unity": {
+    "path": "1. Unity Interface: Scene, hierarchy, inspector → 2. GameObjects: Components, transforms → 3. Scripting: C# basics, MonoBehaviour → 4. Physics: Rigidbody, colliders, forces → 5. Animation: Animator, timeline, keyframes → 6. UI System: Canvas, buttons, layouts → 7. Audio: AudioSource, sound effects, music → 8. Lighting: Directional, point, spot lights → 9. Build & Deploy: Platform-specific builds",
+    "course": "Complete Unity Game Development (Udemy - GameDev.tv) or Unity Learn (Unity Technologies)"
+  },
+  "Unix": {
+    "path": "1. File System: Directory structure, permissions → 2. Command Line: Basic commands, navigation → 3. Text Processing: grep, sed, awk → 4. Process Management: ps, top, kill → 5. Shell Scripting: Bash, variables, loops → 6. File Operations: find, tar, compression → 7. Network Tools: ping, telnet, ssh → 8. System Monitoring: df, du, iostat → 9. Package Management: Distribution-specific tools",
+    "course": "Unix/Linux Operating System (Udemy) or Command Line Bootcamp (Colt Steele)"
+  },
+  "Unreal Engine": {
+    "path": "1. Engine Overview: Interface, content browser → 2. Level Design: Terrain, lighting, atmosphere → 3. Blueprints: Visual scripting, nodes → 4. Materials: Shaders, textures, PBR → 5. Animation: Skeletal mesh, blend spaces → 6. Physics: Collision, simulation, constraints → 7. Audio: Sound cues, attenuation, mixing → 8. UI/UMG: Widgets, HUD, menus → 9. C++: Custom classes, performance optimization",
+    "course": "Unreal Engine 5 Complete Course (Udemy - GameDev.tv) or Unreal Engine Documentation (Epic Games)"
+  },
+  "Usability Testing": {
+    "path": "1. Testing Fundamentals: Goals, methods, metrics → 2. Test Planning: Scenarios, tasks, participants → 3. Recruitment: User screening, demographics → 4. Moderation: Facilitating sessions, neutrality → 5. Observation: Note-taking, behavior analysis → 6. Data Analysis: Patterns, insights, metrics → 7. Reporting: Findings, recommendations, priorities → 8. Remote Testing: Tools, challenges, benefits → 9. Iteration: Design improvements, re-testing",
+    "course": "User Experience Research and Design (Coursera - University of Michigan) or Usability Testing (Nielsen Norman Group)"
+  },
+  "User Research": {
+    "path": "1. Research Methods: Qualitative vs quantitative → 2. User Interviews: Question design, techniques → 3. Surveys: Design, distribution, analysis → 4. Personas: User archetypes, scenarios → 5. User Journey Mapping: Touchpoints, pain points → 6. Card Sorting: Information architecture → 7. A/B Testing: Hypothesis, metrics, analysis → 8. Analytics: User behavior, conversion funnels → 9. Research Synthesis: Insights, recommendations",
+    "course": "User Research Methods and Best Practices (Coursera) or UX Research Fundamentals (Google)"
+  },
+  "User Stories": {
+    "path": "1. Agile Fundamentals: User-centered development → 2. Story Format: As a... I want... So that... → 3. Acceptance Criteria: Definition of done → 4. Story Mapping: User journey visualization → 5. Prioritization: MoSCoW, value vs effort → 6. Estimation: Story points, planning poker → 7. Epic Breakdown: Large features to stories → 8. Sprint Planning: Capacity, velocity → 9. Refinement: Grooming, splitting stories",
+    "course": "Agile User Stories (Mountain Goat Software) or User Story Mapping (Udemy)"
+  },
+  "UX Writing": {
+    "path": "1. Content Strategy: Voice, tone, brand alignment → 2. Microcopy: Button text, error messages → 3. User Interface Text: Labels, instructions → 4. Information Architecture: Content organization → 5. Accessibility: Plain language, screen readers → 6. Localization: Cultural adaptation, translation → 7. Testing: A/B testing copy, user feedback → 8. Content Guidelines: Style guides, standards → 9. Collaboration: Working with designers, developers",
+    "course": "UX Writing Hub Course or Content Design (Google UX Writing)"
+  },
+  "Visual Design": {
+    "path": "1. Design Fundamentals: Balance, contrast, emphasis → 2. Color Theory: Harmony, psychology, accessibility → 3. Typography: Hierarchy, readability, pairing → 4. Layout & Composition: Grid systems, alignment → 5. Visual Hierarchy: Guiding user attention → 6. Imagery: Photography, illustration, icons → 7. Branding: Logo, identity, consistency → 8. Design Tools: Adobe Creative Suite, Figma → 9. Portfolio: Showcasing work, case studies",
+    "course": "Graphic Design Masterclass (Udemy) or Visual Design Fundamentals (CalArts - Coursera)"
+  },
+  "Visual Scripting": {
+    "path": "1. Node-Based Programming: Visual logic, connections → 2. Blueprint Systems: Unreal Engine, Unity Visual Scripting → 3. Event-Driven Programming: Triggers, responses → 4. Data Flow: Variables, functions, scope → 5. Control Structures: Loops, conditionals → 6. Debugging: Breakpoints, step-through → 7. Performance: Optimization, best practices → 8. Integration: C# scripts, code generation → 9. Complex Logic: State machines, AI behavior",
+    "course": "Blueprint Visual Scripting (Unreal Engine) or Unity Visual Scripting (Unity Learn)"
+  },
+  "Visualforce": {
+    "path": "1. Salesforce Platform: Apex, objects, security → 2. Page Structure: Components, controllers → 3. Standard Controllers: Built-in functionality → 4. Custom Controllers: Apex classes, methods → 5. Components: Reusable UI elements → 6. Data Binding: Merge fields, expressions → 7. Actions: User interactions, navigation → 8. Styling: CSS, styling components → 9. Mobile: Mobile-ready pages, responsive design",
+    "course": "Visualforce Development (Salesforce Trailhead) or Advanced Apex and Visualforce (Pluralsight)"
+  },
+  "Vue.js": {
+    "path": "1. Vue Fundamentals: Reactive data, directives → 2. Template Syntax: Interpolation, v-if, v-for → 3. Components: Props, events, slots → 4. Lifecycle Hooks: Created, mounted, updated → 5. Computed Properties: Reactive calculations → 6. State Management: Vuex, Pinia → 7. Routing: Vue Router, navigation → 8. Build Tools: Vue CLI, Vite → 9. Testing: Vue Test Utils, Jest",
+    "course": "Vue.js Complete Guide (Udemy - Maximilian Schwarzmüller) or Vue.js Fundamentals (Vue School)"
+  },
+  "VR/AR": {
+    "path": "1. XR Fundamentals: VR, AR, MR concepts → 2. Hardware: Headsets, controllers, tracking → 3. Unity XR: XR Interaction Toolkit → 4. Spatial Computing: 3D interfaces, hand tracking → 5. Performance: Frame rate, optimization → 6. User Experience: Comfort, motion sickness → 7. Audio: Spatial audio, 3D sound → 8. Platform Development: Oculus, ARCore, ARKit → 9. Deployment: Store submission, testing",
+    "course": "VR Development with Unity (Udemy) or Introduction to AR/VR (Coursera - University of London)"
+  },
+  "Web Design": {
+    "path": "1. Design Principles: Layout, typography, color → 2. User Experience: User flows, wireframes → 3. Responsive Design: Mobile-first, breakpoints → 4. Visual Hierarchy: Content organization → 5. Accessibility: WCAG guidelines, inclusive design → 6. Performance: Image optimization, loading → 7. Design Tools: Figma, Adobe XD → 8. CSS Frameworks: Bootstrap, Tailwind → 9. Testing: Cross-browser, user testing",
+    "course": "Web Design for Web Developers (Udemy - Jonas Schmedtmann) or Responsive Web Design (freeCodeCamp)"
+  },
+  "Web Development": {
+    "path": "1. HTML Fundamentals: Semantic markup, accessibility → 2. CSS: Styling, layouts, animations → 3. JavaScript: DOM manipulation, events → 4. Responsive Design: Mobile-first approach → 5. Version Control: Git, GitHub workflow → 6. Build Tools: Webpack, bundlers → 7. Framework: React, Vue, or Angular → 8. Backend: Node.js, databases → 9. Deployment: Hosting, CI/CD, performance",
+    "course": "The Complete Web Developer Bootcamp (Udemy - Colt Steele) or Full Stack Web Development (freeCodeCamp)"
+  },
+  "Webpack": {
+    "path": "1. Module Bundling: CommonJS, ES6 modules → 2. Configuration: webpack.config.js, entry points → 3. Loaders: CSS, image, file processing → 4. Plugins: HTML generation, optimization → 5. Development Server: Hot module replacement → 6. Code Splitting: Dynamic imports, chunks → 7. Optimization: Minification, tree shaking → 8. Production Builds: Environment configuration → 9. Advanced: Custom loaders, plugins",
+    "course": "Webpack Academy (Sean Larkin) or Webpack Tutorial (Academind)"
+  },
+  "Windows OS": {
+    "path": "1. Architecture: Kernel, user mode, system calls → 2. File System: NTFS, permissions, security → 3. Registry: Configuration database, editing → 4. Services: Windows services, management → 5. PowerShell: Scripting, automation → 6. Active Directory: Domain, users, groups → 7. Networking: TCP/IP, DNS, DHCP → 8. Security: UAC, Windows Defender, policies → 9. Troubleshooting: Event viewer, performance tools",
+    "course": "Windows Server Administration (Pluralsight) or Windows 10 Configuration (Microsoft Learn)"
+  },
+  "Wireframing": {
+    "path": "1. Information Architecture: Content hierarchy, organization → 2. User Flows: Navigation, task completion → 3. Low-Fidelity: Sketching, basic layouts → 4. Digital Tools: Balsamiq, Figma, Sketch → 5. Components: Common UI elements, patterns → 6. Annotations: Explanations, interactions → 7. Responsive: Multi-device considerations → 8. Iteration: Feedback, refinement → 9. Handoff: Developer communication, specifications",
+    "course": "UX Design Process: Wireframing (Coursera) or Wireframing with Figma (Skillshare)"
+  },
+  "Xcode": {
+    "path": "1. Interface Overview: Navigator, editor, utilities → 2. Project Setup: Templates, configurations → 3. Interface Builder: Storyboards, constraints → 4. Code Editor: Syntax highlighting, completion → 5. Debugging: Breakpoints, console, instruments → 6. Simulator: Testing on virtual devices → 7. Version Control: Git integration → 8. Testing: Unit tests, UI tests → 9. Distribution: App Store, TestFlight",
+    "course": "iOS Development with Xcode (Apple Developer) or Xcode Mastery (Ray Wenderlich)"
+  },
+  "XML": {
+    "path": "1. Syntax: Elements, attributes, well-formed → 2. Document Structure: Prolog, root element → 3. Namespaces: Avoiding naming conflicts → 4. DTD: Document Type Definition → 5. XML Schema: XSD validation → 6. Parsing: DOM, SAX parsers → 7. XPath: Selecting nodes, expressions → 8. XSLT: Transformations, styling → 9. Applications: Web services, configuration files",
+    "course": "XML Tutorial (W3Schools) or XML Processing with Python (Real Python)"
+  },
+  
+  "Burp Suite": {
+    "path": "1. Installation & Setup: Download, configure proxy → 2. Proxy Module: Intercept, modify requests → 3. Spider/Crawler: Automated discovery → 4. Scanner: Vulnerability detection → 5. Intruder: Automated attacks, payloads → 6. Repeater: Manual request modification → 7. Sequencer: Token analysis → 8. Decoder: Encoding/decoding utilities → 9. Extensions: Custom tools, integrations",
+    "course": "Web Application Security Testing with Burp Suite (PortSwigger Web Security Academy) or Burp Suite Certified Practitioner"
+  },
+  "DVWA": {
+    "path": "1. Setup: Installation, configuration → 2. Security Levels: Low, medium, high → 3. Brute Force: Password attacks → 4. Command Injection: OS command execution → 5. CSRF: Cross-site request forgery → 6. File Inclusion: LFI/RFI vulnerabilities → 7. File Upload: Malicious file uploads → 8. Insecure CAPTCHA: Bypass techniques → 9. SQL Injection: Database attacks → 10. XSS: Cross-site scripting",
+    "course": "DVWA Tutorial Series (YouTube) or Practical Web Application Security (Cybrary)"
+  },
+  "Wireshark": {
+    "path": "1. Installation & Interface: Capture interface, filters → 2. Packet Capture: Live capture, file analysis → 3. Display Filters: Protocol filtering, expressions → 4. Protocol Analysis: TCP, UDP, HTTP, DNS → 5. Network Troubleshooting: Connectivity issues → 6. Security Analysis: Malicious traffic detection → 7. Statistics: Traffic analysis, conversations → 8. Export Features: Data extraction, reporting → 9. Advanced Features: Lua scripts, custom protocols",
+    "course": "Wireshark Certified Network Analyst (WCNA) or Network Analysis with Wireshark (Pluralsight)"
+  },
+  "Nmap": {
+    "path": "1. Basic Scanning: Host discovery, port scanning → 2. Scan Types: TCP, UDP, stealth scans → 3. Target Specification: IP ranges, hostnames → 4. Port Specification: Specific ports, ranges → 5. Service Detection: Version detection, OS fingerprinting → 6. NSE Scripts: Vulnerability detection, automation → 7. Output Formats: XML, grepable, normal → 8. Timing & Performance: Scan optimization → 9. Firewall Evasion: IDS evasion techniques",
+    "course": "Nmap Network Scanning (Official Nmap Book) or Network Reconnaissance with Nmap (Cybrary)"
+  },
+  "Metasploit": {
+    "path": "1. Framework Overview: Architecture, components → 2. Exploits: Vulnerability exploitation → 3. Payloads: Shells, meterpreter → 4. Post-exploitation: Privilege escalation, persistence → 5. Encoders: Payload encoding, AV evasion → 6. Auxiliary Modules: Scanners, fuzzers → 7. Database Integration: PostgreSQL, workspace management → 8. Custom Modules: Development, testing → 9. Social Engineering: SET integration",
+    "course": "Metasploit Unleashed (Offensive Security) or Complete Metasploit Course (Udemy)"
+  },
+  "Nikto": {
+    "path": "1. Installation & Setup: Configuration, updates → 2. Basic Scanning: Web server assessment → 3. Scan Options: Ports, SSL, authentication → 4. Output Formats: HTML, XML, CSV reports → 5. Plugin System: Custom checks, extensions → 6. Database Updates: Vulnerability signatures → 7. Performance Tuning: Timing, throttling → 8. Integration: CI/CD pipelines, automation → 9. False Positive Management: Result validation",
+    "course": "Web Application Security Testing (EC-Council) or Nikto Web Scanner Tutorial (YouTube)"
+  },
+  "Hydra": {
+    "path": "1. Installation & Setup: Tool configuration → 2. Protocol Support: SSH, FTP, HTTP, SMB → 3. Wordlist Attacks: Password dictionaries → 4. Brute Force: Systematic password attempts → 5. Login Forms: Web application attacks → 6. Performance Optimization: Threads, timing → 7. Output Management: Results, logging → 8. Service-specific Attacks: Database, mail servers → 9. Defense Evasion: Rate limiting, detection avoidance",
+    "course": "Password Attacks with Hydra (StationX) or Ethical Hacking: Password Cracking (Udemy)"
+  },
+  "OWASP Top 10": {
+    "path": "1. Broken Access Control: Authorization flaws → 2. Cryptographic Failures: Weak encryption → 3. Injection: SQL, NoSQL, command injection → 4. Insecure Design: Architecture vulnerabilities → 5. Security Misconfiguration: Default settings → 6. Vulnerable Components: Third-party libraries → 7. Authentication Failures: Session management → 8. Software Integrity: Supply chain attacks → 9. Logging Failures: Insufficient monitoring → 10. SSRF: Server-side request forgery",
+    "course": "OWASP Top 10 Security Risks (OWASP Foundation) or Web Application Security (Coursera)"
+  },
+  "Footprinting": {
+    "path": "1. Passive Reconnaissance: OSINT, search engines → 2. Active Reconnaissance: Direct interaction → 3. Network Footprinting: Infrastructure mapping → 4. System Footprinting: OS, services identification → 5. Organization Footprinting: Employee, structure info → 6. Competitive Intelligence: Business information → 7. Website Footprinting: Technology stack → 8. Email Footprinting: Mail server enumeration → 9. DNS Footprinting: Domain information gathering",
+    "course": "Information Gathering and Reconnaissance (Cybrary) or OSINT Fundamentals (SANS)"
+  },
+  "Reconnaissance": {
+    "path": "1. OSINT: Open source intelligence → 2. Social Media Intelligence: Profile analysis → 3. Search Engine Techniques: Advanced operators → 4. Domain Analysis: WHOIS, DNS records → 5. Network Scanning: Infrastructure discovery → 6. Port Scanning: Service enumeration → 7. Web Application Recon: Technology fingerprinting → 8. Email Harvesting: Contact information → 9. Metadata Analysis: Document information extraction",
+    "course": "Open Source Intelligence (OSINT) Course (Udemy) or Reconnaissance Fundamentals (eLearnSecurity)"
+  },
+  "Vulnerability Scanning": {
+    "path": "1. Scanner Types: Network, web, database → 2. Vulnerability Databases: CVE, NVD → 3. Scanning Methodology: Discovery, assessment → 4. False Positive Management: Result validation → 5. Compliance Scanning: PCI, HIPAA standards → 6. Authenticated Scanning: Credentialed assessments → 7. Report Generation: Executive, technical reports → 8. Remediation Tracking: Vulnerability management → 9. Integration: SIEM, ticketing systems",
+    "course": "Vulnerability Assessment and Management (SANS) or Nessus Vulnerability Scanner (Tenable)"
+  },
+  "Brute Force": {
+    "path": "1. Attack Vectors: Password, PIN, key attacks → 2. Dictionary Attacks: Wordlist generation → 3. Hybrid Attacks: Rules, mutations → 4. Online Attacks: Web forms, services → 5. Offline Attacks: Hash cracking → 6. Tools: Hashcat, John the Ripper → 7. Defense Mechanisms: Rate limiting, lockouts → 8. Password Policies: Complexity requirements → 9. Multi-factor Authentication: Attack mitigation",
+    "course": "Password Attacks and Defense (Cybrary) or Advanced Password Cracking (Offensive Security)"
+  },
+  "Social Engineering": {
+    "path": "1. Psychology: Human behavior, manipulation → 2. Pretexting: False scenarios, impersonation → 3. Phishing: Email, SMS, voice attacks → 4. Physical Security: Tailgating, badge cloning → 5. Dumpster Diving: Information gathering → 6. Baiting: USB drops, infected media → 7. Quid Pro Quo: Service exchange attacks → 8. Authority: Impersonation techniques → 9. Defense: Awareness training, policies",
+    "course": "Social Engineering Toolkit (SET) Course or The Art of Human Hacking (Christopher Hadnagy)"
+  },
+  "Phishing": {
+    "path": "1. Email Phishing: Spoofing, templates → 2. Spear Phishing: Targeted attacks → 3. Whaling: Executive targeting → 4. SMS Phishing: Text-based attacks → 5. Voice Phishing: Phone-based social engineering → 6. Website Cloning: Credential harvesting → 7. Payload Delivery: Malware distribution → 8. Evasion Techniques: Spam filters, detection → 9. Campaign Management: Tracking, reporting",
+    "course": "Phishing Simulation and Awareness (KnowBe4) or Advanced Phishing Techniques (SANS)"
+  },
+  "XSS": {
+    "path": "1. Types: Reflected, stored, DOM-based → 2. Attack Vectors: Input validation bypass → 3. Payload Development: JavaScript injection → 4. Cookie Theft: Session hijacking → 5. Keylogging: Input capture → 6. Defacement: Page modification → 7. Phishing: Credential harvesting → 8. BeEF Integration: Browser exploitation → 9. Prevention: Input validation, CSP",
+    "course": "Cross-Site Scripting (XSS) Attacks (PortSwigger) or Web Application Security Testing (eLearnSecurity)"
+  },
+  "SQL Injection": {
+    "path": "1. Types: Union, boolean, time-based → 2. Detection: Error messages, timing → 3. Database Enumeration: Schema discovery → 4. Data Extraction: Table dumps → 5. Authentication Bypass: Login circumvention → 6. Blind Injection: Inference techniques → 7. SQLMap: Automated exploitation → 8. NoSQL Injection: MongoDB, CouchDB → 9. Prevention: Parameterized queries, WAF",
+    "course": "SQL Injection Attacks and Defense (PortSwigger) or Advanced SQL Injection (Offensive Security)"
+  },
+  "Reverse Engineering": {
+    "path": "1. Static Analysis: Disassemblers, decompilers → 2. Dynamic Analysis: Debuggers, runtime → 3. Assembly Language: x86, ARM architectures → 4. Executable Formats: PE, ELF file structures → 5. Packing/Obfuscation: Code protection bypass → 6. Malware Analysis: Behavior identification → 7. Mobile Apps: Android APK, iOS IPA → 8. Protocol Analysis: Network protocols → 9. Exploit Development: Vulnerability discovery",
+    "course": "Practical Reverse Engineering (Bruce Dang) or Reverse Engineering Malware (SANS FOR610)"
+  },
+  "Privilege Escalation": {
+    "path": "1. Vertical Escalation: User to admin → 2. Horizontal Escalation: User to user → 3. Linux Escalation: SUID, sudo, cron → 4. Windows Escalation: Services, registry, tokens → 5. Kernel Exploits: OS vulnerabilities → 6. Misconfiguration: Weak permissions → 7. Credential Harvesting: Password extraction → 8. Post-exploitation: Persistence mechanisms → 9. Defense: Least privilege, monitoring",
+    "course": "Privilege Escalation Techniques (TryHackMe) or Advanced Penetration Testing (eLearnSecurity)"
+  },
+  "CTF Platforms": {
+    "path": "1. Jeopardy Style: Web, crypto, forensics → 2. Attack-Defense: Live infrastructure → 3. Boot2Root: Complete system compromise → 4. Reversing Challenges: Binary analysis → 5. Cryptography: Cipher breaking → 6. Web Exploitation: Application security → 7. Network Analysis: Packet inspection → 8. Steganography: Hidden data → 9. OSINT: Information gathering",
+    "course": "Capture The Flag (CTF) Guide (PicoCTF) or CTF Methodology (TryHackMe)"
+  },
+  "Bug Bounty": {
+    "path": "1. Program Selection: Scope, rewards → 2. Reconnaissance: Target enumeration → 3. Vulnerability Assessment: Weakness identification → 4. Exploitation: Proof of concept → 5. Report Writing: Clear documentation → 6. Triage Process: Platform communication → 7. Disclosure Timeline: Responsible reporting → 8. Legal Considerations: Terms of service → 9. Tool Management: Automation, efficiency",
+    "course": "Bug Bounty Hunter Methodology (Nahamsec) or Web Application Hacker's Handbook"
+  },
+  "Firewall": {
+    "path": "1. Types: Packet filtering, stateful, proxy → 2. Rules Configuration: Allow/deny policies → 3. Network Segmentation: DMZ, VLANs → 4. Logging: Traffic monitoring, analysis → 5. High Availability: Clustering, failover → 6. VPN Integration: Remote access → 7. Application Layer: Deep packet inspection → 8. Bypass Techniques: Tunneling, evasion → 9. Management: Centralized administration",
+    "course": "Firewall Administration (Cisco/Palo Alto) or Network Security Fundamentals (CompTIA)"
+  },
+  "IDS/IPS": {
+    "path": "1. Detection Methods: Signature, anomaly, behavior → 2. Network IDS: Traffic monitoring → 3. Host IDS: System monitoring → 4. Prevention Systems: Blocking capabilities → 5. Rule Creation: Custom signatures → 6. Tuning: False positive reduction → 7. Integration: SIEM, log management → 8. Evasion Techniques: Attack methods → 9. Response: Automated actions",
+    "course": "Intrusion Detection Systems (SANS) or Snort IDS/IPS Configuration"
+  },
+  "Encryption": {
+    "path": "1. Symmetric Encryption: AES, DES algorithms → 2. Asymmetric Encryption: RSA, ECC → 3. Key Management: Generation, distribution → 4. Hash Functions: SHA, MD5 → 5. Digital Signatures: Authentication, integrity → 6. PKI: Certificate authorities, chains → 7. TLS/SSL: Secure communications → 8. File Encryption: Disk, database → 9. Implementation: Libraries, best practices",
+    "course": "Applied Cryptography (Bruce Schneier) or Cryptography Fundamentals (Coursera)"
+  },
+  "Hashing": {
+    "path": "1. Hash Functions: MD5, SHA families → 2. Properties: One-way, collision resistance → 3. Password Hashing: Salting, stretching → 4. File Integrity: Checksums, verification → 5. Digital Forensics: Evidence integrity → 6. Blockchain: Merkle trees, proof of work → 7. Hash Collisions: Attack methods → 8. Performance: Speed vs security → 9. Applications: Data structures, security",
+    "course": "Cryptographic Hash Functions (Khan Academy) or Hash-based Cryptography (edX)"
+  },
+  "Cybersecurity Frameworks": {
+    "path": "1. NIST Framework: Identify, protect, detect → 2. ISO 27001: Information security management → 3. CIS Controls: Critical security controls → 4. COBIT: IT governance framework → 5. FAIR: Risk quantification → 6. SABSA: Security architecture → 7. TOGAF: Enterprise architecture → 8. Zero Trust: Never trust, always verify → 9. Implementation: Gap analysis, roadmap",
+    "course": "NIST Cybersecurity Framework (NIST) or Information Security Management (ISO)"
+  },
+  "Incident Response": {
+    "path": "1. Preparation: Policies, procedures, tools → 2. Identification: Threat detection → 3. Containment: Damage limitation → 4. Eradication: Threat removal → 5. Recovery: System restoration → 6. Lessons Learned: Post-incident review → 7. Forensics: Evidence collection → 8. Communication: Stakeholder updates → 9. Legal: Compliance, reporting",
+    "course": "Computer Security Incident Handling (SANS FOR508) or Incident Response and Digital Forensics (GCIH)"
+  },
+  "Kali Linux": {
+    "path": "1. Installation: Virtual machine, hardware → 2. Tools Overview: Categories, purposes → 3. Network Analysis: Wireshark, tcpdump → 4. Vulnerability Assessment: OpenVAS, Nessus → 5. Web Applications: Burp Suite, OWASP ZAP → 6. Database Assessment: SQLMap, NoSQLMap → 7. Password Attacks: Hashcat, John → 8. Wireless Security: Aircrack-ng, Reaver → 9. Reporting: KeepNote, Dradis",
+    "course": "Kali Linux Revealed (Offensive Security) or Complete Kali Linux Course (Udemy)"
+  },
+  "Forensics": {
+    "path": "1. Evidence Acquisition: Imaging, preservation → 2. File System Analysis: NTFS, EXT, FAT → 3. Registry Analysis: Windows artifacts → 4. Memory Analysis: Volatility, heap dumps → 5. Network Forensics: Packet analysis → 6. Mobile Forensics: iOS, Android devices → 7. Timeline Analysis: Event correlation → 8. Malware Analysis: Behavioral analysis → 9. Legal: Chain of custody, testimony",
+    "course": "Digital Forensics Essentials (EC-Council) or Windows Forensic Analysis (SANS FOR500)"
+  },
+  "Cryptography": {
+    "path": "1. Mathematical Foundations: Number theory, algebra → 2. Classical Ciphers: Caesar, Vigenère → 3. Symmetric Cryptography: Block, stream ciphers → 4. Asymmetric Cryptography: Public key systems → 5. Hash Functions: Collision resistance → 6. Digital Signatures: Authentication schemes → 7. Key Exchange: Diffie-Hellman protocol → 8. Cryptanalysis: Attack methods → 9. Modern Applications: TLS, blockchain",
+    "course": "Introduction to Cryptography (Stanford) or Cryptography I (Coursera - Dan Boneh)"
+  },
+  "Network Security": {
+    "path": "1. Network Protocols: TCP/IP, DNS, DHCP → 2. Network Architecture: Segmentation, zones → 3. Firewalls: Rules, configurations → 4. VPNs: Site-to-site, remote access → 5. Wireless Security: WPA, enterprise → 6. Network Monitoring: IDS/IPS, SIEM → 7. DDoS Protection: Mitigation strategies → 8. Network Access Control: 802.1X → 9. Secure Protocols: SSH, TLS, IPSec",
+    "course": "Network Security Fundamentals (SANS) or Cisco Network Security (CCNA Security)"
+  },
+  "Web Application Security": {
+    "path": "1. OWASP Top 10: Common vulnerabilities → 2. Input Validation: XSS, injection prevention → 3. Authentication: Session management → 4. Authorization: Access controls → 5. Cryptography: Data protection → 6. Configuration: Secure deployment → 7. Error Handling: Information disclosure → 8. Logging: Security monitoring → 9. Testing: SAST, DAST, IAST",
+    "course": "Web Application Security Testing (PortSwigger) or Secure Coding Practices (OWASP)"
+  },
+  "Linux Hardening": {
+    "path": "1. System Updates: Patch management → 2. User Management: Accounts, privileges → 3. File Permissions: Access controls → 4. Service Configuration: Minimal services → 5. Firewall: iptables, ufw configuration → 6. Logging: Audit trails, monitoring → 7. SSH Hardening: Key-based auth → 8. Kernel Parameters: Security settings → 9. Compliance: CIS benchmarks, STIG",
+    "course": "Linux Security and Hardening (Linux Academy) or Securing Linux Systems (SANS)"
+  },
+  "Windows Security": {
+    "path": "1. Group Policy: Security settings → 2. User Account Control: Privilege management → 3. Windows Defender: Antimalware configuration → 4. BitLocker: Disk encryption → 5. Windows Firewall: Network protection → 6. Event Logging: Security monitoring → 7. Registry Security: Configuration hardening → 8. Service Hardening: Minimal services → 9. Compliance: CIS benchmarks, STIG",
+    "course": "Windows Security Fundamentals (Microsoft) or Securing Windows 10/11 (Pluralsight)"
+  },
+  "Active Directory": {
+    "path": "1. Domain Structure: Forests, trees, domains → 2. User Management: Accounts, groups → 3. Group Policy: Centralized management → 4. Authentication: Kerberos, NTLM → 5. Trust Relationships: Cross-domain access → 6. Replication: Multi-master model → 7. Security: Attack vectors, hardening → 8. Monitoring: Event logs, auditing → 9. Recovery: Backup, disaster recovery",
+    "course": "Active Directory Security (Microsoft) or AD Attack and Defense (SANS)"
+  },
+  "Powershell": {
+    "path": "1. Syntax: Cmdlets, parameters, pipeline → 2. Objects: .NET integration → 3. Variables: Types, scoping → 4. Control Flow: Loops, conditionals → 5. Functions: Advanced functions, modules → 6. Remote Management: WinRM, sessions → 7. Security: Execution policy, signing → 8. Automation: Scripting, scheduling → 9. Forensics: Event logs, artifacts",
+    "course": "PowerShell Fundamentals (Microsoft) or Advanced PowerShell Scripting (Pluralsight)"
+  },
+  "SIEM Tools": {
+    "path": "1. Log Collection: Agents, syslog → 2. Normalization: Data parsing, correlation → 3. Rule Creation: Detection logic → 4. Alerting: Notification systems → 5. Dashboards: Visualization, KPIs → 6. Investigation: Search, analysis → 7. Threat Intelligence: IOC integration → 8. Compliance: Reporting, retention → 9. Tuning: False positive reduction",
+    "course": "SIEM Implementation and Operations (SANS) or Splunk Administration"
+  },
+  "Threat Hunting": {
+    "path": "1. Hypothesis Development: Threat modeling → 2. Data Collection: Logs, network data → 3. Analysis Techniques: Statistical, behavioral → 4. IOC Development: Indicators of compromise → 5. TTP Mapping: MITRE ATT&CK framework → 6. Tool Usage: SIEM, EDR platforms → 7. Threat Intelligence: External feeds → 8. Documentation: Hunt reports → 9. Process Improvement: Lessons learned",
+    "course": "Threat Hunting Fundamentals (SANS FOR572) or Cyber Threat Hunting (Cybrary)"
+  },
+  "Zero Trust": {
+    "path": "1. Principles: Never trust, always verify → 2. Identity Verification: Multi-factor authentication → 3. Least Privilege: Minimal access rights → 4. Micro-segmentation: Network isolation → 5. Device Trust: Endpoint verification → 6. Data Classification: Information protection → 7. Monitoring: Continuous verification → 8. Policy Enforcement: Dynamic access → 9. Implementation: Phased approach",
+    "course": "Zero Trust Architecture (NIST) or Implementing Zero Trust Security (Microsoft)"
+  },
+  "Compliance": {
+    "path": "1. Regulatory Frameworks: SOX, HIPAA, PCI → 2. Risk Assessment: Vulnerability identification → 3. Gap Analysis: Current vs required → 4. Policy Development: Procedures, standards → 5. Implementation: Control deployment → 6. Monitoring: Continuous compliance → 7. Auditing: Internal, external assessments → 8. Reporting: Management, regulators → 9. Remediation: Corrective actions",
+    "course": "IT Compliance and Risk Management (ISACA) or GRC Fundamentals (OCEG)"
+  },
+  "Cloud Security": {
+    "path": "1. Shared Responsibility: Provider vs customer → 2. Identity Management: IAM, federation → 3. Data Protection: Encryption, DLP → 4. Network Security: VPC, security groups → 5. Monitoring: CloudTrail, logging → 6. Compliance: Certifications, audits → 7. Container Security: Docker, Kubernetes → 8. Serverless Security: Function security → 9. Multi-cloud: Hybrid environments",
+    "course": "Cloud Security Fundamentals (AWS/Azure/GCP) or Certified Cloud Security Professional (CCSP)"
+  },
+  "IAM": {
+    "path": "1. Identity Lifecycle: Provisioning, deprovisioning → 2. Authentication: Passwords, MFA, biometrics → 3. Authorization: RBAC, ABAC models → 4. Single Sign-On: SAML, OAuth, OpenID → 5. Directory Services: LDAP, Active Directory → 6. Privileged Access: PAM solutions → 7. Federation: Cross-domain trust → 8. Governance: Access reviews, certification → 9. Zero Trust: Continuous verification",
+    "course": "Identity and Access Management (ISC2) or IAM Implementation (Okta/Microsoft)"
+  },
+  "Monitoring": {
+    "path": "1. Log Management: Collection, storage → 2. Event Correlation: Pattern detection → 3. Alerting: Threshold, anomaly detection → 4. Dashboards: Visualization, KPIs → 5. Metrics: Performance, security indicators → 6. Incident Response: Alert triage → 7. Threat Intelligence: IOC integration → 8. Compliance: Audit trails → 9. Automation: Response orchestration",
+    "course": "Security Monitoring and Analysis (SANS) or Infrastructure Monitoring (Datadog/Nagios)"
+  },
+  "Endpoint Security": {
+    "path": "1. Antivirus/Antimalware: Signature, heuristic → 2. EDR: Endpoint detection, response → 3. DLP: Data loss prevention → 4. Device Control: USB, removable media → 5. Application Control: Whitelisting, sandboxing → 6. Patch Management: Vulnerability remediation → 7. Mobile Security: MDM, MAM solutions → 8. Encryption: Disk, file encryption → 9. Compliance: Policy enforcement",
+    "course": "Endpoint Security Fundamentals (CrowdStrike/Microsoft) or Advanced Endpoint Protection (SANS)"
   }
 
-  }
+}
+  
         # Generate recommendations for each missing skill
         for skill in missing_skills:
             if skill in skill_recommendations:

@@ -13,6 +13,7 @@ from fastapi.exception_handlers import request_validation_exception_handler
 from starlette.requests import Request
 from starlette.responses import JSONResponse
 from starlette.exceptions import HTTPException as StarletteHTTPException
+from typing import Union, List
 
 try:
     from scorer import ResumeScorer
@@ -28,7 +29,7 @@ logger = logging.getLogger("resume-scorer")
 
 
 class LearningPathItem(BaseModel):
-    path: str
+    path: Union[str, List[str]]
     course: str
 
 # Define request & response models
@@ -540,6 +541,9 @@ async def score_resume(request: ScoreRequest):
                 goal=goal,
                 resume_text=request.resume_text
             )
+            # Force score to 0.0 if no matched skills
+            if not result["matched_skills"]:
+                result["score"] = 0.0
         except Exception as e:
             logger.exception(f"❌ Error during resume scoring for goal={goal}")
             raise HTTPException(status_code=500, detail="Error occurred while scoring resume")
@@ -552,6 +556,11 @@ async def score_resume(request: ScoreRequest):
                 f"matched={len(result['matched_skills'])}, "
                 f"missing={len(result['missing_skills'])}"
             )
+
+        # Format suggested_learning_path to split '→' into clean bullet steps
+        for item in result.get("suggested_learning_path", []):
+            if "→" in item["path"]:
+                item["path"] = [step.strip() for step in item["path"].split("→")]
 
         return result
 
