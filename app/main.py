@@ -558,11 +558,24 @@ async def score_resume(request: ScoreRequest):
             )
 
         # Format suggested_learning_path to split '→' into clean bullet steps
+        # Sanitize and format the suggested learning path
+        cleaned_learning_path = []
         for item in result.get("suggested_learning_path", []):
-            if "→" in item["path"]:
-                item["path"] = [step.strip() for step in item["path"].split("→")]
+            if isinstance(item, dict) and "path" in item and "course" in item:
+                if isinstance(item["path"], list):
+                    item["path"] = " → ".join(item["path"])
+                cleaned_learning_path.append(item)
+            else:
+                logger.warning(f"⚠️ Skipping invalid learning path entry: {item}")
 
-        return result
+# Build valid response
+        return ScoreResponse(
+    score=result["score"],
+    matched_skills=result["matched_skills"],
+    missing_skills=result["missing_skills"],
+    suggested_learning_path=cleaned_learning_path
+)
+
 
     except HTTPException:
         raise  # re-raise explicitly raised exceptions
