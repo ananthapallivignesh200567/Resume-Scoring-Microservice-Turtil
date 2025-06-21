@@ -4100,7 +4100,10 @@ class ResumeScorer:
                 learning_path.append(skill_recommendations[skill])
             else:
                 # Generic recommendation if specific one isn't available
-                learning_path.append(f"Develop proficiency in {skill} through online courses and projects")
+                learning_path.append({
+        "path": [f"Develop proficiency in {skill} through online courses and projects"],
+        "course": "General Skill Development – Coursera/Udemy/YouTube"
+    })
                 
         # Add general advice if there are missing skills
         if missing_skills:

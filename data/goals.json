@@ -74,7 +74,7 @@
     "RNNs",
     "GPT"
   ],
-  "UI/UX Designer": [
+  "UIUX Designer": [
     "Figma",
     "Sketch",
     "Adobe XD",
@@ -477,7 +477,7 @@
     "Version Control",
     "CI/CD"
   ],
-  "Research Intern (AI/ML)": [
+  "AIML Research Intern": [
     "Python",
     "Scikit-learn",
     "TensorFlow",
@@ -523,7 +523,7 @@
     "Matplotlib",
     "Scikit-learn"
   ],
-  "Machine Learning Engineer": [
+  "MachineLearning Engineer": [
     "Python",
     "TensorFlow",
     "PyTorch",
@@ -644,7 +644,8 @@
     "High Availability",
     "Resilience Engineering",
     "Git"
-  ],"Site Reliability Engineer (SRE)": [
+  ],
+  "Site Reliability Engineer": [
     "Linux",
     "Python",
     "Go",
@@ -668,6 +669,5 @@
     "Chaos Engineering",
     "Git",
     "On-call Practices"
-  
   ]
 }

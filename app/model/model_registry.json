@@ -14,7 +14,7 @@
     "game_developer": "game_developer_model.pkl",
     "google_sde": "google_sde_model.pkl",
     "linkedin_sde": "linkedin_sde_model.pkl",
-    "machineleraning_engineer": "machineleraning_engineer_model.pkl",
+    "machinelearning_engineer": "machinelearning_engineer_model.pkl",
     "meta_sde": "meta_sde_model.pkl",
     "microsoft_sde": "microsoft_sde_model.pkl",
     "ml_internship": "ml_internship_model.pkl",
@@ -22,8 +22,8 @@
     "platform_engineer": "platform_engineer_model.pkl",
     "product_manager": "product_manager_model.pkl",
     "salesforce_sde": "salesforce_sde_model.pkl",
+    "site_reliability_engineer": "site_reliability_engineer_model.pkl",
     "software_engineer": "software_engineer_model.pkl",
-    "ste_reliability_engineer": "ste_reliability_engineer_model.pkl",
     "tesla_sde": "tesla_sde_model.pkl",
     "twitter_sde": "twitter_sde_model.pkl",
     "uber_sde": "uber_sde_model.pkl",
@@ -122,7 +122,7 @@
       "negative_samples": 450,
       "feature_count": 5000
     },
-    "machineleraning_engineer": {
+    "machinelearning_engineer": {
       "accuracy": 0.9875,
       "samples": 1000,
       "positive_samples": 550,
@@ -178,14 +178,14 @@
       "negative_samples": 450,
       "feature_count": 5000
     },
-    "software_engineer": {
+    "site_reliability_engineer": {
       "accuracy": 1.0,
       "samples": 1000,
       "positive_samples": 550,
       "negative_samples": 450,
       "feature_count": 5000
     },
-    "ste_reliability_engineer": {
+    "software_engineer": {
       "accuracy": 1.0,
       "samples": 1000,
       "positive_samples": 550,

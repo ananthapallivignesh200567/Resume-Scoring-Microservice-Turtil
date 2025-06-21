@@ -559,16 +559,18 @@ async def score_resume(request: ScoreRequest):
 
         # Format suggested_learning_path to split '→' into clean bullet steps
         # Sanitize and format the suggested learning path
+        # Format path into list and append course as final step
         cleaned_learning_path = []
         for item in result.get("suggested_learning_path", []):
             if isinstance(item, dict) and "path" in item and "course" in item:
-                if isinstance(item["path"], list):
-                    item["path"] = " → ".join(item["path"])
+                if isinstance(item["path"], str):
+                    steps = [step.strip() for step in item["path"].split("→") if step.strip()]
+                    # Append course as a final step
+                    item["path"] = steps
                 cleaned_learning_path.append(item)
             else:
                 logger.warning(f"⚠️ Skipping invalid learning path entry: {item}")
 
-# Build valid response
         return ScoreResponse(
     score=result["score"],
     matched_skills=result["matched_skills"],

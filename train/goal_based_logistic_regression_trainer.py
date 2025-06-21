@@ -133,13 +133,14 @@ def train_goal_models(data_dir="../data", model_dir="../app/model"):
                 print(f"  🎯 Confusion Matrix: [[{cm[0,0]}, {cm[0,1]}], [{cm[1,0]}, {cm[1,1]}]]")
             
             # Save the model with proper path handling
-            model_filename = f"{goal_name.lower().replace(' ', '_')}_model.pkl"
+            goal_key = goal_name.replace(" ", "_")  # Only replace spaces
+            model_filename = f"{goal_key}_model.pkl"
             model_path = os.path.join(model_dir, model_filename)
             joblib.dump(model, model_path)
             print(f"  💾 Model saved to: {model_path}")
             
             # Store model info
-            trained_models[goal_name] = model_path
+            trained_models[goal_key] = model_path
             model_metrics[goal_name] = {
                 'accuracy': accuracy,
                 'samples': len(texts),
