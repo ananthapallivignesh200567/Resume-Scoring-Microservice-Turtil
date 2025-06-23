@@ -15,10 +15,7 @@ from starlette.responses import JSONResponse
 from starlette.exceptions import HTTPException as StarletteHTTPException
 from typing import Union, List
 
-try:
-    from scorer import ResumeScorer
-except ImportError:
-    from app.scorer import ResumeScorer
+from .scorer import ResumeScorer
 
 # Setup logging
 logging.basicConfig(
