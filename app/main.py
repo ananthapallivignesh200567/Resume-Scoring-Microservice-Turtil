@@ -225,7 +225,7 @@ async def health_check():
 async def _check_config() -> Dict[str, Any]:
     """Check if config.json exists and is valid."""
     try:
-        config_path = "../config.json"
+        config_path = "config.json"
         if not os.path.exists(config_path):
             return {
                 "status": "error",
@@ -276,7 +276,7 @@ async def _check_config() -> Dict[str, Any]:
 async def _check_vectorizer() -> Dict[str, Any]:
     """Check if TF-IDF vectorizer exists and loads correctly."""
     try:
-        vectorizer_path = "../app/model/tfidf_vectorizer.pkl"
+        vectorizer_path = "app/model/tfidf_vectorizer.pkl"
         if not os.path.exists(vectorizer_path):
             return {
                 "status": "error",
@@ -307,7 +307,7 @@ async def _check_vectorizer() -> Dict[str, Any]:
 async def _check_models() -> Dict[str, Any]:
     """Check if trained models exist and load correctly."""
     try:
-        model_dir = "../app/model"
+        model_dir = "app/model"
         if not os.path.exists(model_dir):
             return {
                 "status": "error",
@@ -364,7 +364,7 @@ async def _check_models() -> Dict[str, Any]:
 async def _check_goals() -> Dict[str, Any]:
     """Check if goals.json exists and is valid."""
     try:
-        goals_path = "../data/goals.json"
+        goals_path = "data/goals.json"
         if not os.path.exists(goals_path):
             return {
                 "status": "error",
@@ -414,7 +414,7 @@ async def _check_goals() -> Dict[str, Any]:
 async def _check_model_registry() -> Dict[str, Any]:
     """Check if model registry exists and is consistent."""
     try:
-        registry_path = "../app/model/model_registry.json"
+        registry_path = "app/model/model_registry.json"
         if not os.path.exists(registry_path):
             return {
                 "status": "warning",
